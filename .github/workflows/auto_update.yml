@@ -37,12 +37,14 @@ jobs:
         continue-on-error: true
 
       - name: 뷰어용 데이터 복사
-        run: cp data/living_guideline.json living_guideline.json
+        run: |
+          cp data/living_guideline.json living_guideline.json
+          cp data/notebooklm_source.md  notebooklm_source.md 2>/dev/null || true
 
       - name: 변경사항 커밋 & 배포
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/living_guideline.json living_guideline.json
+          git add data/living_guideline.json living_guideline.json notebooklm_source.md
           git diff --cached --quiet || git commit -m "auto-update: $(TZ='Asia/Seoul' date '+%Y-%m-%d %H:%M KST')"
           git push

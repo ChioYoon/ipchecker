@@ -34,6 +34,13 @@
       <p class="text-xs text-slate-400 mt-0.5">IP 감수 인텔리전스 허브</p>
     </div>
     <div class="flex items-center gap-3 text-xs">
+      <button onclick="downloadNLM()"
+        class="flex items-center gap-1 px-3 py-1.5 bg-blue-600 hover:bg-blue-500 rounded text-white text-xs font-medium transition-colors">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+        </svg>
+        NotebookLM 소스
+      </button>
       <span class="px-2.5 py-1 bg-slate-700 text-slate-300 rounded-full text-xs">팀 공유 — 읽기 전용</span>
       <span id="data-freshness" class="text-slate-400"></span>
     </div>
@@ -129,6 +136,30 @@
     </div>
   </section>
 
+</div>
+
+<!-- ── NotebookLM 안내 팝업 ──────────────────────────── -->
+<div id="nlm-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+  <div class="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-6">
+    <h3 class="text-base font-bold mb-1">NotebookLM 설정 방법</h3>
+    <p class="text-xs text-gray-500 mb-4">소스 파일이 다운로드됩니다. 아래 3단계로 설정하면 구글 슬라이드·PDF·영상을 AI와 함께 감수할 수 있습니다.</p>
+    <ol class="space-y-3 text-sm">
+      <li class="flex gap-3">
+        <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center shrink-0 mt-0.5">1</span>
+        <div><strong>notebooklm.google.com</strong> 접속 → 새 노트북 만들기<br><span class="text-xs text-gray-500">Google 계정 필요, 무료</span></div>
+      </li>
+      <li class="flex gap-3">
+        <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center shrink-0 mt-0.5">2</span>
+        <div>소스 추가: 방금 다운로드된 <code class="bg-gray-100 px-1 rounded">notebooklm_source.md</code> 업로드<br><span class="text-xs text-gray-500">+ 구글 드라이브 감수 파일들도 소스로 추가</span></div>
+      </li>
+      <li class="flex gap-3">
+        <span class="w-6 h-6 rounded-full bg-blue-600 text-white text-xs flex items-center justify-center shrink-0 mt-0.5">3</span>
+        <div>채팅창에서 질의: <em>"이 파일의 IP 가이드 위반 여부를 검수해줘"</em><br><span class="text-xs text-gray-500">팀원과 노트북 공유 가능</span></div>
+      </li>
+    </ol>
+    <button onclick="document.getElementById('nlm-modal').classList.add('hidden')"
+      class="mt-5 w-full py-2 bg-blue-600 hover:bg-blue-500 text-white rounded-lg text-sm font-medium">확인</button>
+  </div>
 </div>
 
 <script>
@@ -473,6 +504,24 @@ function toKoreanBullets(text) {
   return `<ul class="mt-0.5 space-y-0.5">${sentences.map(s =>
     `<li class="text-xs text-gray-600 leading-relaxed flex gap-1.5"><span class="text-gray-400 shrink-0 mt-0.5">•</span><span>${escHtml(s)}</span></li>`
   ).join('')}</ul>`;
+}
+
+// ── NotebookLM 소스 다운로드 ────────────────────────────
+async function downloadNLM() {
+  try {
+    const res = await fetch('./notebooklm_source.md');
+    if (!res.ok) throw new Error('파일 없음');
+    const blob = await res.blob();
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href     = url;
+    a.download = 'notebooklm_source.md';
+    a.click();
+    URL.revokeObjectURL(url);
+    document.getElementById('nlm-modal').classList.remove('hidden');
+  } catch {
+    alert('NotebookLM 소스 파일을 찾을 수 없습니다.\n관리자에게 문의해 주세요.');
+  }
 }
 
 function escHtml(s) {
