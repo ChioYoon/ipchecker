@@ -1,0 +1,14 @@
+# Trello 원본 (대용량, 매 실행 시 재생성)
+data/trello_export.json
+
+# 로컬 전용 파일
+data/config.json
+data/archive/
+data/upload_to_ai.json
+data/notebooklm_source.md
+data/ai_summary_result.json
+
+# Python 캐시
+__pycache__/
+scripts/__pycache__/
+*.pyc
