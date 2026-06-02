@@ -234,12 +234,15 @@ def print_summary(rules: list, action_count: int) -> None:
     for cat, cnt in sorted(cat_stats.items(), key=lambda x: -x[1]):
         print(f"    [{cat}] {cnt}건")
 
-    if action_count >= 1000:
+    # API 동기화(no_action_limit=True)가 아닌 수동 JSON 내보내기일 때만 경고
+    with open(input_path, encoding="utf-8") as _f:
+        _meta = json.load(_f).get("_meta", {})
+    if action_count >= 1000 and not _meta.get("no_action_limit"):
         print()
         print("[!] 액션이 1,000건으로 표시됩니다.")
         print("    Trello JSON 내보내기는 최근 1,000건의 액션만 포함합니다.")
         print("    오래된 댓글 피드백은 누락되었을 수 있습니다.")
-        print("    -> 주 1회 이상 정기 내보내기를 권장합니다.")
+        print("    -> Trello API 동기화 사용을 권장합니다.")
 
 
 def main():
