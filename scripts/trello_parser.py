@@ -12,6 +12,7 @@ import os
 import sys
 import re
 import shutil
+from collections import Counter
 from datetime import datetime
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -52,7 +53,7 @@ LICENSOR_MEMBER_IDS = {
 def detect_category(card_name: str, desc: str) -> str:
     combined = (card_name + " " + desc).lower()
     for category, keywords in CATEGORY_KEYWORDS.items():
-        if any(kw.lower() in combined for kw in keywords):
+        if any(kw in combined for kw in keywords):
             return category
     return "기타"
 
@@ -79,10 +80,12 @@ def is_licensor_member(action: dict) -> bool:
     return member_id in LICENSOR_MEMBER_IDS
 
 
-def parse_trello_json(file_path: str) -> list:
+def parse_trello_json(file_path: str) -> tuple:
     print(f"[로드] {file_path}")
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
+
+    meta = data.get("_meta", {})
 
     # ── 리스트 ID → 이름 매핑 ────────────────────────────
     lists = {lst["id"]: lst["name"] for lst in data.get("lists", [])}
@@ -163,7 +166,7 @@ def parse_trello_json(file_path: str) -> list:
     # 반려/이슈 우선, 피드백 많은 순 정렬
     parsed_rules.sort(key=lambda x: (0 if x["is_rejection"] else 1, -x["feedback_count"]))
 
-    return parsed_rules, len(actions)
+    return parsed_rules, len(actions), meta
 
 
 def save_guideline(rules: list, output_path: str) -> None:
@@ -218,26 +221,17 @@ def archive_previous(output_path: str) -> None:
     print(f"[보관] 이전 파일 -> {archive_path}")
 
 
-def print_summary(rules: list, action_count: int) -> None:
-    total = len(rules)
-    rejection = sum(1 for r in rules if r["status"] == "반려")
-    approved  = sum(1 for r in rules if r["status"] == "승인")
-    pending   = sum(1 for r in rules if r["status"] == "진행중")
+def print_summary(rules: list, action_count: int, meta: dict) -> None:
+    status_counts = Counter(r["status"] for r in rules)
+    cat_stats = Counter(r["category"] for r in rules)
 
-    cat_stats: dict[str, int] = {}
-    for r in rules:
-        cat_stats[r["category"]] = cat_stats.get(r["category"], 0) + 1
-
-    print(f"\n[완료] 총 {total}건 파싱")
-    print(f"  반려/이슈: {rejection}건 | 승인: {approved}건 | 진행중: {pending}건")
+    print(f"\n[완료] 총 {len(rules)}건 파싱")
+    print(f"  반려/이슈: {status_counts['반려']}건 | 승인: {status_counts['승인']}건 | 진행중: {status_counts['진행중']}건")
     print("  카테고리별:")
-    for cat, cnt in sorted(cat_stats.items(), key=lambda x: -x[1]):
+    for cat, cnt in cat_stats.most_common():
         print(f"    [{cat}] {cnt}건")
 
-    # API 동기화(no_action_limit=True)가 아닌 수동 JSON 내보내기일 때만 경고
-    with open(input_path, encoding="utf-8") as _f:
-        _meta = json.load(_f).get("_meta", {})
-    if action_count >= 1000 and not _meta.get("no_action_limit"):
+    if action_count >= 1000 and not meta.get("no_action_limit"):
         print()
         print("[!] 액션이 1,000건으로 표시됩니다.")
         print("    Trello JSON 내보내기는 최근 1,000건의 액션만 포함합니다.")
@@ -259,9 +253,9 @@ def main():
         sys.exit(1)
 
     archive_previous(output_path)
-    rules, action_count = parse_trello_json(input_path)
+    rules, action_count, meta = parse_trello_json(input_path)
     save_guideline(rules, output_path)
-    print_summary(rules, action_count)
+    print_summary(rules, action_count, meta)
     print(f"\n[저장] {output_path}")
     print("[다음] py -3 server.py 를 실행하여 포털을 시작하세요.")
 

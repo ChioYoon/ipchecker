@@ -183,7 +183,8 @@ def update_guidelines(api_key: str, force: bool = False) -> dict:
             if "429" in err_msg and "quota" in err_msg.lower():
                 print("[중단] 일일 API 할당량 초과 — 내일 재시도하거나 다른 API 키를 사용하세요.")
                 break
-        time.sleep(CALL_DELAY)
+        if i < total:
+            time.sleep(CALL_DELAY)
 
     # 저장 (실패가 있어도 성공한 것은 보존)
     with open(GUIDELINE_PATH, "w", encoding="utf-8") as f:
