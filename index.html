@@ -462,7 +462,7 @@ function buildCard(item) {
       licHtml = `<div class="mt-1.5 px-2 py-1.5 rounded-r border-l-2" style="background:${bg};border-color:${bd}">
         <p class="text-xs font-bold mb-0.5 flex items-center gap-1.5 flex-wrap" style="color:${tc}">
           ${iconHtml} 감수 요약
-          ${needsUpd ? `<span class="text-white text-xs px-1.5 py-0.5 rounded font-normal" style="background:#808080" title="${escHtml(s.update_reason || '변경 감지됨')}">갱신 필요</span>` : ''}
+          ${needsUpd ? `<span class="text-white text-xs px-1.5 py-0.5 rounded font-normal" style="background:#D97706" title="${escHtml(s.update_reason || '변경 감지됨')}">갱신 필요</span>` : ''}
         </p>
         <p class="text-xs font-semibold mb-0.5" style="color:${bc}">${escHtml(s.issue || '')}</p>
         ${toKoreanBullets(s.detail || '', bc)}
