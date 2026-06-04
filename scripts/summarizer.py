@@ -27,9 +27,12 @@ BASE_DIR        = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 GUIDELINE_PATH  = os.path.join(BASE_DIR, "data", "living_guideline.json")
 CLAUDE_MD_PATH  = os.path.join(BASE_DIR, "CLAUDE.md")
 NLM_PATH        = os.path.join(BASE_DIR, "data", "notebooklm_source.md")
+DEBUG_LOG_PATH  = os.path.join(BASE_DIR, "data", "summarizer_debug.log")
 
-# 사용 가능한 모델 순서 (404 시 다음 모델로 시도)
+# 사용 가능한 모델 순서 (429/404 시 다음 모델로 자동 전환)
+# gemini-1.5-flash 제외 — responseMimeType:application/json 미지원으로 평문 반환
 GEMINI_MODELS = [
+    "gemini-2.5-flash",
     "gemini-2.0-flash",
     "gemini-2.0-flash-lite",
 ]
@@ -57,14 +60,26 @@ USER_PROMPT_TPL = """\
 }}"""
 
 
+RESPONSE_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "issue":    {"type": "string"},
+        "detail":   {"type": "string"},
+        "resolved": {"type": "boolean"},
+    },
+    "required": ["issue", "detail", "resolved"],
+}
+
+
 def _call_gemini(api_key: str, model: str, system: str, user: str) -> str:
     payload = {
         "systemInstruction": {"parts": [{"text": system}]},
         "contents": [{"role": "user", "parts": [{"text": user}]}],
         "generationConfig": {
-            "maxOutputTokens": 300,
+            "maxOutputTokens": 800,
             "temperature": 0.1,
             "responseMimeType": "application/json",
+            "responseSchema": RESPONSE_SCHEMA,
         },
     }
     body = json.dumps(payload).encode("utf-8")
@@ -73,17 +88,49 @@ def _call_gemini(api_key: str, model: str, system: str, user: str) -> str:
                                    headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=20) as resp:
         data = json.loads(resp.read().decode("utf-8"))
-        return data["candidates"][0]["content"]["parts"][0]["text"]
+
+    # 프롬프트 자체가 차단된 경우
+    block_reason = data.get("promptFeedback", {}).get("blockReason", "")
+    if block_reason:
+        raise RuntimeError(f"BLOCKED:{block_reason}")
+
+    candidates = data.get("candidates", [])
+    if not candidates:
+        raise RuntimeError("EMPTY_RESPONSE: candidates 없음")
+
+    candidate = candidates[0]
+    finish = candidate.get("finishReason", "")
+
+    # 안전 필터 또는 기타 비정상 종료
+    if finish in ("SAFETY", "RECITATION", "OTHER") or finish.startswith("PROHIBITED"):
+        raise RuntimeError(f"FILTERED:{finish}")
+
+    parts = candidate.get("content", {}).get("parts", [])
+    if not parts or not parts[0].get("text", "").strip():
+        raise RuntimeError(f"EMPTY_PARTS: finishReason={finish}")
+
+    return parts[0]["text"]
 
 
 def _call_with_fallback(api_key: str, system: str, user: str) -> tuple[str, str]:
-    """여러 모델을 순차 시도. 503은 같은 모델로 최대 2회 재시도."""
+    """여러 모델을 순차 시도. 오류 유형별 처리."""
     last_err = None
+    filtered_count = 0  # 안전 필터 차단 횟수
+
     for model in GEMINI_MODELS:
-        for attempt in range(3):  # 최대 3회 시도 (503 재시도 포함)
+        for attempt in range(3):
             try:
                 text = _call_gemini(api_key, model, system, user)
                 return text, model
+            except RuntimeError as e:
+                err = str(e)
+                last_err = f"{model}: {err}"
+                if err.startswith("BLOCKED:") or err.startswith("FILTERED:") or err.startswith("EMPTY_PARTS:"):
+                    # 안전 필터 차단 — 모든 모델에서 동일하게 차단되므로 즉시 중단
+                    filtered_count += 1
+                    break
+                # 기타 RuntimeError(EMPTY_RESPONSE 등) → 다음 모델 시도
+                break
             except urllib.error.HTTPError as e:
                 raw = e.read().decode("utf-8", errors="replace")
                 try:
@@ -93,16 +140,73 @@ def _call_with_fallback(api_key: str, system: str, user: str) -> tuple[str, str]
                 last_err = f"HTTP {e.code}: {msg}"
 
                 if e.code == 503:
-                    # 과부하 → 대기 없이 다음 모델로
+                    break  # 과부하 → 다음 모델
+                if e.code == 429:
+                    is_quota = "quota" in last_err.lower() or "exceeded" in last_err.lower()
+                    if is_quota:
+                        break  # 일일 한도 → 다음 모델
+                    if attempt == 0:
+                        time.sleep(5)
+                        continue  # 분당 RPM → 1회 재시도
                     break
-                if e.code == 429 and attempt == 0:
-                    # 분당 한도 → 1회만 재시도
-                    time.sleep(3)
-                    continue
-                if e.code not in (404, 503, 429):
+                if e.code not in (404, 503):
                     raise RuntimeError(last_err)
-                break  # 404 또는 재시도 소진 → 다음 모델
+                break  # 404 → 다음 모델
+
+    # 안전 필터로 모든 모델 차단된 경우 → 건너뜀 처리 (에러 아님)
+    if filtered_count == len(GEMINI_MODELS):
+        raise RuntimeError(f"SKIP:안전 필터 차단 ({last_err})")
+
+    if last_err and ("quota" in last_err.lower() or "exceeded" in last_err.lower()):
+        raise RuntimeError(
+            f"Gemini 일일 무료 할당량 초과 — 자정(태평양 표준시) 이후 초기화됩니다. "
+            f"또는 다른 API 키를 사용해 주세요. (상세: {last_err})"
+        )
     raise RuntimeError(f"모든 모델 실패: {last_err}")
+
+
+def _parse_json_response(raw: str) -> dict:
+    """Gemini 응답에서 JSON 추출.
+    마크다운 코드블록, 텍스트 서문("Here is..."), trailing comma 처리.
+    """
+    import re, ast
+    text = raw.strip()
+
+    # 마크다운 코드블록 우선 추출
+    m = re.search(r'```(?:json)?\s*([\s\S]+?)\s*```', text)
+    if m:
+        text = m.group(1).strip()
+    else:
+        # 텍스트 서문이 있을 때 첫 { ... 마지막 } 구간만 추출
+        start = text.find('{')
+        end   = text.rfind('}')
+        if start != -1 and end > start:
+            text = text[start:end + 1]
+
+    def _try(t: str) -> dict | None:
+        try:
+            return json.loads(t)
+        except json.JSONDecodeError:
+            pass
+        cleaned = re.sub(r',\s*([}\]])', r'\1', t)  # trailing comma 제거
+        try:
+            return json.loads(cleaned)
+        except json.JSONDecodeError:
+            pass
+        try:
+            r = ast.literal_eval(cleaned)
+            if isinstance(r, dict):
+                return r
+        except (ValueError, SyntaxError):
+            pass
+        return None
+
+    result = _try(text)
+    if result is not None:
+        return result
+
+    # 모두 실패 — 원본 오류 메시지로 예외 발생
+    return json.loads(text)
 
 
 def summarize_card(api_key: str, item: dict) -> dict | None:
@@ -125,7 +229,7 @@ def summarize_card(api_key: str, item: dict) -> dict | None:
 
     try:
         raw, model = _call_with_fallback(api_key, SYSTEM_PROMPT, user_msg)
-        parsed = json.loads(raw)
+        parsed = _parse_json_response(raw)
         return {
             "issue":          parsed.get("issue", ""),
             "detail":         parsed.get("detail", ""),
@@ -134,10 +238,20 @@ def summarize_card(api_key: str, item: dict) -> dict | None:
             "feedback_count": len(feedbacks),
             "updated_at":     datetime.now().isoformat(),
         }
-    except json.JSONDecodeError:
-        return None
-    except Exception as e:
-        raise RuntimeError(str(e))
+    except json.JSONDecodeError as e:
+        # 실패 시 원본 응답을 디버그 로그에 기록
+        try:
+            with open(DEBUG_LOG_PATH, "a", encoding="utf-8") as dbg:
+                dbg.write(f"\n[{datetime.now().isoformat()}] 카드: {item.get('subject','')[:40]}\n")
+                dbg.write(f"RAW: {raw}\n")
+                dbg.write(f"ERR: {e}\n")
+        except Exception:
+            pass
+        raise RuntimeError(f"JSON 파싱 실패: {str(e)[:60]} | 응답: {raw[:80]}")
+    except RuntimeError as e:
+        if str(e).startswith("SKIP:"):
+            return "SKIPPED"
+        raise
 
 
 def update_guidelines(api_key: str, force: bool = False) -> dict:
@@ -167,7 +281,9 @@ def update_guidelines(api_key: str, force: bool = False) -> dict:
         print(f"  [{i}/{total}] {subj}...", end=" ", flush=True)
         try:
             summary = summarize_card(api_key, item)
-            if summary:
+            if summary == "SKIPPED":
+                print("건너뜀 (안전 필터 차단)")
+            elif summary:
                 item["ai_summary"] = summary
                 done += 1
                 print(f"완료 ({summary['model']})")
@@ -179,8 +295,7 @@ def update_guidelines(api_key: str, force: bool = False) -> dict:
             if not first_error:
                 first_error = err_msg
             print(f"실패: {err_msg}")
-            # 일일 할당량 초과 시 즉시 중단 (재시도해도 동일 실패)
-            if "429" in err_msg and "quota" in err_msg.lower():
+            if "일일 무료 할당량 초과" in err_msg or ("429" in err_msg and "quota" in err_msg.lower()):
                 print("[중단] 일일 API 할당량 초과 — 내일 재시도하거나 다른 API 키를 사용하세요.")
                 break
         if i < total:
