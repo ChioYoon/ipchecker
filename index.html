@@ -136,6 +136,12 @@
       <button class="cat-btn text-xs px-2 py-0.5" style="background:#E5E5E5;color:#666666;border-radius:9999px" data-cat="텍스트" onclick="setCatFilter(this)">텍스트</button>
       <button class="cat-btn text-xs px-2 py-0.5" style="background:#E5E5E5;color:#666666;border-radius:9999px" data-cat="굿즈"   onclick="setCatFilter(this)">굿즈</button>
     </div>
+    <!-- 작성자 필터 -->
+    <div id="member-filter-row" class="px-3 py-2 flex items-center gap-1.5 flex-wrap text-xs" style="border-bottom:1px solid #E5E5E5">
+      <span style="color:#808080" class="shrink-0">작성자</span>
+      <div id="member-btn-list" class="flex flex-wrap gap-1"></div>
+      <button id="member-clear-btn" onclick="clearMemberFilter()" class="hidden text-xs px-2 py-0.5 ml-1" style="border:1px solid #CCCCCC;border-radius:9999px;color:#808080;background:#FFFFFF">선택 해제</button>
+    </div>
     <!-- 날짜 필터 -->
     <div class="px-3 py-2 flex items-center gap-2 flex-wrap text-xs" style="border-bottom:1px solid #E5E5E5">
       <span style="color:#808080" class="shrink-0">기간</span>
@@ -199,6 +205,7 @@ let allGuidelines  = [];
 let activeStatus   = '전체';
 let activeCategory = '전체';
 let activeDateDays = 30;
+let activeMembers  = new Set(); // 빈 Set = 전체 표시
 
 // ── 초기화 ───────────────────────────────────────────────
 window.onload = async () => {
@@ -294,6 +301,7 @@ async function loadGuidelines() {
     if (!res.ok) throw new Error();
     allGuidelines = await res.json();
     updateStats();
+    buildMemberFilter();
     applyFilters();
     updateDataFreshness();
   } catch {
@@ -368,6 +376,10 @@ function applyFilters() {
   let filtered = allGuidelines.filter(item => {
     if (activeStatus !== '전체' && item.status !== activeStatus) return false;
     if (activeCategory !== '전체' && item.category !== activeCategory) return false;
+    if (activeMembers.size > 0) {
+      const cardMembers = item.members || [];
+      if (!cardMembers.some(m => activeMembers.has(m))) return false;
+    }
     if (keyword) {
       const h = ((item.subject || '') + (item.asset_type || '') + (item.description || '')).toLowerCase();
       if (!h.includes(keyword)) return false;
@@ -418,6 +430,48 @@ function setCatFilter(btn) {
   btn.style.background = '';
   btn.style.color = '';
   activeCategory = btn.dataset.cat;
+  applyFilters();
+}
+
+// ── 작성자 필터 ──────────────────────────────────────────
+function buildMemberFilter() {
+  const allMembers = [...new Set(allGuidelines.flatMap(g => g.members || []))].sort((a, b) =>
+    a.localeCompare(b, 'ko')
+  );
+  const container = document.getElementById('member-btn-list');
+  container.innerHTML = allMembers.map(name =>
+    `<button class="member-btn text-xs px-2 py-0.5"
+       style="background:#E5E5E5;color:#666666;border-radius:9999px"
+       data-member="${escHtml(name)}"
+       onclick="toggleMemberFilter(this)">${escHtml(name)}</button>`
+  ).join('');
+}
+
+function toggleMemberFilter(btn) {
+  const name = btn.dataset.member;
+  if (activeMembers.has(name)) {
+    activeMembers.delete(name);
+    btn.classList.remove('filter-active');
+    btn.style.background = '#E5E5E5';
+    btn.style.color = '#666666';
+  } else {
+    activeMembers.add(name);
+    btn.classList.add('filter-active');
+    btn.style.background = '';
+    btn.style.color = '';
+  }
+  document.getElementById('member-clear-btn').classList.toggle('hidden', activeMembers.size === 0);
+  applyFilters();
+}
+
+function clearMemberFilter() {
+  activeMembers.clear();
+  document.querySelectorAll('.member-btn').forEach(b => {
+    b.classList.remove('filter-active');
+    b.style.background = '#E5E5E5';
+    b.style.color = '#666666';
+  });
+  document.getElementById('member-clear-btn').classList.add('hidden');
   applyFilters();
 }
 

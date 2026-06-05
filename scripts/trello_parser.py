@@ -94,6 +94,7 @@ def parse_trello_json(file_path: str) -> tuple:
     comments_by_card: dict[str, list[str]] = {}
     licensor_comments_by_card: dict[str, list[str]] = {}
     latest_comment_date_by_card: dict[str, str] = {}
+    members_by_card: dict[str, set] = {}
     actions = data.get("actions", [])
 
     for action in actions:
@@ -108,6 +109,11 @@ def parse_trello_json(file_path: str) -> tuple:
                     latest_comment_date_by_card[card_id] = date
                 if is_licensor_member(action):
                     licensor_comments_by_card.setdefault(card_id, []).append(text)
+                else:
+                    # 내부 구성원 댓글 작성자 수집 (판권사 제외)
+                    name = action.get("memberCreator", {}).get("fullName", "").strip()
+                    if name:
+                        members_by_card.setdefault(card_id, set()).add(name)
 
     # ── 카드 파싱 ────────────────────────────────────────
     parsed_rules = []
@@ -156,6 +162,7 @@ def parse_trello_json(file_path: str) -> tuple:
             "labels":             labels,
             "feedbacks":             feedbacks,
             "licensor_feedbacks":    licensor_fb,
+            "members":               sorted(members_by_card.get(card_id, set())),
             "latest_comment_date":   latest_comment_date_by_card.get(card_id, ""),
             "last_activity":         card.get("dateLastActivity", ""),
             "ai_summary":            None,   # summarizer.py가 채움
