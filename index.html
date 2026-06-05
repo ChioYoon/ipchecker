@@ -450,12 +450,20 @@ function setCatFilter(btn) {
 
 // ── 작성자 드롭다운 필터 ─────────────────────────────────
 function buildMemberFilter() {
-  // 카드 발행(댓글) 수 기준 내림차순 정렬
-  const countMap = {};
-  allGuidelines.forEach(g => (g.members || []).forEach(m => {
-    countMap[m] = (countMap[m] || 0) + 1;
-  }));
-  const allMembers = Object.keys(countMap).sort((a, b) => countMap[b] - countMap[a]);
+  // 최근 1개월 기준 카드 수로 정렬
+  const cutoff = new Date(Date.now() - 30 * 86400000).toISOString();
+  const recentCount = {};
+  const totalCount  = {};
+  allGuidelines.forEach(g => {
+    const date = g.latest_comment_date || g.last_activity || '';
+    (g.members || []).forEach(m => {
+      totalCount[m] = (totalCount[m] || 0) + 1;
+      if (date >= cutoff) recentCount[m] = (recentCount[m] || 0) + 1;
+    });
+  });
+  const allMembers = Object.keys(totalCount).sort((a, b) =>
+    (recentCount[b] || 0) - (recentCount[a] || 0) || totalCount[b] - totalCount[a]
+  );
 
   const list = document.getElementById('member-checkbox-list');
   list.innerHTML = allMembers.map(name =>
@@ -464,8 +472,7 @@ function buildMemberFilter() {
        onmouseenter="this.style.background='#F5F5F5'" onmouseleave="this.style.background=''">
       <input type="checkbox" class="member-chk" value="${escHtml(name)}"
         onchange="onMemberCheck()" style="accent-color:#DC2828;width:13px;height:13px">
-      <span class="text-xs flex-1">${escHtml(name)}</span>
-      <span class="text-xs" style="color:#B2B2B2">${countMap[name]}건</span>
+      <span class="text-xs">${escHtml(name)}</span>
     </label>`
   ).join('');
 
