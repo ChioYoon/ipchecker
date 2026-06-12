@@ -81,28 +81,8 @@
 <!-- ── 2단 메인 레이아웃 ──────────────────────────────── -->
 <div class="max-w-screen-2xl mx-auto p-3 grid grid-cols-12 gap-3">
 
-  <!-- 좌측: IP 규칙 참조 (3칸) -->
-  <aside class="col-span-3 rounded-xl flex flex-col" style="background:#FFFFFF;border:1px solid #CCCCCC;box-shadow:var(--shadow-sm)">
-    <div class="px-4 py-3 flex items-center gap-2" style="border-bottom:1px solid #E5E5E5">
-      <i data-lucide="book-open" style="width:16px;height:16px;color:#DC2828;flex-shrink:0"></i>
-      <div>
-        <h2 class="text-sm font-semibold" style="color:#191919">IP 규칙 빠른 참조</h2>
-        <p class="text-xs mt-0.5" style="color:#808080">계약 범위 &amp; 캐릭터 가이드</p>
-      </div>
-    </div>
-    <div id="rule-nav" class="hidden px-3 py-2" style="border-bottom:1px solid #E5E5E5">
-      <select id="rule-select" onchange="scrollToRuleSection(this.value)"
-        class="w-full text-xs px-2 py-1.5" style="border:1px solid #CCCCCC;border-radius:4px;background:#FFFFFF;color:#666666">
-        <option value="">── 섹션으로 이동 ──</option>
-      </select>
-    </div>
-    <div id="ip-rules-container" class="col-scroll p-3 space-y-2 text-xs leading-relaxed" style="color:#666666">
-      <p style="color:#B2B2B2">IP 규칙 로딩 중...</p>
-    </div>
-  </aside>
-
-  <!-- 우측: 통합 감수 현황 (9칸) -->
-  <section class="col-span-9 rounded-xl flex flex-col" style="background:#FFFFFF;border:1px solid #CCCCCC;box-shadow:var(--shadow-sm)">
+  <!-- 좌측: 통합 감수 현황 (사이드바 닫으면 12칸) -->
+  <section id="status-panel" class="col-span-9 rounded-xl flex flex-col" style="background:#FFFFFF;border:1px solid #CCCCCC;box-shadow:var(--shadow-sm)">
     <div class="px-4 py-3 flex items-center justify-between" style="border-bottom:1px solid #E5E5E5">
       <div class="flex items-center gap-2">
         <i data-lucide="clipboard-list" style="width:16px;height:16px;color:#DC2828;flex-shrink:0"></i>
@@ -116,6 +96,11 @@
         <input id="trello-search" type="text" placeholder="검색..."
           oninput="applyFilters()"
           class="text-xs px-2.5 py-1.5" style="border:1px solid #CCCCCC;border-radius:4px;width:140px">
+        <button id="sidebar-toggle" onclick="toggleSidebar()" title="IP 규칙 패널 열기/닫기"
+          class="shrink-0 flex items-center gap-1.5 text-xs px-2.5 py-1.5 whitespace-nowrap transition"
+          style="border:1px solid #CCCCCC;border-radius:8px;color:#666666;background:#FFFFFF">
+          <i data-lucide="book-open" style="width:14px;height:14px"></i>IP 규칙
+        </button>
       </div>
     </div>
     <!-- 상태 탭 -->
@@ -179,6 +164,32 @@
     </div>
   </section>
 
+  <!-- 우측: IP 규칙 (접이식 사이드바) -->
+  <aside id="rule-sidebar" class="col-span-3 rounded-xl flex flex-col" style="background:#FFFFFF;border:1px solid #CCCCCC;box-shadow:var(--shadow-sm)">
+    <div class="px-4 py-3 flex items-start justify-between gap-2" style="border-bottom:1px solid #E5E5E5">
+      <div class="flex items-center gap-2">
+        <i data-lucide="book-open" style="width:16px;height:16px;color:#DC2828;flex-shrink:0"></i>
+        <div>
+          <h2 class="text-sm font-semibold" style="color:#191919">IP 규칙</h2>
+          <p class="text-xs mt-0.5" style="color:#808080">계약 범위 &amp; 캐릭터 가이드</p>
+        </div>
+      </div>
+      <button onclick="toggleSidebar()" title="패널 닫기"
+        class="shrink-0 w-6 h-6 flex items-center justify-center transition" style="border-radius:4px;color:#808080">
+        <i data-lucide="chevron-right" style="width:16px;height:16px"></i>
+      </button>
+    </div>
+    <div id="rule-nav" class="hidden px-3 py-2" style="border-bottom:1px solid #E5E5E5">
+      <select id="rule-select" onchange="scrollToRuleSection(this.value)"
+        class="w-full text-xs px-2 py-1.5" style="border:1px solid #CCCCCC;border-radius:4px;background:#FFFFFF;color:#666666">
+        <option value="">── 섹션으로 이동 ──</option>
+      </select>
+    </div>
+    <div id="ip-rules-container" class="col-scroll p-3 space-y-2 text-xs leading-relaxed" style="color:#666666">
+      <p style="color:#B2B2B2">IP 규칙 로딩 중...</p>
+    </div>
+  </aside>
+
 </div>
 
 <!-- ── NotebookLM 안내 팝업 ──────────────────────────── -->
@@ -225,8 +236,40 @@ let activeMembers  = new Set(); // 빈 Set = 전체 표시
 // ── 초기화 ───────────────────────────────────────────────
 window.onload = async () => {
   lucide.createIcons();
+  restoreSidebar();
   await Promise.all([loadRules(), loadGuidelines()]);
 };
+
+// ── IP 규칙 사이드바 접기/펼치기 ─────────────────────────
+const LS_SIDEBAR = 'ipchecker_viewer_sidebar_collapsed';
+function setSidebar(collapsed) {
+  const aside  = document.getElementById('rule-sidebar');
+  const panel  = document.getElementById('status-panel');
+  const toggle = document.getElementById('sidebar-toggle');
+  if (collapsed) {
+    aside.classList.add('hidden');
+    panel.classList.remove('col-span-9');
+    panel.classList.add('col-span-12');
+    toggle.style.color = '#DC2828';
+    toggle.style.background = '#FEE8E8';
+    toggle.style.borderColor = '#DC2828';
+  } else {
+    aside.classList.remove('hidden');
+    panel.classList.remove('col-span-12');
+    panel.classList.add('col-span-9');
+    toggle.style.color = '#666666';
+    toggle.style.background = '#FFFFFF';
+    toggle.style.borderColor = '#CCCCCC';
+  }
+}
+function toggleSidebar() {
+  const collapsed = !document.getElementById('rule-sidebar').classList.contains('hidden');
+  setSidebar(collapsed);
+  localStorage.setItem(LS_SIDEBAR, collapsed ? '1' : '0');
+}
+function restoreSidebar() {
+  setSidebar(localStorage.getItem(LS_SIDEBAR) === '1');
+}
 
 // ── IP 규칙 패널 ─────────────────────────────────────────
 async function loadRules() {
