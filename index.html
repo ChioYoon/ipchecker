@@ -232,6 +232,7 @@ let activeStatus   = '전체';
 let activeCategory = '전체';
 let activeDateDays = 30;
 let activeMembers  = new Set(); // 빈 Set = 전체 표시
+let _memberOutsideClickBound = false; // 멤버 드롭다운 외부클릭 리스너 1회 등록 가드
 
 // ── 초기화 ───────────────────────────────────────────────
 window.onload = async () => {
@@ -519,14 +520,17 @@ function buildMemberFilter() {
     </label>`
   ).join('');
 
-  // 드롭다운 외부 클릭 시 닫기
-  document.addEventListener('click', e => {
-    const panel = document.getElementById('member-dropdown-panel');
-    const trigger = document.getElementById('member-dropdown-trigger');
-    if (!panel.contains(e.target) && !trigger.contains(e.target)) {
-      panel.classList.add('hidden');
-    }
-  });
+  // 드롭다운 외부 클릭 시 닫기 (loadGuidelines 재호출 시 누적되지 않도록 1회만 등록)
+  if (!_memberOutsideClickBound) {
+    document.addEventListener('click', e => {
+      const panel = document.getElementById('member-dropdown-panel');
+      const trigger = document.getElementById('member-dropdown-trigger');
+      if (!panel.contains(e.target) && !trigger.contains(e.target)) {
+        panel.classList.add('hidden');
+      }
+    });
+    _memberOutsideClickBound = true;
+  }
 }
 
 function toggleMemberDropdown(e) {
@@ -620,7 +624,7 @@ function buildCard(item) {
       licHtml = `<div class="mt-1.5 px-2 py-1.5 rounded-r border-l-2" style="background:${bg};border-color:${bd}">
         <p class="text-xs font-bold mb-0.5 flex items-center gap-1.5 flex-wrap" style="color:${tc}">
           ${iconHtml} 감수 요약
-          ${needsUpd ? `<span class="text-white text-xs px-1.5 py-0.5 rounded font-normal" style="background:#D97706" title="${escHtml(s.update_reason || '변경 감지됨')}">갱신 필요</span>` : ''}
+          ${needsUpd ? `<span class="text-white text-xs px-1.5 py-0.5 rounded font-normal" style="background:#891110" title="${escHtml(s.update_reason || '변경 감지됨')}">갱신 필요</span>` : ''}
         </p>
         <p class="text-xs font-semibold mb-0.5" style="color:${bc}">${escHtml(s.issue || '')}</p>
         ${toKoreanBullets(s.detail || '', bc)}
