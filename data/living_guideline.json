@@ -3055,6 +3055,46 @@
     "feedback_count": 4
   },
   {
+    "id": "6a1d54a1c3099d364f3d5e86",
+    "subject": "#263[0602] [UA] 페이스북 페이지 생성",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "배너",
+    "card_url": "https://trello.com/c/JqUeUb6K",
+    "description": "1. 내용/ 감수 항목: 페이스북 페이지 생성\n2. 사용 용도: 메타 UA 활용을 위한 기본 제반사항으로 활용 예정\n3. 언어: 일\n4. 코멘트: UA 마케팅에서 메타 매체 활용을 위한 기본 제반 사항으로 페이지 생성이 필요합니다. (페이지 미생성 시 메타 광고 운영 불가)\n   페이지명/URL/프로필 및 커버 이미지 감수 제출 드리며, 기존 감수 주신 타 채널들과 동일하게 진행하고자 합니다.\n5. 파일명:\n   1. 감수 요청: [https://docs.google.com/presentation/d/1Yj-33TIX1RarGw-g",
+    "asset_type": "페이스북 페이지 생성",
+    "purpose": "메타 UA 활용을 위한 기본 제반사항으로 활용 예정",
+    "language": "일",
+    "memo": "UA 마케팅에서 메타 매체 활용을 위한 기본 제반 사항으로 페이지 생성이 필요합니다. (페이지 미생성 시 메타 광고 운영 불가)\n   페이지명/URL/프로필 및 커버 이미지 감수 제출 드리며, 기존 감수 주신 타 채널들과 동일하게 진행하고자 합니다.",
+    "labels": [],
+    "feedbacks": [
+      "말씀해주신 내용으로 진행 부탁드리겠습니다~",
+      "페이스북 페이지명 생성 시 공식(公式) 활용이 불가하여 타사 사례 처럼 제외하고 게임명만 포함하고자 합니다. 번거로우시겠지만 재확인 부탁 드리겠습니다.  (\\_\\_)!\n\n[https://docs.google.com/presentation/d/1Yj-33TIX1RarGw-gceYEORlQwYxtSdl1EHuaLXeokTk/edit?slide=id.g3eae7b7f0f8_0_0#slide=id.g3eae7b7f0f8_0_0](https://docs.google.com/presentation/d/1Yj-33TIX1RarGw-gceYEORlQwYxtSdl1EHuaLXeokTk/edit?slide=id.g3eae7b7f0f8_0_0#slide=id.g3eae7b7f0f8_0_0 \"smartCard-inline\")*5페이지 참고",
+      "운용은 안하시고 광고용으로만 개설만 하시는 것으로 하여서 이대로 진행 부탁드리겠습니다~"
+    ],
+    "licensor_feedbacks": [
+      "말씀해주신 내용으로 진행 부탁드리겠습니다~",
+      "운용은 안하시고 광고용으로만 개설만 하시는 것으로 하여서 이대로 진행 부탁드리겠습니다~"
+    ],
+    "members": [
+      "최종인"
+    ],
+    "latest_comment_date": "2026-06-12T01:58:38.394Z",
+    "last_activity": "2026-06-12T01:58:42.190Z",
+    "ai_summary": {
+      "issue": "페이스북 페이지 운용 방식 확인",
+      "detail": "페이스북 페이지는 광고용으로만 개설하며, 실제 운용은 하지 않는 것으로 확인되었습니다. 해당 조건으로 진행이 승인되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-06-04T04:53:16.418919",
+      "needs_update": true,
+      "update_reason": "피드백 1→2건"
+    },
+    "is_rejection": true,
+    "feedback_count": 3
+  },
+  {
     "id": "6a01b80e5896fb2559e342a9",
     "subject": "#238[0512] 성우 축전 영상",
     "list": "감수 완료",
@@ -3840,6 +3880,37 @@
     ],
     "latest_comment_date": "2026-06-10T08:17:28.365Z",
     "last_activity": "2026-06-11T01:25:05.149Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 3
+  },
+  {
+    "id": "6a27d2dadbcaacd6ea454d36",
+    "subject": "#278[0609] 이치노세 시키 코스튬 소개 영상",
+    "list": "이슈 발생",
+    "status": "반려",
+    "category": "영상",
+    "card_url": "https://trello.com/c/UDXDEHHK",
+    "description": "1. 내용/ 감수 항목: X・YouTube 컨텐츠 영상 및 디스크립션\n2. 사용 용도: X・YouTube 컨텐츠 배포용\n3. 언어: 일\n4. 코멘트:\n5. 파일명: [https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link](https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link \"smartCard-inline\")",
+    "asset_type": "X・YouTube 컨텐츠 영상 및 디스크립션",
+    "purpose": "X・YouTube 컨텐츠 배포용",
+    "language": "일",
+    "memo": "5. 파일명: [https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link](https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link \"smartCard-inl",
+    "labels": [],
+    "feedbacks": [
+      "안녕하세요!\n디스크립션 먼저 제출해 주셔서 감사드립니다.\n영상은 수정(푸른 불꽃>붉은 불꽃) 후에 포스팅 일정과 함께 다시 제출드리겠습니다.\n\n별도로 준비된 썸네일은 없으며, 영상의 한 부분(시키의 이름이 나오는 부분)을 사용하고자 합니다.\n영상 수정 후에 슬라이드도 수정하겠습니다.",
+      "안녕하세요!\n\nX와 YouTube 디스크립션만 먼저 이번 주 분으로 감수 제출하도록 하겠으며 영상 수정이 필요하여 다음주 검수물로 제출이 될 것 같은데 그럴 경우 기재해주신 6/25에 포스팅 일정에는 맞지 않아서 일정은 미정으로 하여 제출하였습니다.\n\n아래 피드백 드린 영상과 현재 슬라이드에 업로드되어 있는 썸네일은 수정 부탁 드립니다! (썸네일도 올려주신 것으로 사용해주시는 것으로 보면 될까요?)",
+      "(지홀딩스 의견 )\n\n안녕하세요!\n시키의 경우 캐릭터 컬러가 빨간색이기 때문에,\n현재의 파란 불꽃보다는 빨간 불꽃으로 변경하는 편이 감수를 보다 원활하게 받을 수 있을 것 같습니다!\n\n확인 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "안녕하세요!\n\nX와 YouTube 디스크립션만 먼저 이번 주 분으로 감수 제출하도록 하겠으며 영상 수정이 필요하여 다음주 검수물로 제출이 될 것 같은데 그럴 경우 기재해주신 6/25에 포스팅 일정에는 맞지 않아서 일정은 미정으로 하여 제출하였습니다.\n\n아래 피드백 드린 영상과 현재 슬라이드에 업로드되어 있는 썸네일은 수정 부탁 드립니다! (썸네일도 올려주신 것으로 사용해주시는 것으로 보면 될까요?)",
+      "(지홀딩스 의견 )\n\n안녕하세요!\n시키의 경우 캐릭터 컬러가 빨간색이기 때문에,\n현재의 파란 불꽃보다는 빨간 불꽃으로 변경하는 편이 감수를 보다 원활하게 받을 수 있을 것 같습니다!\n\n확인 부탁드립니다."
+    ],
+    "members": [
+      "백두환"
+    ],
+    "latest_comment_date": "2026-06-11T06:45:57.069Z",
+    "last_activity": "2026-06-11T06:45:57.109Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 3
@@ -4744,44 +4815,6 @@
     "feedback_count": 2
   },
   {
-    "id": "6a1d54a1c3099d364f3d5e86",
-    "subject": "#263[0602] [UA] 페이스북 페이지 생성",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "배너",
-    "card_url": "https://trello.com/c/JqUeUb6K",
-    "description": "1. 내용/ 감수 항목: 페이스북 페이지 생성\n2. 사용 용도: 메타 UA 활용을 위한 기본 제반사항으로 활용 예정\n3. 언어: 일\n4. 코멘트: UA 마케팅에서 메타 매체 활용을 위한 기본 제반 사항으로 페이지 생성이 필요합니다. (페이지 미생성 시 메타 광고 운영 불가)\n   페이지명/URL/프로필 및 커버 이미지 감수 제출 드리며, 기존 감수 주신 타 채널들과 동일하게 진행하고자 합니다.\n5. 파일명:\n   1. 감수 요청: [https://docs.google.com/presentation/d/1Yj-33TIX1RarGw-g",
-    "asset_type": "페이스북 페이지 생성",
-    "purpose": "메타 UA 활용을 위한 기본 제반사항으로 활용 예정",
-    "language": "일",
-    "memo": "UA 마케팅에서 메타 매체 활용을 위한 기본 제반 사항으로 페이지 생성이 필요합니다. (페이지 미생성 시 메타 광고 운영 불가)\n   페이지명/URL/프로필 및 커버 이미지 감수 제출 드리며, 기존 감수 주신 타 채널들과 동일하게 진행하고자 합니다.",
-    "labels": [],
-    "feedbacks": [
-      "페이스북 페이지명 생성 시 공식(公式) 활용이 불가하여 타사 사례 처럼 제외하고 게임명만 포함하고자 합니다. 번거로우시겠지만 재확인 부탁 드리겠습니다.  (\\_\\_)!\n\n[https://docs.google.com/presentation/d/1Yj-33TIX1RarGw-gceYEORlQwYxtSdl1EHuaLXeokTk/edit?slide=id.g3eae7b7f0f8_0_0#slide=id.g3eae7b7f0f8_0_0](https://docs.google.com/presentation/d/1Yj-33TIX1RarGw-gceYEORlQwYxtSdl1EHuaLXeokTk/edit?slide=id.g3eae7b7f0f8_0_0#slide=id.g3eae7b7f0f8_0_0 \"smartCard-inline\")*5페이지 참고",
-      "운용은 안하시고 광고용으로만 개설만 하시는 것으로 하여서 이대로 진행 부탁드리겠습니다~"
-    ],
-    "licensor_feedbacks": [
-      "운용은 안하시고 광고용으로만 개설만 하시는 것으로 하여서 이대로 진행 부탁드리겠습니다~"
-    ],
-    "members": [
-      "최종인"
-    ],
-    "latest_comment_date": "2026-06-11T04:33:40.280Z",
-    "last_activity": "2026-06-11T04:33:40.316Z",
-    "ai_summary": {
-      "issue": "페이스북 페이지 운용 방식 확인",
-      "detail": "페이스북 페이지는 광고용으로만 개설하며, 실제 운용은 하지 않는 것으로 확인되었습니다. 해당 조건으로 진행이 승인되었습니다.",
-      "resolved": true,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-04T04:53:16.418919",
-      "needs_update": true,
-      "update_reason": "상태 변경"
-    },
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
     "id": "6a1543f27c8ee6d42dd58170",
     "subject": "#255[0526] Gamewith 광고형 보도자료 (타이업 기사)",
     "list": "감수 진행 중",
@@ -4849,34 +4882,6 @@
       "feedback_count": 1,
       "updated_at": "2026-06-04T04:53:09.471168"
     },
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
-    "id": "6a27d2dadbcaacd6ea454d36",
-    "subject": "#278[0609] 이치노세 시키 코스튬 소개 영상",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "영상",
-    "card_url": "https://trello.com/c/UDXDEHHK",
-    "description": "1. 내용/ 감수 항목: X・YouTube 컨텐츠 영상 및 디스크립션\n2. 사용 용도: X・YouTube 컨텐츠 배포용\n3. 언어: 일\n4. 코멘트:\n5. 파일명: [https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link](https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link \"smartCard-inline\")",
-    "asset_type": "X・YouTube 컨텐츠 영상 및 디스크립션",
-    "purpose": "X・YouTube 컨텐츠 배포용",
-    "language": "일",
-    "memo": "5. 파일명: [https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link](https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link \"smartCard-inl",
-    "labels": [],
-    "feedbacks": [
-      "안녕하세요!\n\nX와 YouTube 디스크립션만 먼저 이번 주 분으로 감수 제출하도록 하겠으며 영상 수정이 필요하여 다음주 검수물로 제출이 될 것 같은데 그럴 경우 기재해주신 6/25에 포스팅 일정에는 맞지 않아서 일정은 미정으로 하여 제출하였습니다.\n\n아래 피드백 드린 영상과 현재 슬라이드에 업로드되어 있는 썸네일은 수정 부탁 드립니다! (썸네일도 올려주신 것으로 사용해주시는 것으로 보면 될까요?)",
-      "(지홀딩스 의견 )\n\n안녕하세요!\n시키의 경우 캐릭터 컬러가 빨간색이기 때문에,\n현재의 파란 불꽃보다는 빨간 불꽃으로 변경하는 편이 감수를 보다 원활하게 받을 수 있을 것 같습니다!\n\n확인 부탁드립니다."
-    ],
-    "licensor_feedbacks": [
-      "안녕하세요!\n\nX와 YouTube 디스크립션만 먼저 이번 주 분으로 감수 제출하도록 하겠으며 영상 수정이 필요하여 다음주 검수물로 제출이 될 것 같은데 그럴 경우 기재해주신 6/25에 포스팅 일정에는 맞지 않아서 일정은 미정으로 하여 제출하였습니다.\n\n아래 피드백 드린 영상과 현재 슬라이드에 업로드되어 있는 썸네일은 수정 부탁 드립니다! (썸네일도 올려주신 것으로 사용해주시는 것으로 보면 될까요?)",
-      "(지홀딩스 의견 )\n\n안녕하세요!\n시키의 경우 캐릭터 컬러가 빨간색이기 때문에,\n현재의 파란 불꽃보다는 빨간 불꽃으로 변경하는 편이 감수를 보다 원활하게 받을 수 있을 것 같습니다!\n\n확인 부탁드립니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-06-10T11:53:34.202Z",
-    "last_activity": "2026-06-11T02:10:46.711Z",
-    "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
   },

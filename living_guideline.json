@@ -56,8 +56,7 @@
       "detail": "- 디자인에 대한 별도 피드백은 없었으나, 키카피는 사용 불가로 판권처 피드백을 받음.\n- 작중에서 어느 쪽이 정의·악인지 명확히 지정된 바 없어 해당 표현 사용이 어려우므로, 전달한 카피라이트를 제외할 것을 요청함.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 8
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 21
@@ -110,12 +109,11 @@
     "latest_comment_date": "2026-06-11T03:18:40.846Z",
     "last_activity": "2026-06-11T03:18:40.893Z",
     "ai_summary": {
-      "issue": "마스미 이미지 색상 수정 및 PPT 피드백 반영",
-      "detail": "마스미 이미지의 오른쪽 위 붉은색 부분을 회색으로 수정해야 합니다. 또한, 제출된 PPT 내용에 대한 추가 피드백이 전달되었으니 확인 후 반영이 필요합니다.",
+      "issue": "모모타로 부정 표현 및 요모기 한자 오류 수정 요청",
+      "detail": "배너 3~5에서 모모타로를 적·부정적으로 묘사하거나 사실과 다른 표현은 NG이므로 애니메이션 설정에 부합하는 기획과 각 포스팅 의도 보강을 요청했다. 요모기의 「蓬」 한자(辶 부분 점 누락) 수정, 2기 내용 제외, 캐릭터 소개 영상의 일본어·영어 이름 겹침과 문자-캐릭터 겹침 조정도 함께 지적했다.",
       "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 8,
-      "updated_at": "2026-06-12T12:11:01.657390"
+      "model": "manual-ai",
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 16
@@ -163,12 +161,11 @@
     "latest_comment_date": "2026-06-05T03:19:25.441Z",
     "last_activity": "2026-06-11T01:25:09.942Z",
     "ai_summary": {
-      "issue": "캐릭터 크기 및 높이 불균형",
-      "detail": "웹이벤트 이미지 내 쿠이나와 로쿠로 캐릭터의 크기 및 높이가 일관되지 않습니다. 다른 감수 완료된 이미지에 맞춰 두 캐릭터의 크기와 높이를 동일하게 조정해야 합니다.",
+      "issue": "캐릭터-텍스트 겹침 및 캐릭터 사이즈 불일치 수정 요청",
+      "detail": "룰렛·BM 배너에서 요모기·츠바키리·시키·호마레 등 캐릭터가 상단 문구 및 룰렛 글자와 겹쳐 수정을 요청했고, 쿠이나·로쿠로 및 츠바키리·요모기의 캐릭터 사이즈 차이도 맞추도록 했다. BM은 검수 완료됐으나 환급형의 (환)한자 점 수정과 룰렛 캐릭터 사이즈 보정이 남아 재감수 진행 중이다.",
       "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 7,
-      "updated_at": "2026-06-12T12:11:05.670573"
+      "model": "manual-ai",
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 13
@@ -221,8 +218,7 @@
       "detail": "- 인기 부족 사유로 캐릭터 '사미다레'를 전체 수록분에서 제외할 것.\n- 이치노세 츠요시는 사망 캐릭터이므로 생존 연출로 보이는 대사 1개를 삭제할 것.\n- 마케팅 보이스는 게임용과 별도 견적 대상이며, 사용 권역·용도 확인 후 수정본 대본으로 녹음 작성할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 8
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 12
@@ -273,8 +269,7 @@
       "detail": "- 무다노 오른쪽 눈(타투부) 크기를 왼쪽 눈에 맞춰 눈·눈동자를 조정할 것.\n- 이카리 머리카락이 끊기지 않게 정리하고, 야오로시는 최종 버전으로 교체할 것.\n- 로쿠로·오이란자카 키를 설정값에 맞추고 여성 캐릭터 신장비도 재확인할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 7
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 12
@@ -324,8 +319,7 @@
       "detail": "- 영상 마지막 구간에 남아 있는 특별(스페셜)배경을 제거할 것.\n- 특별배경이 구버전이므로 최신 버전으로 교체할 것.\n- 전체 흐름은 통과, AJ 완성빌드에 최대한 가까운 버전으로 사용할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 6
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 11
@@ -374,8 +368,7 @@
       "detail": "오우스케 영문명을 OUSUKE→OSUKE로 변경 요청했다가, 최종적으로 일본어판은 OUSUKE·그 외 언어는 OSUKE로 표기 확정했다. 승리 포즈가 아래에서 올려다보는 구도라 얼굴 파츠가 어색해 정면에 가까운 다른 각도로 썸네일을 재촬영했고, 본문 디스크립션은 공식 홈페이지 내용으로 통일했다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 6
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -425,8 +418,7 @@
       "detail": "- 공식 배포물에 'インフルエンサー' 명칭을 빼고 'スタンミじゃぱんさん'으로 변경할 것.\n- '景品をプレゼントします！'를 '景品をプレゼント'로 자연스럽게 수정할 것.\n- 캔뱃지는 3종 랜덤이면 시키 1개로 표현, 미션명 'グーグル・Appleで事前登録', 키비주얼 최신 캐릭터 반영할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 6
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -474,8 +466,7 @@
       "detail": "의도와 무관하게 인기투표처럼 보일 수 있어 해당 게시물은 NG 처리됐고, 「推し」 표현과 캐릭터 간 대립(경쟁) 구도도 금지 사항으로 확인됐다. 캐릭터 신장 비율을 설정에 맞춰 조정하고, 홈페이지 캐릭터 소개 순서 기준 우선순위 배치(쿠이나 추가·츠요시 제외 등)로 수정할 것을 요청했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 6
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -559,8 +550,7 @@
       "detail": "- 공식 배포물에 'インフルエンサー' 명칭을 사용하지 말 것.\n- '景品をプレゼントします！'를 '景品をプレゼント', 인플루언서명을 'スタンミじゃぱんさん'으로 변경할 것.\n- 야오로시 등 캐릭터와 키비주얼이 최신 버전인지 확인할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 5
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -608,8 +598,7 @@
       "detail": "- 코스프레이어 사진을 도원암귀 코스프레로 통일하거나 타 IP 분장이 없는 일반 사진으로 교체할 것.\n- 영상 자막을 'コスプレイヤーのスペシャルステージと撮影会をお楽しみに！'로 수정할 것.\n- 유튜브 디스크립션 해시태그 사용 여부를 확인할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 5
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -657,8 +646,7 @@
       "detail": "- 영상 자막을 'スタンミじゃぱんさんのステージを見逃すな！'로 수정할 것(이미지는 처리 완료).\n- 'スタンミ'가 아닌 정식 명칭 'スタンミじゃぱん'으로 표기할 것.\n- AJ 현장 송출 일정상 13일 덴츠 전달 사유를 확인할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 5
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -704,8 +692,7 @@
       "detail": "- 무다노 SD 캐릭터의 '엄지척' 일러스트는 아트 검수 NG이므로 다른 일러스트로 교체할 것.\n- 그 외 요소는 문제 없음.\n- 카운트다운 포스팅 운영 일정(D-1 단일 여부)을 확인할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 5
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -751,8 +738,7 @@
       "detail": "- AJ 시점에는 사전예약 미진행이므로 '사전등록중' 메시지를 다른 문구로 변경할 것.\n- 002c 장면은 쿠이나·로쿠로가 함께 배치되도록 수정할 것.\n- '모바일 게임'이 아닌 '공식 게임'으로 표현하고 키비주얼 수정을 반영할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 5
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -797,8 +783,7 @@
       "detail": "미션형 웹이벤트에서 상단 이벤트 기간 텍스트가 시키 캐릭터 및 머리카락과 겹쳐 시키 위치 변경을 요청했고, 수정 확인 후 검수 완료됐다. 향후 캐릭터와 텍스트가 겹치지 않도록 하고, 카피라이트 없는 인게임 배너는 파일명으로 구분해줄 것을 함께 요청했다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 5
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 8
@@ -841,8 +826,7 @@
       "detail": "- 'AJ 타임테이블 일요일_0318.jpg' 상단의 누락된 로고들을 추가할 것.\n- 수정된 타임테이블은 검수 진행 중.\n- 그 외 항목은 검수 완료.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 8
@@ -887,8 +871,7 @@
       "detail": "- 사전예약 미진행 결정에 따라 영상 내 사전예약 관련 내용을 삭제할 것.\n- 영상 마지막 부분에 권리표기를 추가할 것.\n- 직전 제출본 대비 최종 수정 항목을 명확히 확인할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 4
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 8
@@ -932,8 +915,7 @@
       "detail": "쿄토 애니메이션 사건 이후 유저 제작물로 인한 분쟁(오해)을 유발할 수 있는 채색 콘테스트는 최종 NG로 확인됐다. 아이패드·아이폰 등 단발성 경품이 메인인 구성도 부정적이며, 수록 성우 사인지 배포를 메인으로 하고 인기·비인기 캐릭터를 조합한 상세 배포 스케줄로 재기획할 것을 요구했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 4
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 8
@@ -976,8 +958,7 @@
       "detail": "일본에서 익숙하지 않은 '리캡(リキャップ)' 대신 '부스 영상(ブース映像)'으로 명칭과 문구를 수정하고 #アニメ 해시태그 삭제를 요청했다. 영상 57~59초 부근 여성들이 든 타 애니메이션 IP 쇼핑백 부분을 삭제·변경 후 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 4
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1021,8 +1002,7 @@
       "detail": "- 정식 론칭·사전예약·돌파/접속/핫타임/모아보기 템플릿은 검수 완료.\n- 공략·일반(퀴즈/댓글/인증)·쿠폰 이벤트는 본문이 달라지므로 완성본으로 개별 검수가 필요함.\n- 제출 시 취소선·내부 코멘트 없는 최종 버전으로 제출할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 5
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1065,8 +1045,7 @@
       "detail": "캐릭터가 포함된 쿠폰 배너는 범용으로 사용 가능하도록 재제작하여 추후 별도 업로드하기로 했다. 이번 건은 배너를 제외하고 공지와 쿠폰 코드만 감수 대상으로 하여 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 4
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1109,8 +1088,7 @@
       "detail": "- 마지막 도원암귀 설명을 판권처 지정 일본어 표준문(닛코·화엄폭포편 제작 결정 포함)으로 반영할 것.\n- 한국어 소개의 '모바일 게임화'에서 '모바일'을 삭제, 누계부수 500만→550만으로 수정할 것.\n- 영문 표기를 'About TOUGEN ANKI'로 변경할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 4
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1153,8 +1131,7 @@
       "detail": "- 3/12 이후 배포물의 만화 누계부수를 500만→550만으로 변경할 것.\n- 300x800_R 이미지에서 사미다레를 제외하고 미카도로 교체할 것.\n- 845x480 이미지가 최신 버전(야오로시/무다노 반영)인지 확인할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 4
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1197,8 +1174,7 @@
       "detail": "- 무다노 얼굴색이 흐릿하게 보이므로 조정할 것.\n- 차이가 적은 A·B 영상을 모두 사용할지 확인할 것.\n- 수정 후 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 4
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1241,8 +1217,7 @@
       "detail": "- 코우가사키 다리 왜곡 수정, 로쿠로 글자 겹침 해소, 쿠이나 크기 확대 등 구도를 조정할 것.\n- '戦闘開始' 폰트를 RasetsuTVA01 상단 폰트로 변경, '惡' 발광효과 제거, '血蝕解放' 사각형 위치를 수정할 것.\n- 입·머리카락 주변 색 오류 및 배경 잔상 레이어를 삭제할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 4
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1285,8 +1260,7 @@
       "detail": "제출된 문서가 개요 수준이어서 모집 템플릿·당첨자 선정·참가 조건·빌드 배포·설문 방식·보상 지급·부정 영상 대책·공략wiki·추첨 보상 등 9개 항목의 상세 계획을 문의했다. 일부 항목은 답변이 전달됐으나 사업부 코멘트 및 개발팀 협의가 필요한 부분이 남아 진행 중이다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 3
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1330,8 +1304,7 @@
       "detail": "판권처가 굿즈 제작에 부정적이며 개발 집중을 희망하는 기조로, 명목상 사유가 아닌 구체적 이벤트·활동 기획과 배포 계획이 선행되어야 한다고 전달했다. 5000개·600개 식의 넉넉한 수량이 아니라 지급 인원에 근거한 정확한 제작 수량 산출과 항목별 사용 용도 상세화를 요구했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 4
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1372,8 +1345,7 @@
       "detail": "오리지널 캐릭터를 실루엣으로 가려 맞추는 구성이 팬 입장에서 어색해, 팬이 납득할 수 있는 본문 텍스트 수정을 요청한 뒤 검수 완료됐다. 디스크립션 캐릭터명 표기를 平塚絆(키즈나)로 통일하는 부분도 확인받아 정리했다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 3
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1416,8 +1388,7 @@
       "detail": "4/15 포스팅에서 「推し」 표현과 캐릭터 간 대립 구도를 피하고 오니(鬼) vs 모모(桃) 진영 구조(「鬼機関」·「桃太郎機関」, '당신은 어느 파?')로 전환하도록 요청했다. 4/10 텍스트 교체와 일정 조정(06_0415 이미지 4/22 게시)을 반영해 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 5
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1459,8 +1430,7 @@
       "detail": "4월 X 콘텐츠 포스팅 이미지를 피드백에 따라 수정 후 재전달했다. 수정본 확인을 거쳐 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 4
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1502,8 +1472,7 @@
       "detail": "- 9P 본문의 'スタンミさん'을 전부 'スタンミじゃぱんさん'으로 변경할 것.\n- 8P 제목·텍스트의 'イベントゾーン' 단어를 삭제할 것.\n- 8P는 판권처 내용 확인 중.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 4
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1546,8 +1515,7 @@
       "detail": "- 첫 페이지 메인 문구를 '最新情報をいち早くお届けします！'로 수정할 것.\n- 코우가사키·호마레 위치를 반대로, 로쿠로·쿠이나 위치도 반대로 배치할 것.\n- 도쿄 빅사이트 상세 주소(괄호부)는 삭제 가능.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1588,8 +1556,7 @@
       "detail": "- 권리표기는 원칙적으로 정규(전체) 표기로, 공간이 있으면 앞면에 정식 표기할 것.\n- 모모타로 배경을 파랑→검정(또는 회색)으로 변경할 것.\n- 모모타로 캐릭터 순서를 공식 홈페이지 기준으로 수정할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1630,8 +1597,7 @@
       "detail": "- 인쇄·접힘 시 얼굴 잘림 방지를 위해 코우가사키·마나카를 중앙 쪽으로 배치할 것.\n- QR 코드 연결 대상 교체 예정 사항을 반영할 것.\n- 수정본 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1704,8 +1670,7 @@
       "detail": "'개발 중인 화면입니다' 문구는 구글·애플 마켓 정책상 미완성 게임으로 판단되어 메타데이터 반려 사유가 되므로 삭제가 필요하다. 1번 스크린샷 [完ア] 오타, 3번 '원작' 표현 삭제, 次の一→1 변경, 5번 캐릭터 우선순위 배치, 6번 구버전 로비 이미지 교체 등 다수 항목 수정을 요청했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 3
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1742,12 +1707,11 @@
     "latest_comment_date": "2026-06-08T02:43:55.795Z",
     "last_activity": "2026-06-09T06:33:44.410Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 및 키카피 수정 요청",
-      "detail": "요모기와 츠바키리 캐릭터 순서 변경이 필요합니다. 선악 구분을 명확히 하는 키카피는 작중 설정과 맞지 않아 제외해야 합니다. 모든 캐릭터의 머리가 잘리거나 텍스트에 가려지지 않도록 이미지 수정이 요구됩니다.",
+      "issue": "캐릭터 머리 잘림 및 텍스트 겹침 수정 요청",
+      "detail": "상단 캐릭터 및 하단 무다노·로쿠로의 머리가 잘리거나 가려지는 이미지는 NG이므로 잘림 없이 수정하고, 텍스트에 캐릭터가 가려지는 부분도 수정하도록 요청했다. PC 버전 최하단 스크린샷(영상)은 별도 제출하고, 공개된 항목은 링크로 안내하도록 했다.",
       "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-06-12T12:11:11.524844"
+      "model": "manual-ai",
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -1783,12 +1747,12 @@
     "latest_comment_date": "2026-06-05T06:51:10.649Z",
     "last_activity": "2026-06-05T06:51:19.811Z",
     "ai_summary": {
-      "issue": "X 포스팅 템플릿 사용 우선순위 확인",
-      "detail": "제출된 X 포스팅 템플릿은 승인되었습니다. 다만, 판권사는 이 템플릿이 이전에 승인된 다른 공지 템플릿을 대체하여 사용될 것인지 확인을 요청했습니다.",
+      "issue": "X 포스팅 템플릿 최종 사용본 확인 요청",
+      "detail": "제출된 X 포스팅 템플릿은 승인되었습니다. 다만, 이전에 승인된 공지 템플릿이 있어 최종적으로 어떤 버전을 사용할지 판권사에서 확인을 요청했습니다.",
       "resolved": true,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-06-12T12:11:17.234838"
+      "updated_at": "2026-06-06T04:10:37.703435"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -1828,8 +1792,7 @@
       "detail": "Voice·Gameplay 이미지의 무다노를 컬러 퀄업 리소스로 교체하고, 텍스트 삭제·캐릭터명 공백 추가·츠바키리 위치 조정·영상 템플릿 내 카피 삭제를 반영했다. 3/24 피드백을 모두 반영하고 상·하단 배너 템플릿 8종 교체분까지 확인되어 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 3
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -1869,8 +1832,7 @@
       "detail": "- 스탄미(인플루언서) 대본 12P·20P 추가 피드백을 반영할 것.\n- 빨간 글씨 취소선 문구는 삭제, 노란 마커 부분은 화살표 지정 문구로 수정할 것.\n- 코스어 대본은 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -1910,8 +1872,7 @@
       "detail": "- 카피라이트를 줄임 버전이 아닌 정식 풀버전(애니메이션 정식 표기)으로 수정할 것.\n- 디자인은 검수 완료됨.\n- 게임 플레이 가이드 내용 확정 후 재검수 제출할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -1950,8 +1911,7 @@
       "detail": "- 보도자료(2차) 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -1991,8 +1951,7 @@
       "detail": "- 1안으로 진행 확정.\n- 미션1의 '羅刹学園の入学条件'을 삭제하고 'Google・Apple 사전등록'으로 미션명을 변경할 것.\n- 공간이 나오면 권리표기를 최대한 정식 표기로 할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2031,8 +1990,7 @@
       "detail": "- 148-210_005(1)은 검수 완료, 수정 이미지 그대로 사용 협의 완료(실물 검수 면제).\n- 148-210_004(1) 키비주얼 2탄은 피드백 항목이 많으므로 해당 소재를 사용하지 말 것.\n- 키비주얼 2탄 적용 소재 전반의 사용을 보류할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2072,8 +2030,7 @@
       "detail": "- 12번 대사를 애니메이션 기준(예: 'こんなんで死ねるかよ！')으로 변경할 것.\n- 변경 버전이 감수 통과됨.\n- 검수물은 PDF가 아닌 편집 가능한 문서로 제출할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2113,8 +2070,7 @@
       "detail": "- '共存できないライバル'를 영어 번역 기준 '衝突する宿敵' 등으로 변경할 것.\n- '地上最悪' 등 어색·과한 표현을 다른 텍스트로 수정할 것.\n- 향후 일본어 확정 후 타 언어를 번역하는 순서로 진행할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2154,8 +2110,7 @@
       "detail": "- 일본 배포용 PR 및 이미지(ja/en) 검수 완료됨.\n- 영문 버전은 지정 내용을 반드시 수정 후 배포할 것.\n- 그 외 항목은 문제 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2194,8 +2149,7 @@
       "detail": "- 라운지 배너 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2235,8 +2189,7 @@
       "detail": "- 리캡 영상·포토부스는 큰 방향성 승인, 세부 항목은 문서 답글 피드백 확인할 것.\n- 고품질 경품(굿즈)은 사용 불가하므로 인쇄물 형태로 제작할 것.\n- 일부 납득 어려운 피드백은 판권처와 추가 협의 후 정리 예정.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2276,8 +2229,7 @@
       "detail": "Friendship01 배너의 '지금 바로 응모하기' 옆 > 기호를 타 배너에 맞춰 삭제하고, Kyoyatcg01의 스킬카드 아이콘을 과거 NG 버전에서 최신 버전으로 교체하도록 요청했다. OniMainTVA01은 명칭을 TVアニメ『桃源暗鬼』公式ゲーム 표현으로 수정 가능한지 문의했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 3
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2313,12 +2265,11 @@
     "latest_comment_date": "2026-06-05T06:21:14.738Z",
     "last_activity": "2026-06-05T06:35:25.826Z",
     "ai_summary": {
-      "issue": "공식적인 톤 부족 및 포스팅 의도 불명확",
-      "detail": "작품 속 캐릭터 대사를 인용하여 공식적인 느낌으로 수정하고, 포스팅의 의도와 방향성을 명확히 제시해야 합니다. 각 포스팅별 어필 내용과 기대 효과를 구체적으로 설명하여 판권처의 이해를 높여야 합니다.",
+      "issue": "포스팅 의도·방향성 설명 부족으로 보완 요청",
+      "detail": "- 텍스트 전용 포스팅 내용만으로는 어떤 의도·방향성인지 파악이 어려워 판권처가 의문을 가질 수 있음.\n- 각 포스팅별로 어필하고자 하는 내용, 기대 방향성 등 검수 통과를 위한 설명 자료를 함께 첨부할 것을 요청함.",
       "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-06-12T12:11:22.143647"
+      "model": "manual-ai",
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2353,14 +2304,7 @@
     ],
     "latest_comment_date": "2026-06-10T09:59:42.317Z",
     "last_activity": "2026-06-10T09:59:46.024Z",
-    "ai_summary": {
-      "issue": "마켓 이미지 최종본 제출 및 중복 검수 방지 요청",
-      "detail": "판권사는 동일 검수물의 반복 제출로 인한 불필요한 피드백 및 이전 피드백 미반영을 우려합니다. 실제로 사용될 이미지가 최종 결정된 후 완성본으로 제출하여 론칭 시 수정 없이 사용될 수 있도록 요청합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-06-12T12:11:27.363042"
-    },
+    "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 5
   },
@@ -2395,12 +2339,11 @@
     "latest_comment_date": "2026-06-09T08:04:00.387Z",
     "last_activity": "2026-06-10T00:37:43.158Z",
     "ai_summary": {
-      "issue": "선행 플레이 테스트 일정 변경에 따른 수정 필요",
-      "detail": "프리미엄 선행 플레이 테스트 일정이 변경되었으므로, 새로운 일정에 맞춰 타이틀&디스크립션 소재를 재제출해야 합니다. F열에 추가된 판권사의 상세 피드백을 확인하여 반영해주세요.",
+      "issue": "T&D 시트 F열 문의사항·피드백 확인 요청",
+      "detail": "- 프리미엄 선행 플레이 테스트 UA 타이틀&디스크립션(T&D)에 대해 시트 F열에 문의사항 및 피드백을 추가함.\n- 해당 F열 내용을 참고하여 대응할 것을 요청함.",
       "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-06-12T12:11:30.932555"
+      "model": "manual-ai",
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2439,8 +2382,7 @@
       "detail": "1차 메일링 이미지를 수정하여 재업로드했다. 연계된 #247 프리미엄 선행 플레이 테스트 미니사이트에서 지적된 피드백 내용을 동일하게 반영하도록 요청했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2505,12 +2447,12 @@
     "latest_comment_date": "2026-06-05T03:22:16.688Z",
     "last_activity": "2026-06-05T03:22:29.348Z",
     "ai_summary": {
-      "issue": "무다노 일러스트 공 색상 수정 필요",
-      "detail": "전반적인 기획 및 디자인은 승인되었으나, 무다노가 들고 있는 공의 색상을 애니메이션 설정에 맞춰 수정해야 합니다.",
+      "issue": "무다노 일러스트 공 색상 수정",
+      "detail": "웹이벤트에 사용될 무다노 일러스트에서 무다노가 들고 있는 공의 색상을 애니메이션 공식 색상에 맞춰 수정해야 합니다. 기획 및 전반적인 감수는 통과되었습니다.",
       "resolved": true,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-06-12T12:11:35.236377"
+      "updated_at": "2026-06-06T04:10:42.173670"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2548,8 +2490,7 @@
       "detail": "X·YouTube 콘텐츠 해시태그에서 #アニメ를 삭제할 것을 요청했고, 향후 모든 X 게시물에서도 해당 태그를 사용하지 않도록 안내했다. 수정 반영 확인 후 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2588,8 +2529,7 @@
       "detail": "- 푸시 및 우편함 문구의 일본어 버전 검수 완료 후 다국어 버전을 추가 제출함.\n- 다국어 버전(한·영·일·중간·중번·독·불·이·스·포·인·태)도 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 3
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2627,8 +2567,7 @@
       "detail": "- 무다노·호마레는 수정본으로 검수 완료됨.\n- 그 외 아이콘은 검수 진행 중.\n- 전체 항목 검수 완료.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2666,8 +2605,7 @@
       "detail": "- 텍스트 검수는 완료됨.\n- 뵤부가우라·무다노 등 캐릭터 머리 상단이 잘리지 않도록 전체 조정할 것.\n- 무다노 '엄지척'은 NG이므로 다른 이미지로 사용할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2706,8 +2644,7 @@
       "detail": "- '第二クール'과 '練馬編' 사이 줄바꿈 위치의 '・'를 삭제할 것.\n- 그 외 영상은 검수 완료됨.\n- 텍스트 가독성 위주 수정.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2745,8 +2682,7 @@
       "detail": "- 평면도가 작아 구역 식별이 어려우므로 고해상도 이미지로 재공유할 것.\n- 현 버전 부스 조감도 제작 여부를 확인·공유할 것.\n- 벽면 디자인 자체는 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2785,8 +2721,7 @@
       "detail": "- 룰렛 아이템 속 쿠이나가 물욕적으로 보이므로 아이템 내부 배치를 제외할 것.\n- 사용 시점이 CBT·론칭 후이므로 상세 내용은 차주 검수물로 재확인 예정.\n- 디자인 기본 방향은 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2824,8 +2759,7 @@
       "detail": "- 이미지를 2/25 오전 중 수정 제출하기로 협의됨.\n- 배너 검수 완료됨.\n- 별도 추가 피드백 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2923,8 +2857,7 @@
       "detail": "사전 예약 메타데이터 아트워크 1안은 검수 통과됐다. 2안은 마스미를 서 있는 이미지로 변경할 것을 요청했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2962,8 +2895,7 @@
       "detail": "보도자료 일본어 버전 제목이 다른 내용으로 들어가 있어 확인·수정을 요청했고, 소개 내 만화책 판매수를 600만부로 수정하도록 했다. 배포 국가는 일본 기준으로 정리했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -2997,12 +2929,12 @@
     "latest_comment_date": "2026-06-04T00:30:49.443Z",
     "last_activity": "2026-06-04T02:51:10.041Z",
     "ai_summary": {
-      "issue": "X 콘텐츠 별도 검수 및 공지 노출처 확인",
-      "detail": "X(소셜 미디어)에 게시될 내용은 이미지, 해시태그를 포함하여 별도 검수물로 제출해야 합니다. 또한, 현재 제출된 공지사항의 노출 채널을 명확히 알려주시기 바랍니다.",
+      "issue": "X(트위터) 게시물 별도 검수 및 공지 노출 위치 확인 필요",
+      "detail": "X(트위터)에 게시될 내용(이미지, 해시태그 포함)은 별도 검수물로 제출해야 합니다. 또한, 현재 제출된 공지사항의 실제 노출 위치에 대한 확인이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-06-04T12:19:38.530063"
+      "updated_at": "2026-06-04T04:52:58.273242"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3036,12 +2968,11 @@
     "latest_comment_date": "2026-06-09T01:58:17.708Z",
     "last_activity": "2026-06-09T06:33:34.887Z",
     "ai_summary": {
-      "issue": "캐치프레이즈 및 키카피 수정, 캐릭터 위치 조정",
-      "detail": "상단 캐치프레이즈를 삭제하고, 요모기와 츠바키리 캐릭터의 위치를 바꿔주세요. 작품 내 선악 구분이 명확하지 않으므로, 전달된 키카피는 제외해야 합니다.",
+      "issue": "정의·악 구분 키카피 사용 불가로 제외 요청",
+      "detail": "- 키카피에 대해 판권처에 자료 기반으로 설명했으나, 작중 정의·악이 명확히 지정되지 않아 사용이 어려운 것으로 확인됨.\n- 2차 메일링 당선자 안내 이미지에서 전달한 카피라이트를 제외할 것을 요청함.",
       "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-06-12T12:11:40.308890"
+      "model": "manual-ai",
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3079,8 +3010,7 @@
       "detail": "14초 부근 [정의(모모타로)]·[악(오니)] 명칭은 과거 판권처로부터 NG 피드백을 받은 표현이므로 텍스트 수정을 요청했다. 해당 문구가 마케팅적으로 필요한 사유를 정리한 설명 문서를 공유하며 협의를 진행 중이다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3119,8 +3049,7 @@
       "detail": "- 캐릭터 일람 화면을 레어도 내 표시 우선순위 순으로 정렬(불가 시 해당 장면 제외)할 것.\n- 스킬명·콘텐츠명은 검수 통과된 명칭만 사용하고, 개발중 안내문을 지정 문구로 표기할 것.\n- 사미다레·츠요시 변경은 미진행 협의 완료, 구출 콘텐츠 전투씬 캐릭터 변경 가능 여부를 검토할 것.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 3
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3153,12 +3082,14 @@
     "latest_comment_date": "2026-06-12T01:58:38.394Z",
     "last_activity": "2026-06-12T01:58:42.190Z",
     "ai_summary": {
-      "issue": "페이스북 페이지 생성 계획 승인",
-      "detail": "페이스북 페이지는 광고용으로만 개설되며, 별도 운용 없이 진행하는 것으로 판권사 승인 완료.",
+      "issue": "페이스북 페이지 운용 방식 확인",
+      "detail": "페이스북 페이지는 광고용으로만 개설하며, 실제 운용은 하지 않는 것으로 확인되었습니다. 해당 조건으로 진행이 승인되었습니다.",
       "resolved": true,
       "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-06-12T12:11:44.317441"
+      "feedback_count": 1,
+      "updated_at": "2026-06-04T04:53:16.418919",
+      "needs_update": true,
+      "update_reason": "피드백 1→2건"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3194,8 +3125,7 @@
       "detail": "5/31 시키 성우 촬영은 카메라 사정상 아이폰으로 진행하며, 이후 성우는 별도 카메라 희망 시 스케줄에 맞춰 장비 준비가 필요하다고 안내했다. 촬영 의상은 지정 티셔츠로 통일하고 시키 외 성우 대본 작성을 요청했으며, 카미야(무다노)·키무라 료헤이(오이란자카) 성우는 축전 영상 대상에서 제외했다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 3
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3232,8 +3162,7 @@
       "detail": "댓글 참여형 콘텐츠1(원하는 굿즈를 묻는 내용)은 굿즈 제작 허가가 없고 판권처가 민감하게 보는 사안이어서 이번 감수 대상에서 제외하도록 요청했다. 1번을 제외하고 제출하여 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3269,8 +3198,7 @@
       "detail": "현재 론칭 일정 변경 건이 판권처와 협의 중이며, 판권처가 론칭 개발 집중을 희망한다는 코멘트가 있었다. 일정 변경 건이 정리된 후 다음 주 감수물로 재제출하기로 했다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 3
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3307,8 +3235,7 @@
       "detail": "사내 채널 공개용 AJ 기사 내 만화책 판매부수를 550만부에서 600만부로 수정 요청했다. 피드백 반영 후 업로드 확인되어 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3345,8 +3272,7 @@
       "detail": "IR자료 내 만화책 판매부수를 550만부 돌파에서 600만부 돌파로 수정 요청했고, 이후 다른 설명에서도 600만으로 통일하도록 했다. 수정 확인 후 추가 정식 감수 없이 진행 가능하도록 협의 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3383,8 +3309,7 @@
       "detail": "Funtapgames 부스에서 노출되는 항목으로 반드시 포함이 필요하며, 제외 시 출전 자체가 불가하다는 점을 확인 요청했다. 해당 항목 포함이 확인되어 검수 완료됐다.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3421,8 +3346,7 @@
       "detail": "- 상단 'マイレージ達'의 '達'를 삭제할 것.\n- 의도가 있다면 사유를 함께 설명할 것.\n- 그 외 디자인은 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3459,8 +3383,7 @@
       "detail": "- 일본 만화 띠지 삽입용 문구를 일본어로 제출할 것.\n- 이미지·QR 검수 완료됨.\n- 언어 버전 정합성 확보가 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3497,8 +3420,7 @@
       "detail": "- 링크 내 폴더 2개 중 '260310_무대타임테이블 영상(감수용)' 폴더만 검수 대상인지 확인할 것.\n- 영상 검수 완료됨.\n- 검수 범위 명확화가 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3535,8 +3457,7 @@
       "detail": "- 업데이트·개발자노트·점검안내·확인된현상 배너는 검수 완료됨.\n- 공지사항 배너의 무다노 얼굴색이 흐릿하므로 조정할 것.\n- 무빙배너 색 보정이 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3573,8 +3494,7 @@
       "detail": "- 모든 이미지에 기본 카피라이트를 추가하여 사용할 것.\n- 규칙상 카피라이트 삽입 불가 영역은 제외 협의 완료.\n- 이미지 구성 자체는 문제 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3612,8 +3532,7 @@
       "detail": "- 위치도 안내 배너 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3650,8 +3569,7 @@
       "detail": "- 판권처 피드백 시트에 추가 코멘트가 기재되어 확인 필요.\n- 타이틀·디스크립션 검수 완료됨.\n- 시트 내 코멘트 반영이 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3688,8 +3606,7 @@
       "detail": "- 스탄미 등 AJ 미출현 대상이 포함됐는지, 최종본이 맞는지 확인할 것.\n- 코스프레어 등 타 항목도 AJ 내용과 일치하는지 검토할 것.\n- 디스크립션 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3726,8 +3643,7 @@
       "detail": "- 츠요시 영상 10초 부근 BGM의 비명 같은 소리를 제외할 것.\n- 오이란자카 스킬 카드의 십자가(적십자 연상) 표기를 제외할 것.\n- 디스크립션을 '鬼機関・京都支部の援護部隊総隊長' 등 설정에 맞게 수정할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3764,8 +3680,7 @@
       "detail": "- 썸네일의 어둡거나 흐릿한 캐릭터를 모두 선명하게 조정할 것.\n- 영상 본편은 검수 완료됨.\n- 썸네일 가시성 개선이 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3802,8 +3717,7 @@
       "detail": "- '모바일 게임'이 아닌 '공식 게임'으로 표현할 것.\n- 영상 검수 완료됨.\n- 표기 통일이 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3840,8 +3754,7 @@
       "detail": "- 야오로시 JP 배너의 'バーニングタイム'를 일본에서 익숙한 '핫타임' 등으로 수정할 것.\n- 그 외 배너는 검수 완료됨.\n- 일본어 가독성 개선이 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3878,8 +3791,7 @@
       "detail": "- 티켓 배부가 AJ 홍보에 가깝다는 사유로 NG 판정됨.\n- 재진행을 위해 AJ 운영과의 사전 협의(가능 답변 메일·정책)를 공유할 것.\n- 과거 TGS 진행 사례를 근거로 판권처와 재협의 예정.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3968,14 +3880,7 @@
     ],
     "latest_comment_date": "2026-06-10T08:17:28.365Z",
     "last_activity": "2026-06-11T01:25:05.149Z",
-    "ai_summary": {
-      "issue": "X 게시글 문구에 프리미엄 테스트 내용 포함",
-      "detail": "X 게시글 문구에 현재 진행 중인 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 해당 내용을 삭제하거나 수정하여 오늘 17시까지 재확인 요청드립니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-12T12:11:48.233903"
-    },
+    "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -4006,14 +3911,7 @@
     ],
     "latest_comment_date": "2026-06-11T06:45:57.069Z",
     "last_activity": "2026-06-11T06:45:57.109Z",
-    "ai_summary": {
-      "issue": "캐릭터 테마색 불일치 및 영상/썸네일 수정 필요",
-      "detail": "이치노세 시키의 캐릭터 컬러는 빨간색이므로, 현재 파란색 불꽃을 빨간색 불꽃으로 변경해야 합니다. 영상 및 썸네일 수정이 필요하며, 이로 인해 포스팅 일정이 지연됩니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-06-12T12:11:52.473293"
-    },
+    "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -4044,12 +3942,12 @@
     "latest_comment_date": "2026-06-09T00:47:45.828Z",
     "last_activity": "2026-06-09T06:33:41.913Z",
     "ai_summary": {
-      "issue": "신청서 접근 권한 설정",
-      "detail": "판권사가 구글폼 신청서에 접속할 수 있도록 전체 접근 권한을 설정하거나, 판권사 계정에 대한 접근 권한을 추가해야 합니다.",
+      "issue": "신청서 접근 권한 문제",
+      "detail": "구글폼 신청서의 전체 접근 권한이 설정되지 않아 판권사에서 접속할 수 없습니다. 판권사 계정으로 접속 가능하도록 권한 추가가 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-04T12:19:42.173377"
+      "updated_at": "2026-06-04T04:53:05.442701"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4086,8 +3984,7 @@
       "detail": "- 아마존 상품권 경품은 현물 목적 이벤트로 NG 소지가 있음.\n- 경품을 성우 사인지로 전환하고 신규 수록 시 정기 활용하는 큰 기획으로 재구성할 것.\n- 순위 선정 기준을 명확히 제시할 것.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4124,8 +4021,7 @@
       "detail": "- 미션1 명칭 수정 및 원작에 없는 신규 워딩(오니입증협회 등)을 무난한 단어로 변경할 것.\n- 해시태그 사용 시 도원암귀는 한자로, 캡슐가차는 이벤트 상세를 구체화하여 재제출할 것.\n- 고가·무관 아이템(게이밍 키보드) 지급은 NG이므로 제외할 것.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4162,8 +4058,7 @@
       "detail": "- 도입 문구를 '원작 코믹스 누계부수 500만 돌파 대인기 애니메이션 『도원암귀』'(일본어 지정문)로 변경할 것.\n- 판권처 피드백 시트 내 코멘트를 반영할 것.\n- 제출 시 스토리보드 시트 한정 여부를 확인할 것.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4200,8 +4095,7 @@
       "detail": "- 기검수 통과 소재 재사용분은 의미가 없으므로 확정 텍스트가 반영된 배너로 제출할 것.\n- 키비주얼 피드백 반영, 단독 캐릭터는 가림 없이 각각 검수 제출할 것.\n- 배너06 신야 얼굴 노출, 배너07 한자 정렬, 배너13 캐릭터 우선순위 정렬을 수정할 것.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4234,12 +4128,12 @@
     "latest_comment_date": "2026-06-04T01:55:45.222Z",
     "last_activity": "2026-06-09T08:47:11.222Z",
     "ai_summary": {
-      "issue": "미완성 설문지 검수 제출 지양 및 완성본 제출 요청",
-      "detail": "현재 제출된 설문지는 미완성 상태이므로, 모든 내용이 확정된 최종 완성본으로 한 번에 검수를 제출해야 합니다. 불완전한 상태로 제출 시 추가 검수 절차가 발생할 수 있습니다.",
+      "issue": "설문지 미완성본 제출",
+      "detail": "설문지 내용이 아직 확정되지 않아 반려되었습니다. 모든 내용이 확정된 완성본으로 한 번에 검수를 제출해야 합니다. 미완성본 제출 시 재검수가 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-06-12T12:11:57.327114"
+      "updated_at": "2026-06-04T04:53:02.607284"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4297,7 +4191,16 @@
     "members": [],
     "latest_comment_date": "2026-06-11T01:26:40.930Z",
     "last_activity": "2026-06-11T01:26:46.131Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "애니메이션-게임 홍보 행사 일정 및 출연진 정보 업데이트 필요",
+      "detail": "애니메이션-게임 홍보 행사는 7월 2일 Abema 특별 방송에서 일부 성우 출연으로 진행됩니다. 해당 방송 영상 촬영은 6월 11일에 예정되어 있으니, 기획안에 반영 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-06-10T04:24:57.518429",
+      "needs_update": true,
+      "update_reason": "피드백 1→2건, 상태 변경"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -4330,8 +4233,7 @@
       "detail": "- RT 이벤트 퍼즐 맞추기 이미지는 1번 안으로 검수 완료됨.\n- 본문에 해시태그가 없어 #桃源暗鬼 #トウフェル #桃源暗鬼CrimsonInferno를 추가하여 제출하기로 함.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 2
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4366,8 +4268,7 @@
       "detail": "- 대본·이미지 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4402,8 +4303,7 @@
       "detail": "- 시트 e열에 판권처 피드백이 기재되어 확인 필요.\n- 해당 코멘트에 맞춰 답변을 수정할 것.\n- 시트 내 피드백 반영이 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4437,8 +4337,7 @@
       "detail": "- 롤링배너 검수 완료됨.\n- 로그인·룰렛·미션 배너는 기검수 통과본 사용으로 그대로 가능.\n- 환급형·마블형은 검수 중이며 무피드백 통과 시 사용 가능.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4472,8 +4371,7 @@
       "detail": "- '도원암귀 스페셜 스테이지'가 지칭하는 스테이지를 명확히 할 것.\n- 정해진 스케줄의 운영 방식을 전달할 것.\n- SNS 포스팅 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4508,8 +4406,7 @@
       "detail": "- 뒷면에 카피라이트가 있으므로 앞면 카피라이트는 삭제하여 사용할 것.\n- 카피라이트 중복 방지가 핵심.\n- 그 외 항목은 문제 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4543,8 +4440,7 @@
       "detail": "- 캠페니언 의상 검수 완료됨.\n- 캠페니언 인선 결정 시 명단을 공유할 것.\n- 의상 자체 수정 요구 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4579,8 +4475,7 @@
       "detail": "- 오이란자카의 혈액팩이 공중에 떠 보이므로 삭제할 것.\n- 그 외 배너는 전부 검수 통과됨.\n- 단일 연출 수정 후 사용 가능.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4615,8 +4510,7 @@
       "detail": "- 전체 진행 방향은 협의 완료됨.\n- 배포 전 AJ 현장에서 완성본을 전달해 즉시 검수받을 것.\n- 첨부파일 내 판권처 코멘트를 함께 확인할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4650,8 +4544,7 @@
       "detail": "- 출석형 웹이벤트 검수 완료됨.\n- 사용 시점이 CBT·론칭 후이므로 상세 내용은 차주 검수물로 추가 확인 예정.\n- 디자인 기본 방향 문제 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4686,8 +4579,7 @@
       "detail": "- 보도자료 검수 통과됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4722,8 +4614,7 @@
       "detail": "- 나찰학원·남성·여성 캐릭터 배너는 검수 통과됨.\n- 모모타로 기관 배너는 미카도를 츠바키로로, 또는 마나카를 신야로 교체할 것.\n- 캐릭터 정합성 수정 후 재검수 필요.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4758,8 +4649,7 @@
       "detail": "- 게임 내 스킬·코스튬 명칭, AJ빌드 수정 예정 사항이 미반영됨.\n- 최신 버전으로 갱신되도록 확인할 것.\n- 최신화 미흡으로 반려됨.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4793,8 +4683,7 @@
       "detail": "- 타임트리 광고 집행은 가능하나, 타 앱으로 스케줄을 공개하는 것은 공식 협업 오해 우려로 NG.\n- 게임 스케줄만 공개하는 것도 동일 사유로 NG.\n- 매체 상세 자료를 판권처에 제출하여 확인 진행 중.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 2
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4829,8 +4718,7 @@
       "detail": "- 제출 문서 내 판권처 피드백을 확인할 것.\n- 해당 코멘트 기반으로 기획안을 수정·재제출할 것.\n- 문서 내 피드백 반영이 핵심.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4865,8 +4753,7 @@
       "detail": "- UA 배너는 기검수 통과 이미지 기반이므로 기획 검수가 아닌 제작물로 제출할 것.\n- 영상은 미통과 소재가 사용되고 있으므로 검수 통과된 소재로 제작할 것.\n- 검수 프로세스 정합성 확보가 핵심.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4957,8 +4844,7 @@
       "detail": "용어 통일을 위해 リサーチ→アンケート로 변경하고, 1P는 アニメ・漫画を原作とした→アニメを基にした로 수정하도록 요청했다. 4P는 漫画·原作 표현을 제외(原作→桃源暗鬼)하고, プレミアム先行テスト→プレミアム先行プレイテスト로 정식 명칭 통일을 요구했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4989,12 +4875,12 @@
     "latest_comment_date": "2026-06-04T01:00:57.680Z",
     "last_activity": "2026-06-04T02:51:30.134Z",
     "ai_summary": {
-      "issue": "일정 확정 여부 및 사전예약일 확인",
-      "detail": "틱톡 영상 오픈일(8/10)과 사전예약일(8/10)의 확정 여부에 대한 확인이 필요합니다. 해당 일정이 최종 결정된 것인지 문의하고 있습니다.",
+      "issue": "틱톡 영상 및 사전예약일 8/10 확정 여부 확인",
+      "detail": "제시된 8/10일이 틱톡 영상 오픈일과 사전예약일로 확정된 날짜인지 판권사의 확인이 필요합니다. 해당 날짜의 최종 결정 여부를 문의하고 있습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-04T12:19:45.721663"
+      "updated_at": "2026-06-04T04:53:09.471168"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5025,12 +4911,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-11T02:05:35.043Z",
     "ai_summary": {
-      "issue": "프리미엄 사전 테스트 일정 관련 내용 미정리",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권처 검토 중입니다. 해당 내용이 정리된 후 광고 소재를 재제출해야 하며, 현재 수정안은 일정 삭제 사유를 납득시키기 어렵습니다.",
+      "issue": "프리미엄 사전 테스트 일정 미확정으로 광고 수정 반려",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권사 검토 중입니다. 현재 수정된 광고물(내용 삭제)은 일정 미확정 상태에서 판권사 납득이 어려우므로, 일정이 확정된 후 재제출 바랍니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-12T12:12:07.460296"
+      "updated_at": "2026-06-10T04:24:53.021176"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5061,12 +4947,12 @@
     "latest_comment_date": "2026-06-08T08:02:00.717Z",
     "last_activity": "2026-06-09T06:33:52.500Z",
     "ai_summary": {
-      "issue": "캐릭터 위치 변경 요청",
-      "detail": "오픈테스트 모집 보도자료 이미지 내 요모기와 츠바키리 캐릭터의 위치를 서로 반대로 변경해야 합니다. 동일한 리소스를 사용하는 다른 모든 마케팅 소재에도 동일하게 적용해야 합니다.",
+      "issue": "캐릭터 위치 오류 수정",
+      "detail": "보도자료 이미지 내 요모기와 츠바키리 캐릭터의 좌우 위치를 서로 반대로 변경해야 합니다. 동일한 캐릭터 배치를 사용하는 다른 모든 리소스에도 동일하게 적용해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-12T12:12:10.750110"
+      "updated_at": "2026-06-05T04:28:19.655198"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5097,12 +4983,12 @@
     "latest_comment_date": "2026-06-05T06:38:52.941Z",
     "last_activity": "2026-06-09T06:33:49.546Z",
     "ai_summary": {
-      "issue": "테스트 명칭 변경 요청",
-      "detail": "광고 배너에 사용된 '先行体験テスト'를 정식 명칭인 '프리미엄 선행 플레이 테스트'로 변경해야 합니다.",
+      "issue": "테스트 명칭 오기 수정",
+      "detail": "현재 '先行体験テスト(선행 체험 테스트)'로 표기된 테스트 명칭을 정식 명칭인 '프리미엄 선행 플레이 테스트'로 변경해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-04T12:13:54.171361"
+      "updated_at": "2026-06-04T04:53:19.490545"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5242,12 +5128,12 @@
     "latest_comment_date": "2026-06-05T11:13:46.156Z",
     "last_activity": "2026-06-05T11:13:51.149Z",
     "ai_summary": {
-      "issue": "모든 검수 항목 승인 완료",
-      "detail": "제출된 프리미엄 선행 플레이 테스트 홍보용 SNS 콘텐츠 1차(3종)에 대한 텍스트 및 디자인 검수가 완료되었습니다. 판권사의 최종 승인을 받았습니다.",
+      "issue": "텍스트/디자인 검수 완료 및 승인",
+      "detail": "제시된 SNS 콘텐츠의 텍스트와 디자인에 대한 검수가 완료되었으며, 판권사의 수정 요구사항 없이 최종 승인되었습니다.",
       "resolved": true,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-12T12:12:15.280600"
+      "updated_at": "2026-06-06T04:10:45.763766"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5276,11 +5162,11 @@
     "last_activity": "2026-06-04T02:52:34.877Z",
     "ai_summary": {
       "issue": "점검 팝업 텍스트 최종 승인",
-      "detail": "판권사에서 제출된 점검 팝업 텍스트 내용에 대해 별도 수정 없이 진행 요청하였습니다. 모든 언어(한, 일, 영) 버전에 대한 승인이 완료되었습니다.",
+      "detail": "판권사에서 전달된 점검 팝업 텍스트 내용에 대해 별도 수정 없이 진행 요청하였습니다. 제출된 내용 그대로 사용 가능합니다.",
       "resolved": true,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-12T12:12:18.679658"
+      "updated_at": "2026-06-04T04:53:12.202549"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5312,8 +5198,7 @@
       "detail": "- 프리미엄 선행 플레이 테스트 신청서 구글폼 기획안이 검수 완료됨.\n- 별도 수정 지적 사항 없이 통과됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5345,8 +5230,7 @@
       "detail": "- 프리미엄 선행 플레이 테스트 점검 팝업 텍스트(시작 전/종료 후)를 전달한 내용 그대로 진행하도록 승인함.\n- 별도 수정 요청 없이 검수 완료됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5378,8 +5262,7 @@
       "detail": "- 캠핑 일러스트 배경화면 이미지가 검수 완료됨.\n- 별도 수정 지적 사항 없이 통과됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5411,8 +5294,7 @@
       "detail": "- 기존 감수 완료 디자인 시안에서 캐릭터 및 스킨색만 변경된 마블형 웹이벤트 스킨 2종이 검수 완료됨.\n- 별도 수정 지적 사항 없이 통과됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5444,8 +5326,7 @@
       "detail": "- BI별 한·영·일로 제작된 쿠폰 대배너 5종 수정본이 검수 완료됨.\n- 별도 수정 지적 사항 없이 통과됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5477,8 +5358,7 @@
       "detail": "- 네리마편 영상 SNS 업로드용 디스크립션 수정본이 검수 완료됨.\n- 별도 수정 지적 사항 없이 통과됨.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5510,8 +5390,7 @@
       "detail": "- 생일 축하 포스팅 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5543,8 +5422,7 @@
       "detail": "- 참여형 RT 이벤트 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5576,8 +5454,7 @@
       "detail": "- 코스어 안내 디스크립션 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5609,8 +5486,7 @@
       "detail": "- 행사 운영안 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5642,8 +5518,7 @@
       "detail": "- 일러스트 배경화면·디스크립션 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5675,8 +5550,7 @@
       "detail": "- 콘텐츠 프레임 이미지 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5708,8 +5582,7 @@
       "detail": "- 부스 조감도 이미지 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5743,8 +5616,7 @@
       "detail": "- 오리지널 캐릭터 공개 영상 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5776,8 +5648,7 @@
       "detail": "- 최초 제출한 로고 없는 시안으로 진행 확정됨.\n- 디자인 변경 검수 완료됨.\n- 별도 추가 수정 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5809,8 +5680,7 @@
       "detail": "- 폼보드 이미지 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5842,8 +5712,7 @@
       "detail": "- 마블형 웹이벤트 시안·배너 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5875,8 +5744,7 @@
       "detail": "- 환급형 웹이벤트 시안·배너 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5908,8 +5776,7 @@
       "detail": "- 부스 벽면 디자인 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5941,8 +5808,7 @@
       "detail": "- 디자인 자체는 문제 없음.\n- 애니메재팬 로고 사용이 가능한지 재확인할 것.\n- 로고 권리 확인이 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -5974,8 +5840,7 @@
       "detail": "- 미션형 웹이벤트 시안·배너 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6007,8 +5872,7 @@
       "detail": "- 스탬프 이벤트 안내 이미지·디스크립션 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6040,8 +5904,7 @@
       "detail": "- TGS 사용본이므로 추가 검수 없이 그대로 사용 협의됨.\n- 별도 수정 요구 없음.\n- 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6073,8 +5936,7 @@
       "detail": "- 부스 조감도 공개 PR 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6106,8 +5968,7 @@
       "detail": "- 틱톡 채널 오픈 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6139,8 +6000,7 @@
       "detail": "- TGS 사용본 그대로 사용 가능 협의됨.\n- 별도 수정 요구 없음.\n- 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6172,8 +6032,7 @@
       "detail": "- 시연용 PC 렌탈 사양 확인 완료, 내용 문제 없음.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6205,8 +6064,7 @@
       "detail": "- 로고A·B 및 'フォトタイム'는 검수 완료됨.\n- 무빙포스터에서 로고와 로쿠로가 겹치지 않도록 수정할 것.\n- 전체 캐릭터를 대비표에 맞추고 시키·무다노 확대 배율을 보정할 것.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6238,8 +6096,7 @@
       "detail": "- 해당 영상 사용 가능 확인됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6271,8 +6128,7 @@
       "detail": "- 이미 판권처에 공유된 내용으로 문제 없음.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6304,8 +6160,7 @@
       "detail": "- 기본 공지 템플릿 11종 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6337,8 +6192,7 @@
       "detail": "- 26Y1Q IR 자료의 도원암귀 언급 부분 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6370,8 +6224,7 @@
       "detail": "- 마케팅 마일스톤 기획서 감수 통과됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6403,8 +6256,7 @@
       "detail": "- 보도자료 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6436,8 +6288,7 @@
       "detail": "- 대표 이미지 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6469,8 +6320,7 @@
       "detail": "- SNS 업로드용 참가 안내 배너 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6502,8 +6352,7 @@
       "detail": "- 홈 배너 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6535,8 +6384,7 @@
       "detail": "- 감수는 통과됨.\n- '확인된 현상/確認された現象について'를 업계 통용 표현인 '既知の不具合について'로 수정할 것.\n- 표기 통일이 핵심.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6568,8 +6416,7 @@
       "detail": "판권처로부터 인플루언서는 론칭 이후에 사용하는 방향으로 해달라는 피드백이 와서, 현재 해당 피드백의 사유와 상세 내용을 확인 중이다. 협의 내용이 정리된 후 제출된 검수물에 대응하기로 했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6601,8 +6448,7 @@
       "detail": "- 첨부파일로 판권처 피드백 전달됨.\n- 해당 피드백을 확인하여 리스트를 수정할 것.\n- 첨부 피드백 반영이 핵심.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6634,8 +6480,7 @@
       "detail": "- 그라비아·선정적 이미지가 있는 인물은 사용하지 말 것.\n- 과거 부정적 이력이 있는 인플루언서도 사용하지 말 것.\n- 선별 기준 반영 후 재제출 필요.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6667,8 +6512,7 @@
       "detail": "- 제출한 1·2안 모두 고가 상품 사유로 최종 NG.\n- 엽서·스티커 등 인쇄물 형태로 제작할 것.\n- 경품 단가 조정이 핵심.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6700,8 +6544,7 @@
       "detail": "- 판권처 피드백이 첨부파일로 전달됨.\n- 해당 내용을 확인하여 기획안을 수정할 것.\n- 첨부 피드백 반영이 핵심.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6759,8 +6602,7 @@
       "detail": "- 게임 관련 질문 코너는 론칭 시기 논란 우려로 미진행 방향(재협의 예정)으로 할 것.\n- 아이디어 모집 코너는 쿄토 애니메이션 사태 리스크로 업계 금기이므로 제외할 것.\n- 2월 영상 미검수 사항도 함께 정리할 것.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6813,14 +6655,7 @@
     "members": [],
     "latest_comment_date": "2026-06-10T00:46:04.619Z",
     "last_activity": "2026-06-10T00:46:08.180Z",
-    "ai_summary": {
-      "issue": "론칭 지연으로 지원 기획안 제출 시기 부적절",
-      "detail": "최근 론칭 일정 지연으로 인해 현재 시점에 지원 기획안을 제출하는 것은 판권사 측에서 긍정적으로 받아들이기 어렵습니다. 론칭 일자가 확정된 후, 지원 희망 기간을 명시하여 기획안을 재제출해 주십시오.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-12T12:12:23.017213"
-    },
+    "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -6851,8 +6686,7 @@
       "detail": "- 인플루언서 감수 통과됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6884,8 +6718,7 @@
       "detail": "- 시키 외 캐릭터들의 마지막 한마디가 멋있지 않은 느낌이어서 삭제하거나 톤을 정리할 것을 요청함.\n- 또는 시키에 맞춰 소개문 이후 '○○(캐릭터명)와 함께 싸워라(とともに戦え)' 형태로 통일하도록 요청함.",
       "resolved": true,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T23:08:53.874929",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T23:08:53.874929"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6917,8 +6750,7 @@
       "detail": "7월 게재는 제출 일정이 너무 촉박하여 진행이 어려운 것으로 확인됐다. 론칭 전후 재타진을 위해 사전예약 및 론칭 일정을 가능한 빠른 시점에 전달해줄 것을 요청했다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "feedback_count": 1
+      "updated_at": "2026-06-01T21:00:07.559804"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6950,8 +6782,7 @@
       "detail": "- '紅石→深紅石' 변경 여부를 확인하고 그 외 텍스트도 확정본으로 검수 제출할 것.\n- 카피라이트는 페이지 최하단에 배치할 것.\n- 기존 공식 홈페이지 교체 여부를 확인할 것.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -6983,8 +6814,7 @@
       "detail": "- 게임 오리지널 캐릭터만 등장 시 IP 전달이 어려우므로 메인 캐릭터를 포함할 것.\n- 포함 가능 여부를 검토하여 회신할 것.\n- IP 인지도 확보가 핵심.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033",
-      "feedback_count": 1
+      "updated_at": "2026-06-02T12:42:51.841033"
     },
     "is_rejection": true,
     "feedback_count": 1
