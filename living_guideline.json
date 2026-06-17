@@ -958,14 +958,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "사전 예약 메타데이터 텍스트 수정",
-      "detail": "무다노, 1번, 3번, 4번 이미지 내 일본어 문구 변경이 필요합니다. 기존 문구를 지정된 내용으로 수정해야 합니다.",
+      "issue": "마케팅 소재 내 텍스트 수정 필요",
+      "detail": "사전 예약 메타데이터 스크린샷 내 무다노 이미지, 1번, 3번, 4번 이미지의 문구를 판권사 요청에 따라 변경해야 합니다. 특히 4번 이미지는 전체 문구 변경이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-06-13T04:28:46.458166",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-06-17T04:58:55.270086"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2441,7 +2439,14 @@
     ],
     "latest_comment_date": "2026-06-10T09:59:42.317Z",
     "last_activity": "2026-06-10T09:59:46.024Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "최종본 제출 및 중복 검수 방지 요청",
+      "detail": "판권사는 제출된 마켓 이미지가 론칭 시 사용될 최종 버전인지 확인을 요청합니다. 이전 사전예약 이미지처럼 검수 통과 후 수정본이 재제출되어 불필요한 중복 검수와 피드백 누락이 발생했으므로, 최종 확정된 완성본을 제출해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 3,
+      "updated_at": "2026-06-17T04:59:10.872468"
+    },
     "is_rejection": true,
     "feedback_count": 5
   },
@@ -3104,14 +3109,12 @@
     "latest_comment_date": "2026-06-12T05:53:02.010Z",
     "last_activity": "2026-06-12T05:53:09.038Z",
     "ai_summary": {
-      "issue": "틱톡 영상 및 사전예약일 8/10 확정 여부 확인",
-      "detail": "제시된 8/10일이 틱톡 영상 오픈일과 사전예약일로 확정된 날짜인지 판권사의 확인이 필요합니다. 해당 날짜의 최종 결정 여부를 문의하고 있습니다.",
+      "issue": "일정 확정 여부 확인 필요",
+      "detail": "틱톡 영상 오픈일(8/10)과 사전예약 시작일(8/10)이 확정된 날짜인지 판권사에 확인이 필요합니다. 기획안 자체는 승인되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-04T04:53:09.471168",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건, 상태 변경"
+      "feedback_count": 2,
+      "updated_at": "2026-06-17T04:59:16.385963"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3144,14 +3147,12 @@
     "latest_comment_date": "2026-06-12T01:58:38.394Z",
     "last_activity": "2026-06-12T01:58:42.190Z",
     "ai_summary": {
-      "issue": "페이스북 페이지 운용 방식 확인",
-      "detail": "페이스북 페이지는 광고용으로만 개설하며, 실제 운용은 하지 않는 것으로 확인되었습니다. 해당 조건으로 진행이 승인되었습니다.",
+      "issue": "페이스북 페이지 생성 계획 승인",
+      "detail": "페이스북 페이지는 광고용으로만 개설되며, 별도 운용은 하지 않는 것으로 최종 승인되었습니다. 제안된 내용대로 진행 가능합니다.",
       "resolved": true,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-04T04:53:16.418919",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건"
+      "feedback_count": 2,
+      "updated_at": "2026-06-17T04:59:20.089169"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -3942,7 +3943,14 @@
     ],
     "latest_comment_date": "2026-06-10T08:17:28.365Z",
     "last_activity": "2026-06-11T01:25:05.149Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정",
+      "detail": "X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 해당 내용을 삭제하거나 변경하여 재검토 요청드립니다. 금일 17시까지 수정 완료를 요청했습니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-06-17T04:59:23.586243"
+    },
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -3973,7 +3981,14 @@
     ],
     "latest_comment_date": "2026-06-11T06:45:57.069Z",
     "last_activity": "2026-06-11T06:45:57.109Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "캐릭터 테마색 불일치 및 영상/썸네일 수정 필요",
+      "detail": "이치노세 시키의 캐릭터 컬러는 빨간색이므로, 현재 파란색 불꽃을 빨간색 불꽃으로 변경해야 합니다. 영상 및 썸네일 수정이 필요하며, 이로 인해 포스팅 일정이 지연됩니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-06-17T04:59:27.561878"
+    },
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -4041,7 +4056,14 @@
     ],
     "latest_comment_date": "2026-06-16T03:57:39.894Z",
     "last_activity": "2026-06-16T03:57:55.322Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "배경 소재 사용 불가 및 혼란 야기 우려",
+      "detail": "배경 단독 공개는 팬들의 흥미를 유발하기 어렵습니다. 또한, 게임 내 배경이 애니메이션 설정과 달라 팬들에게 혼란을 줄 수 있으니 배경 소재 사용을 지양해 주십시오.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-06-17T04:59:31.033048"
+    },
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -4296,6 +4318,44 @@
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 3
+  },
+  {
+    "id": "6a1e8f7fae02b4377c7e73a4",
+    "subject": "#256[0526] 덴파미니코 X채널 팔로우 광고",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "배너",
+    "card_url": "https://trello.com/c/Z3ws7tRo",
+    "description": "1. 내용/ 감수 항목: 광고 포스팅\n2. 사용 용도: 오픈 테스트 홍보 및 팔로우 수 증대\n3. 언어: 일\n4. 코멘트:\n   1. 덴파미니코라는 X 채널을 이용하여 도원암귀 Crimson Inferno 채널로 게임유저를 유입하고 팔로우 수를 증대하기 위한 광고 컨텐츠의 일종입니다.\n5. 파일명: [https://docs.google.com/presentation/d/1w9qKgJ4-6p1OI_mLk3VEXcT7RbWcUddvCTlZrCF15Mw/edit?slide=id.p#slide=id.p](https://docs.google",
+    "asset_type": "광고 포스팅",
+    "purpose": "오픈 테스트 홍보 및 팔로우 수 증대",
+    "language": "일",
+    "memo": "1. 덴파미니코라는 X 채널을 이용하여 도원암귀 Crimson Inferno 채널로 게임유저를 유입하고 팔로우 수를 증대하기 위한 광고 컨텐츠의 일종입니다.",
+    "labels": [],
+    "feedbacks": [
+      "프리미엄 사전 테스트 지연에 관련한 일정에 대해서 어제 상세한 내용을 전달 받았고 일정에 대해서는 이번주에 판권처측에 검토를 요청하고자 하는 상태여서요..\n\n전달주신 수정 내용을 검수물로 제출 시에 판권처에서 왜 삭제하는 것인지 납득을 할 수 없을 것 같습니다. 이에 일정에 대한 내용이 어느 정도 정리가 된 후에 다음번 검수물로 제출이 되었으면 합니다.",
+      "오픈테스트가 취소됨에 따라, 디스크립션 내용을 하기와 같이 수정하였습니다.\n\nTVアニメ『桃源暗鬼』 の公式ゲーム\n\n『桃源暗鬼 Crimson Inferno』\n\nAmazonギフトカード5万円分を抽選で1名様にプレゼント\n\n\\@denfaminicogame\n\n\\@tougenanki_ci\n\nをフォロー&RPで応募完了"
+    ],
+    "licensor_feedbacks": [
+      "프리미엄 사전 테스트 지연에 관련한 일정에 대해서 어제 상세한 내용을 전달 받았고 일정에 대해서는 이번주에 판권처측에 검토를 요청하고자 하는 상태여서요..\n\n전달주신 수정 내용을 검수물로 제출 시에 판권처에서 왜 삭제하는 것인지 납득을 할 수 없을 것 같습니다. 이에 일정에 대한 내용이 어느 정도 정리가 된 후에 다음번 검수물로 제출이 되었으면 합니다."
+    ],
+    "members": [
+      "이원정"
+    ],
+    "latest_comment_date": "2026-06-10T00:35:08.496Z",
+    "last_activity": "2026-06-17T01:42:04.861Z",
+    "ai_summary": {
+      "issue": "프리미엄 사전 테스트 일정 미확정으로 광고 수정 반려",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권사 검토 중입니다. 현재 수정된 광고물(내용 삭제)은 일정 미확정 상태에서 판권사 납득이 어려우므로, 일정이 확정된 후 재제출 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-06-10T04:24:53.021176",
+      "needs_update": true,
+      "update_reason": "상태 변경"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
   },
   {
     "id": "6a27cd335312b081dd202120",
@@ -4941,42 +5001,6 @@
     "latest_comment_date": "2025-10-28T03:58:31.230Z",
     "last_activity": "2025-11-05T00:58:07.896Z",
     "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
-    "id": "6a1e8f7fae02b4377c7e73a4",
-    "subject": "#256[0526] 덴파미니코 X채널 팔로우 광고",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "배너",
-    "card_url": "https://trello.com/c/Z3ws7tRo",
-    "description": "1. 내용/ 감수 항목: 광고 포스팅\n2. 사용 용도: 오픈 테스트 홍보 및 팔로우 수 증대\n3. 언어: 일\n4. 코멘트:\n   1. 덴파미니코라는 X 채널을 이용하여 도원암귀 Crimson Inferno 채널로 게임유저를 유입하고 팔로우 수를 증대하기 위한 광고 컨텐츠의 일종입니다.\n5. 파일명: [https://docs.google.com/presentation/d/1w9qKgJ4-6p1OI_mLk3VEXcT7RbWcUddvCTlZrCF15Mw/edit?slide=id.p#slide=id.p](https://docs.google",
-    "asset_type": "광고 포스팅",
-    "purpose": "오픈 테스트 홍보 및 팔로우 수 증대",
-    "language": "일",
-    "memo": "1. 덴파미니코라는 X 채널을 이용하여 도원암귀 Crimson Inferno 채널로 게임유저를 유입하고 팔로우 수를 증대하기 위한 광고 컨텐츠의 일종입니다.",
-    "labels": [],
-    "feedbacks": [
-      "프리미엄 사전 테스트 지연에 관련한 일정에 대해서 어제 상세한 내용을 전달 받았고 일정에 대해서는 이번주에 판권처측에 검토를 요청하고자 하는 상태여서요..\n\n전달주신 수정 내용을 검수물로 제출 시에 판권처에서 왜 삭제하는 것인지 납득을 할 수 없을 것 같습니다. 이에 일정에 대한 내용이 어느 정도 정리가 된 후에 다음번 검수물로 제출이 되었으면 합니다.",
-      "오픈테스트가 취소됨에 따라, 디스크립션 내용을 하기와 같이 수정하였습니다.\n\nTVアニメ『桃源暗鬼』 の公式ゲーム\n\n『桃源暗鬼 Crimson Inferno』\n\nAmazonギフトカード5万円分を抽選で1名様にプレゼント\n\n\\@denfaminicogame\n\n\\@tougenanki_ci\n\nをフォロー&RPで応募完了"
-    ],
-    "licensor_feedbacks": [
-      "프리미엄 사전 테스트 지연에 관련한 일정에 대해서 어제 상세한 내용을 전달 받았고 일정에 대해서는 이번주에 판권처측에 검토를 요청하고자 하는 상태여서요..\n\n전달주신 수정 내용을 검수물로 제출 시에 판권처에서 왜 삭제하는 것인지 납득을 할 수 없을 것 같습니다. 이에 일정에 대한 내용이 어느 정도 정리가 된 후에 다음번 검수물로 제출이 되었으면 합니다."
-    ],
-    "members": [
-      "이원정"
-    ],
-    "latest_comment_date": "2026-06-10T00:35:08.496Z",
-    "last_activity": "2026-06-11T02:05:35.043Z",
-    "ai_summary": {
-      "issue": "프리미엄 사전 테스트 일정 미확정으로 광고 수정 반려",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권사 검토 중입니다. 현재 수정된 광고물(내용 삭제)은 일정 미확정 상태에서 판권사 납득이 어려우므로, 일정이 확정된 후 재제출 바랍니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-10T04:24:53.021176"
-    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -6693,32 +6717,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6a277d0968bf65ae775d4b29",
-    "subject": "#276[0609] 작가 축전 기획안",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "기획안",
-    "card_url": "https://trello.com/c/v7dRQfgj",
-    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 도원암귀 작가 게시글 올라오면 rt\n3. 언어: 일\n4. 사용 목적: 도원암귀 원작 작가에게 런칭 축전 요청\n5. 사용 채널: x\n6. 코멘트:\n7. 파일명\n   1. 작가 축전 기획안",
-    "asset_type": "기획안",
-    "purpose": "도원암귀 작가 게시글 올라오면 rt",
-    "language": "일",
-    "memo": "7. 파일명\n   1. 작가 축전 기획안",
-    "labels": [],
-    "feedbacks": [
-      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
-    ],
-    "licensor_feedbacks": [
-      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-06-10T00:46:04.619Z",
-    "last_activity": "2026-06-10T00:46:08.180Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
     "id": "6a1d52014eb7fddc4bea180a",
     "subject": "#265[0602] 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
     "list": "이슈 발생",
@@ -6740,6 +6738,32 @@
     "members": [],
     "latest_comment_date": "2026-06-12T09:31:45.220Z",
     "last_activity": "2026-06-12T09:31:53.215Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6a277d0968bf65ae775d4b29",
+    "subject": "#276[0609] 작가 축전 기획안",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "기획안",
+    "card_url": "https://trello.com/c/v7dRQfgj",
+    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 도원암귀 작가 게시글 올라오면 rt\n3. 언어: 일\n4. 사용 목적: 도원암귀 원작 작가에게 런칭 축전 요청\n5. 사용 채널: x\n6. 코멘트:\n7. 파일명\n   1. 작가 축전 기획안",
+    "asset_type": "기획안",
+    "purpose": "도원암귀 작가 게시글 올라오면 rt",
+    "language": "일",
+    "memo": "7. 파일명\n   1. 작가 축전 기획안",
+    "labels": [],
+    "feedbacks": [
+      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
+    ],
+    "licensor_feedbacks": [
+      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-06-10T00:46:04.619Z",
+    "last_activity": "2026-06-16T09:10:31.310Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
@@ -11459,6 +11483,28 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-06-04T05:23:12.311Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a30e02008e03d53183748d3",
+    "subject": "#279[0616][UA] Tier1 사전예약 소재",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/VTLKWx70",
+    "description": "1. 내용/ 감수 항목: 배너 5종, 영상 5종 (총 10종)\n2. 사용 용도: 사전예약 UA 소재\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.\n6. 파일명:\n   1. 감수 요청 리스트: [https://docs",
+    "asset_type": "배너 5종, 영상 5종 (총 10종)",
+    "purpose": "사전예약 UA 소재",
+    "language": "일",
+    "memo": "1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-06-16T06:31:58.545Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
