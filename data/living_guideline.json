@@ -64,7 +64,7 @@
   {
     "id": "6a0aa6c43a365e3836504b50",
     "subject": "#242[0519] 6월 X 포스팅 컨텐츠",
-    "list": "컴투스 감수 요청",
+    "list": "감수 진행 중",
     "status": "진행중",
     "category": "SNS",
     "card_url": "https://trello.com/c/RaplLLS3",
@@ -111,7 +111,7 @@
       "스도우 카오"
     ],
     "latest_comment_date": "2026-06-16T03:47:29.496Z",
-    "last_activity": "2026-06-16T03:47:35.297Z",
+    "last_activity": "2026-06-18T03:44:24.393Z",
     "ai_summary": {
       "issue": "모모타로 부정 표현 및 요모기 한자 오류 수정 요청",
       "detail": "배너 3~5에서 모모타로를 적·부정적으로 묘사하거나 사실과 다른 표현은 NG이므로 애니메이션 설정에 부합하는 기획과 각 포스팅 의도 보강을 요청했다. 요모기의 「蓬」 한자(辶 부분 점 누락) 수정, 2기 내용 제외, 캐릭터 소개 영상의 일본어·영어 이름 겹침과 문자-캐릭터 겹침 조정도 함께 지적했다.",
@@ -959,11 +959,11 @@
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
       "issue": "마케팅 소재 내 텍스트 수정 필요",
-      "detail": "사전 예약 메타데이터 스크린샷 내 무다노 이미지, 1번, 3번, 4번 이미지의 문구를 판권사 요청에 따라 변경해야 합니다. 특히 4번 이미지는 전체 문구 변경이 필요합니다.",
+      "detail": "사전 예약 메타데이터 스크린샷 내 무다노 이미지 및 1, 3, 4번 이미지의 텍스트를 판권사 요청에 따라 변경해야 합니다. 구체적인 수정 내용은 피드백에 명시되어 있습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-06-17T04:58:55.270086"
+      "updated_at": "2026-06-18T04:49:14.526768"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1729,8 +1729,8 @@
   {
     "id": "6a02d7f257092e117c910b09",
     "subject": "#241[0512] 사전 예약 메타데이터 아트워크",
-    "list": "이슈 발생",
-    "status": "반려",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
     "category": "기타",
     "card_url": "https://trello.com/c/9pv5ThMe",
     "description": "1. 내용/ 감수 항목: 사전 예약 마켓 메타데이터 아트워크\n2. 사용 용도: 사전 예약 마켓 메타데이터\n3. 언어: 일\n4. 코멘트: 2페이지 확인 부탁드립니다.\n5. 파일명 : [260512 마켓 메타데이터_아트워크](https://docs.google.com/presentation/d/1yvi2chfY8UoEsgeRNNVDbrPbsAHGE06YKT-3nrKqxq0/edit?slide=id.p#slide=id.p \"‌\")\n6. [컴투스 내부 감수 제출 현황 시트](https://docs.google.com/spreadsheets",
@@ -1756,7 +1756,7 @@
       "최지혜B"
     ],
     "latest_comment_date": "2026-06-15T06:39:37.329Z",
-    "last_activity": "2026-06-15T06:39:37.363Z",
+    "last_activity": "2026-06-18T00:51:56.841Z",
     "ai_summary": {
       "issue": "2안 마스미 포즈를 기립 이미지로 변경 요청",
       "detail": "사전 예약 메타데이터 아트워크 1안은 검수 통과됐다. 2안은 마스미를 서 있는 이미지로 변경할 것을 요청했다.",
@@ -3114,7 +3114,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-06-17T04:59:16.385963"
+      "updated_at": "2026-06-17T04:59:16.385963",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4345,14 +4347,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "프리미엄 사전 테스트 일정 미확정으로 광고 수정 반려",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권사 검토 중입니다. 현재 수정된 광고물(내용 삭제)은 일정 미확정 상태에서 판권사 납득이 어려우므로, 일정이 확정된 후 재제출 바랍니다.",
+      "issue": "일정 관련 내용 삭제 불가 및 재검수 요청",
+      "detail": "프리미엄 사전 테스트 일정 지연 관련 내용 삭제는 판권사 검토 중인 일정 확정 후 진행해야 합니다. 현재 상태로는 삭제 내용에 대한 납득이 어려우므로, 일정 정리 후 다음 검수물로 제출 바랍니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-10T04:24:53.021176",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-06-18T04:49:34.451698"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5000,6 +5000,34 @@
     ],
     "latest_comment_date": "2025-10-28T03:58:31.230Z",
     "last_activity": "2025-11-05T00:58:07.896Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a30e02008e03d53183748d3",
+    "subject": "#279[0616][UA] Tier1 사전예약 소재",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/VTLKWx70",
+    "description": "1. 내용/ 감수 항목: 배너 5종, 영상 5종 (총 10종)\n2. 사용 용도: 사전예약 UA 소재\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.\n6. 파일명:\n   1. 감수 요청 리스트: [https://docs",
+    "asset_type": "배너 5종, 영상 5종 (총 10종)",
+    "purpose": "사전예약 UA 소재",
+    "language": "일",
+    "memo": "1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.",
+    "labels": [],
+    "feedbacks": [
+      "**BNR | P-IP-SkillCard01-DA**  \n\n이 배너 관련해서도 피드백이 있어서 추가로 코멘트 남겨드렸습니다. 바쁘시겠지만 확인 부탁 드리겠습니다.",
+      "제작해주신 소재들에 대해서 제출주신 시트에 코멘트 전달드렸습니다. 확인 부탁드리겠습니다."
+    ],
+    "licensor_feedbacks": [
+      "**BNR | P-IP-SkillCard01-DA**  \n\n이 배너 관련해서도 피드백이 있어서 추가로 코멘트 남겨드렸습니다. 바쁘시겠지만 확인 부탁 드리겠습니다.",
+      "제작해주신 소재들에 대해서 제출주신 시트에 코멘트 전달드렸습니다. 확인 부탁드리겠습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-06-18T01:24:48.049Z",
+    "last_activity": "2026-06-18T01:24:48.077Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -11483,28 +11511,6 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-06-04T05:23:12.311Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a30e02008e03d53183748d3",
-    "subject": "#279[0616][UA] Tier1 사전예약 소재",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/VTLKWx70",
-    "description": "1. 내용/ 감수 항목: 배너 5종, 영상 5종 (총 10종)\n2. 사용 용도: 사전예약 UA 소재\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.\n6. 파일명:\n   1. 감수 요청 리스트: [https://docs",
-    "asset_type": "배너 5종, 영상 5종 (총 10종)",
-    "purpose": "사전예약 UA 소재",
-    "language": "일",
-    "memo": "1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-06-16T06:31:58.545Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
