@@ -958,12 +958,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "마케팅 소재 내 텍스트 수정 필요",
-      "detail": "사전 예약 메타데이터 스크린샷 내 무다노 이미지 및 1, 3, 4번 이미지의 텍스트를 판권사 요청에 따라 변경해야 합니다. 구체적인 수정 내용은 피드백에 명시되어 있습니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
+      "detail": "무다노 이미지 및 1, 3, 4번 스크린샷 내 일본어 문구에 대한 구체적인 변경 요청이 접수되어 반영이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-06-18T04:49:14.526768"
+      "updated_at": "2026-06-19T05:09:43.453269"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -4070,6 +4070,44 @@
     "feedback_count": 3
   },
   {
+    "id": "6a30e02008e03d53183748d3",
+    "subject": "#279[0616][UA] Tier1 사전예약 소재",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/VTLKWx70",
+    "description": "1. 내용/ 감수 항목: 배너 5종, 영상 5종 (총 10종)\n2. 사용 용도: 사전예약 UA 소재\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.\n6. 파일명:\n   1. 감수 요청 리스트: [https://docs",
+    "asset_type": "배너 5종, 영상 5종 (총 10종)",
+    "purpose": "사전예약 UA 소재",
+    "language": "일",
+    "memo": "1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.",
+    "labels": [],
+    "feedbacks": [
+      "확인 감사 드리며, NG 사항 컴투스 담당자 전파를 위해 댓글 남겨 놓습니다!\n\n1. **‘혈식’+NN 문구 활용 관련**\n   1. '혈식해방' 자체는 활용 가능하나 혈식+NN 과 같이 애니메이션과 게임의 것을 붙여서 새로운 단어를 만들거나 개념을 만드는 부분은 NG (다크 혈식 RPG, 혈식 전투, 혈식 액션 등과 같은 단어 활용 지양)\n2. **IP 설정 위반 문구 활용 관련**\n   1. ‘피의 명령’과 같은 문구는 설정과 달라 NG\n   2. ‘전장'으로 ‘뛰어들어라’와 같은 문구는 분위기와 달라 NG\n3. **기타 사항**\n   1. 일본어 한문 활용 주의\n   2. 무다노 일러스트 색감 주의",
+      "**BNR | P-IP-SkillCard01-DA**  \n\n이 배너 관련해서도 피드백이 있어서 추가로 코멘트 남겨드렸습니다. 바쁘시겠지만 확인 부탁 드리겠습니다.",
+      "제작해주신 소재들에 대해서 제출주신 시트에 코멘트 전달드렸습니다. 확인 부탁드리겠습니다."
+    ],
+    "licensor_feedbacks": [
+      "**BNR | P-IP-SkillCard01-DA**  \n\n이 배너 관련해서도 피드백이 있어서 추가로 코멘트 남겨드렸습니다. 바쁘시겠지만 확인 부탁 드리겠습니다.",
+      "제작해주신 소재들에 대해서 제출주신 시트에 코멘트 전달드렸습니다. 확인 부탁드리겠습니다."
+    ],
+    "members": [
+      "최종인"
+    ],
+    "latest_comment_date": "2026-06-18T08:51:13.941Z",
+    "last_activity": "2026-06-18T08:52:02.275Z",
+    "ai_summary": {
+      "issue": "제출 소재 전반에 대한 판권사 피드백 확인 및 반영",
+      "detail": "BNR | P-IP-SkillCard01-DA 배너를 포함하여, 제출된 모든 배너 및 영상 소재에 대한 상세 코멘트가 시트에 전달되었습니다. 해당 피드백을 확인하고 수정 반영이 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-06-19T05:10:04.571356"
+    },
+    "is_rejection": true,
+    "feedback_count": 3
+  },
+  {
     "id": "6a1e6d2b84586978b42a556e",
     "subject": "#268[0602] 프리미엄 선행 플레이 테스트 신청서 최종본",
     "list": "보류",
@@ -4352,7 +4390,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-18T04:49:34.451698"
+      "updated_at": "2026-06-18T04:49:34.451698",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5000,34 +5040,6 @@
     ],
     "latest_comment_date": "2025-10-28T03:58:31.230Z",
     "last_activity": "2025-11-05T00:58:07.896Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
-    "id": "6a30e02008e03d53183748d3",
-    "subject": "#279[0616][UA] Tier1 사전예약 소재",
-    "list": "컴투스 확인 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/VTLKWx70",
-    "description": "1. 내용/ 감수 항목: 배너 5종, 영상 5종 (총 10종)\n2. 사용 용도: 사전예약 UA 소재\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.\n6. 파일명:\n   1. 감수 요청 리스트: [https://docs",
-    "asset_type": "배너 5종, 영상 5종 (총 10종)",
-    "purpose": "사전예약 UA 소재",
-    "language": "일",
-    "memo": "1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.",
-    "labels": [],
-    "feedbacks": [
-      "**BNR | P-IP-SkillCard01-DA**  \n\n이 배너 관련해서도 피드백이 있어서 추가로 코멘트 남겨드렸습니다. 바쁘시겠지만 확인 부탁 드리겠습니다.",
-      "제작해주신 소재들에 대해서 제출주신 시트에 코멘트 전달드렸습니다. 확인 부탁드리겠습니다."
-    ],
-    "licensor_feedbacks": [
-      "**BNR | P-IP-SkillCard01-DA**  \n\n이 배너 관련해서도 피드백이 있어서 추가로 코멘트 남겨드렸습니다. 바쁘시겠지만 확인 부탁 드리겠습니다.",
-      "제작해주신 소재들에 대해서 제출주신 시트에 코멘트 전달드렸습니다. 확인 부탁드리겠습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-06-18T01:24:48.049Z",
-    "last_activity": "2026-06-18T01:24:48.077Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -11511,6 +11523,50 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-06-04T05:23:12.311Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a34a0616891f268f91b7cc0",
+    "subject": "[#280][0623] SNS 팔로우 유도 이벤트",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/8usvAWRD",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드\n3. 언어: 일\n4. **사용 목적: X RT 이벤트**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. SNS\\_팔로우\\_유도_이벤트.png\n   2. SNS 팔로우 유도 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드",
+    "language": "일",
+    "memo": "7. 파일명\n   1. SNS\\_팔로우\\_유도_이벤트.png\n   2. SNS 팔로우 유도 디스크립션",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-06-19T01:59:24.315Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a34bda96e6ccdb310d962d3",
+    "subject": "#281[0623] 홍콩애니메이션 행사 기획안",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/UZpTF5Yo",
+    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 홍콩 애니메이션 행사 기획안\n3. 언어: 한\n4. **사용 목적: 홍콩 애니메이션 오프라인 행사 내 부스 참여**\n5. **사용 채널: 오프라인 행사**\n6. 코멘트: 컴투스 대만 지사를 통해서 참여하는 홍보 부스 입니다\n   1. (2*2)단독부스, 스팀 위시리스트 등록자 대상 스티커 지급(약 500명)\n   2. AJ에서 사용되었던 이미지 어셋 활용\n7. 파일 명: ACGHK\\_2026\\_부스운영계획_260619\n8. : [https://docs.google.com/present",
+    "asset_type": "기획안",
+    "purpose": "홍콩 애니메이션 행사 기획안",
+    "language": "한",
+    "memo": "컴투스 대만 지사를 통해서 참여하는 홍보 부스 입니다\n   1. (2*2)단독부스, 스팀 위시리스트 등록자 대상 스티커 지급(약 500명)\n   2. AJ에서 사용되었던 이미지 어셋 활용",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-06-19T04:00:08.968Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
