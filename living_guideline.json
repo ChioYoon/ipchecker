@@ -125,8 +125,8 @@
   {
     "id": "69e5850c018a6b1926e6f1d9",
     "subject": "#228[0421] 룰렛/BM/환급형 웹이벤트 스킨 총 6종",
-    "list": "감수 진행 중",
-    "status": "진행중",
+    "list": "감수 완료",
+    "status": "승인",
     "category": "배너",
     "card_url": "https://trello.com/c/CY3pL3dJ",
     "description": "내용/ 감수 항목: 룰렛, BM, 환급형 웹이벤트 디자인 시안 및 배너 각 2종씩 총 6종 (이미지)\n사용 용도: 웹이벤트 진행 시 사용 예정\n언어: 일\n코멘트: 론칭 이후 사용될 웹이벤트 감수 요청드립니다.\n\n(기존에 감수 완료된 웹이벤트 건에서 캐릭터 및 테마(컬러)만 변경 되었습니다. 감수 완료 트렐로 넘버: #148, #174, #203)\n\n\n파일명: TougenAnki\\_WebEvent\\_SkinVariation(Roulette,BM,Return).zip",
@@ -136,6 +136,7 @@
     "memo": "론칭 이후 사용될 웹이벤트 감수 요청드립니다.\n\n(기존에 감수 완료된 웹이벤트 건에서 캐릭터 및 테마(컬러)만 변경 되었습니다. 감수 완료 트렐로 넘버: #148, #174, #203)\n\n\n파일명: TougenAnki\\_WebEvent\\_SkinVariation(Roulette,BM,Return).zip",
     "labels": [],
     "feedbacks": [
+      "검수 완료되었습니다.",
       "판권처 피드백\n260528\\_TougenAnki\\_960_01\n260213\\_TougenAnki\\_web_02\n260213\\_TougenAnki\\_web_02\n260528\\_TougenAnki\\_540_01\n감수 통과했습니다.",
       "[260213\\_TougenAnki\\_return(3).zip](https://trello.com/1/cards/69e5850c018a6b1926e6f1d9/attachments/6a20cf157559c6b106f0aa07/download/260213_TougenAnki_return(3).zip \"‌\") 전반적으로 키 맞추었습니다…!!!",
       "아..ㅜ 저 죄송하지만 이미지의 크기와 키를 쿠이나와 로쿠로를 동일하게 맞춰주시면 좋을 것 같습니다.",
@@ -151,6 +152,7 @@
       "룰렛 이벤트와 BM 이벤트에서 캐릭터가 텍스트와 겹치는 부분이 있어 수정 부탁드립니다…!\n수정이 필요한 배너는 아래와 같습니다.\n확인 부탁드립니다.\n\n[수정 사항]\n・룰렛 이벤트 260123\\_TougenAnki\\_web_02\n\n요모기의 머리 부분이 상단 문구와 겹쳐 있음\n츠바키리의 망토가 ‘룰렛’ 글자와 겹쳐 있음\n\n![image.webp](https://trello.com/1/cards/69e5850c018a6b1926e6f1d9/attachments/69e7233d6035b9fdbcae1d2f/previews/69e7233d6035b9fdbcae1d4d/download/image.webp)\n\n・BM 이벤트 260313\\_TougenAnki\\_web_02\n\n시키와 호마레 사이에 있는 문구가 시키와 호마레에 겹쳐 있음\n\n![image.webp](https://trello.com/1/cards/69e5850c018a6b1926e6f1d9/attachments/69e7236e6726862982adf9de/previews/69e7236e6726862982adfa08/download/image.webp)"
     ],
     "licensor_feedbacks": [
+      "검수 완료되었습니다.",
       "판권처 피드백\n260528\\_TougenAnki\\_960_01\n260213\\_TougenAnki\\_web_02\n260213\\_TougenAnki\\_web_02\n260528\\_TougenAnki\\_540_01\n감수 통과했습니다.",
       "아..ㅜ 저 죄송하지만 이미지의 크기와 키를 쿠이나와 로쿠로를 동일하게 맞춰주시면 좋을 것 같습니다.",
       "@user89171143\n\n수정 주신 것도 여전히 쿠이나와 로쿠로의 차이가 여전히 있는데요.. 다른 수정해주신 이미지에 맞춰서 어느정도 높이나 크기를 좀 맞춰주시기 바랍니다.",
@@ -162,17 +164,19 @@
     "members": [
       "이한라"
     ],
-    "latest_comment_date": "2026-06-05T03:19:25.441Z",
-    "last_activity": "2026-06-11T01:25:09.942Z",
+    "latest_comment_date": "2026-06-19T08:58:21.911Z",
+    "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
       "issue": "캐릭터-텍스트 겹침 및 캐릭터 사이즈 불일치 수정 요청",
       "detail": "룰렛·BM 배너에서 요모기·츠바키리·시키·호마레 등 캐릭터가 상단 문구 및 룰렛 글자와 겹쳐 수정을 요청했고, 쿠이나·로쿠로 및 츠바키리·요모기의 캐릭터 사이즈 차이도 맞추도록 했다. BM은 검수 완료됐으나 환급형의 (환)한자 점 수정과 룰렛 캐릭터 사이즈 보정이 남아 재감수 진행 중이다.",
       "resolved": false,
       "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804"
+      "updated_at": "2026-06-01T21:00:07.559804",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
-    "feedback_count": 13
+    "feedback_count": 14
   },
   {
     "id": "68b699eef247bdf3dd93a5d1",
@@ -963,7 +967,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-06-19T05:09:43.453269"
+      "updated_at": "2026-06-19T05:09:43.453269",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2561,6 +2567,45 @@
     "feedback_count": 5
   },
   {
+    "id": "6a27774c7230d8d8dc8834b2",
+    "subject": "#275[0609] 시키 진 실내 배경화면",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "영상",
+    "card_url": "https://trello.com/c/DXZLWPGr",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: X, 유튜브 업로드용\n3. 언어: 일\n4. 사용 목적: SNS 배포용\n5. 사용 채널: X, 유튜브 게시물\n6. 코멘트: 07/01 배포하고자 합니다. 기존에 감수 완료된 배경화면 이미지입니다. 모바일 ver.의 경우 감수통과된 것으로 올리고자 합니다. 1번, 2번 중 1번을 더 선호합니다.\n7. 파일명\n   1. mo_01\n   2. mo_02\n   3. pc\n   4. ta\n   5. wa_1\n   6. wa_2\n   7. 시키 진 실내 배경화면 디스크립션",
+    "asset_type": "이미지",
+    "purpose": "X, 유튜브 업로드용",
+    "language": "일",
+    "memo": "07/01 배포하고자 합니다. 기존에 감수 완료된 배경화면 이미지입니다. 모바일 ver.의 경우 감수통과된 것으로 올리고자 합니다. 1번, 2번 중 1번을 더 선호합니다.",
+    "labels": [],
+    "feedbacks": [
+      "검수 완료되었습니다.",
+      "(06/10) 기존 ppt 내 디스크립션 수정 완료하였습니다.\n\\- 시키 진 실내 배경화면 디스크립션",
+      "금일 17시까지 수정 후 말씀드리겠습니다.",
+      "지홀딩스　코멘트\n안녕하세요．\n공유해 주신 X 게시글 문구를 확인하였는데, 현재 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요할 것 같습니다.\n\n번거로우시겠지만 오늘 17시까지 수정 가능하실지 확인 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "검수 완료되었습니다.",
+      "지홀딩스　코멘트\n안녕하세요．\n공유해 주신 X 게시글 문구를 확인하였는데, 현재 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요할 것 같습니다.\n\n번거로우시겠지만 오늘 17시까지 수정 가능하실지 확인 부탁드립니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-06-19T08:58:59.598Z",
+    "last_activity": "2026-06-19T08:59:04.993Z",
+    "ai_summary": {
+      "issue": "X 게시글 문구 수정 필요",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청했습니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-06-20T04:21:57.415989"
+    },
+    "is_rejection": true,
+    "feedback_count": 4
+  },
+  {
     "id": "6a02876c6a88a8d6491fdf52",
     "subject": "#239[0512] 술래잡기 컨셉 웹이벤트 디자인 및 배너",
     "list": "감수 완료",
@@ -2963,6 +3008,46 @@
     "latest_comment_date": "2025-07-30T07:13:46.683Z",
     "last_activity": "2025-12-10T07:31:22.375Z",
     "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 4
+  },
+  {
+    "id": "6a27d2dadbcaacd6ea454d36",
+    "subject": "#278[0609] 이치노세 시키 코스튬 소개 영상",
+    "list": "이슈 발생",
+    "status": "반려",
+    "category": "영상",
+    "card_url": "https://trello.com/c/UDXDEHHK",
+    "description": "1. 내용/ 감수 항목: X・YouTube 컨텐츠 영상 및 디스크립션\n2. 사용 용도: X・YouTube 컨텐츠 배포용\n3. 언어: 일\n4. 코멘트:\n5. 파일명: [https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link](https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link \"smartCard-inline\")",
+    "asset_type": "X・YouTube 컨텐츠 영상 및 디스크립션",
+    "purpose": "X・YouTube 컨텐츠 배포용",
+    "language": "일",
+    "memo": "5. 파일명: [https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link](https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link \"smartCard-inl",
+    "labels": [],
+    "feedbacks": [
+      "[판권처 피드백]\n・디스크립션 검수 완료되었습니다.\n・영상이랑 포스팅 날짜는 수정버전 올려주시면 제출하겠습니다.",
+      "안녕하세요!\n디스크립션 먼저 제출해 주셔서 감사드립니다.\n영상은 수정(푸른 불꽃>붉은 불꽃) 후에 포스팅 일정과 함께 다시 제출드리겠습니다.\n\n별도로 준비된 썸네일은 없으며, 영상의 한 부분(시키의 이름이 나오는 부분)을 사용하고자 합니다.\n영상 수정 후에 슬라이드도 수정하겠습니다.",
+      "안녕하세요!\n\nX와 YouTube 디스크립션만 먼저 이번 주 분으로 감수 제출하도록 하겠으며 영상 수정이 필요하여 다음주 검수물로 제출이 될 것 같은데 그럴 경우 기재해주신 6/25에 포스팅 일정에는 맞지 않아서 일정은 미정으로 하여 제출하였습니다.\n\n아래 피드백 드린 영상과 현재 슬라이드에 업로드되어 있는 썸네일은 수정 부탁 드립니다! (썸네일도 올려주신 것으로 사용해주시는 것으로 보면 될까요?)",
+      "(지홀딩스 의견 )\n\n안녕하세요!\n시키의 경우 캐릭터 컬러가 빨간색이기 때문에,\n현재의 파란 불꽃보다는 빨간 불꽃으로 변경하는 편이 감수를 보다 원활하게 받을 수 있을 것 같습니다!\n\n확인 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "[판권처 피드백]\n・디스크립션 검수 완료되었습니다.\n・영상이랑 포스팅 날짜는 수정버전 올려주시면 제출하겠습니다.",
+      "안녕하세요!\n\nX와 YouTube 디스크립션만 먼저 이번 주 분으로 감수 제출하도록 하겠으며 영상 수정이 필요하여 다음주 검수물로 제출이 될 것 같은데 그럴 경우 기재해주신 6/25에 포스팅 일정에는 맞지 않아서 일정은 미정으로 하여 제출하였습니다.\n\n아래 피드백 드린 영상과 현재 슬라이드에 업로드되어 있는 썸네일은 수정 부탁 드립니다! (썸네일도 올려주신 것으로 사용해주시는 것으로 보면 될까요?)",
+      "(지홀딩스 의견 )\n\n안녕하세요!\n시키의 경우 캐릭터 컬러가 빨간색이기 때문에,\n현재의 파란 불꽃보다는 빨간 불꽃으로 변경하는 편이 감수를 보다 원활하게 받을 수 있을 것 같습니다!\n\n확인 부탁드립니다."
+    ],
+    "members": [
+      "백두환"
+    ],
+    "latest_comment_date": "2026-06-19T09:16:07.098Z",
+    "last_activity": "2026-06-19T09:16:07.148Z",
+    "ai_summary": {
+      "issue": "이치노세 시키 코스튬 영상의 시각적 요소 수정 필요",
+      "detail": "시키의 캐릭터 컬러가 빨간색이므로, 현재 영상 내 파란 불꽃을 빨간 불꽃으로 변경해야 합니다. 영상 및 썸네일 수정이 필요하며, 이에 따라 포스팅 일정도 재조정될 예정입니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 3,
+      "updated_at": "2026-06-20T04:22:00.836406"
+    },
     "is_rejection": true,
     "feedback_count": 4
   },
@@ -3916,81 +4001,6 @@
     "latest_comment_date": "2025-10-30T10:34:27.838Z",
     "last_activity": "2025-11-05T00:58:27.566Z",
     "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 3
-  },
-  {
-    "id": "6a27774c7230d8d8dc8834b2",
-    "subject": "#275[0609] 시키 진 실내 배경화면",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/DXZLWPGr",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: X, 유튜브 업로드용\n3. 언어: 일\n4. 사용 목적: SNS 배포용\n5. 사용 채널: X, 유튜브 게시물\n6. 코멘트: 07/01 배포하고자 합니다. 기존에 감수 완료된 배경화면 이미지입니다. 모바일 ver.의 경우 감수통과된 것으로 올리고자 합니다. 1번, 2번 중 1번을 더 선호합니다.\n7. 파일명\n   1. mo_01\n   2. mo_02\n   3. pc\n   4. ta\n   5. wa_1\n   6. wa_2\n   7. 시키 진 실내 배경화면 디스크립션",
-    "asset_type": "이미지",
-    "purpose": "X, 유튜브 업로드용",
-    "language": "일",
-    "memo": "07/01 배포하고자 합니다. 기존에 감수 완료된 배경화면 이미지입니다. 모바일 ver.의 경우 감수통과된 것으로 올리고자 합니다. 1번, 2번 중 1번을 더 선호합니다.",
-    "labels": [],
-    "feedbacks": [
-      "(06/10) 기존 ppt 내 디스크립션 수정 완료하였습니다.\n\\- 시키 진 실내 배경화면 디스크립션",
-      "금일 17시까지 수정 후 말씀드리겠습니다.",
-      "지홀딩스　코멘트\n안녕하세요．\n공유해 주신 X 게시글 문구를 확인하였는데, 현재 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요할 것 같습니다.\n\n번거로우시겠지만 오늘 17시까지 수정 가능하실지 확인 부탁드립니다."
-    ],
-    "licensor_feedbacks": [
-      "지홀딩스　코멘트\n안녕하세요．\n공유해 주신 X 게시글 문구를 확인하였는데, 현재 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요할 것 같습니다.\n\n번거로우시겠지만 오늘 17시까지 수정 가능하실지 확인 부탁드립니다."
-    ],
-    "members": [
-      "김민지"
-    ],
-    "latest_comment_date": "2026-06-10T08:17:28.365Z",
-    "last_activity": "2026-06-11T01:25:05.149Z",
-    "ai_summary": {
-      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정",
-      "detail": "X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 해당 내용을 삭제하거나 변경하여 재검토 요청드립니다. 금일 17시까지 수정 완료를 요청했습니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-17T04:59:23.586243"
-    },
-    "is_rejection": true,
-    "feedback_count": 3
-  },
-  {
-    "id": "6a27d2dadbcaacd6ea454d36",
-    "subject": "#278[0609] 이치노세 시키 코스튬 소개 영상",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "영상",
-    "card_url": "https://trello.com/c/UDXDEHHK",
-    "description": "1. 내용/ 감수 항목: X・YouTube 컨텐츠 영상 및 디스크립션\n2. 사용 용도: X・YouTube 컨텐츠 배포용\n3. 언어: 일\n4. 코멘트:\n5. 파일명: [https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link](https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link \"smartCard-inline\")",
-    "asset_type": "X・YouTube 컨텐츠 영상 및 디스크립션",
-    "purpose": "X・YouTube 컨텐츠 배포용",
-    "language": "일",
-    "memo": "5. 파일명: [https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link](https://drive.google.com/drive/folders/14pbii0hpt_kJR8ZdM4jqpUqVcqyE2wQo?usp=drive_link \"smartCard-inl",
-    "labels": [],
-    "feedbacks": [
-      "안녕하세요!\n디스크립션 먼저 제출해 주셔서 감사드립니다.\n영상은 수정(푸른 불꽃>붉은 불꽃) 후에 포스팅 일정과 함께 다시 제출드리겠습니다.\n\n별도로 준비된 썸네일은 없으며, 영상의 한 부분(시키의 이름이 나오는 부분)을 사용하고자 합니다.\n영상 수정 후에 슬라이드도 수정하겠습니다.",
-      "안녕하세요!\n\nX와 YouTube 디스크립션만 먼저 이번 주 분으로 감수 제출하도록 하겠으며 영상 수정이 필요하여 다음주 검수물로 제출이 될 것 같은데 그럴 경우 기재해주신 6/25에 포스팅 일정에는 맞지 않아서 일정은 미정으로 하여 제출하였습니다.\n\n아래 피드백 드린 영상과 현재 슬라이드에 업로드되어 있는 썸네일은 수정 부탁 드립니다! (썸네일도 올려주신 것으로 사용해주시는 것으로 보면 될까요?)",
-      "(지홀딩스 의견 )\n\n안녕하세요!\n시키의 경우 캐릭터 컬러가 빨간색이기 때문에,\n현재의 파란 불꽃보다는 빨간 불꽃으로 변경하는 편이 감수를 보다 원활하게 받을 수 있을 것 같습니다!\n\n확인 부탁드립니다."
-    ],
-    "licensor_feedbacks": [
-      "안녕하세요!\n\nX와 YouTube 디스크립션만 먼저 이번 주 분으로 감수 제출하도록 하겠으며 영상 수정이 필요하여 다음주 검수물로 제출이 될 것 같은데 그럴 경우 기재해주신 6/25에 포스팅 일정에는 맞지 않아서 일정은 미정으로 하여 제출하였습니다.\n\n아래 피드백 드린 영상과 현재 슬라이드에 업로드되어 있는 썸네일은 수정 부탁 드립니다! (썸네일도 올려주신 것으로 사용해주시는 것으로 보면 될까요?)",
-      "(지홀딩스 의견 )\n\n안녕하세요!\n시키의 경우 캐릭터 컬러가 빨간색이기 때문에,\n현재의 파란 불꽃보다는 빨간 불꽃으로 변경하는 편이 감수를 보다 원활하게 받을 수 있을 것 같습니다!\n\n확인 부탁드립니다."
-    ],
-    "members": [
-      "백두환"
-    ],
-    "latest_comment_date": "2026-06-11T06:45:57.069Z",
-    "last_activity": "2026-06-11T06:45:57.109Z",
-    "ai_summary": {
-      "issue": "캐릭터 테마색 불일치 및 영상/썸네일 수정 필요",
-      "detail": "이치노세 시키의 캐릭터 컬러는 빨간색이므로, 현재 파란색 불꽃을 빨간색 불꽃으로 변경해야 합니다. 영상 및 썸네일 수정이 필요하며, 이로 인해 포스팅 일정이 지연됩니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-06-17T04:59:27.561878"
-    },
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -5040,6 +5050,35 @@
     ],
     "latest_comment_date": "2025-10-28T03:58:31.230Z",
     "last_activity": "2025-11-05T00:58:07.896Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a1d52014eb7fddc4bea180a",
+    "subject": "#265[0602] 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/KufuEoy7",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 마케팅용\n3. 언어: 일\n4. 코멘트: 기존 감수 통과된 영상에 사전예약 엔드카드만 추가하였습니다.\n5. 파일명\n   1. 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
+    "asset_type": "영상",
+    "purpose": "마케팅용",
+    "language": "일",
+    "memo": "기존 감수 통과된 영상에 사전예약 엔드카드만 추가하였습니다.",
+    "labels": [],
+    "feedbacks": [
+      "(06/19) 일본어 폰트 변경하여 다시 감수 제출합니다.\n\\- 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
+      "[판권처 피드백]\n\n일본어의 경우 일본어 전용 폰트로 사용해주시기 바랍니다. (지금은  어색하게 일본어 한자 같지 않은 느낌이 있습니다.ㅜ)"
+    ],
+    "licensor_feedbacks": [
+      "[판권처 피드백]\n\n일본어의 경우 일본어 전용 폰트로 사용해주시기 바랍니다. (지금은  어색하게 일본어 한자 같지 않은 느낌이 있습니다.ㅜ)"
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-06-19T06:00:10.802Z",
+    "last_activity": "2026-06-19T06:01:42.416Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -6752,32 +6791,6 @@
     ],
     "latest_comment_date": "2025-10-29T10:05:54.308Z",
     "last_activity": "2025-11-05T00:58:31.356Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
-    "id": "6a1d52014eb7fddc4bea180a",
-    "subject": "#265[0602] 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "영상",
-    "card_url": "https://trello.com/c/KufuEoy7",
-    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 마케팅용\n3. 언어: 일\n4. 코멘트: 기존 감수 통과된 영상에 사전예약 엔드카드만 추가하였습니다.\n5. 파일명\n   1. 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
-    "asset_type": "영상",
-    "purpose": "마케팅용",
-    "language": "일",
-    "memo": "기존 감수 통과된 영상에 사전예약 엔드카드만 추가하였습니다.",
-    "labels": [],
-    "feedbacks": [
-      "[판권처 피드백]\n\n일본어의 경우 일본어 전용 폰트로 사용해주시기 바랍니다. (지금은  어색하게 일본어 한자 같지 않은 느낌이 있습니다.ㅜ)"
-    ],
-    "licensor_feedbacks": [
-      "[판권처 피드백]\n\n일본어의 경우 일본어 전용 폰트로 사용해주시기 바랍니다. (지금은  어색하게 일본어 한자 같지 않은 느낌이 있습니다.ㅜ)"
-    ],
-    "members": [],
-    "latest_comment_date": "2026-06-12T09:31:45.220Z",
-    "last_activity": "2026-06-12T09:31:53.215Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
