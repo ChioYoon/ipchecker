@@ -167,13 +167,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터-텍스트 겹침 및 캐릭터 사이즈 불일치 수정 요청",
-      "detail": "룰렛·BM 배너에서 요모기·츠바키리·시키·호마레 등 캐릭터가 상단 문구 및 룰렛 글자와 겹쳐 수정을 요청했고, 쿠이나·로쿠로 및 츠바키리·요모기의 캐릭터 사이즈 차이도 맞추도록 했다. BM은 검수 완료됐으나 환급형의 (환)한자 점 수정과 룰렛 캐릭터 사이즈 보정이 남아 재감수 진행 중이다.",
+      "issue": "캐릭터 이미지 크기 및 키 일관성 미흡",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰야 합니다. 전반적인 감수는 통과되었으나, 해당 부분에 대한 수정이 필요합니다.",
       "resolved": false,
-      "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "model": "gemini-2.5-flash",
+      "feedback_count": 8,
+      "updated_at": "2026-06-21T05:05:10.272437"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -962,14 +961,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
-      "detail": "무다노 이미지 및 1, 3, 4번 스크린샷 내 일본어 문구에 대한 구체적인 변경 요청이 접수되어 반영이 필요합니다.",
+      "issue": "사전 예약 메타데이터 이미지 텍스트 수정",
+      "detail": "무다노 이미지, 1번, 3번, 4번 이미지 내 일본어 문구에 대한 구체적인 텍스트 수정 요청이 있습니다. 기존 승인된 카드 외 추가 수정 사항입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-06-19T05:09:43.453269",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-06-21T05:05:13.835403"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2595,12 +2592,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 수정 필요",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정 필요",
       "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청했습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-06-20T04:21:57.415989"
+      "updated_at": "2026-06-21T05:05:27.867936"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4395,14 +4392,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "일정 관련 내용 삭제 불가 및 재검수 요청",
-      "detail": "프리미엄 사전 테스트 일정 지연 관련 내용 삭제는 판권사 검토 중인 일정 확정 후 진행해야 합니다. 현재 상태로는 삭제 내용에 대한 납득이 어려우므로, 일정 정리 후 다음 검수물로 제출 바랍니다.",
+      "issue": "일정 관련 내용 삭제 불가",
+      "detail": "프리미엄 사전 테스트 일정 지연 관련 내용이 아직 판권사 검토 중이므로, 해당 내용 삭제는 현재 불가합니다. 일정이 확정된 후 다음 검수물로 제출해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-18T04:49:34.451698",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-06-21T05:05:36.564889"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -4432,14 +4427,12 @@
     "latest_comment_date": "2026-06-11T01:26:40.930Z",
     "last_activity": "2026-06-11T01:26:46.131Z",
     "ai_summary": {
-      "issue": "애니메이션-게임 홍보 행사 일정 및 출연진 정보 업데이트 필요",
-      "detail": "애니메이션-게임 홍보 행사는 7월 2일 Abema 특별 방송에서 일부 성우 출연으로 진행됩니다. 해당 방송 영상 촬영은 6월 11일에 예정되어 있으니, 기획안에 반영 바랍니다.",
-      "resolved": false,
+      "issue": "프로모션 행사 일정 및 내용 업데이트",
+      "detail": "7/2 Abema 특별 방송 성우 출연 및 6/11 영상 촬영 정보가 추가됨. 향후 홍보 계획에 반영 필요.",
+      "resolved": true,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-10T04:24:57.518429",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건, 상태 변경"
+      "feedback_count": 2,
+      "updated_at": "2026-06-21T05:05:41.719470"
     },
     "is_rejection": true,
     "feedback_count": 2
