@@ -167,12 +167,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 크기 및 키 통일 필요",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다. 시안 내 캐릭터 간 비례를 조정해야 합니다.",
+      "issue": "캐릭터 이미지 크기 및 키 불일치",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰야 합니다. 전반적인 디자인은 통과되었으나, 캐릭터 간 비례 조정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-06-22T05:14:33.122147"
+      "updated_at": "2026-06-23T04:11:04.019762"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -961,12 +961,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "사전 예약 메타데이터 텍스트 수정 필요",
-      "detail": "무다노 이미지 및 1, 3, 4번 이미지 내 일본어 문구에 대한 구체적인 텍스트 변경 요청이 있습니다. 기존 문구를 지정된 내용으로 수정해야 합니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
+      "detail": "무다노 이미지 및 1, 3, 4번 스크린샷 내 일본어 문구에 대한 구체적인 텍스트 변경 지시가 있었습니다. 기존 문구를 변경된 문구로 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-06-22T05:14:38.005093"
+      "updated_at": "2026-06-23T04:11:08.985521"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2592,12 +2592,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정",
-      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 요청되었습니다.",
+      "issue": "X 게시글 문구 수정 필요",
+      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청드립니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-06-22T05:14:54.514093"
+      "updated_at": "2026-06-23T04:11:24.782620"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3191,12 +3191,12 @@
     "latest_comment_date": "2026-06-12T05:53:02.010Z",
     "last_activity": "2026-06-12T05:53:09.038Z",
     "ai_summary": {
-      "issue": "주요 일정 확정 여부 확인",
-      "detail": "틱톡 영상 오픈일(8/10)과 사전예약 시작일(8/10)이 최종 확정된 날짜인지 판권사에 확인이 필요합니다. 기획안 자체는 승인되었습니다.",
+      "issue": "틱톡 영상 및 사전예약일정 확정 필요",
+      "detail": "판권사는 기획안을 승인했으나, 틱톡 영상 오픈일과 사전예약 시작일(모두 8/10)의 확정 여부를 문의했습니다. 해당 날짜들의 최종 확정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-06-22T05:14:58.809244"
+      "updated_at": "2026-06-23T04:11:30.410244"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4395,7 +4395,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-22T05:15:03.088035"
+      "updated_at": "2026-06-22T05:15:03.088035",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5069,7 +5071,7 @@
       "김민지"
     ],
     "latest_comment_date": "2026-06-19T06:00:10.802Z",
-    "last_activity": "2026-06-19T06:01:42.416Z",
+    "last_activity": "2026-06-23T01:08:54.248Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -5549,38 +5551,6 @@
     "feedback_count": 1
   },
   {
-    "id": "69c0b12afaf1203ec1ff2f97",
-    "subject": "#214[0324] X 참여형 RT 이벤트",
-    "list": "감수 완료",
-    "status": "승인",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/YPWTap83",
-    "description": "1. 내용/ 감수 항목: 이미지, 기획안\n2. 사용 용도: X, 업로드\n3. 언어: 일\n4. 코멘트:\n   1. 04/21(화) 업로드하고자 합니다.\n   2. 이미지 상 자리의 경우, 애니메이션 1기 2화를 대략적으로 참고하였습니다.\n5. 파일명\n   1. [도원암귀] 참여형 RT 이벤트 기획안 - 어디에 앉을래?\n   2. 참여형 RT 이벤트.jpg",
-    "asset_type": "이미지, 기획안",
-    "purpose": "X, 업로드",
-    "language": "일",
-    "memo": "1. 04/21(화) 업로드하고자 합니다.\n   2. 이미지 상 자리의 경우, 애니메이션 1기 2화를 대략적으로 참고하였습니다.",
-    "labels": [],
-    "feedbacks": [
-      "검수 완료되었습니다."
-    ],
-    "licensor_feedbacks": [
-      "검수 완료되었습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-04-03T08:06:51.693Z",
-    "last_activity": "2026-04-03T08:06:55.889Z",
-    "ai_summary": {
-      "issue": "X 참여형 RT 이벤트를 그대로 승인한다",
-      "detail": "- 참여형 RT 이벤트 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
-      "resolved": true,
-      "model": "manual-ai",
-      "updated_at": "2026-06-02T12:42:51.841033"
-    },
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
     "id": "69b9099cf67c3fc0a52de50d",
     "subject": "#208[0317] 포토존 코스어 안내 디스크립션",
     "list": "감수 완료",
@@ -5605,6 +5575,38 @@
     "ai_summary": {
       "issue": "포토존 코스어 안내 디스크립션을 승인한다",
       "detail": "- 코스어 안내 디스크립션 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
+      "resolved": true,
+      "model": "manual-ai",
+      "updated_at": "2026-06-02T12:42:51.841033"
+    },
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "69c0b12afaf1203ec1ff2f97",
+    "subject": "#214[0324] X 참여형 RT 이벤트",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/YPWTap83",
+    "description": "‌\n\n1. 내용/ 감수 항목: 이미지, 기획안\n2. 사용 용도: X 배포용\n3. 언어: 일\n4. **사용 목적: X RT 이벤트**\n5. **사용 채널: X**\n6. 코멘트:\n   1. 04/21(화) 업로드하고자 합니다.\n   2. 이미지 상 자리의 경우, 애니메이션 1기 2화를 대략적으로 참고하였습니다.\n7. 파일명\n   1. [도원암귀] 참여형 RT 이벤트 기획안 - 어디에 앉을래?\n   2. 참여형 RT 이벤트.jpg",
+    "asset_type": "이미지, 기획안",
+    "purpose": "X 배포용",
+    "language": "일",
+    "memo": "1. 04/21(화) 업로드하고자 합니다.\n   2. 이미지 상 자리의 경우, 애니메이션 1기 2화를 대략적으로 참고하였습니다.",
+    "labels": [],
+    "feedbacks": [
+      "검수 완료되었습니다."
+    ],
+    "licensor_feedbacks": [
+      "검수 완료되었습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-04-03T08:06:51.693Z",
+    "last_activity": "2026-06-23T01:18:55.097Z",
+    "ai_summary": {
+      "issue": "X 참여형 RT 이벤트를 그대로 승인한다",
+      "detail": "- 참여형 RT 이벤트 검수 완료됨.\n- 추가 수정 요구 없음.\n- 별도 후속 액션 없음.",
       "resolved": true,
       "model": "manual-ai",
       "updated_at": "2026-06-02T12:42:51.841033"
@@ -11532,6 +11534,28 @@
     "feedback_count": 0
   },
   {
+    "id": "6a34bda96e6ccdb310d962d3",
+    "subject": "#281[0623] 홍콩애니메이션 행사 기획안",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/UZpTF5Yo",
+    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 홍콩 애니메이션 행사 기획안\n3. 언어: 한\n4. **사용 목적: 홍콩 애니메이션 오프라인 행사 내 부스 참여**\n5. **사용 채널: 오프라인 행사**\n6. 코멘트: 컴투스 대만 지사를 통해서 참여하는 홍보 부스 입니다\n   1. (2*2)단독부스, 스팀 위시리스트 등록자 대상 스티커 지급(약 500명)\n   2. AJ에서 사용되었던 이미지 어셋 활용\n      1. 홍콩에서 진행되는 행사로 프린트 사진 감수는 어려움, 행사장 사진으로 대체 가능할지 문의\n7. 파일 명: ACGHK",
+    "asset_type": "기획안",
+    "purpose": "홍콩 애니메이션 행사 기획안",
+    "language": "한",
+    "memo": "컴투스 대만 지사를 통해서 참여하는 홍보 부스 입니다\n   1. (2*2)단독부스, 스팀 위시리스트 등록자 대상 스티커 지급(약 500명)\n   2. AJ에서 사용되었던 이미지 어셋 활용\n      1. 홍콩에서 진행되는 행사로 프린트 사진 감수는 어려움, 행사장 사진으로 대체 가능할지 문의",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-06-22T08:37:14.418Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
     "id": "6a34a0616891f268f91b7cc0",
     "subject": "[#280][0623] SNS 팔로우 유도 이벤트",
     "list": "컴투스 감수 요청",
@@ -11548,29 +11572,7 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-06-22T01:10:30.544Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a34bda96e6ccdb310d962d3",
-    "subject": "#281[0623] 홍콩애니메이션 행사 기획안",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/UZpTF5Yo",
-    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 홍콩 애니메이션 행사 기획안\n3. 언어: 한\n4. **사용 목적: 홍콩 애니메이션 오프라인 행사 내 부스 참여**\n5. **사용 채널: 오프라인 행사**\n6. 코멘트: 컴투스 대만 지사를 통해서 참여하는 홍보 부스 입니다\n   1. (2*2)단독부스, 스팀 위시리스트 등록자 대상 스티커 지급(약 500명)\n   2. AJ에서 사용되었던 이미지 어셋 활용\n7. 파일 명: ACGHK\\_2026\\_부스운영계획_260619\n8. : [https://docs.google.com/present",
-    "asset_type": "기획안",
-    "purpose": "홍콩 애니메이션 행사 기획안",
-    "language": "한",
-    "memo": "컴투스 대만 지사를 통해서 참여하는 홍보 부스 입니다\n   1. (2*2)단독부스, 스팀 위시리스트 등록자 대상 스티커 지급(약 500명)\n   2. AJ에서 사용되었던 이미지 어셋 활용",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-06-19T04:00:08.968Z",
+    "last_activity": "2026-06-23T01:08:52.159Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -11592,7 +11594,29 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-06-22T05:07:22.658Z",
+    "last_activity": "2026-06-22T05:39:27.019Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a39d86f092557f2b4e8ef4c",
+    "subject": "#284[0623] 시키 캐릭터 PV 틱톡 베리건",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/jjyVRKej",
+    "description": "1. 내용/ 감수 항목:  영상, 디스크립션\n2. 사용 용도: 틱톡 업로드용\n3. 언어: 일\n4. 사용 목적: 틱톡 업로드\n5. 사용 채널: 틱톡\n6. 코멘트: 감수 통과한 기제작 영상 틱톡용으로 사이즈 베리했습니다.\n7. 파일명\n   1. 틱톡_시키 PV 영상\n   2. 시키 PV 영상 디스크립션",
+    "asset_type": "영상, 디스크립션",
+    "purpose": "틱톡 업로드용",
+    "language": "일",
+    "memo": "감수 통과한 기제작 영상 틱톡용으로 사이즈 베리했습니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-06-23T02:44:36.905Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
