@@ -1,5 +1,5 @@
 # 도원암귀: Crimson Inferno — IP 감수 지식베이스
-> 생성일: 2026-06-27 04:08
+> 생성일: 2026-06-28 04:41
 
 # IP Marketing Asset Review Portal — 도원암귀: Crimson Inferno
 
