@@ -170,14 +170,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 크기 및 키 불일치",
+      "issue": "캐릭터 이미지 크기 및 비율 불일치",
       "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-06-27T04:08:00.656937",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-06-30T04:16:06.780605"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -935,8 +933,8 @@
   {
     "id": "6a30e02008e03d53183748d3",
     "subject": "#279[0616][UA] Tier1 사전예약 소재",
-    "list": "감수 완료",
-    "status": "승인",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/VTLKWx70",
     "description": "1. 내용/ 감수 항목: 배너 5종, 영상 5종 (총 10종)\n2. 사용 용도: 사전예약 UA 소재\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.\n6. 파일명:\n   1. 감수 요청 리스트: [https://docs",
@@ -946,6 +944,7 @@
     "memo": "1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.",
     "labels": [],
     "feedbacks": [
+      "감수 요청 리스트 7, 10번 영상 수정 시안 수급되어 감수 요청 드립니다.\n시안 전체 감수 후에 사이즈 베리 건으로 감수 요청 드릴 예정입니다.",
       "안녕하세요.\n판권처 피드백 전달드립니다.\n아이카와 렌의 성우는 성우 정보가 공개된 이후에는 사용 가능하다고 합니다.\n그 외 수정 사항은 없으며, 나머지 내용은 모두 문제없습니다.",
       "말씀 주신 사항 모두 수정 완료하였습니다.\n추후 보다 검수 꼼꼼하게 하여 제출 드릴 수 있도록 하겠으며, 해당 2개 소재 외에 제출 완료된 건이라면 6/30(화) 추가 수정 소재와 함께 제출 드리겠습니다.\n\n추가로 구두점의 경우 이후 모든 카피에서 제외 진행하면 될까요?\n강조를 위해 !, ? 와 같은 문자는 포함해도 괜찮을지 함께 문의 드리며, 확인 주시면 제작 담당자에게 가이드 공유 하겠습니다.",
       "【あの戦いが今ここに蘇る。】→【あの戦いが今ここに蘇る】。빼주시면 갑사하겠습니다.\n\n【目標のために死ぬな目標のために生き抜け】\n이걸로 수정이 안되어 있습니다.\n\n위의 사항 확인 후 수정 부탁드리겠습니다!",
@@ -963,20 +962,18 @@
     "members": [
       "최종인"
     ],
-    "latest_comment_date": "2026-06-26T10:16:22.579Z",
-    "last_activity": "2026-06-26T10:16:28.572Z",
+    "latest_comment_date": "2026-06-30T02:24:59.197Z",
+    "last_activity": "2026-06-30T02:24:59.221Z",
     "ai_summary": {
-      "issue": "텍스트 수정 및 추가 피드백 반영 필요",
-      "detail": "문장 부호 제거 및 특정 문구 수정 미반영 건이 확인되었습니다. 제출된 시트와 특정 배너에 대한 추가 피드백을 확인하고 반영해야 합니다.",
+      "issue": "마케팅 소재 내 정보 활용 및 텍스트 오류 수정",
+      "detail": "아이카와 렌 성우 정보는 공개 후 사용 가능하며, 'あの戦いが今ここに蘇る。' 문구에서 마침표 제거 및 '目標のために死ぬな目標のために生き抜け' 문구 수정이 미반영되었습니다. 특정 배너에 대한 추가 피드백도 확인해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-06-25T04:14:39.648416",
-      "needs_update": true,
-      "update_reason": "피드백 3→4건, 상태 변경"
+      "feedback_count": 4,
+      "updated_at": "2026-06-30T04:16:11.929456"
     },
     "is_rejection": true,
-    "feedback_count": 7
+    "feedback_count": 8
   },
   {
     "id": "6a0be4ac98cdf3b351db9362",
@@ -1012,14 +1009,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "마케팅 소재 내 일본어 텍스트 수정 요청",
-      "detail": "사전 예약 메타데이터 스크린샷의 무다노 이미지, 1번 이미지, 3번 이미지, 4번 이미지에 대한 일본어 문구 수정이 필요합니다. 판권사가 제시한 변경 텍스트로 교체해야 합니다.",
+      "issue": "사전 예약 메타데이터 텍스트 수정 필요",
+      "detail": "무다노 이미지 및 1, 3, 4번 이미지 내 텍스트에 대한 판권사의 구체적인 수정 요청이 있습니다. 기존 문구를 제시된 변경 문구로 교체해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-06-26T04:21:45.003808",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-06-30T04:16:17.238833"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2617,6 +2612,46 @@
     "feedback_count": 5
   },
   {
+    "id": "6a27cd335312b081dd202120",
+    "subject": "#279 [0609] 애니메이션<>게임 홍보",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "기획안",
+    "card_url": "https://trello.com/c/0B7MtGCy",
+    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 0702, 게임홍보\n3. 언어: 일본어\n4. 사용 목적: 도원암귀 게임 홍보\n5. 파일명: 도원암귀] 게임 소개\n6. 링크:  [https://docs.google.com/presentation/d/1FPksq7lROtmfl2Bst3NtqfbLy1z_kqT2tyYvdwVpJGU/edit?usp=drive_link](https://docs.google.com/presentation/d/1FPksq7lROtmfl2Bst3NtqfbLy1z_kqT2tyYvdwVpJGU/edit?usp=dr",
+    "asset_type": "기획안",
+    "purpose": "0702, 게임홍보",
+    "language": "일본어",
+    "memo": "",
+    "labels": [],
+    "feedbacks": [
+      "오전에 드라이브 경로를 통해 이미지 전달 드렸습니다",
+      "안녕하세요. 판권처로부터 첨부로 주신 이미지의 고화질 파일 공유 요청이 있었습니다.\n\n월요링까지 전달이 필요하다는 요청이 있었는데 확인 부탁드리겠습니다. (정해진 규격은 없으나 그냥 가지고 계신 파일 중에 가장 화질이 좋은 것을 주시면 좋을 것 같습니다.)",
+      "전달 주신 내용으로 제출하였습니다.",
+      "유선상으로 말씀드렸던 것과 같이 행사는 7/2에 abema의 특별 방송 같은 곳에서 일부 성우가 나온다는 것과 해당 영상의 촬영은 6/11에 진행하는 것으로 전달 받아서 공유 드립니다."
+    ],
+    "licensor_feedbacks": [
+      "안녕하세요. 판권처로부터 첨부로 주신 이미지의 고화질 파일 공유 요청이 있었습니다.\n\n월요링까지 전달이 필요하다는 요청이 있었는데 확인 부탁드리겠습니다. (정해진 규격은 없으나 그냥 가지고 계신 파일 중에 가장 화질이 좋은 것을 주시면 좋을 것 같습니다.)",
+      "전달 주신 내용으로 제출하였습니다.",
+      "유선상으로 말씀드렸던 것과 같이 행사는 7/2에 abema의 특별 방송 같은 곳에서 일부 성우가 나온다는 것과 해당 영상의 촬영은 6/11에 진행하는 것으로 전달 받아서 공유 드립니다."
+    ],
+    "members": [
+      "이수연"
+    ],
+    "latest_comment_date": "2026-06-29T05:48:47.194Z",
+    "last_activity": "2026-06-30T01:03:22.518Z",
+    "ai_summary": {
+      "issue": "고화질 이미지 파일 공유 요청 및 행사 정보 업데이트",
+      "detail": "판권사에서 홍보용 이미지의 고화질 파일 공유를 요청했습니다. 월요일까지 전달이 필요하며, 7/2 Abema 특별 방송 행사 및 6/11 촬영 일정이 공유되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 3,
+      "updated_at": "2026-06-30T04:16:32.462190"
+    },
+    "is_rejection": true,
+    "feedback_count": 4
+  },
+  {
     "id": "6a27774c7230d8d8dc8834b2",
     "subject": "#275[0609] 시키 진 실내 배경화면",
     "list": "감수 완료",
@@ -4166,45 +4201,6 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
       "updated_at": "2026-06-17T04:59:31.033048"
-    },
-    "is_rejection": true,
-    "feedback_count": 3
-  },
-  {
-    "id": "6a27cd335312b081dd202120",
-    "subject": "#279 [0609] 애니메이션<>게임 홍보",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "기획안",
-    "card_url": "https://trello.com/c/0B7MtGCy",
-    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 0702, 게임홍보\n3. 언어: 일본어\n4. 사용 목적: 도원암귀 게임 홍보\n5. 파일명: 도원암귀] 게임 소개\n6. 링크:  [https://docs.google.com/presentation/d/1FPksq7lROtmfl2Bst3NtqfbLy1z_kqT2tyYvdwVpJGU/edit?usp=drive_link](https://docs.google.com/presentation/d/1FPksq7lROtmfl2Bst3NtqfbLy1z_kqT2tyYvdwVpJGU/edit?usp=dr",
-    "asset_type": "기획안",
-    "purpose": "0702, 게임홍보",
-    "language": "일본어",
-    "memo": "",
-    "labels": [],
-    "feedbacks": [
-      "안녕하세요. 판권처로부터 첨부로 주신 이미지의 고화질 파일 공유 요청이 있었습니다.\n\n월요링까지 전달이 필요하다는 요청이 있었는데 확인 부탁드리겠습니다. (정해진 규격은 없으나 그냥 가지고 계신 파일 중에 가장 화질이 좋은 것을 주시면 좋을 것 같습니다.)",
-      "전달 주신 내용으로 제출하였습니다.",
-      "유선상으로 말씀드렸던 것과 같이 행사는 7/2에 abema의 특별 방송 같은 곳에서 일부 성우가 나온다는 것과 해당 영상의 촬영은 6/11에 진행하는 것으로 전달 받아서 공유 드립니다."
-    ],
-    "licensor_feedbacks": [
-      "안녕하세요. 판권처로부터 첨부로 주신 이미지의 고화질 파일 공유 요청이 있었습니다.\n\n월요링까지 전달이 필요하다는 요청이 있었는데 확인 부탁드리겠습니다. (정해진 규격은 없으나 그냥 가지고 계신 파일 중에 가장 화질이 좋은 것을 주시면 좋을 것 같습니다.)",
-      "전달 주신 내용으로 제출하였습니다.",
-      "유선상으로 말씀드렸던 것과 같이 행사는 7/2에 abema의 특별 방송 같은 곳에서 일부 성우가 나온다는 것과 해당 영상의 촬영은 6/11에 진행하는 것으로 전달 받아서 공유 드립니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-06-26T09:51:40.783Z",
-    "last_activity": "2026-06-26T09:51:47.677Z",
-    "ai_summary": {
-      "issue": "프로모션 행사 일정 및 내용 업데이트",
-      "detail": "7/2 Abema 특별 방송 성우 출연 및 6/11 영상 촬영 정보가 추가됨. 향후 홍보 계획에 반영 필요.",
-      "resolved": true,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-06-21T05:05:41.719470",
-      "needs_update": true,
-      "update_reason": "피드백 2→3건, 상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -11702,19 +11698,19 @@
     "subject": "#287[0630]술래잡기 웹이벤트 우편함 문구",
     "list": "컴투스 감수 요청",
     "status": "진행중",
-    "category": "텍스트",
+    "category": "기획안",
     "card_url": "https://trello.com/c/qRhoP2Vp",
-    "description": "",
-    "asset_type": "",
-    "purpose": "",
-    "language": "",
-    "memo": "",
+    "description": "내용/ 감수 항목:  술래잡기 웹이벤트 우편함 문구 다국어 (텍스트)\n사용 용도: 술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZw2ds](https:",
+    "asset_type": "술래잡기 웹이벤트 우편함 문구 다국어 (텍스트)\n사용 용도: 술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도",
+    "purpose": "술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구",
+    "language": "한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZ",
+    "memo": "타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZw2ds](https://trello.com/c/E7dZw2ds \"smart",
     "labels": [],
     "feedbacks": [],
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-06-25T05:54:29.009Z",
+    "last_activity": "2026-06-29T06:11:12.982Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -11736,7 +11732,7 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-06-29T03:25:08.686Z",
+    "last_activity": "2026-06-29T06:05:13.072Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
