@@ -170,12 +170,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 크기 및 키 일관성 필요",
-      "detail": "제출된 웹이벤트 소재 내 쿠이나와 로쿠로 캐릭터 이미지의 크기와 키가 일치하지 않아 조정이 필요합니다. 두 캐릭터의 비율을 동일하게 맞춰주세요.",
+      "issue": "캐릭터 이미지 크기 및 키 불일치",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰야 합니다. 현재 두 캐릭터 간의 비율이 일치하지 않아 수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-08T03:32:48.027382"
+      "updated_at": "2026-07-09T04:00:55.307256"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1021,7 +1021,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-07-08T03:32:57.952572"
+      "updated_at": "2026-07-08T03:32:57.952572",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2692,7 +2694,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-08T03:33:12.372610"
+      "updated_at": "2026-07-08T03:33:12.372610",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -7003,6 +7007,32 @@
     ],
     "latest_comment_date": "2025-10-29T10:05:54.308Z",
     "last_activity": "2025-11-05T00:58:31.356Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6a3a295c0131269ddf5bc76d",
+    "subject": "#286[0623] 바다의 날 기념 콘텐츠",
+    "list": "이슈 발생",
+    "status": "반려",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/HtzJeDvM",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 바다의 날 기념 콘텐츠 업로드**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드용",
+    "language": "일",
+    "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
+    "labels": [],
+    "feedbacks": [
+      "사업 검수가 중단된 상태이므로 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려울 것 같습니다."
+    ],
+    "licensor_feedbacks": [
+      "사업 검수가 중단된 상태이므로 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려울 것 같습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-07-08T09:50:07.996Z",
+    "last_activity": "2026-07-08T09:50:17.306Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
@@ -11829,28 +11859,6 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-07-07T06:54:18.265Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a3a295c0131269ddf5bc76d",
-    "subject": "#286[0623] 바다의 날 기념 콘텐츠",
-    "list": "지홀딩스 확인 중",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/HtzJeDvM",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 바다의 날 기념 콘텐츠 업로드**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "X 업로드용",
-    "language": "일",
-    "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-06-23T07:26:55.708Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
