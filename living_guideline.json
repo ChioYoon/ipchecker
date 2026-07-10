@@ -175,7 +175,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-09T04:00:55.307256"
+      "updated_at": "2026-07-09T04:00:55.307256",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -5115,35 +5117,6 @@
     "feedback_count": 2
   },
   {
-    "id": "6a4cadc2854d642a9c9cf201",
-    "subject": "[296][0707][0803][IR] 컴투스 8월 IR 자료",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "기타",
-    "card_url": "https://trello.com/c/wn9Nyovl",
-    "description": "1. 내용/ 감수 항목: 컴투스 8월 IR 자료\n2. 사용 용도: IR (투자자 공개)\n3. 언어: 한,영\n4. **사용 목적: 컴투스에서 8월 IR 자료 공개 예정입니다. 해당 자료 내 도원암귀 부분을 공유드립니다. 이 내용은 1분기 IR자료와 동일합니다**\n5. **사용 채널: 투자설명회, 컴투스 사이트**\n6. 코멘트: 지난 IR에서 변동사항 없습니다\n7. 파일명: [2026-06] Com2uS\\_IR Material\\_도원암귀_2Q26\n8. [컴투스 내부 감수 제출 현황 시트](https://docs.google.com/sp",
-    "asset_type": "컴투스 8월 IR 자료",
-    "purpose": "IR (투자자 공개)",
-    "language": "한,영",
-    "memo": "지난 IR에서 변동사항 없습니다",
-    "labels": [],
-    "feedbacks": [
-      "8/3~8/13으로 준비중입니다",
-      "IR자료 배포 시점이 언제이실까요?"
-    ],
-    "licensor_feedbacks": [
-      "IR자료 배포 시점이 언제이실까요?"
-    ],
-    "members": [
-      "최지혜B"
-    ],
-    "latest_comment_date": "2026-07-07T10:10:59.195Z",
-    "last_activity": "2026-07-07T10:11:09.767Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
     "id": "6a1d52014eb7fddc4bea180a",
     "subject": "#265[0602] 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
     "list": "지홀딩스 확인 중",
@@ -5233,6 +5206,35 @@
     ],
     "latest_comment_date": "2026-07-01T02:17:52.937Z",
     "last_activity": "2026-07-02T09:56:14.348Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a4cadc2854d642a9c9cf201",
+    "subject": "[296][0707][0803][IR] 컴투스 8월 IR 자료",
+    "list": "감수 진행 중",
+    "status": "진행중",
+    "category": "기타",
+    "card_url": "https://trello.com/c/wn9Nyovl",
+    "description": "1. 내용/ 감수 항목: 컴투스 8월 IR 자료\n2. 사용 용도: IR (투자자 공개)\n3. 언어: 한,영\n4. **사용 목적: 컴투스에서 8월 IR 자료 공개 예정입니다. 해당 자료 내 도원암귀 부분을 공유드립니다. 이 내용은 1분기 IR자료와 동일합니다**\n5. **사용 채널: 투자설명회, 컴투스 사이트**\n6. 코멘트: 지난 IR에서 변동사항 없습니다\n7. 파일명: [2026-06] Com2uS\\_IR Material\\_도원암귀_2Q26\n8. [컴투스 내부 감수 제출 현황 시트](https://docs.google.com/sp",
+    "asset_type": "컴투스 8월 IR 자료",
+    "purpose": "IR (투자자 공개)",
+    "language": "한,영",
+    "memo": "지난 IR에서 변동사항 없습니다",
+    "labels": [],
+    "feedbacks": [
+      "8/3~8/13으로 준비중입니다",
+      "IR자료 배포 시점이 언제이실까요?"
+    ],
+    "licensor_feedbacks": [
+      "IR자료 배포 시점이 언제이실까요?"
+    ],
+    "members": [
+      "최지혜B"
+    ],
+    "latest_comment_date": "2026-07-07T10:10:59.195Z",
+    "last_activity": "2026-07-09T07:34:21.584Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -7025,14 +7027,14 @@
     "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
     "labels": [],
     "feedbacks": [
-      "사업 검수가 중단된 상태이므로 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려울 것 같습니다."
+      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
     ],
     "licensor_feedbacks": [
-      "사업 검수가 중단된 상태이므로 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려울 것 같습니다."
+      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
     ],
     "members": [],
     "latest_comment_date": "2026-07-08T09:50:07.996Z",
-    "last_activity": "2026-07-08T09:50:17.306Z",
+    "last_activity": "2026-07-09T07:37:21.484Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
@@ -11859,6 +11861,28 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-07-07T06:54:18.265Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a505f72e409f44274172e97",
+    "subject": "[0710]보이스 마케팅 사용 관련",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "기타",
+    "card_url": "https://trello.com/c/tcUdSzn2",
+    "description": "수록 보이스 마케팅 사용 관련 건으로 카드 추가 하였습니다.\n\n[질문리스트](https://docs.google.com/spreadsheets/d/1VJnFqXKV-b3KAGVjpwMjTc19CgxwYlDq7JF1faZv_KA/edit?gid=1657608035#gid=1657608035&range=241:241 \"‌\")",
+    "asset_type": "",
+    "purpose": "",
+    "language": "",
+    "memo": "",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-10T02:58:23.271Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
