@@ -171,13 +171,11 @@
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
       "issue": "캐릭터 이미지 크기 및 키 불일치",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰야 합니다. 현재 두 캐릭터 간의 비율이 일치하지 않아 수정이 필요합니다.",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-09T04:00:55.307256",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-07-11T03:27:39.885258"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -339,7 +337,7 @@
   {
     "id": "6a30e02008e03d53183748d3",
     "subject": "#279[0616][UA] Tier1 사전예약 소재",
-    "list": "컴투스 감수 요청",
+    "list": "지홀딩스 확인 중",
     "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/VTLKWx70",
@@ -374,7 +372,7 @@
       "최종인"
     ],
     "latest_comment_date": "2026-07-07T07:31:56.800Z",
-    "last_activity": "2026-07-07T07:33:49.082Z",
+    "last_activity": "2026-07-10T08:07:34.764Z",
     "ai_summary": {
       "issue": "소재 누락 및 텍스트 수정 미반영, 성우 정보 사용 제한",
       "detail": "감수 드라이브에 배너 5종을 추가하고, 아이카와 렌 성우 정보는 공개 후 사용 가능합니다. 'あの戦いが今ここに蘇る。' 문장의 마침표를 제거하고, '目標のために死ぬな目標のために生き抜け' 텍스트 수정이 미반영되었으니 확인 후 수정 바랍니다.",
@@ -2691,14 +2689,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청했습니다.",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정 필요",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청했습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-08T03:33:12.372610",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-07-11T03:28:04.964361"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -11844,28 +11840,6 @@
     "feedback_count": 0
   },
   {
-    "id": "6a4ca0eaa7d258a17ecb1c41",
-    "subject": "#295[0707] 게임 인트로 영상 성우 보이스 활용 건",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/J1wvX1lM",
-    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 마케팅용 (SNS 업로드, 광고 집행 등)\n3. 언어: 일\n4. **사용 목적:**  마케팅용 (SNS 업로드, 광고 집행 등)\n5. **사용 채널: SNS 및 광고 매체**\n6. 코멘트: 인게임에 삽입될 인트로 세계관 영상을 마케팅 용도로 활용하고자 합니다. 영상 자체는 감수가 통과되었습니다만, 성우 보이스는 아직 납품되지 않은 상태입니다. 혹시 성우 보이스가 포함된 해당 영상을 편집하여 마케팅 용도로 활용해도 될지 문의드립니다.\n7. 파일명\n   1. **[도원암귀] 인게임 인트",
-    "asset_type": "기획안",
-    "purpose": "마케팅용 (SNS 업로드, 광고 집행 등)",
-    "language": "일",
-    "memo": "인게임에 삽입될 인트로 세계관 영상을 마케팅 용도로 활용하고자 합니다. 영상 자체는 감수가 통과되었습니다만, 성우 보이스는 아직 납품되지 않은 상태입니다. 혹시 성우 보이스가 포함된 해당 영상을 편집하여 마케팅 용도로 활용해도 될지 문의드립니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-07-07T06:54:18.265Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
     "id": "6a505f72e409f44274172e97",
     "subject": "[0710]보이스 마케팅 사용 관련",
     "list": "컴투스 감수 요청",
@@ -12037,6 +12011,28 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-07-07T09:58:19.740Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a4ca0eaa7d258a17ecb1c41",
+    "subject": "#295[0707] 게임 인트로 영상 성우 보이스 활용 건",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/J1wvX1lM",
+    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 마케팅용 (SNS 업로드, 광고 집행 등)\n3. 언어: 일\n4. **사용 목적:**  마케팅용 (SNS 업로드, 광고 집행 등)\n5. **사용 채널: SNS 및 광고 매체**\n6. 코멘트: 인게임에 삽입될 인트로 세계관 영상을 마케팅 용도로 활용하고자 합니다. 영상 자체는 감수가 통과되었습니다만, 성우 보이스는 아직 납품되지 않은 상태입니다. 혹시 성우 보이스가 포함된 해당 영상을 편집하여 마케팅 용도로 활용해도 될지 문의드립니다.\n7. 파일명\n   1. **[도원암귀] 인게임 인트",
+    "asset_type": "기획안",
+    "purpose": "마케팅용 (SNS 업로드, 광고 집행 등)",
+    "language": "일",
+    "memo": "인게임에 삽입될 인트로 세계관 영상을 마케팅 용도로 활용하고자 합니다. 영상 자체는 감수가 통과되었습니다만, 성우 보이스는 아직 납품되지 않은 상태입니다. 혹시 성우 보이스가 포함된 해당 영상을 편집하여 마케팅 용도로 활용해도 될지 문의드립니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-10T07:41:06.915Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
