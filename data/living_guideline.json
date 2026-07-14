@@ -170,12 +170,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 크기/키 통일 필요",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다. 시각적 일관성 확보를 위한 작업이 필요합니다.",
+      "issue": "캐릭터 이미지 크기 및 키 불일치",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다. 해당 부분에 대한 조정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-13T03:41:35.217908"
+      "updated_at": "2026-07-14T03:17:12.143222"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -372,7 +372,7 @@
       "최종인"
     ],
     "latest_comment_date": "2026-07-07T07:31:56.800Z",
-    "last_activity": "2026-07-10T08:07:34.764Z",
+    "last_activity": "2026-07-14T02:58:48.527Z",
     "ai_summary": {
       "issue": "소재 누락 및 특정 정보 사용 제한",
       "detail": "특정 영상 소재(VID | P-IP-FandomFantasy01-UA)는 제외해야 합니다. 배너 이미지 전체를 드라이브에 업로드하고 A/B 패턴 배너의 용도를 명확히 해주세요. 아이카와 렌 성우 정보는 공개 이후에만 사용 가능합니다.",
@@ -1014,12 +1014,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "마케팅 소재 내 텍스트 수정 필요",
-      "detail": "사전 예약 메타데이터 스크린샷 및 관련 이미지(무다노, 1번, 3번, 4번) 내 일본어 문구에 대한 수정 요청이 있습니다. 기존 문구를 판권사가 제시한 내용으로 변경해야 합니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정 필요",
+      "detail": "무다노 이미지 및 1, 3, 4번 스크린샷 이미지 내 문구 변경 요청이 있습니다. 기존 문구를 판권사가 제시한 새로운 문구로 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-07-13T03:41:40.048881"
+      "updated_at": "2026-07-14T03:17:16.585841"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2686,11 +2686,11 @@
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
       "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청합니다.",
+      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 해당 문구를 수정하여 재확인 요청드립니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-13T03:41:53.250096"
+      "updated_at": "2026-07-14T03:17:34.301350"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3128,7 +3128,7 @@
       "최종인"
     ],
     "latest_comment_date": "2026-06-25T00:20:57.699Z",
-    "last_activity": "2026-07-02T10:09:30.890Z",
+    "last_activity": "2026-07-14T03:14:55.757Z",
     "ai_summary": {
       "issue": "배너 이미지 누락 및 캐릭터 정보 오류",
       "detail": "배너 7종 이미지 파일 제출이 필요합니다. 츠쿠요미 캐릭터는 스킬 이미지 확정 후 재제출해야 하며, 뵤부가우라의 한자 표기 오류를 수정해야 합니다.",
@@ -4484,14 +4484,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "일정 관련 소재 제출 시기 부적절",
-      "detail": "프리미엄 사전 테스트 일정 관련 내용이 판권사 검토 중이므로, 일정이 확정된 후 다음 검수물로 제출해야 합니다. 현재 수정안은 판권사 납득이 어렵습니다.",
+      "issue": "프리미엄 사전 테스트 일정 미확정으로 인한 광고 소재 제출 보류",
+      "detail": "프리미엄 사전 테스트 일정 관련 내용이 아직 판권사 검토 중이므로, 해당 일정이 확정된 후에 수정된 광고 소재를 재제출해야 합니다. 현재 수정 내용을 제출하면 판권사가 삭제 이유를 납득하기 어렵습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-06-25T04:15:03.190188",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-07-14T03:17:38.704009"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5143,6 +5141,42 @@
     "feedback_count": 2
   },
   {
+    "id": "6a435adaf2259e43f4875cee",
+    "subject": "#290[0630] 마블,미션,출석, 술래잡기 웹이벤트 프리팹 이미지 (배경이미지/ 탭이미지)",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "배너",
+    "card_url": "https://trello.com/c/TyMgdkpw",
+    "description": "내용/ 감수 항목:  마블,미션,출석, 술래잡기 웹이벤트 프리팹 이미지 (배경이미지 10종/ 탭이미지 10종)\n사용 용도: 각 웹이벤트 진행 시, 인게임내 이벤트탭에 노출될 이미지입니다\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n웹이벤트 디자인시안과 비슷한 무드로 제작진행 한점 참고 부탁드립니다.\n\n첨부된 파일 안 Guide처럼 표기될 예정이니 참고 부탁드립니다.\n\n참고 트렐로:\n\n\\#239[0512] 술래잡기 컨셉 웹이벤트 디자인 및 배너\n[https://trello.com/c/YqKmUo1",
+    "asset_type": "마블,미션,출석, 술래잡기 웹이벤트 프리팹 이미지 (배경이미지 10종/ 탭이미지 10종)\n사용 용도: 각 웹이벤트 진행 시, 인게임내 이벤트탭에 노출될 이미지입니다\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n웹이벤트 디자인시안과 비슷한 무드로 제작진행 한점 참고 부탁드립니다.\n\n첨부된 파일 안 Guide처럼 표기될 예",
+    "purpose": "각 웹이벤트 진행 시, 인게임내 이벤트탭에 노출될 이미지입니다",
+    "language": "한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n웹이벤트 디자인시안과 비슷한 무드로 제작진행 한점 참고 부탁드립니다.\n\n첨부된 파일 안 Guide처럼 표기될 예정이니 참고 부탁드립니다.\n\n참고 트렐로:\n\n\\#239[0512] 술래잡기 컨셉 웹이벤트 디자인 및 배너\n[https://trello.com/c/YqKmUo1F](https",
+    "memo": "웹이벤트 디자인시안과 비슷한 무드로 제작진행 한점 참고 부탁드립니다.\n\n첨부된 파일 안 Guide처럼 표기될 예정이니 참고 부탁드립니다.\n\n참고 트렐로:\n\n\\#239[0512] 술래잡기 컨셉 웹이벤트 디자인 및 배너\n[https://trello.com/c/YqKmUo1F](https://trello.com/c/YqKmUo1F \"smartCard-inline",
+    "labels": [],
+    "feedbacks": [
+      "@gholdings2 넵 업로드완료했습니다",
+      "안녕하세요. 아직 검수물이 안올라온 것 같은데 검수물 업로드 후에 검수 요청으로 옮겨주시기 바랍니다."
+    ],
+    "licensor_feedbacks": [
+      "안녕하세요. 아직 검수물이 안올라온 것 같은데 검수물 업로드 후에 검수 요청으로 옮겨주시기 바랍니다."
+    ],
+    "members": [
+      "chaewonl"
+    ],
+    "latest_comment_date": "2026-07-01T02:17:52.937Z",
+    "last_activity": "2026-07-14T03:08:33.112Z",
+    "ai_summary": {
+      "issue": "검수물 미업로드로 검수 진행 불가",
+      "detail": "판권사가 검수물 업로드 여부를 확인 요청했습니다. 현재 검수물이 첨부되지 않아 검수 진행이 불가능한 상태입니다. 검수물 업로드 후 재요청 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-07-14T03:17:41.897184"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
     "id": "6a4364e7b0a54c840ab909c2",
     "subject": "#291[0630] 웹이벤트 인게임 이벤트탭 템플릿 문구",
     "list": "지홀딩스 확인 중",
@@ -5179,35 +5213,6 @@
     "feedback_count": 2
   },
   {
-    "id": "6a435adaf2259e43f4875cee",
-    "subject": "#290[0630] 마블,미션,출석, 술래잡기 웹이벤트 프리팹 이미지 (배경이미지/ 탭이미지)",
-    "list": "지홀딩스 확인 중",
-    "status": "진행중",
-    "category": "배너",
-    "card_url": "https://trello.com/c/TyMgdkpw",
-    "description": "내용/ 감수 항목:  마블,미션,출석, 술래잡기 웹이벤트 프리팹 이미지 (배경이미지 10종/ 탭이미지 10종)\n사용 용도: 각 웹이벤트 진행 시, 인게임내 이벤트탭에 노출될 이미지입니다\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n웹이벤트 디자인시안과 비슷한 무드로 제작진행 한점 참고 부탁드립니다.\n\n첨부된 파일 안 Guide처럼 표기될 예정이니 참고 부탁드립니다.\n\n참고 트렐로:\n\n\\#239[0512] 술래잡기 컨셉 웹이벤트 디자인 및 배너\n[https://trello.com/c/YqKmUo1",
-    "asset_type": "마블,미션,출석, 술래잡기 웹이벤트 프리팹 이미지 (배경이미지 10종/ 탭이미지 10종)\n사용 용도: 각 웹이벤트 진행 시, 인게임내 이벤트탭에 노출될 이미지입니다\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n웹이벤트 디자인시안과 비슷한 무드로 제작진행 한점 참고 부탁드립니다.\n\n첨부된 파일 안 Guide처럼 표기될 예",
-    "purpose": "각 웹이벤트 진행 시, 인게임내 이벤트탭에 노출될 이미지입니다",
-    "language": "한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n웹이벤트 디자인시안과 비슷한 무드로 제작진행 한점 참고 부탁드립니다.\n\n첨부된 파일 안 Guide처럼 표기될 예정이니 참고 부탁드립니다.\n\n참고 트렐로:\n\n\\#239[0512] 술래잡기 컨셉 웹이벤트 디자인 및 배너\n[https://trello.com/c/YqKmUo1F](https",
-    "memo": "웹이벤트 디자인시안과 비슷한 무드로 제작진행 한점 참고 부탁드립니다.\n\n첨부된 파일 안 Guide처럼 표기될 예정이니 참고 부탁드립니다.\n\n참고 트렐로:\n\n\\#239[0512] 술래잡기 컨셉 웹이벤트 디자인 및 배너\n[https://trello.com/c/YqKmUo1F](https://trello.com/c/YqKmUo1F \"smartCard-inline",
-    "labels": [],
-    "feedbacks": [
-      "@gholdings2 넵 업로드완료했습니다",
-      "안녕하세요. 아직 검수물이 안올라온 것 같은데 검수물 업로드 후에 검수 요청으로 옮겨주시기 바랍니다."
-    ],
-    "licensor_feedbacks": [
-      "안녕하세요. 아직 검수물이 안올라온 것 같은데 검수물 업로드 후에 검수 요청으로 옮겨주시기 바랍니다."
-    ],
-    "members": [
-      "chaewonl"
-    ],
-    "latest_comment_date": "2026-07-01T02:17:52.937Z",
-    "last_activity": "2026-07-02T09:56:14.348Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
     "id": "6a4cadc2854d642a9c9cf201",
     "subject": "[296][0707][0803][IR] 컴투스 8월 IR 자료",
     "list": "감수 진행 중",
@@ -5232,7 +5237,14 @@
     ],
     "latest_comment_date": "2026-07-07T10:10:59.195Z",
     "last_activity": "2026-07-09T07:34:21.584Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "IR 자료 배포 시점 확인 요청",
+      "detail": "판권사에서 IR 자료의 정확한 배포 시점을 문의했습니다. 해당 정보는 판권사의 내부 계획 및 조율에 중요하므로, 정확한 배포 일정을 확인하여 전달해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-07-14T03:17:44.834902"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -6734,6 +6746,32 @@
     "feedback_count": 1
   },
   {
+    "id": "6a3a295c0131269ddf5bc76d",
+    "subject": "#286[0623] 바다의 날 기념 콘텐츠",
+    "list": "폐기",
+    "status": "반려",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/HtzJeDvM",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 바다의 날 기념 콘텐츠 업로드**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드용",
+    "language": "일",
+    "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
+    "labels": [],
+    "feedbacks": [
+      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
+    ],
+    "licensor_feedbacks": [
+      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-07-08T09:50:07.996Z",
+    "last_activity": "2026-07-13T06:26:28.003Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
     "id": "6a34bda96e6ccdb310d962d3",
     "subject": "#281[0623] 홍콩애니메이션 행사 기획안",
     "list": "폐기",
@@ -7006,32 +7044,6 @@
     ],
     "latest_comment_date": "2025-10-29T10:05:54.308Z",
     "last_activity": "2025-11-05T00:58:31.356Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
-    "id": "6a3a295c0131269ddf5bc76d",
-    "subject": "#286[0623] 바다의 날 기념 콘텐츠",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/HtzJeDvM",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 바다의 날 기념 콘텐츠 업로드**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "X 업로드용",
-    "language": "일",
-    "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
-    "labels": [],
-    "feedbacks": [
-      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
-    ],
-    "licensor_feedbacks": [
-      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-07-08T09:50:07.996Z",
-    "last_activity": "2026-07-09T07:37:21.484Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
@@ -11549,6 +11561,32 @@
     "feedback_count": 1
   },
   {
+    "id": "6a4c5270648ff1944484be4c",
+    "subject": "#294[0707] 운세 테스트 콘텐츠",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/2DnIGssf",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드\n3. 언어: 일\n4. **사용 목적: X 업로드**\n5. **사용 채널: X**\n6. 코멘트: 08/04 운세 콘텐츠 01 업로드, 08/06 운세 콘텐츠 02 업로드 하고자 합니다.\n7. 파일명\n   1. 운세 콘텐츠 01\n   2. 운세 콘텐츠 02\n   3. [도원암귀]  운세 콘텐츠 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드",
+    "language": "일",
+    "memo": "08/04 운세 콘텐츠 01 업로드, 08/06 운세 콘텐츠 02 업로드 하고자 합니다.",
+    "labels": [],
+    "feedbacks": [
+      "(07/13) 업로드 날짜 수정하여 다시 감수 제출합니다."
+    ],
+    "licensor_feedbacks": [],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-07-13T06:41:05.674Z",
+    "last_activity": "2026-07-14T02:53:02.117Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 1
+  },
+  {
     "id": "6a41e59488106de5ab94d2ce",
     "subject": "#288[0630]공용배너 및 템플릿 공지 다국어",
     "list": "지홀딩스 확인 중",
@@ -11863,23 +11901,89 @@
     "feedback_count": 0
   },
   {
-    "id": "6a3cc28bf1268f8df1e60e6c",
-    "subject": "#287[0630]술래잡기 웹이벤트 우편함 문구",
-    "list": "지홀딩스 확인 중",
+    "id": "6a5480f1a2c6b5e6819d3b8a",
+    "subject": "#297[0714] 시키 성우 사전예약 축전 영상",
+    "list": "컴투스 감수 요청",
     "status": "진행중",
-    "category": "기획안",
-    "card_url": "https://trello.com/c/qRhoP2Vp",
-    "description": "내용/ 감수 항목:  술래잡기 웹이벤트 우편함 문구 다국어 (텍스트)\n사용 용도: 술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZw2ds](https:",
-    "asset_type": "술래잡기 웹이벤트 우편함 문구 다국어 (텍스트)\n사용 용도: 술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도",
-    "purpose": "술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구",
-    "language": "한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZ",
-    "memo": "타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZw2ds](https://trello.com/c/E7dZw2ds \"smart",
+    "category": "영상",
+    "card_url": "https://trello.com/c/ne27n9QM",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: X, YT, 틱톡 업로드\n3. 언어: 일\n4. **사용 목적: SNS 채널 업로드를 통한 사전예약 홍보**\n5. **사용 채널: X, YT, 틱톡**\n6. 코멘트:\n7. 파일명\n   1. 성우 축전영상\\_사전예약\\_시키_썸네일.png\n   2. 성우 축전영상\\_사전예약\\_시키.mp4",
+    "asset_type": "영상",
+    "purpose": "X, YT, 틱톡 업로드",
+    "language": "일",
+    "memo": "7. 파일명\n   1. 성우 축전영상\\_사전예약\\_시키_썸네일.png\n   2. 성우 축전영상\\_사전예약\\_시키.mp4",
     "labels": [],
     "feedbacks": [],
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-07-02T09:08:57.744Z",
+    "last_activity": "2026-07-13T06:52:43.753Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a558753f3c9cfdb029a3f19",
+    "subject": "#298[0714] 룰렛/환급/BM 웹이벤트 배너 다국어 대응",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "배너",
+    "card_url": "https://trello.com/c/jz1DfpEb",
+    "description": "내용/ 감수 항목:  룰렛/환급/BM 웹이벤트 배너의 다국어 대응\n사용 용도: 웹이벤트 진행 시 사용 예정\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n\n코멘트: 글로벌 론칭 이후 사용될 웹이벤트 감수 요청드립니다.\n\n기존에 감수 완료된 웹이벤트 건에서 언어만 추가 되었습니다.\n추가된 언어: 영, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n감수 완료 트렐로 넘버: #148, #175, #203, #228\n[https://trello.com/c/EmNVqrXX/231-1480209-%EC%9B%B9",
+    "asset_type": "룰렛/환급/BM 웹이벤트 배너의 다국어 대응\n사용 용도: 웹이벤트 진행 시 사용 예정\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n\n코멘트: 글로벌 론칭 이후 사용될 웹이벤트 감수 요청드립니다.\n\n기존에 감수 완료된 웹이벤트 건에서 언어만 추가 되었습니다.\n추가된 언어: 영, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n감",
+    "purpose": "웹이벤트 진행 시 사용 예정",
+    "language": "한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n\n코멘트: 글로벌 론칭 이후 사용될 웹이벤트 감수 요청드립니다.\n\n기존에 감수 완료된 웹이벤트 건에서 언어만 추가 되었습니다.\n추가된 언어: 영, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n감수 완료 트렐로 넘버: #148, #175, #203, #228\n[https://trello.",
+    "memo": "글로벌 론칭 이후 사용될 웹이벤트 감수 요청드립니다.\n\n기존에 감수 완료된 웹이벤트 건에서 언어만 추가 되었습니다.\n추가된 언어: 영, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n감수 완료 트렐로 넘버: #148, #175, #203, #228\n[https://trello.com/c/EmNVqrXX/231-1480209-%EC%9B%B9%EC%9D%",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-14T02:43:26.302Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a34a0616891f268f91b7cc0",
+    "subject": "[#280][0623] SNS 팔로우 유도 이벤트",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/8usvAWRD",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드\n3. 언어: 일\n4. **사용 목적: X RT 이벤트**\n5. **사용 채널: X**\n6. 코멘트: 08/10 이벤트 게시글 업로드, 08/17이벤트 참여 독려하기 위해, 인용 RT로 참여 독려 포스팅 업로드하고자 합니다.\n7. 파일명\n   1. SNS\\_팔로우\\_유도_이벤트.png\n   2. SNS 팔로우 유도 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드",
+    "language": "일",
+    "memo": "08/10 이벤트 게시글 업로드, 08/17이벤트 참여 독려하기 위해, 인용 RT로 참여 독려 포스팅 업로드하고자 합니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-14T02:53:18.664Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a4b772370655e91debe2d0b",
+    "subject": "#293[0707] 시키 호마레 배경화면",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/AV0owwsQ",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: x, yt 게시물 업로드용\n3. 언어: 일\n4. **사용 목적: sns 배포**\n5. **사용 채널:** x, yt\n6. 코멘트:\n7. 파일명\n   1. pc\n   2. ta\n   3. wa1\n   4. wa2\n   5. mo\n   6. [도원암귀] 시키 호마레 일러스트 배경화면 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "x, yt 게시물 업로드용",
+    "language": "일",
+    "memo": "7. 파일명\n   1. pc\n   2. ta\n   3. wa1\n   4. wa2\n   5. mo\n   6. [도원암귀] 시키 호마레 일러스트 배경화면 디스크립션",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-14T02:53:34.095Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -11901,7 +12005,29 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-07-02T09:47:11.475Z",
+    "last_activity": "2026-07-14T03:07:17.050Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a3cc28bf1268f8df1e60e6c",
+    "subject": "#287[0630]술래잡기 웹이벤트 우편함 문구",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "기획안",
+    "card_url": "https://trello.com/c/qRhoP2Vp",
+    "description": "내용/ 감수 항목:  술래잡기 웹이벤트 우편함 문구 다국어 (텍스트)\n사용 용도: 술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZw2ds](https:",
+    "asset_type": "술래잡기 웹이벤트 우편함 문구 다국어 (텍스트)\n사용 용도: 술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도",
+    "purpose": "술래잡기 웹이벤트 진행 시, 유저에게 보상 발송할때 쓸 우편함 문구",
+    "language": "한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트: 타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZ",
+    "memo": "타 웹이벤트 (출석, 미션, 마블, 룰렛, 환급, BM)우편함 문구는 감수완료 되었으나, 술래잡기 웹이벤트 제작이 가장 늦게 진행되어 우편함 문구도 따로 감수요청드립니다.\n\n**참고 트렐로:** #215[0324] 푸시 및 우편함 문구\n[https://trello.com/c/E7dZw2ds](https://trello.com/c/E7dZw2ds \"smart",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-02T09:08:57.744Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -11946,72 +12072,6 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-07-07T11:42:34.461Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a34a0616891f268f91b7cc0",
-    "subject": "[#280][0623] SNS 팔로우 유도 이벤트",
-    "list": "지홀딩스 확인 중",
-    "status": "진행중",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/8usvAWRD",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드\n3. 언어: 일\n4. **사용 목적: X RT 이벤트**\n5. **사용 채널: X**\n6. 코멘트: 08/10 이벤트 게시글 업로드, 08/17이벤트 참여 독려하기 위해, 인용 RT로 참여 독려 포스팅 업로드하고자 합니다.\n7. 파일명\n   1. SNS\\_팔로우\\_유도_이벤트.png\n   2. SNS 팔로우 유도 디스크립션",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "X 업로드",
-    "language": "일",
-    "memo": "08/10 이벤트 게시글 업로드, 08/17이벤트 참여 독려하기 위해, 인용 RT로 참여 독려 포스팅 업로드하고자 합니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-07-07T05:05:52.343Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a4c5270648ff1944484be4c",
-    "subject": "#294[0707] 운세 테스트 콘텐츠",
-    "list": "지홀딩스 확인 중",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/2DnIGssf",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드\n3. 언어: 일\n4. **사용 목적: X 업로드**\n5. **사용 채널: X**\n6. 코멘트: 07/27 운세 콘텐츠 01 업로드, 07/29 운세 콘텐츠 02 업로드 하고자 합니다.\n7. 파일명\n   1. 운세 콘텐츠 01\n   2. 운세 콘텐츠 02\n   3. [도원암귀]  운세 콘텐츠 디스크립션",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "X 업로드",
-    "language": "일",
-    "memo": "07/27 운세 콘텐츠 01 업로드, 07/29 운세 콘텐츠 02 업로드 하고자 합니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-07-07T02:12:45.426Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a4b772370655e91debe2d0b",
-    "subject": "#293[0707] 시키 호마레 장마 배경화면",
-    "list": "지홀딩스 확인 중",
-    "status": "진행중",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/AV0owwsQ",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: x, yt 게시물 업로드용\n3. 언어: 일\n4. **사용 목적: sns 배포**\n5. **사용 채널:** x, yt\n6. 코멘트:\n7. 파일명\n   1. pc\n   2. ta\n   3. wa1\n   4. wa2\n   5. mo\n   6. [도원암귀] 시키 호마레 장마 일러스트 배경화면 디스크립션",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "x, yt 게시물 업로드용",
-    "language": "일",
-    "memo": "7. 파일명\n   1. pc\n   2. ta\n   3. wa1\n   4. wa2\n   5. mo\n   6. [도원암귀] 시키 호마레 장마 일러스트 배경화면 디스크립션",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-07-07T09:58:19.740Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
