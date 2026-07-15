@@ -171,11 +171,11 @@
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
       "issue": "캐릭터 이미지 크기 및 키 불일치",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다. 해당 부분에 대한 조정이 필요합니다.",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 조정해야 합니다. 현재 두 캐릭터 간의 비율이 일치하지 않아 수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-14T03:17:12.143222"
+      "updated_at": "2026-07-15T03:16:28.854048"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1014,12 +1014,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정 필요",
-      "detail": "무다노 이미지 및 1, 3, 4번 스크린샷 이미지 내 문구 변경 요청이 있습니다. 기존 문구를 판권사가 제시한 새로운 문구로 수정해야 합니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
+      "detail": "무다노 이미지, 1번, 3번, 4번 스크린샷 내 문구 변경 요청이 있습니다. 특히 4번 이미지는 기존 문구 삭제 또는 전면 수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-07-14T03:17:16.585841"
+      "updated_at": "2026-07-15T03:16:33.611445"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2686,11 +2686,11 @@
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
       "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 해당 문구를 수정하여 재확인 요청드립니다.",
+      "detail": "X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 삭제 또는 수정이 필요합니다. 오늘 17시까지 수정 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-14T03:17:34.301350"
+      "updated_at": "2026-07-15T03:16:48.669877"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4484,12 +4484,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "프리미엄 사전 테스트 일정 미확정으로 인한 광고 소재 제출 보류",
-      "detail": "프리미엄 사전 테스트 일정 관련 내용이 아직 판권사 검토 중이므로, 해당 일정이 확정된 후에 수정된 광고 소재를 재제출해야 합니다. 현재 수정 내용을 제출하면 판권사가 삭제 이유를 납득하기 어렵습니다.",
+      "issue": "일정 관련 내용 사전 조율 및 확정 필요",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정은 판권사 내부 검토 후 확정 예정입니다. 일정 확정 전 해당 내용 삭제는 판권사 납득 불가하므로, 일정 정리 후 다음 검수물로 제출 요망됩니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-07-14T03:17:38.704009"
+      "updated_at": "2026-07-15T03:16:52.318101"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -11607,7 +11607,7 @@
       "chaewonl"
     ],
     "latest_comment_date": "2026-06-30T09:04:14.457Z",
-    "last_activity": "2026-07-07T01:41:43.893Z",
+    "last_activity": "2026-07-14T03:20:22.111Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 1
@@ -11939,7 +11939,51 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-07-14T02:43:26.302Z",
+    "last_activity": "2026-07-14T04:41:54.819Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a55b570f499097d2f333972",
+    "subject": "#300[0714] X 팔로워 4만 달성 축하 프로필 이미지 디스크립션",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/438DnRsj",
+    "description": "1. 내용/ 감수 항목: 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 팔로워 4만 달성 축하 이미지**\n5. **사용 채널: X**\n6. 코멘트:\n   1. 기존 3만 축하 디스크립션에서 숫자만 4만으로 바꿨습니다.\n   2. 감수 완료된 [로쿠로&쿠이나 프로필 이미지](https://trello.com/c/FO6k3jm7 \"‌\")를 배포하고자 합니다.\n   3. 배포 일정: X 팔로워 4만 달성 이후 업로드할 예정입니다.\n7. 파일명\n   1. [도원암귀] X 팔로워 3만명 달성 기념 프로필 아이",
+    "asset_type": "디스크립션",
+    "purpose": "X 업로드용",
+    "language": "일",
+    "memo": "1. 기존 3만 축하 디스크립션에서 숫자만 4만으로 바꿨습니다.\n   2. 감수 완료된 [로쿠로&쿠이나 프로필 이미지](https://trello.com/c/FO6k3jm7 \"‌\")를 배포하고자 합니다.\n   3. 배포 일정: X 팔로워 4만 달성 이후 업로드할 예정입니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-14T04:08:48.272Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a55bb28a126925e43bacf44",
+    "subject": "#299[0714] 룰렛/환급/BM 웹이벤트 인게임 프리팹 배경 및 배너",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "배너",
+    "card_url": "https://trello.com/c/GA8DkjOP",
+    "description": "내용/ 감수 항목:  룰렛/환급/BM 웹이벤트 프리팹 이미지 (배경이미지 9종/ 배너이미지 9종)\n사용 용도: 각 웹이벤트 진행 시, 인게임 내 이벤트 탭에 노출될 이미지입니다\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n감수 통과 된 웹이벤트 시안과 비슷한 분위기로 제작하였습니다.\n실제 인게임 반영에 대한 예시는 첨부파일 내 guide 폴더에서 확인할 수 있습니다.\n\n‌\n\n감수 완료 트렐로 넘버: #148, #175, #203, #228\n[https://trello.com/c/EmNVqrXX/",
+    "asset_type": "룰렛/환급/BM 웹이벤트 프리팹 이미지 (배경이미지 9종/ 배너이미지 9종)\n사용 용도: 각 웹이벤트 진행 시, 인게임 내 이벤트 탭에 노출될 이미지입니다\n언어: 한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n감수 통과 된 웹이벤트 시안과 비슷한 분위기로 제작하였습니다.\n실제 인게임 반영에 대한 예시는 첨부파일 내 guide 폴",
+    "purpose": "각 웹이벤트 진행 시, 인게임 내 이벤트 탭에 노출될 이미지입니다",
+    "language": "한, 영, 일, 중간, 중번, 독, 불, 이, 스, 포, 인, 태\n코멘트:\n감수 통과 된 웹이벤트 시안과 비슷한 분위기로 제작하였습니다.\n실제 인게임 반영에 대한 예시는 첨부파일 내 guide 폴더에서 확인할 수 있습니다.\n\n‌\n\n감수 완료 트렐로 넘버: #148, #175, #203, #228\n[https://trello.com/c/EmNVqrXX/231",
+    "memo": "감수 통과 된 웹이벤트 시안과 비슷한 분위기로 제작하였습니다.\n실제 인게임 반영에 대한 예시는 첨부파일 내 guide 폴더에서 확인할 수 있습니다.\n\n‌\n\n감수 완료 트렐로 넘버: #148, #175, #203, #228\n[https://trello.com/c/EmNVqrXX/231-1480209-%EC%9B%B9%EC%9D%B4%EB%B2%A4%ED%8A",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-14T04:39:56.204Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
