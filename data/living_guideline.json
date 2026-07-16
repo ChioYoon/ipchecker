@@ -171,11 +171,11 @@
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
       "issue": "캐릭터 이미지 크기 및 키 불일치",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 조정해야 합니다. 현재 두 캐릭터 간의 비율이 일치하지 않아 수정이 필요합니다.",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 요청이 있었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-15T03:16:28.854048"
+      "updated_at": "2026-07-16T03:22:57.419303"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1015,11 +1015,11 @@
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
       "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
-      "detail": "무다노 이미지, 1번, 3번, 4번 스크린샷 내 문구 변경 요청이 있습니다. 특히 4번 이미지는 기존 문구 삭제 또는 전면 수정이 필요합니다.",
+      "detail": "무다노 이미지, 1번, 3번, 4번 이미지 내 문구에 대한 구체적인 텍스트 수정 요청이 있습니다. 기존 문구를 변경된 내용으로 업데이트해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-07-15T03:16:33.611445"
+      "updated_at": "2026-07-16T03:23:00.907848"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2685,12 +2685,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 수정 필요",
-      "detail": "X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 삭제 또는 수정이 필요합니다. 오늘 17시까지 수정 요청되었습니다.",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 금일 17시까지 수정 완료를 요청받았습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-15T03:16:48.669877"
+      "updated_at": "2026-07-16T03:23:14.747282"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4484,12 +4484,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "일정 관련 내용 사전 조율 및 확정 필요",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정은 판권사 내부 검토 후 확정 예정입니다. 일정 확정 전 해당 내용 삭제는 판권사 납득 불가하므로, 일정 정리 후 다음 검수물로 제출 요망됩니다.",
+      "issue": "일정 관련 소재 제출 시기 부적절",
+      "detail": "프리미엄 사전 테스트 일정 관련 내용이 판권사 검토 중입니다. 일정이 확정된 후 해당 내용을 반영하여 재제출해야 합니다. 현재 수정안은 판권사 납득이 어렵습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-07-15T03:16:52.318101"
+      "updated_at": "2026-07-16T03:23:18.883365"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5100,6 +5100,35 @@
     ],
     "latest_comment_date": "2025-10-28T03:58:31.230Z",
     "last_activity": "2025-11-05T00:58:07.896Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a3a295c0131269ddf5bc76d",
+    "subject": "#286[0623] 바다 콘텐츠",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/HtzJeDvM",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 바다의 날 기념 콘텐츠 업로드**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드용",
+    "language": "일",
+    "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
+    "labels": [],
+    "feedbacks": [
+      "(07/16) 바다의 날 기념 콘텐츠 → 바다 콘텐츠로 변경하여 감수 재제출합니다.\n\\- 0716 수정_바다 콘텐츠 이미지.png\n\\- [도원암귀] X 바다 콘텐츠 디스크립션",
+      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
+    ],
+    "licensor_feedbacks": [
+      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-07-16T02:47:23.203Z",
+    "last_activity": "2026-07-16T02:47:45.949Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -6742,32 +6771,6 @@
       "model": "manual-ai",
       "updated_at": "2026-06-02T12:42:51.841033"
     },
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
-    "id": "6a3a295c0131269ddf5bc76d",
-    "subject": "#286[0623] 바다의 날 기념 콘텐츠",
-    "list": "폐기",
-    "status": "반려",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/HtzJeDvM",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 바다의 날 기념 콘텐츠 업로드**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "X 업로드용",
-    "language": "일",
-    "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
-    "labels": [],
-    "feedbacks": [
-      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
-    ],
-    "licensor_feedbacks": [
-      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-07-08T09:50:07.996Z",
-    "last_activity": "2026-07-13T06:26:28.003Z",
-    "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -11535,6 +11538,32 @@
     "feedback_count": 1
   },
   {
+    "id": "6a34a0616891f268f91b7cc0",
+    "subject": "[#280][0623] SNS 팔로우 유도 이벤트",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/8usvAWRD",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드\n3. 언어: 일\n4. **사용 목적: X RT 이벤트**\n5. **사용 채널: X**\n6. 코멘트: 08/10 이벤트 게시글 업로드, 08/18이벤트 참여 독려하기 위해, 인용 RT로 참여 독려 포스팅 업로드하고자 합니다.\n7. 파일명\n   1. SNS\\_팔로우\\_유도_이벤트.png\n   2. SNS 팔로우 유도 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드",
+    "language": "일",
+    "memo": "08/10 이벤트 게시글 업로드, 08/18이벤트 참여 독려하기 위해, 인용 RT로 참여 독려 포스팅 업로드하고자 합니다.",
+    "labels": [],
+    "feedbacks": [
+      "(07/16) 인용 rt 업로드 날짜 변경하여 재감수 제출합니다.\n\\- 08/17(대체휴일) → 08/18"
+    ],
+    "licensor_feedbacks": [],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-07-16T01:19:07.434Z",
+    "last_activity": "2026-07-16T01:19:07.467Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 1
+  },
+  {
     "id": "6a39d86f092557f2b4e8ef4c",
     "subject": "#284[0623] 시키 캐릭터 PV 틱톡 베리건",
     "list": "지홀딩스 확인 중",
@@ -11917,7 +11946,7 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-07-13T06:52:43.753Z",
+    "last_activity": "2026-07-15T04:31:57.352Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -11984,28 +12013,6 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-07-14T04:39:56.204Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a34a0616891f268f91b7cc0",
-    "subject": "[#280][0623] SNS 팔로우 유도 이벤트",
-    "list": "지홀딩스 확인 중",
-    "status": "진행중",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/8usvAWRD",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드\n3. 언어: 일\n4. **사용 목적: X RT 이벤트**\n5. **사용 채널: X**\n6. 코멘트: 08/10 이벤트 게시글 업로드, 08/17이벤트 참여 독려하기 위해, 인용 RT로 참여 독려 포스팅 업로드하고자 합니다.\n7. 파일명\n   1. SNS\\_팔로우\\_유도_이벤트.png\n   2. SNS 팔로우 유도 디스크립션",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "X 업로드",
-    "language": "일",
-    "memo": "08/10 이벤트 게시글 업로드, 08/17이벤트 참여 독려하기 위해, 인용 RT로 참여 독려 포스팅 업로드하고자 합니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-07-14T02:53:18.664Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
