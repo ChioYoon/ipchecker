@@ -170,12 +170,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 크기 및 키 불일치",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 요청이 있었습니다. 현재 일부 이미지에서 캐릭터 간 비율이 일치하지 않는 것으로 보입니다.",
+      "issue": "캐릭터 이미지 크기/키 불일치",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-17T03:26:43.822878"
+      "updated_at": "2026-07-18T03:15:08.331924"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1019,7 +1019,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-07-17T03:26:48.561705"
+      "updated_at": "2026-07-17T03:26:48.561705",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2686,11 +2688,11 @@
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
       "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 요구됩니다. 오늘 17시까지 수정 완료를 요청했습니다.",
+      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청드립니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-17T03:27:02.237043"
+      "updated_at": "2026-07-18T03:15:27.371119"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4484,12 +4486,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "일정 관련 내용 수정 보류 및 재검토 필요",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정은 판권처 검토 후 확정 예정입니다. 일정 내용이 정리된 후 다음 검수물로 제출해야 하며, 현재 수정 내용은 납득하기 어렵습니다.",
+      "issue": "일정 미확정으로 광고 소재 제출 보류 요청",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권사 내부 검토 중입니다. 일정이 확정되지 않은 상태에서 일정 관련 수정 내용을 제출하면 판권사가 납득하기 어려우므로, 일정이 정리된 후 다음 검수물로 제출해 주십시오.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-07-17T03:27:06.290067"
+      "updated_at": "2026-07-18T03:15:31.935054"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5105,42 +5107,6 @@
     "feedback_count": 2
   },
   {
-    "id": "6a3a295c0131269ddf5bc76d",
-    "subject": "#286[0623] 바다 콘텐츠",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/HtzJeDvM",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 바다의 날 기념 콘텐츠 업로드**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "X 업로드용",
-    "language": "일",
-    "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
-    "labels": [],
-    "feedbacks": [
-      "(07/16) 바다의 날 기념 콘텐츠 → 바다 콘텐츠로 변경하여 감수 재제출합니다.\n\\- 0716 수정_바다 콘텐츠 이미지.png\n\\- [도원암귀] X 바다 콘텐츠 디스크립션",
-      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
-    ],
-    "licensor_feedbacks": [
-      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
-    ],
-    "members": [
-      "김민지"
-    ],
-    "latest_comment_date": "2026-07-16T02:47:23.203Z",
-    "last_activity": "2026-07-16T02:47:45.949Z",
-    "ai_summary": {
-      "issue": "검수 지연으로 바다의 날 콘텐츠 발행 불가",
-      "detail": "사업 검수가 중단되어 7월 20일 바다의 날 기념 콘텐츠 포스팅이 어렵습니다. 해당 콘텐츠는 현재 이슈 발생 상태로 전환되었습니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-07-17T03:27:09.529844"
-    },
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
     "id": "6a1d52014eb7fddc4bea180a",
     "subject": "#265[0602] 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
     "list": "지홀딩스 확인 중",
@@ -5172,6 +5138,42 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-06-25T04:15:06.056314"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a3a295c0131269ddf5bc76d",
+    "subject": "#286[0623] 바다 콘텐츠",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/HtzJeDvM",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: 바다의 날 기념 콘텐츠 업로드**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드용",
+    "language": "일",
+    "memo": "7. 파일명\n   1. 바다의 날 기념 콘텐츠 이미지\n   2. [도원암귀] X 바다의 날 콘텐츠 디스크립션",
+    "labels": [],
+    "feedbacks": [
+      "(07/16) 바다의 날 기념 콘텐츠 → 바다 콘텐츠로 변경하여 감수 재제출합니다.\n\\- 0716 수정_바다 콘텐츠 이미지.png\n\\- [도원암귀] X 바다 콘텐츠 디스크립션",
+      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
+    ],
+    "licensor_feedbacks": [
+      "사업 검수가 중단된 상태이므로 검수 일정상으로는 7월 20일 바다의 날 기념 콘텐츠는 포스팅이 어려워 우선 이슈 발생으로 옮겨 놓았습니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-07-16T02:47:23.203Z",
+    "last_activity": "2026-07-17T05:16:31.063Z",
+    "ai_summary": {
+      "issue": "검수 지연으로 바다의 날 콘텐츠 발행 불가",
+      "detail": "사업 검수가 중단되어 7월 20일 바다의 날 기념 콘텐츠 포스팅이 어렵습니다. 해당 콘텐츠는 현재 이슈 발생 상태로 전환되었습니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-07-17T03:27:09.529844"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5309,7 +5311,14 @@
     ],
     "latest_comment_date": "2026-06-29T02:57:43.430Z",
     "last_activity": "2026-07-07T11:42:03.026Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "닉네임 진단 콘텐츠의 IP 관련성 부족",
+      "detail": "닉네임 진단 콘텐츠에 사용된 단어들이 '도원암귀' IP와 관련성이 부족하다는 지적입니다. 판권사는 현재 상태로는 감수 통과가 어렵다고 판단하며, 제출 재개 전 수정을 권고했습니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-07-18T03:15:35.382579"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -11547,7 +11556,7 @@
   {
     "id": "6a34a0616891f268f91b7cc0",
     "subject": "[#280][0623] SNS 팔로우 유도 이벤트",
-    "list": "컴투스 감수 요청",
+    "list": "지홀딩스 확인 중",
     "status": "진행중",
     "category": "SNS",
     "card_url": "https://trello.com/c/8usvAWRD",
@@ -11565,7 +11574,7 @@
       "김민지"
     ],
     "latest_comment_date": "2026-07-16T01:19:07.434Z",
-    "last_activity": "2026-07-16T01:19:07.467Z",
+    "last_activity": "2026-07-17T05:37:15.189Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 1
