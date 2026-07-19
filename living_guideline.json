@@ -170,12 +170,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 크기/키 불일치",
+      "issue": "캐릭터 이미지 크기 및 키 불일치",
       "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-18T03:15:08.331924"
+      "updated_at": "2026-07-19T03:35:57.100547"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -2688,11 +2688,11 @@
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
       "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청드립니다.",
+      "detail": "X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-18T03:15:27.371119"
+      "updated_at": "2026-07-19T03:36:16.374452"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4486,12 +4486,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "일정 미확정으로 광고 소재 제출 보류 요청",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권사 내부 검토 중입니다. 일정이 확정되지 않은 상태에서 일정 관련 수정 내용을 제출하면 판권사가 납득하기 어려우므로, 일정이 정리된 후 다음 검수물로 제출해 주십시오.",
+      "issue": "프리미엄 사전 테스트 일정 미확정으로 광고 소재 제출 보류",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권사 내부 검토 중입니다. 일정이 확정되기 전까지는 관련 내용이 포함된 광고 소재 제출을 보류해 주십시오. 확정 후 재제출 바랍니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-07-18T03:15:31.935054"
+      "updated_at": "2026-07-19T03:36:21.218450"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -7122,7 +7122,14 @@
     "members": [],
     "latest_comment_date": "2026-06-12T09:29:42.602Z",
     "last_activity": "2026-06-13T01:44:27.391Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "배너 문구 수정 요청",
+      "detail": "B안 배너 소재 내 '申請' 문구를 '応募'로 변경해야 합니다. 프리미엄 선행 플레이 테스트 일정 변경은 인지하고 있습니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-07-19T03:36:23.851614"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
