@@ -170,12 +170,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 크기 및 키 불일치",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다.",
+      "issue": "캐릭터 이미지 크기/키 불일치",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 조정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-19T03:35:57.100547"
+      "updated_at": "2026-07-20T03:50:45.574089"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -2692,7 +2692,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-19T03:36:16.374452"
+      "updated_at": "2026-07-19T03:36:16.374452",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4491,7 +4493,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-07-19T03:36:21.218450"
+      "updated_at": "2026-07-19T03:36:21.218450",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
