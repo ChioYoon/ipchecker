@@ -175,9 +175,7 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-25T03:27:31.770272",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-07-27T03:50:17.897112"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1021,7 +1019,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-07-26T03:40:51.443459"
+      "updated_at": "2026-07-26T03:40:51.443459",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2728,12 +2728,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청합니다.",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료 요청.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-26T03:41:03.928802"
+      "updated_at": "2026-07-27T03:50:36.837168"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4315,14 +4315,12 @@
     "latest_comment_date": "2026-07-21T03:09:17.580Z",
     "last_activity": "2026-07-24T03:04:31.363Z",
     "ai_summary": {
-      "issue": "검수물 미업로드로 인한 검수 진행 불가",
-      "detail": "판권사에서 검수물이 아직 업로드되지 않았음을 지적했습니다. 검수물 업로드 후 검수 요청 상태로 변경해야 합니다.",
+      "issue": "검수물 미업로드 및 다국어 검수 우선순위 조정",
+      "detail": "현재 검수물이 업로드되지 않아 검수 진행 불가. 다국어 버전은 분량이 많아 글로벌 론칭 후 검수 예정이므로, 다른 마케팅 소재를 우선 제출하고 다국어는 분량 확인 후 제출 요망.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-07-13T03:42:01.849194",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건"
+      "feedback_count": 2,
+      "updated_at": "2026-07-27T03:50:41.386443"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4392,7 +4390,14 @@
     ],
     "latest_comment_date": "2026-07-23T05:32:43.645Z",
     "last_activity": "2026-07-23T05:32:43.740Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "웹상점 시안 정보 부족 및 검수 절차 미준수",
+      "detail": "웹상점 공개 시점 명확화가 필요하며, 1안은 무다노 검수 완료 후 진행해야 합니다. 3P의 '[검수 대상]' 항목의 의미와 2P 내용과의 연관성에 대한 추가 설명이 요구됩니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-07-27T03:50:44.789394"
+    },
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -4424,14 +4429,12 @@
     "latest_comment_date": "2026-07-23T03:44:47.496Z",
     "last_activity": "2026-07-23T03:44:52.319Z",
     "ai_summary": {
-      "issue": "일본어 폰트 적용 오류",
-      "detail": "현재 사용된 폰트가 일본어 한자에 어색하게 보여 전용 폰트 사용이 필요합니다. 일본어 전용 폰트로 교체하여 자연스러운 표현을 부탁드립니다.",
+      "issue": "일본어 폰트 사용 가이드라인 미준수",
+      "detail": "현재 일본어 폰트가 어색하여 일본어 전용 명조체 계열 폰트로 재수정해야 합니다. 일본어 한자 느낌이 자연스럽게 표현되어야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-25T04:15:06.056314",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건"
+      "feedback_count": 2,
+      "updated_at": "2026-07-27T03:50:47.860525"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4439,8 +4442,8 @@
   {
     "id": "6a5de7c84fca07196f16e6ad",
     "subject": "#305[0721] [UA] 사전예약 Tier2 소재 요청 건",
-    "list": "이슈 발생",
-    "status": "반려",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/Pt9LsXVO",
     "description": "1. 내용/ 감수 항목: 배너 5종, 영상 3종 (총 8종)\n2. 사용 용도: 사전예약 UA 소재\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 3종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.\n6. 파일명:\n   1. 감수 요청 리스트:[https://docs.g",
@@ -4461,7 +4464,7 @@
       "서수민"
     ],
     "latest_comment_date": "2026-07-24T07:11:07.694Z",
-    "last_activity": "2026-07-24T07:14:57.355Z",
+    "last_activity": "2026-07-27T00:34:48.579Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 3
@@ -5362,6 +5365,35 @@
     ],
     "latest_comment_date": "2025-10-28T03:58:31.230Z",
     "last_activity": "2025-11-05T00:58:07.896Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a61c5e38684239d88741040",
+    "subject": "#310[0728] 도원암귀 공략위키 X채널 관련의 건",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/hjT4qhha",
+    "description": "본문\n\n1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 도원암귀 공략위키 공식 X계정\n3. 언어: 일\n4. **사용 목적: 도원암귀 공략위키(게임위드) 운영 공식 X채널**\n   1. 초반 유저 안착 및 유저 이탈 방지\n   2. 게임 시스템 이해도 증대\n   3. X연계 커뮤니티 활성화\n5. **사용 채널: X**\n6. 코멘트: 계정ID, 계정명 (1)안을 희망하여 NG를 대비하여 (2)안 제출\n   1. X계정 세팅에 필요한\n      1. 헤더 이미지: 공식 계정과 동일한 어셋 사용\n         1. [https://tr",
+    "asset_type": "기획안",
+    "purpose": "도원암귀 공략위키 공식 X계정",
+    "language": "일",
+    "memo": "계정ID, 계정명 (1)안을 희망하여 NG를 대비하여 (2)안 제출\n   1. X계정 세팅에 필요한\n      1. 헤더 이미지: 공식 계정과 동일한 어셋 사용\n         1. [https://trello.com/c/j1wlOxJw](https://trello.com/c/j1wlOxJw \"smartCard-inline\")\n      2. 아이콘: 게임",
+    "labels": [],
+    "feedbacks": [
+      "도원암귀 공식 공략위키에서 운영/업로드하는 계정입니다. 다만 콘텐츠 업로드 전 SNS콘텐츠와 같이 사전 감수 진행 예정입니다.",
+      "공략위키 X채널 이라는 것을 컴투스에서 사용하시는 것일까요? 게임위드에서 사용하시는 것일까요?"
+    ],
+    "licensor_feedbacks": [
+      "공략위키 X채널 이라는 것을 컴투스에서 사용하시는 것일까요? 게임위드에서 사용하시는 것일까요?"
+    ],
+    "members": [
+      "이수연"
+    ],
+    "latest_comment_date": "2026-07-27T02:19:11.914Z",
+    "last_activity": "2026-07-27T02:19:49.692Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -12248,28 +12280,6 @@
     "feedback_count": 0
   },
   {
-    "id": "6a61c5e38684239d88741040",
-    "subject": "#310[0728] 도원암귀 공략위키 X채널 관련의 건",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/hjT4qhha",
-    "description": "본문\n\n1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 도원암귀 공략위키 공식 X계정\n3. 언어: 일\n4. **사용 목적: 도원암귀 공략위키(게임위드) 운영 공식 X채널**\n   1. 초반 유저 안착 및 유저 이탈 방지\n   2. 게임 시스템 이해도 증대\n   3. X연계 커뮤니티 활성화\n5. **사용 채널: X**\n6. 코멘트: 계정ID, 계정명 (1)안을 희망하여 NG를 대비하여 (2)안 제출\n   1. X계정 세팅에 필요한\n      1. 헤더 이미지: 공식 계정과 동일한 어셋 사용\n         1. [https://tr",
-    "asset_type": "기획안",
-    "purpose": "도원암귀 공략위키 공식 X계정",
-    "language": "일",
-    "memo": "계정ID, 계정명 (1)안을 희망하여 NG를 대비하여 (2)안 제출\n   1. X계정 세팅에 필요한\n      1. 헤더 이미지: 공식 계정과 동일한 어셋 사용\n         1. [https://trello.com/c/j1wlOxJw](https://trello.com/c/j1wlOxJw \"smartCard-inline\")\n      2. 아이콘: 게임",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-07-23T07:47:38.086Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
     "id": "6a61df16d6b5c2186199b240",
     "subject": "#311[0728] 성우 방송 콘텐츠 관련의 건",
     "list": "컴투스 감수 요청",
@@ -12287,6 +12297,28 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-07-23T09:34:26.602Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a66ca5d2143b9acf5c34c4d",
+    "subject": "#312[0728] HQ 마케팅 0728 SNS 콘텐츠",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/0102fKS2",
+    "description": "1. 내용/ 감수 항목: 이미지, 영상, 디스크립션\n2. 사용 용도: SNS 업로드\n3. 언어: 시트 확인 부탁드립니다.\n4. **사용 목적: SNS 업로드**\n5. **사용 채널:** 시트 확인 부탁드립니다.\n6. 코멘트:\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
+    "asset_type": "이미지, 영상, 디스크립션",
+    "purpose": "SNS 업로드",
+    "language": "시트 확인 부탁드립니다.",
+    "memo": "7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-07-27T03:04:40.463Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
