@@ -171,13 +171,11 @@
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
       "issue": "캐릭터 이미지 크기 및 키 불일치",
-      "detail": "제출된 웹이벤트 소재 내 쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다. 전반적인 감수는 통과되었으나, 해당 부분은 추가 수정이 필요합니다.",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다. 해당 부분에 대한 추가 작업이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-07-30T02:56:31.465931",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-02T03:38:35.456742"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1992,14 +1990,12 @@
     "latest_comment_date": "2026-06-12T05:58:15.118Z",
     "last_activity": "2026-06-12T05:58:19.973Z",
     "ai_summary": {
-      "issue": "프리미엄 선행 플레이 테스트 취소 여부 확인 및 X 콘텐츠 별도 검수",
-      "detail": "제출된 공지 텍스트는 승인되었으나, 프리미엄 선행 플레이 테스트 자체가 취소된 것으로 파악되어 확인이 필요합니다. X(트위터)에 게시될 내용은 이미지 및 해시태그와 함께 별도 검수물로 제출해야 합니다. 또한, 해당 공지의 노출 채널에 대한 정보가 필요합니다.",
+      "issue": "선행 플레이 테스트 취소 및 X 콘텐츠 별도 검수 필요",
+      "detail": "프리미엄 선행 플레이 테스트 자체가 취소되어 해당 공지 사용이 불가합니다. X(트위터)에 게시될 내용은 이미지, 해시태그와 함께 별도 검수물로 제출해야 합니다. 또한, 공지의 노출 채널에 대한 정보가 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-07-28T03:21:24.816591",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-02T03:38:55.067904"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2759,14 +2755,12 @@
     "latest_comment_date": "2026-07-31T07:33:33.871Z",
     "last_activity": "2026-07-31T07:59:53.358Z",
     "ai_summary": {
-      "issue": "배너 이미지 누락 및 캐릭터 정보 오류",
-      "detail": "배너 7종 이미지 파일 제출이 필요합니다. 츠쿠요미 캐릭터는 스킬 이미지 확정 후 재제출해야 하며, 뵤부가우라의 한자 표기 오류를 수정해야 합니다.",
+      "issue": "캐릭터 정보 오류 및 소재 제출 누락",
+      "detail": "뵤부가우라 캐릭터의 한자 표기 오류를 수정해야 합니다. 츠쿠요미 캐릭터 이미지는 스킬 이미지 확정 후 제출하며, 배너 7종의 이미지 파일도 함께 제출 바랍니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-06-25T04:14:53.946519",
-      "needs_update": true,
-      "update_reason": "피드백 2→3건"
+      "feedback_count": 3,
+      "updated_at": "2026-08-02T03:39:04.056754"
     },
     "is_rejection": true,
     "feedback_count": 5
