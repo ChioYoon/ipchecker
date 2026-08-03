@@ -170,12 +170,12 @@
     "latest_comment_date": "2026-06-19T08:58:21.911Z",
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
-      "issue": "캐릭터 이미지 크기 및 키 불일치",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 수정 요청이 있었습니다. 해당 부분에 대한 추가 작업이 필요합니다.",
+      "issue": "캐릭터 이미지 크기/키 통일 필요",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 조정해야 합니다. 현재 일부 이미지에서 불일치가 확인되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-08-02T03:38:35.456742"
+      "updated_at": "2026-08-03T03:40:15.264044"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1016,14 +1016,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "마케팅 소재 내 텍스트 문구 수정 필요",
-      "detail": "사전 예약 메타데이터 스크린샷의 '무다노 이미지' 및 1, 3, 4번 이미지에 대한 일본어 문구 수정 요청이 있습니다. 구체적인 변경 텍스트가 제시되었습니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
+      "detail": "무다노 이미지, 1번, 3번, 4번 이미지 내 일본어 문구에 대한 구체적인 수정 요청이 있었습니다. 기존 문구를 변경 문구로 교체해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-07-26T03:40:51.443459",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-03T03:40:20.083303"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1995,7 +1993,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-08-02T03:38:55.067904"
+      "updated_at": "2026-08-02T03:38:55.067904",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2630,14 +2630,12 @@
     "latest_comment_date": "2026-07-31T02:25:17.068Z",
     "last_activity": "2026-07-31T02:25:17.126Z",
     "ai_summary": {
-      "issue": "웹상점 시안 정보 부족 및 검수 절차 미준수",
-      "detail": "웹상점 공개 시점 명확화가 필요하며, 1안은 무다노 검수 완료 후 진행해야 합니다. 3P의 '[검수 대상]' 항목의 의미와 2P 내용과의 연관성에 대한 추가 설명이 요구됩니다.",
+      "issue": "단체 일러스트 개별 캐릭터 사용 불가",
+      "detail": "무다노 단체 일러스트는 개별 캐릭터 사용이 불가하며, 개별 사용 시 각 일러스트를 분리하여 재검수 제출해야 합니다. 웹상점 공개 시점 및 '[검수 대상]' 항목의 사용처에 대한 추가 설명이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-07-27T03:50:44.789394",
-      "needs_update": true,
-      "update_reason": "피드백 1→3건"
+      "feedback_count": 3,
+      "updated_at": "2026-08-03T03:40:40.295277"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -2905,13 +2903,11 @@
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
       "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 해당 문구 수정을 요청했습니다.",
+      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청드립니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-07-31T03:39:09.071046",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-03T03:40:43.372317"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4507,8 +4503,8 @@
   {
     "id": "6a1d52014eb7fddc4bea180a",
     "subject": "#265[0602] 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
-    "list": "이슈 발생",
-    "status": "반려",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/KufuEoy7",
     "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 마케팅용\n3. 언어: 일\n4. 코멘트: 기존 감수 통과된 영상에 사전예약 엔드카드만 추가하였습니다.\n5. 파일명\n   1. 시네마틱 프로모션 영상 사전예약 엔드카드 추가",
@@ -4530,7 +4526,7 @@
       "김민지"
     ],
     "latest_comment_date": "2026-07-23T03:44:47.496Z",
-    "last_activity": "2026-07-23T03:44:52.319Z",
+    "last_activity": "2026-08-03T01:22:49.095Z",
     "ai_summary": {
       "issue": "일본어 폰트 사용 가이드라인 미준수",
       "detail": "현재 일본어 폰트가 어색하여 일본어 전용 명조체 계열 폰트로 재수정해야 합니다. 일본어 한자 느낌이 자연스럽게 표현되어야 합니다.",
@@ -5532,8 +5528,8 @@
   {
     "id": "6a4c5270648ff1944484be4c",
     "subject": "#294[0707] 운세 테스트 콘텐츠",
-    "list": "이슈 발생",
-    "status": "반려",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
     "category": "이미지",
     "card_url": "https://trello.com/c/2DnIGssf",
     "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드\n3. 언어: 일\n4. **사용 목적: X 업로드**\n5. **사용 채널: X**\n6. 코멘트: 08/04 운세 콘텐츠 01 업로드, 08/06 운세 콘텐츠 02 업로드 하고자 합니다.\n7. 파일명\n   1. 운세 콘텐츠 01\n   2. 운세 콘텐츠 02\n   3. [도원암귀]  운세 콘텐츠 디스크립션",
@@ -5553,7 +5549,7 @@
       "김민지"
     ],
     "latest_comment_date": "2026-07-31T07:49:39.279Z",
-    "last_activity": "2026-07-31T07:49:44.091Z",
+    "last_activity": "2026-08-03T01:22:19.125Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -5770,6 +5766,32 @@
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
+  },
+  {
+    "id": "6a5480f1a2c6b5e6819d3b8a",
+    "subject": "#297[0714] 시키 성우 사전예약 축전 영상",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "영상",
+    "card_url": "https://trello.com/c/ne27n9QM",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: X, YT, 틱톡 업로드\n3. 언어: 일\n4. **사용 목적: SNS 채널 업로드를 통한 사전예약 홍보**\n5. **사용 채널: X, YT, 틱톡**\n6. 코멘트:\n7. 파일명\n   1. 성우 축전영상\\_사전예약\\_시키_썸네일.png\n   2. 성우 축전영상\\_사전예약\\_시키.mp4",
+    "asset_type": "영상",
+    "purpose": "X, YT, 틱톡 업로드",
+    "language": "일",
+    "memo": "7. 파일명\n   1. 성우 축전영상\\_사전예약\\_시키_썸네일.png\n   2. 성우 축전영상\\_사전예약\\_시키.mp4",
+    "labels": [],
+    "feedbacks": [
+      "감수 완료되었습니다."
+    ],
+    "licensor_feedbacks": [
+      "감수 완료되었습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-07-31T02:11:29.535Z",
+    "last_activity": "2026-08-03T01:32:07.488Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 1
   },
   {
     "id": "6a5f0ad797ff0e1a105c1ca0",
@@ -7626,32 +7648,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6a5480f1a2c6b5e6819d3b8a",
-    "subject": "#297[0714] 시키 성우 사전예약 축전 영상",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/ne27n9QM",
-    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: X, YT, 틱톡 업로드\n3. 언어: 일\n4. **사용 목적: SNS 채널 업로드를 통한 사전예약 홍보**\n5. **사용 채널: X, YT, 틱톡**\n6. 코멘트:\n7. 파일명\n   1. 성우 축전영상\\_사전예약\\_시키_썸네일.png\n   2. 성우 축전영상\\_사전예약\\_시키.mp4",
-    "asset_type": "영상",
-    "purpose": "X, YT, 틱톡 업로드",
-    "language": "일",
-    "memo": "7. 파일명\n   1. 성우 축전영상\\_사전예약\\_시키_썸네일.png\n   2. 성우 축전영상\\_사전예약\\_시키.mp4",
-    "labels": [],
-    "feedbacks": [
-      "감수 완료되었습니다."
-    ],
-    "licensor_feedbacks": [
-      "감수 완료되었습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-07-31T02:11:29.535Z",
-    "last_activity": "2026-07-31T07:21:03.531Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
     "id": "6a3cc28bf1268f8df1e60e6c",
     "subject": "#287[0630]술래잡기 웹이벤트 우편함 문구",
     "list": "감수 진행 중",
@@ -7758,8 +7754,8 @@
   {
     "id": "6a5f0f7b1756a1df114d3e7e",
     "subject": "#309[0721] 밸런스 게임 sns 콘텐츠 2종",
-    "list": "이슈 발생",
-    "status": "반려",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
     "category": "SNS",
     "card_url": "https://trello.com/c/Bvarw6DS",
     "description": "1. 내용/ 감수 항목: 기획안, 이미지\n2. 사용 용도: X 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 콘텐츠**\n5. **사용 채널: X**\n6. 코멘트:\n7. 파일명\n   1. [도원암귀] 밸런스 게임 2종 디스크립션\n   2. 무다노VS마스미\n   3. 시키VS진",
@@ -7776,7 +7772,7 @@
     ],
     "members": [],
     "latest_comment_date": "2026-07-31T07:52:22.218Z",
-    "last_activity": "2026-07-31T07:52:26.971Z",
+    "last_activity": "2026-08-03T01:22:20.829Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
