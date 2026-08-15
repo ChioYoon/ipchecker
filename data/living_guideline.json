@@ -171,11 +171,11 @@
     "last_activity": "2026-06-19T08:58:38.199Z",
     "ai_summary": {
       "issue": "캐릭터 이미지 크기 및 키 불일치",
-      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 요청이 있었습니다. 해당 부분에 대한 수정이 필요합니다.",
+      "detail": "쿠이나와 로쿠로 캐릭터 이미지의 크기와 키를 동일하게 맞춰달라는 요청이 있었습니다. 시안 내 캐릭터 간 비례를 조정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-08-14T02:31:51.077056"
+      "updated_at": "2026-08-15T01:41:50.892318"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1203,12 +1203,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "마케팅 소재 내 텍스트 수정 필요",
-      "detail": "사전 예약 메타데이터 스크린샷 내 '무다노 이미지', '1번 이미지', '3번 이미지', '4번 이미지'의 일본어 텍스트를 판권사 요청에 따라 수정해야 합니다. 구체적인 변경 내용은 피드백에 명시되어 있습니다.",
+      "issue": "사전 예약 메타데이터 이미지 텍스트 수정",
+      "detail": "무다노 이미지 및 1, 3, 4번 이미지 내 일본어 문구에 대한 구체적인 텍스트 변경 요청이 있습니다. 기존 문구를 변경된 내용으로 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-08-14T02:31:55.170091"
+      "updated_at": "2026-08-15T01:41:54.506522"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -3088,11 +3088,11 @@
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
       "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정 필요",
-      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청했습니다.",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청드립니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-14T02:32:08.775390"
+      "updated_at": "2026-08-15T01:42:07.202766"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3691,7 +3691,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-14T02:32:13.464904"
+      "updated_at": "2026-08-14T02:32:13.464904",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5085,14 +5087,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "프리미엄 사전 테스트 일정 미확정",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권사 내부 검토 중이므로, 일정이 확정된 후 수정된 광고 소재를 재제출해야 합니다. 현재 수정안은 일정 미확정 상태에서 판권사 납득이 어렵습니다.",
+      "issue": "사전 테스트 일정 미확정으로 소재 수정 보류",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권사 내부 검토 중입니다. 일정이 확정된 후에 수정된 소재를 재제출해야 하며, 현재 수정 내용은 일정 미확정으로 인해 판권사 납득이 어렵습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-07-28T03:21:35.591703",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-15T01:42:25.312644"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5890,7 +5890,14 @@
     ],
     "latest_comment_date": "2026-07-31T07:49:39.279Z",
     "last_activity": "2026-08-04T09:14:04.767Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "운세 테스트 결과 화면 캐릭터별 운세 항목 변경",
+      "detail": "운세 테스트 결과 화면에서 코우가사키의 운세 항목을 '공부운'으로, 무다노의 운세 항목을 '금전운'으로 수정해야 합니다. 현재 설정된 운세 항목을 판권사의 지침에 따라 변경 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-08-15T01:42:32.507759"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
