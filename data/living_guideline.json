@@ -175,7 +175,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 8,
-      "updated_at": "2026-08-15T01:41:50.892318"
+      "updated_at": "2026-08-15T01:41:50.892318",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -1208,7 +1210,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-08-15T01:41:54.506522"
+      "updated_at": "2026-08-15T01:41:54.506522",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2174,14 +2178,12 @@
     "latest_comment_date": "2026-06-12T05:58:15.118Z",
     "last_activity": "2026-06-12T05:58:19.973Z",
     "ai_summary": {
-      "issue": "프리미엄 선행 플레이 테스트 취소로 공지 사용 불가",
-      "detail": "공지 텍스트는 승인되었으나, 해당 테스트가 취소되어 현재 공지 사용이 불가능합니다. X(트위터)용 콘텐츠는 이미지 및 해시태그와 함께 별도 검수물로 제출해야 합니다. 공지 노출 채널에 대한 정보도 필요합니다.",
+      "issue": "이벤트 취소 여부 확인 및 X 콘텐츠 별도 검수 필요",
+      "detail": "판권사 측에서 프리미엄 선행 플레이 테스트가 취소된 것으로 인지하고 있어 공지 사용 전 확인이 필요합니다. X(트위터)에 게시될 내용은 이미지 및 해시태그와 함께 별도 검수물로 제출해야 합니다. 공지 노출 위치에 대한 답변도 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-08-04T03:24:52.248897",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-16T01:49:25.557592"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -3088,11 +3090,11 @@
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
       "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정 필요",
-      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청드립니다.",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 판권사는 오늘 17시까지 수정을 요청했습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-15T01:42:07.202766"
+      "updated_at": "2026-08-16T01:49:29.256236"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4504,7 +4506,14 @@
     ],
     "latest_comment_date": "2026-08-05T03:25:54.116Z",
     "last_activity": "2026-08-05T07:38:02.615Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "사전예약 페이지 문구 및 UI/UX 개선",
+      "detail": "‘メール登録’ 명칭 및 기능 설명 개선, ‘SSRキャラクター選択チケット確定報酬’ 문구를 자연스러운 일본어 표현으로 수정해야 합니다. 또한, 미달성 보상 표기 방식과 페이지 구성에 대한 명확화가 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-08-16T01:49:38.947888"
+    },
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -5092,7 +5101,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-08-15T01:42:25.312644"
+      "updated_at": "2026-08-15T01:42:25.312644",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -8046,7 +8057,14 @@
     "members": [],
     "latest_comment_date": "2026-07-21T02:45:11.554Z",
     "last_activity": "2026-08-04T09:17:28.271Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "다국어 배너 감수 우선순위 조정 요청",
+      "detail": "다국어 배너는 분량이 많고 글로벌 론칭 이후 사용 예정이므로, 다른 사업/마케팅 검수물 우선 검수를 요청합니다. 다국어 검수물은 분량을 확인하며 제출해 주십시오.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-08-16T01:49:59.583812"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -8447,7 +8465,14 @@
     "members": [],
     "latest_comment_date": "2026-08-07T03:57:08.573Z",
     "last_activity": "2026-08-13T03:20:45.249Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "콘텐츠 내용 전면 반려",
+      "detail": "판권사로부터 제시된 콘텐츠 내용이 'NG'로 판단되어 전면 반려되었습니다. 구체적인 반려 사유가 명시되지 않아 어떤 부분이 문제인지 추가적인 확인 및 피드백 요청이 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-08-16T01:50:08.262496"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
