@@ -1037,7 +1037,7 @@
   {
     "id": "6a02d7f257092e117c910b09",
     "subject": "#241[0512] 사전 예약 메타데이터 아트워크",
-    "list": "지홀딩스 확인 중",
+    "list": "감수 진행 중",
     "status": "진행중",
     "category": "기타",
     "card_url": "https://trello.com/c/9pv5ThMe",
@@ -1068,7 +1068,7 @@
       "컴투스 글로벌전략팀"
     ],
     "latest_comment_date": "2026-08-11T08:11:47.451Z",
-    "last_activity": "2026-08-17T06:24:26.836Z",
+    "last_activity": "2026-08-20T03:49:33.989Z",
     "ai_summary": {
       "issue": "2안 마스미 포즈를 기립 이미지로 변경 요청",
       "detail": "사전 예약 메타데이터 아트워크 1안은 검수 통과됐다. 2안은 마스미를 서 있는 이미지로 변경할 것을 요청했다.",
@@ -1082,7 +1082,7 @@
   {
     "id": "6a717ecaddde4f26b3d16243",
     "subject": "#314[0804] 사전/론칭 홍보 영상",
-    "list": "지홀딩스 확인 중",
+    "list": "감수 진행 중",
     "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/DR74aO1h",
@@ -1112,7 +1112,7 @@
       "이수연"
     ],
     "latest_comment_date": "2026-08-18T00:54:09.932Z",
-    "last_activity": "2026-08-18T02:33:04.544Z",
+    "last_activity": "2026-08-20T03:49:47.641Z",
     "ai_summary": {
       "issue": "캐릭터명 표기 오류 및 영상 연출 일관성 부족",
       "detail": "모모쿠사 요모기(蓬)와 사자나미 쿠이나(漣)의 한자 표기 및 요모기 이름의 띄어쓰기(桃 草蓬 → 桃草 蓬)를 수정해야 합니다. 또한, 캐릭터 등장 전 스킬 카드 노출 방식의 일관성을 확보하여 통일된 연출이 필요합니다.",
@@ -1727,13 +1727,12 @@
     "latest_comment_date": "2026-06-12T09:23:32.761Z",
     "last_activity": "2026-06-12T09:23:36.366Z",
     "ai_summary": {
-      "issue": "배너 기호·아이콘·명칭 표기 수정 요청",
-      "detail": "Friendship01 배너의 '지금 바로 응모하기' 옆 > 기호를 타 배너에 맞춰 삭제하고, Kyoyatcg01의 스킬카드 아이콘을 과거 NG 버전에서 최신 버전으로 교체하도록 요청했다. OniMainTVA01은 명칭을 TVアニメ『桃源暗鬼』公式ゲーム 표현으로 수정 가능한지 문의했다.",
+      "issue": "배너 텍스트 누락 및 메시지 민감성",
+      "detail": "260602_BNR_FGT-IP-MudanoSSR01-DA_S_1200x1200_JP 배너 하단 텍스트 누락 확인 및 추가 필요. '진정한 악' 관련 메시지는 최근 클레임이 많으므로 사용에 주의 요망.",
       "resolved": false,
-      "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "model": "gemini-2.5-flash",
+      "feedback_count": 4,
+      "updated_at": "2026-08-21T01:48:10.078045"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -2066,7 +2065,7 @@
   {
     "id": "6a3a2d24dcbcdba9c7dbff52",
     "subject": "#283[0623] [UA] Tier2 캐릭터 검증 페이즈 소재",
-    "list": "지홀딩스 확인 중",
+    "list": "감수 진행 중",
     "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/9DWfjFLA",
@@ -2093,7 +2092,7 @@
       "최종인"
     ],
     "latest_comment_date": "2026-08-18T07:13:25.481Z",
-    "last_activity": "2026-08-18T10:46:26.560Z",
+    "last_activity": "2026-08-20T03:49:37.045Z",
     "ai_summary": {
       "issue": "캐릭터 정보 오류 및 소재 제출 누락",
       "detail": "뵤부가우라 캐릭터의 한자 표기 오류를 수정해야 합니다. 츠쿠요미 캐릭터 이미지는 스킬 이미지 확정 후 제출하며, 배너 7종의 이미지 파일도 함께 제출 바랍니다.",
@@ -3092,12 +3091,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정 필요",
-      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청드립니다.",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 포함",
+      "detail": "X 게시글 문구에 포함된 프리미엄 테스트 관련 내용을 삭제 또는 수정해야 합니다. 오늘 17시까지 수정 완료 요청이 있습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-20T01:43:23.136759"
+      "updated_at": "2026-08-21T01:48:20.378423"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4691,7 +4690,7 @@
   {
     "id": "6a55bb28a126925e43bacf44",
     "subject": "#299[0714] 룰렛/환급/BM 웹이벤트 인게임 프리팹 배경 및 배너",
-    "list": "지홀딩스 확인 중",
+    "list": "감수 진행 중",
     "status": "진행중",
     "category": "배너",
     "card_url": "https://trello.com/c/GA8DkjOP",
@@ -4714,7 +4713,7 @@
       "이한라"
     ],
     "latest_comment_date": "2026-08-11T02:06:25.648Z",
-    "last_activity": "2026-08-19T04:10:44.671Z",
+    "last_activity": "2026-08-20T03:49:42.019Z",
     "ai_summary": {
       "issue": "호마레 표정 및 연애 분위기 연출 수정",
       "detail": "파일명 BMg_2560_02에서 호마레의 표정을 연애하는 것처럼 보이지 않도록 일반적인 얼굴로 수정해야 합니다. 코우가사키가 호마레에게 선물을 주고 호마레가 좋아하는 듯한 연출을 지적하며, 호마레가 상대방을 응시하지 않도록 배경 이미지 교체 등을 고려해야 합니다.",
@@ -4729,7 +4728,7 @@
   {
     "id": "6a7ab9dbdbc12d3bdeab53bd",
     "subject": "#319[0811] 웹상점 1안 캐릭터 디자인",
-    "list": "지홀딩스 확인 중",
+    "list": "감수 진행 중",
     "status": "진행중",
     "category": "이미지",
     "card_url": "https://trello.com/c/MnOngdl5",
@@ -4751,7 +4750,7 @@
       "컴투스 글로벌전략팀"
     ],
     "latest_comment_date": "2026-08-19T03:36:58.817Z",
-    "last_activity": "2026-08-19T04:55:17.379Z",
+    "last_activity": "2026-08-20T03:49:54.088Z",
     "ai_summary": {
       "issue": "개별 캐릭터 이미지 누락",
       "detail": "웹상점 1안 캐릭터 디자인 소재에 개별 캐릭터 이미지가 포함되어야 합니다. 현재는 전체 디자인만 확인 가능하여 개별 이미지 추가 업로드가 필요합니다.",
@@ -5039,7 +5038,14 @@
     "members": [],
     "latest_comment_date": "2026-08-07T02:45:10.955Z",
     "last_activity": "2026-08-07T02:45:18.454Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "술래잡기 웹이벤트 우편함 문구 감수 완료",
+      "detail": "제출된 술래잡기 웹이벤트 우편함 문구는 감수 완료되었습니다. 다국어 버전은 분량이 많아 향후 글로벌 론칭 시점에 맞춰 다른 검수물 우선 검토 후 제출 요청되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-08-21T01:48:24.462759"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -5141,14 +5147,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "사전 테스트 일정 미확정으로 소재 수정 보류",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권사 내부 검토 중입니다. 일정이 확정된 후에 수정된 소재를 재제출해야 하며, 현재 수정 내용은 일정 미확정으로 인해 판권사 납득이 어렵습니다.",
+      "issue": "프리미엄 사전 테스트 일정 미확정으로 인한 소재 제출 보류",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권사 내부 검토 중이므로, 해당 일정이 확정된 후 수정된 광고 소재를 재제출해야 합니다. 현재 상태로 수정 내용을 제출하면 판권사가 삭제 이유를 납득하기 어렵습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-08-15T01:42:25.312644",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-21T01:48:28.137472"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -5967,7 +5971,14 @@
     "members": [],
     "latest_comment_date": "2026-08-10T07:29:04.002Z",
     "last_activity": "2026-08-13T05:22:54.031Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "사전예약 성우 축전 영상 수정 및 재검수 필요",
+      "detail": "영상 공통으로 세로형 카피라이트 위치를 화면 최하단으로 조정해야 합니다. 이와미 성우 영상의 4초 부근 '뵤부가우라' 한자 표기와 22초 부근 자막 내용을 음성에 맞춰 수정해야 합니다. 해당 영상은 내부 확인 후 다음 검수물로 제출될 예정입니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-08-21T01:48:31.587986"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -6282,7 +6293,14 @@
     "members": [],
     "latest_comment_date": "2026-07-31T02:21:44.650Z",
     "last_activity": "2026-07-31T02:21:52.087Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "확률 고지 페이지 디자인 감수 완료",
+      "detail": "제출된 확률 고지 페이지 디자인에 대한 감수가 완료되었으며, 특별한 수정 요구사항 없이 최종 승인되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-08-21T01:48:35.008376"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -6341,7 +6359,14 @@
     "members": [],
     "latest_comment_date": "2026-07-31T02:12:06.611Z",
     "last_activity": "2026-07-31T02:12:14.999Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "감수 완료 및 승인",
+      "detail": "판권사의 감수 피드백에 따르면, 해당 소재는 별다른 수정 요구사항 없이 최종 승인되었습니다. 모든 내용이 IP 가이드라인에 부합합니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-08-21T01:48:37.980826"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -13035,29 +13060,7 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-06-04T05:23:12.311Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a7aba1d3659ac94f4522208",
-    "subject": "#320[0811] DMM & AGO 마켓메타데이터 최종이미지",
-    "list": "지홀딩스 확인 중",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/32Q5O7ke",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: Animate Games Online (이하 AGO), DMM GAMES 플랫폼에 공개될 마켓 메타데이터\n3. 언어: 일\n4. 사용 목적: AGO / DMM GAMES 플랫폼 페이지에 공개될 메타데이터\n5. 사용 채널: AGO / DMM GAMES 플랫폼 페이지\n6. 코멘트: 상세 내용 및 어셋 링크는 하기 제출 슬라이드를 확인 부탁드립니다.\n7. 제출 슬라이드([링크](https://docs.google.com/presentation/d/1gCaixND9t56E55r7xX6meA9",
-    "asset_type": "이미지",
-    "purpose": "Animate Games Online (이하 AGO), DMM GAMES 플랫폼에 공개될 마켓 메타데이터",
-    "language": "일",
-    "memo": "상세 내용 및 어셋 링크는 하기 제출 슬라이드를 확인 부탁드립니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-08-17T06:40:42.716Z",
+    "last_activity": "2026-08-20T02:41:27.801Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -13085,23 +13088,23 @@
     "feedback_count": 0
   },
   {
-    "id": "6a83f8f14255ee82a9791185",
-    "subject": "#323[0818] HQ 마케팅 0818 SNS 콘텐츠",
-    "list": "지홀딩스 확인 중",
+    "id": "6a7aba1d3659ac94f4522208",
+    "subject": "#320[0811] DMM & AGO 마켓메타데이터 최종이미지",
+    "list": "감수 진행 중",
     "status": "진행중",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/4ZmmNkhG",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 ~ No.5\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/32Q5O7ke",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: Animate Games Online (이하 AGO), DMM GAMES 플랫폼에 공개될 마켓 메타데이터\n3. 언어: 일\n4. 사용 목적: AGO / DMM GAMES 플랫폼 페이지에 공개될 메타데이터\n5. 사용 채널: AGO / DMM GAMES 플랫폼 페이지\n6. 코멘트: 상세 내용 및 어셋 링크는 하기 제출 슬라이드를 확인 부탁드립니다.\n7. 제출 슬라이드([링크](https://docs.google.com/presentation/d/1gCaixND9t56E55r7xX6meA9",
     "asset_type": "이미지",
-    "purpose": "SNS 업로드용",
+    "purpose": "Animate Games Online (이하 AGO), DMM GAMES 플랫폼에 공개될 마켓 메타데이터",
     "language": "일",
-    "memo": "1. No.1 ~ No.5",
+    "memo": "상세 내용 및 어셋 링크는 하기 제출 슬라이드를 확인 부탁드립니다.",
     "labels": [],
     "feedbacks": [],
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-08-18T11:17:21.156Z",
+    "last_activity": "2026-08-20T03:49:59.746Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -13109,7 +13112,7 @@
   {
     "id": "6a83cd05a0895e2e3b5c5128",
     "subject": "#322[0818] 키메시지",
-    "list": "지홀딩스 확인 중",
+    "list": "감수 진행 중",
     "status": "진행중",
     "category": "배너",
     "card_url": "https://trello.com/c/6msXVtZG",
@@ -13123,7 +13126,29 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-08-19T01:11:26.198Z",
+    "last_activity": "2026-08-20T03:50:22.661Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a83f8f14255ee82a9791185",
+    "subject": "#323[0818] HQ 마케팅 0818 SNS 콘텐츠",
+    "list": "감수 진행 중",
+    "status": "진행중",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/4ZmmNkhG",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 ~ No.5\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
+    "asset_type": "이미지",
+    "purpose": "SNS 업로드용",
+    "language": "일",
+    "memo": "1. No.1 ~ No.5",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-08-20T03:50:26.120Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
