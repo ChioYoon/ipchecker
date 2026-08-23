@@ -612,14 +612,12 @@
     "latest_comment_date": "2026-08-21T07:26:15.737Z",
     "last_activity": "2026-08-21T07:26:23.287Z",
     "ai_summary": {
-      "issue": "UA 영상 뱃지 및 일본어 폰트 수정 필요",
-      "detail": "UA용 프로모션 영상에 DMM/AGO 뱃지 사용 여부 확인 및 명확한 버전 선택이 필요합니다. 일본어 폰트는 판권사의 요청에 따라 명조체 계열로 재수정해야 합니다.",
-      "resolved": false,
+      "issue": "DMM/AGO 뱃지 유무 버전 사용 명확화 요청",
+      "detail": "영상 소재는 승인되었으나, UA용으로 DMM/AGO 뱃지가 없는 버전을 사용하는 이유와 최종 사용 버전에 대한 명확한 답변이 필요합니다. 판권사는 어떤 버전이 사용될지 확인하고자 합니다.",
+      "resolved": true,
       "model": "gemini-2.5-flash",
-      "feedback_count": 4,
-      "updated_at": "2026-08-05T03:19:59.175967",
-      "needs_update": true,
-      "update_reason": "피드백 4→5건, 상태 변경"
+      "feedback_count": 5,
+      "updated_at": "2026-08-23T01:50:51.315887"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -1305,14 +1303,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
-      "detail": "무다노 이미지 및 1, 3, 4번 이미지 내 문구에 대한 구체적인 텍스트 수정 요청이 있습니다. 기존 문구를 변경 문구로 교체해야 합니다.",
+      "issue": "사전 예약 메타데이터 텍스트 수정",
+      "detail": "무다노, 1번, 3번, 4번 이미지 내 문구에 대한 구체적인 텍스트 변경 요청이 접수되었습니다. 기존 문구를 지정된 내용으로 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-08-18T01:41:42.586404",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-23T01:51:01.157329"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -3105,14 +3101,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 포함",
-      "detail": "X 게시글 문구에 포함된 프리미엄 테스트 관련 내용을 삭제 또는 수정해야 합니다. 오늘 17시까지 수정 완료 요청이 있습니다.",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정 필요",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청했습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-21T01:48:20.378423",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-23T01:51:14.422852"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3781,14 +3775,12 @@
     "latest_comment_date": "2026-08-21T07:12:29.218Z",
     "last_activity": "2026-08-21T07:12:29.265Z",
     "ai_summary": {
-      "issue": "개발 보이스 마케팅 사용 승인 지연",
-      "detail": "판권사에서 개발 보이스 마케팅 소재 사용에 대한 최종 승인 여부를 현재 확인 중입니다. 승인까지 추가 시간이 소요될 예정이며, 갱신되는 대로 피드백을 전달받기로 했습니다.",
+      "issue": "개발 보이스 마케팅 사용 승인 보류",
+      "detail": "판권사 내부 확인이 진행 중이며, 승인까지 추가 시간이 소요될 예정입니다. 업데이트되는 대로 다시 전달받기로 했습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-08-19T01:44:27.278262",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-23T01:51:19.752716"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5279,7 +5271,14 @@
     ],
     "latest_comment_date": "2026-08-21T08:41:29.443Z",
     "last_activity": "2026-08-21T08:41:35.545Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "TGS B2B 부스 소재 감수 완료",
+      "detail": "판권사의 감수가 완료되었으며, 특별한 수정 요구사항 없이 최종 승인되었습니다. 모든 마케팅 소재가 원안대로 사용 가능합니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-08-23T01:51:27.125054"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -5459,7 +5458,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-08-22T01:41:48.137697"
+      "updated_at": "2026-08-22T01:41:48.137697",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6135,7 +6136,14 @@
     ],
     "latest_comment_date": "2026-08-21T07:20:56.662Z",
     "last_activity": "2026-08-21T07:20:56.686Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "성우 축전 영상 승인 지연 및 추가 확인 필요",
+      "detail": "성우 축전 영상은 각 성우 사무소의 별도 확인이 필요하며, 약 1주일 소요됩니다. 사전예약 및 론칭용 축전 영상 전체 검수 완료 후 성우 사무소에 최종 확인을 진행할 예정입니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-08-23T01:51:32.978301"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
