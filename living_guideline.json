@@ -714,13 +714,12 @@
     "latest_comment_date": "2026-08-28T02:54:07.968Z",
     "last_activity": "2026-08-28T02:54:14.109Z",
     "ai_summary": {
-      "issue": "2안 마스미 포즈를 기립 이미지로 변경 요청",
-      "detail": "사전 예약 메타데이터 아트워크 1안은 검수 통과됐다. 2안은 마스미를 서 있는 이미지로 변경할 것을 요청했다.",
-      "resolved": false,
-      "model": "manual-ai",
-      "updated_at": "2026-06-01T21:00:07.559804",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "issue": "캐릭터 신장 설정 불일치 수정",
+      "detail": "무다노, 오이란자카의 키도 설정을 확인하여 수정하고, 마스미의 신장을 설정 대비표에 맞춰 더 작게 조정해야 합니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 5,
+      "updated_at": "2026-08-30T05:02:50.372912"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -1364,7 +1363,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-08-29T06:50:31.978221"
+      "updated_at": "2026-08-29T06:50:31.978221",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -3037,14 +3038,12 @@
     "latest_comment_date": "2026-08-28T02:54:51.607Z",
     "last_activity": "2026-08-28T02:55:00.839Z",
     "ai_summary": {
-      "issue": "호마레 표정 및 연애 분위기 연출 수정",
-      "detail": "파일명 BMg_2560_02에서 호마레의 표정을 연애하는 것처럼 보이지 않도록 일반적인 얼굴로 수정해야 합니다. 코우가사키가 호마레에게 선물을 주고 호마레가 좋아하는 듯한 연출을 지적하며, 호마레가 상대방을 응시하지 않도록 배경 이미지 교체 등을 고려해야 합니다.",
+      "issue": "호마레 캐릭터 연출 수정",
+      "detail": "BMg_2560_02 이미지에서 호마레가 코우가사키의 선물을 받고 좋아하는 모습이 연애하는 것처럼 보이지 않도록 수정 요청. 일반적인 표정으로 변경하고, 상대방을 응시하지 않도록 연출 조정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-08-12T02:32:19.414138",
-      "needs_update": true,
-      "update_reason": "피드백 2→3건, 상태 변경"
+      "feedback_count": 3,
+      "updated_at": "2026-08-30T05:03:16.391346"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3117,14 +3116,12 @@
     "latest_comment_date": "2026-08-24T08:15:08.136Z",
     "last_activity": "2026-08-24T08:15:18.591Z",
     "ai_summary": {
-      "issue": "이미지 수정 및 마켓 뱃지, 에셋 검수 현황 확인",
-      "detail": "시키 손의 피 색깔을 진하게 수정하고, '무다노' 이미지의 검수 완료 여부를 확인해야 합니다. 또한, 브랜드 페이지 내 마켓 뱃지 종류의 불일치를 정리하고 통일해야 합니다.",
+      "issue": "시키 손 피 색상 및 마켓 뱃지 일관성 수정 필요",
+      "detail": "판권사는 2안을 승인했으나, 시키 손의 피 색상을 진하게 수정 요청했습니다. 또한, 마켓 뱃지 종류(DMM, AGO vs. 구글, 애플, 스팀)의 불일치에 대한 정리 및 확인이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-24T01:48:39.459567",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-30T05:03:21.060623"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3243,7 +3240,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-29T06:50:49.031816"
+      "updated_at": "2026-08-29T06:50:49.031816",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
