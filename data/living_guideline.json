@@ -280,14 +280,12 @@
     "latest_comment_date": "2026-08-28T12:02:17.607Z",
     "last_activity": "2026-08-28T12:02:37.453Z",
     "ai_summary": {
-      "issue": "선행 상영회 이미지 및 전단지 문구 수정",
-      "detail": "상영회 이미지2 하단 문구의 느낌표를 삭제하고, 전단지 뒷면 상단 좌우 문구를 판권사가 제시한 내용으로 수정해야 합니다. 이미지 수정은 8/25까지 제출 필요합니다.",
+      "issue": "선행 상영회 이미지 및 전단지 배포 기한 준수",
+      "detail": "이미지 수정은 8/25(화) 오전까지 제출해야 하며, 전단지 배포용 자료는 9/14(목) 18시까지 지정된 주소로 송부해야 합니다. 전단지 및 상영회 공지 관련 상세 피드백은 제공된 Google Slides를 확인 바랍니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 5,
-      "updated_at": "2026-08-22T01:41:09.235279",
-      "needs_update": true,
-      "update_reason": "피드백 5→6건, 상태 변경"
+      "feedback_count": 6,
+      "updated_at": "2026-08-31T05:10:16.635228"
     },
     "is_rejection": true,
     "feedback_count": 12
@@ -1358,14 +1356,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "다수 이미지 내 텍스트 문구 수정 필요",
-      "detail": "사전 예약 메타데이터 스크린샷 내 '무다노 이미지', '1번 이미지', '3번 이미지', '4번 이미지'의 일본어 텍스트를 판권사 요청에 따라 변경해야 합니다. 특히 4번 이미지는 기존 텍스트 삭제가 요구됩니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
+      "detail": "무다노 이미지 및 1, 3, 4번 스크린샷 내 문구 변경 요청이 있습니다. 특히 4번 이미지는 기존 문구 삭제 또는 변경 내용 확인이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-08-29T06:50:31.978221",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-31T05:10:27.129451"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2245,14 +2241,12 @@
     "latest_comment_date": "2026-06-12T05:58:15.118Z",
     "last_activity": "2026-06-12T05:58:19.973Z",
     "ai_summary": {
-      "issue": "이벤트 취소 여부 확인 및 X 콘텐츠 별도 검수 필요",
-      "detail": "판권사 측에서 프리미엄 선행 플레이 테스트가 취소된 것으로 인지하고 있어 공지 사용 전 확인이 필요합니다. X(트위터)에 게시될 내용은 이미지 및 해시태그와 함께 별도 검수물로 제출해야 합니다. 공지 노출 위치에 대한 답변도 요청되었습니다.",
+      "issue": "프리미엄 선행 플레이 테스트 취소 여부 확인 및 X 콘텐츠 별도 검수",
+      "detail": "판권사는 프리미엄 선행 플레이 테스트의 취소 가능성을 언급하며 사실 확인을 요청했습니다. X(트위터)에 게시될 내용은 이미지 및 해시태그와 함께 별도 검수물로 제출해야 합니다. 또한, 해당 공지의 노출 플랫폼에 대한 정보도 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-08-16T01:49:25.557592",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-31T05:10:37.429345"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -3043,7 +3037,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-08-30T05:03:16.391346"
+      "updated_at": "2026-08-30T05:03:16.391346",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3121,7 +3117,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-30T05:03:21.060623"
+      "updated_at": "2026-08-30T05:03:21.060623",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3235,14 +3233,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 포함",
-      "detail": "X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청합니다.",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-29T06:50:49.031816",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-31T05:10:51.035945"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3912,13 +3908,11 @@
     "last_activity": "2026-08-21T07:12:29.265Z",
     "ai_summary": {
       "issue": "개발 보이스 마케팅 사용 승인 지연",
-      "detail": "판권사에서 개발 보이스 마케팅 소재 사용에 대해 현재 확인 중이며, 승인까지 시간이 더 소요될 예정입니다. 갱신되는 대로 추가 피드백을 전달받을 것입니다.",
+      "detail": "판권사에서 개발 보이스 마케팅 사용 건에 대해 현재 확인 중이며, 최종 승인까지 추가 시간이 소요될 예정입니다. 업데이트되는 대로 피드백을 전달받기로 했습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-08-25T01:44:02.788291",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-08-31T05:10:57.505921"
     },
     "is_rejection": true,
     "feedback_count": 3
