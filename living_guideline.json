@@ -128,8 +128,8 @@
   {
     "id": "6a30e02008e03d53183748d3",
     "subject": "#279[0616][UA] Tier1 사전예약 소재",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
+    "list": "감수 완료",
+    "status": "승인",
     "category": "영상",
     "card_url": "https://trello.com/c/VTLKWx70",
     "description": "1. 내용/ 감수 항목: 배너 5종, 영상 5종 (총 10종)\n2. 사용 용도: 사전예약 UA 소재\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.\n6. 파일명:\n   1. 감수 요청 리스트: [https://docs",
@@ -139,6 +139,7 @@
     "memo": "1. UA 사전예약 마케팅 시 활용할 배너 5종, 영상 5종 감수 요청 드립니다.\n      1. 시안 먼저 공유 드리며, 확인 후 사이즈 베리에이션 건으로 추가 감수 요청 드릴 예정입니다.\n   2. 구글/메타/X/몰로코/틱톡 매체 내 노출 예정이며, 매체 및 사이즈 추가될 경우 별도 감수 요청 드리겠습니다.",
     "labels": [],
     "feedbacks": [
+      "사이즈 베리에이션 확인하였으며 전달 주신 내용으로 진행 부탁드리겠습니다.",
       "배너 소재 사이즈 베리 완료 되어 감수 요청 드립니다.\n동일 리스트 시트 내 9/1일 5차 감수 제출물 (3~8페이지)로 참고 부탁 드리겠습니다!\n감수 요청 리스트3의 경우 우선 베리하여 전달 드리었으며, 제출 시 제외 필요할 경우 금주 감수 결과 확인 후 제출할 수 있도록 하겠습니다. ( \\_\\_)!\n\n영상 소재는 사이즈 베리에 활용할 템플릿 수정 중에 있어서, 추후 확정 이후에 베리하여 공유 드릴 수 있도록 하겠습니다.",
       "[판권처 FB]\n감수 요청 리스트3(P-IP-OniMomotaro02-DA)을 제외한 모두 감수물 통과되었습니다.\n요청 리스트3은 다음 주 감수물로 제출하겠습니다!",
       "8/5일자 추가 피드백 사항 반영본 금일 첨부해 두었습니다.\n확인이 지연된 점 양해 부탁 드립니다. ( \\_\\_)!",
@@ -158,6 +159,7 @@
       "제작해주신 소재들에 대해서 제출주신 시트에 코멘트 전달드렸습니다. 확인 부탁드리겠습니다."
     ],
     "licensor_feedbacks": [
+      "사이즈 베리에이션 확인하였으며 전달 주신 내용으로 진행 부탁드리겠습니다.",
       "[판권처 FB]\n감수 요청 리스트3(P-IP-OniMomotaro02-DA)을 제외한 모두 감수물 통과되었습니다.\n요청 리스트3은 다음 주 감수물로 제출하겠습니다!",
       "[추가 피드백]\n\n- P-IP-OniMomotaro02-DA 검수물에서 아래쪽 시키의 다리가 붉은색 삼각형 앞쪽으로 나와 있는데요.옆쪽 과 같이 레이어 조정을 통해서 다리가 앞쪽으로 나오지 않도록 수정 부탁드리겠습니다.",
       "[판권처 피드백]\n\n판권처 피드백 시트 내 코멘트로 남겨드렸습니다.",
@@ -171,18 +173,20 @@
     "members": [
       "최종인"
     ],
-    "latest_comment_date": "2026-09-01T08:08:09.467Z",
-    "last_activity": "2026-09-02T03:05:28.773Z",
+    "latest_comment_date": "2026-09-02T13:31:56.303Z",
+    "last_activity": "2026-09-02T13:32:03.124Z",
     "ai_summary": {
       "issue": "시키 캐릭터 다리 레이어 오류",
       "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나와 있습니다. 레이어 조정을 통해 다리가 앞으로 나오지 않도록 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 9,
-      "updated_at": "2026-08-22T01:40:59.680712"
+      "updated_at": "2026-08-22T01:40:59.680712",
+      "needs_update": true,
+      "update_reason": "피드백 9→10건, 상태 변경"
     },
     "is_rejection": true,
-    "feedback_count": 17
+    "feedback_count": 18
   },
   {
     "id": "69e5850c018a6b1926e6f1d9",
@@ -1364,7 +1368,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-02T04:08:23.303661"
+      "updated_at": "2026-09-02T04:08:23.303661",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -3238,12 +3244,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청합니다.",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정",
+      "detail": "X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 해당 내용을 제거하거나 변경해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-09-02T04:08:48.192010"
+      "updated_at": "2026-09-03T04:06:49.263957"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3912,14 +3918,12 @@
     "latest_comment_date": "2026-08-21T07:12:29.218Z",
     "last_activity": "2026-08-21T07:12:29.265Z",
     "ai_summary": {
-      "issue": "개발 보이스 마케팅 사용 승인 지연",
-      "detail": "판권사 내부 확인이 진행 중이며, 최종 승인까지 시간이 더 소요될 예정입니다. 업데이트되는 대로 전달받기로 했습니다.",
+      "issue": "개발 보이스 마케팅 사용 승인 보류",
+      "detail": "개발 보이스 마케팅 사용 건에 대한 판권사 내부 확인이 진행 중입니다. 최종 승인까지 추가 시간이 소요될 예정이며, 갱신되는 대로 피드백을 받을 것입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-01T04:48:20.339697",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-03T04:06:59.617844"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5518,14 +5522,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "사전 테스트 일정 미확정으로 소재 제출 보류",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권사 내부 검토 중이며, 아직 확정되지 않았습니다. 일정이 정리된 후 다음 검수물로 제출해야 합니다. 현재 수정 내용은 판권사 납득이 어렵습니다.",
+      "issue": "프리미엄 사전 테스트 지연 관련 일정 미정리",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권사 검토 중이므로, 해당 일정이 확정된 후에 수정된 광고 소재를 제출해야 합니다. 현재 수정 내용을 제출하면 판권사가 삭제 이유를 납득하기 어렵습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-01T04:48:38.941593",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-03T04:07:03.260201"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6207,6 +6209,42 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
       "updated_at": "2026-09-01T04:48:43.759489"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a967f8d893f23bba6e00f62",
+    "subject": "#329[0901] 니코니코 방송 송출용 동영상",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/s6bi6w3c",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 니코니코 방송 송출용\n3. 언어: 일\n4. **사용 목적: 니코니코 방송 송출용**\n5. **사용 채널: 니코니코 방송**\n6. 코멘트: 기제작된 [aj 참가 홍보 영상](https://www.youtube.com/watch?v=mU90TktGOqE \"‌\")에서 사운드, 텍스트, 엔드카드만 변경했습니다.\n7. 파일명\n   1. niconico_video",
+    "asset_type": "영상",
+    "purpose": "니코니코 방송 송출용",
+    "language": "일",
+    "memo": "기제작된 [aj 참가 홍보 영상](https://www.youtube.com/watch?v=mU90TktGOqE \"‌\")에서 사운드, 텍스트, 엔드카드만 변경했습니다.",
+    "labels": [],
+    "feedbacks": [
+      "기존에 공개된 영상을 사용해주시는 것은 문제가 없으나 수정해주신 텍스트들이 이전의 것들과 같이 한국어로 된 카피를 일본어로 번역한 느낌이 강하여 처음부터 일본어로 카피들이 기획이 되었으면 합니다. 또한 일본어 폰트도 か, で의 글자의 폰트의 크기가 달라서 어색해 보이는 느낌이 있습니다.\n\n일정이 넉넉하지 않은 관계로 원활한 검수를 위해서는 기존에 통과된 카피등을 최대한 활용할 수 있도록 해주시기 바랍니다.",
+      "방송 송출 일정 및 시간 확인되시면 공유 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "기존에 공개된 영상을 사용해주시는 것은 문제가 없으나 수정해주신 텍스트들이 이전의 것들과 같이 한국어로 된 카피를 일본어로 번역한 느낌이 강하여 처음부터 일본어로 카피들이 기획이 되었으면 합니다. 또한 일본어 폰트도 か, で의 글자의 폰트의 크기가 달라서 어색해 보이는 느낌이 있습니다.\n\n일정이 넉넉하지 않은 관계로 원활한 검수를 위해서는 기존에 통과된 카피등을 최대한 활용할 수 있도록 해주시기 바랍니다."
+    ],
+    "members": [
+      "이수연"
+    ],
+    "latest_comment_date": "2026-09-02T12:32:25.197Z",
+    "last_activity": "2026-09-03T01:08:41.569Z",
+    "ai_summary": {
+      "issue": "일본어 카피의 번역체 개선 및 원어 기획 필요",
+      "detail": "기존 한국어 카피를 번역한 듯한 느낌이 강하므로, 처음부터 일본어로 기획된 카피를 사용해야 합니다. 또한, 일본어 폰트 'か', 'で' 글자의 크기가 달라 어색해 보이니 폰트 통일성도 확보해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-03T04:07:06.371296"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -13036,32 +13074,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6a967f8d893f23bba6e00f62",
-    "subject": "#329[0901] 니코니코 방송 송출용 동영상",
-    "list": "지홀딩스 확인 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/s6bi6w3c",
-    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 니코니코 방송 송출용\n3. 언어: 일\n4. **사용 목적: 니코니코 방송 송출용**\n5. **사용 채널: 니코니코 방송**\n6. 코멘트: 기제작된 [aj 참가 홍보 영상](https://www.youtube.com/watch?v=mU90TktGOqE \"‌\")에서 사운드, 텍스트, 엔드카드만 변경했습니다.\n7. 파일명\n   1. niconico_video",
-    "asset_type": "영상",
-    "purpose": "니코니코 방송 송출용",
-    "language": "일",
-    "memo": "기제작된 [aj 참가 홍보 영상](https://www.youtube.com/watch?v=mU90TktGOqE \"‌\")에서 사운드, 텍스트, 엔드카드만 변경했습니다.",
-    "labels": [],
-    "feedbacks": [
-      "방송 송출 일정 및 시간 확인되시면 공유 부탁드립니다."
-    ],
-    "licensor_feedbacks": [],
-    "members": [
-      "이수연"
-    ],
-    "latest_comment_date": "2026-09-01T08:48:44.227Z",
-    "last_activity": "2026-09-02T01:02:52.814Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 1
-  },
-  {
     "id": "6a8e6ce43f951a2b6a792a4b",
     "subject": "#327[0826] 사전예약 메타데이터_메인이미지",
     "list": "감수 진행 중",
@@ -13354,23 +13366,45 @@
     "feedback_count": 0
   },
   {
-    "id": "6a9668d81992b2fa506d899a",
-    "subject": "#328[0901] HQ 마케팅 0901 SNS 콘텐츠",
-    "list": "지홀딩스 확인 중",
+    "id": "6a97ca9298c53f4db3713b3c",
+    "subject": "#330[0902] 사전/론칭 홍보 영상(보이스 추가 버전)",
+    "list": "컴투스 감수 요청",
     "status": "진행중",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/wd93lCaK",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 ~ No.6\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
-    "asset_type": "이미지",
-    "purpose": "SNS 업로드용",
+    "category": "영상",
+    "card_url": "https://trello.com/c/nnC72Pu3",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 사전/론칭 홍보 영상\n3. 언어: 일\n4. **사용 목적: 홍보영상**\n5. **사용 채널: X, 게임 채널, 내부 네트워크 등**\n6. 코멘트: 앞서 감수 완료된 사전/론칭 홍보영상과 동일하나 캐릭터 컷씬에 성우 보이스를 추가했습니다.\n   1. 사전/론칭 영상 감수 완료 [https://trello.com/c/DR74aO1h](https://trello.com/c/DR74aO1h \"smartCard-inline\")\n   2. 성우 보이스 감수 완료[https://trello.com",
+    "asset_type": "영상",
+    "purpose": "사전/론칭 홍보 영상",
     "language": "일",
-    "memo": "1. No.1 ~ No.6",
+    "memo": "앞서 감수 완료된 사전/론칭 홍보영상과 동일하나 캐릭터 컷씬에 성우 보이스를 추가했습니다.\n   1. 사전/론칭 영상 감수 완료 [https://trello.com/c/DR74aO1h](https://trello.com/c/DR74aO1h \"smartCard-inline\")\n   2. 성우 보이스 감수 완료[https://trello.com/c/tcUdSz",
     "labels": [],
     "feedbacks": [],
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-09-02T01:02:51.479Z",
+    "last_activity": "2026-09-03T00:54:32.979Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6a9668d81992b2fa506d899a",
+    "subject": "#328[0901] HQ 마케팅 0901 SNS 콘텐츠",
+    "list": "감수 진행 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/wd93lCaK",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 애니메이션 선행 상영회 참가 안내\n   2. No.2 애니메이션 선행 상영회 종료 안내\n   3. No.3 TGS2026PR 홍보 (*개발자 인터뷰 홍보)\n   4. No.4 밸런스 게임 - 쿄우야 vs 카오루\n   5. No.5 생일 축하 이미지 - 카오루\n   6. No.6 생일 축하 이미지 - 무다노\n   7. No.7 사전예약 성우 축전 영상",
+    "asset_type": "이미지",
+    "purpose": "SNS 업로드용",
+    "language": "일",
+    "memo": "1. No.1 애니메이션 선행 상영회 참가 안내\n   2. No.2 애니메이션 선행 상영회 종료 안내\n   3. No.3 TGS2026PR 홍보 (*개발자 인터뷰 홍보)\n   4. No.4 밸런스 게임 - 쿄우야 vs 카오루\n   5. No.5 생일 축하 이미지 - 카오루\n   6. No.6 생일 축하 이미지 - 무다노\n   7. No.7 사전예약 성우 축",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-09-02T13:36:42.814Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
