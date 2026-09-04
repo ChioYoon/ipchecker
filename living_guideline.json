@@ -176,14 +176,12 @@
     "latest_comment_date": "2026-09-02T13:31:56.303Z",
     "last_activity": "2026-09-02T13:32:03.124Z",
     "ai_summary": {
-      "issue": "시키 캐릭터 다리 레이어 오류",
-      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나와 있습니다. 레이어 조정을 통해 다리가 앞으로 나오지 않도록 수정해야 합니다.",
+      "issue": "특정 소재(P-IP-OniMomotaro02-DA) 레이어 오류 수정",
+      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나와 있습니다. 레이어 조정을 통해 다리가 삼각형 뒤로 가도록 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 9,
-      "updated_at": "2026-08-22T01:40:59.680712",
-      "needs_update": true,
-      "update_reason": "피드백 9→10건, 상태 변경"
+      "feedback_count": 10,
+      "updated_at": "2026-09-04T04:10:31.386948"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -3249,7 +3247,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-09-03T04:06:49.263957"
+      "updated_at": "2026-09-03T04:06:49.263957",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3923,7 +3923,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-03T04:06:59.617844"
+      "updated_at": "2026-09-03T04:06:59.617844",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -4954,6 +4956,44 @@
     "feedback_count": 3
   },
   {
+    "id": "6a967f8d893f23bba6e00f62",
+    "subject": "#329[0901] 니코니코 방송 송출용 동영상",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/s6bi6w3c",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 니코니코 방송 송출용\n3. 언어: 일\n4. **사용 목적: 니코니코 방송 송출용**\n5. **사용 채널: 니코니코 방송**\n6. 코멘트: 기제작된 [aj 참가 홍보 영상](https://www.youtube.com/watch?v=mU90TktGOqE \"‌\")에서 사운드, 텍스트, 엔드카드만 변경했습니다.\n7. 파일명\n   1. niconico_video",
+    "asset_type": "영상",
+    "purpose": "니코니코 방송 송출용",
+    "language": "일",
+    "memo": "기제작된 [aj 참가 홍보 영상](https://www.youtube.com/watch?v=mU90TktGOqE \"‌\")에서 사운드, 텍스트, 엔드카드만 변경했습니다.",
+    "labels": [],
+    "feedbacks": [
+      "(09/03) 카피를 전체적으로 수정 완료하였습니다. 폰트 사이즈의 경우, 한 컷에 나오는 글자는 전부 같은 크기입니다.\n \\- 파일명: 0903 수정\\_Niconico\\_video",
+      "기존에 공개된 영상을 사용해주시는 것은 문제가 없으나 수정해주신 텍스트들이 이전의 것들과 같이 한국어로 된 카피를 일본어로 번역한 느낌이 강하여 처음부터 일본어로 카피들이 기획이 되었으면 합니다. 또한 일본어 폰트도 か, で의 글자의 폰트의 크기가 달라서 어색해 보이는 느낌이 있습니다.\n\n일정이 넉넉하지 않은 관계로 원활한 검수를 위해서는 기존에 통과된 카피등을 최대한 활용할 수 있도록 해주시기 바랍니다.",
+      "방송 송출 일정 및 시간 확인되시면 공유 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "기존에 공개된 영상을 사용해주시는 것은 문제가 없으나 수정해주신 텍스트들이 이전의 것들과 같이 한국어로 된 카피를 일본어로 번역한 느낌이 강하여 처음부터 일본어로 카피들이 기획이 되었으면 합니다. 또한 일본어 폰트도 か, で의 글자의 폰트의 크기가 달라서 어색해 보이는 느낌이 있습니다.\n\n일정이 넉넉하지 않은 관계로 원활한 검수를 위해서는 기존에 통과된 카피등을 최대한 활용할 수 있도록 해주시기 바랍니다."
+    ],
+    "members": [
+      "김민지",
+      "이수연"
+    ],
+    "latest_comment_date": "2026-09-03T08:19:58.461Z",
+    "last_activity": "2026-09-03T08:27:47.482Z",
+    "ai_summary": {
+      "issue": "일본어 카피의 번역체 개선 및 원어 기획 필요",
+      "detail": "기존 한국어 카피를 번역한 듯한 느낌이 강하므로, 처음부터 일본어로 기획된 카피를 사용해야 합니다. 또한, 일본어 폰트 'か', 'で' 글자의 크기가 달라 어색해 보이니 폰트 통일성도 확보해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-03T04:07:06.371296"
+    },
+    "is_rejection": true,
+    "feedback_count": 3
+  },
+  {
     "id": "6a436516193d2f53f2d6c934",
     "subject": "#289[0630] [UA] 사전예약 소재 재감수 요청 건 (1,2차)",
     "list": "감수 진행 중",
@@ -5527,7 +5567,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-03T04:07:03.260201"
+      "updated_at": "2026-09-03T04:07:03.260201",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6209,42 +6251,6 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
       "updated_at": "2026-09-01T04:48:43.759489"
-    },
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
-    "id": "6a967f8d893f23bba6e00f62",
-    "subject": "#329[0901] 니코니코 방송 송출용 동영상",
-    "list": "컴투스 확인 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/s6bi6w3c",
-    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 니코니코 방송 송출용\n3. 언어: 일\n4. **사용 목적: 니코니코 방송 송출용**\n5. **사용 채널: 니코니코 방송**\n6. 코멘트: 기제작된 [aj 참가 홍보 영상](https://www.youtube.com/watch?v=mU90TktGOqE \"‌\")에서 사운드, 텍스트, 엔드카드만 변경했습니다.\n7. 파일명\n   1. niconico_video",
-    "asset_type": "영상",
-    "purpose": "니코니코 방송 송출용",
-    "language": "일",
-    "memo": "기제작된 [aj 참가 홍보 영상](https://www.youtube.com/watch?v=mU90TktGOqE \"‌\")에서 사운드, 텍스트, 엔드카드만 변경했습니다.",
-    "labels": [],
-    "feedbacks": [
-      "기존에 공개된 영상을 사용해주시는 것은 문제가 없으나 수정해주신 텍스트들이 이전의 것들과 같이 한국어로 된 카피를 일본어로 번역한 느낌이 강하여 처음부터 일본어로 카피들이 기획이 되었으면 합니다. 또한 일본어 폰트도 か, で의 글자의 폰트의 크기가 달라서 어색해 보이는 느낌이 있습니다.\n\n일정이 넉넉하지 않은 관계로 원활한 검수를 위해서는 기존에 통과된 카피등을 최대한 활용할 수 있도록 해주시기 바랍니다.",
-      "방송 송출 일정 및 시간 확인되시면 공유 부탁드립니다."
-    ],
-    "licensor_feedbacks": [
-      "기존에 공개된 영상을 사용해주시는 것은 문제가 없으나 수정해주신 텍스트들이 이전의 것들과 같이 한국어로 된 카피를 일본어로 번역한 느낌이 강하여 처음부터 일본어로 카피들이 기획이 되었으면 합니다. 또한 일본어 폰트도 か, で의 글자의 폰트의 크기가 달라서 어색해 보이는 느낌이 있습니다.\n\n일정이 넉넉하지 않은 관계로 원활한 검수를 위해서는 기존에 통과된 카피등을 최대한 활용할 수 있도록 해주시기 바랍니다."
-    ],
-    "members": [
-      "이수연"
-    ],
-    "latest_comment_date": "2026-09-02T12:32:25.197Z",
-    "last_activity": "2026-09-03T01:08:41.569Z",
-    "ai_summary": {
-      "issue": "일본어 카피의 번역체 개선 및 원어 기획 필요",
-      "detail": "기존 한국어 카피를 번역한 듯한 느낌이 강하므로, 처음부터 일본어로 기획된 카피를 사용해야 합니다. 또한, 일본어 폰트 'か', 'で' 글자의 크기가 달라 어색해 보이니 폰트 통일성도 확보해야 합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-09-03T04:07:06.371296"
     },
     "is_rejection": true,
     "feedback_count": 2
