@@ -176,12 +176,12 @@
     "latest_comment_date": "2026-09-02T13:31:56.303Z",
     "last_activity": "2026-09-02T13:32:03.124Z",
     "ai_summary": {
-      "issue": "특정 소재(P-IP-OniMomotaro02-DA) 레이어 오류 수정",
-      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나와 있습니다. 레이어 조정을 통해 다리가 삼각형 뒤로 가도록 수정해야 합니다.",
+      "issue": "특정 소재 시키 캐릭터 레이어 오류",
+      "detail": "P-IP-OniMomotaro02-DA 소재 내 시키 다리가 붉은 삼각형 앞으로 나와 있어 레이어 조정이 필요합니다. 해당 소재는 재제출 예정입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-09-04T04:10:31.386948"
+      "updated_at": "2026-09-05T04:06:21.109360"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -5562,14 +5562,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "프리미엄 사전 테스트 지연 관련 일정 미정리",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 아직 판권사 검토 중이므로, 해당 일정이 확정된 후에 수정된 광고 소재를 제출해야 합니다. 현재 수정 내용을 제출하면 판권사가 삭제 이유를 납득하기 어렵습니다.",
+      "issue": "일정 미확정으로 인한 소재 수정 보류",
+      "detail": "프리미엄 사전 테스트 일정 지연 관련 내용이 아직 판권사 검토 중이므로, 해당 내용 삭제는 현재 불가합니다. 일정이 확정된 후 다음 검수물로 제출해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-03T04:07:03.260201",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-05T04:07:36.445341"
     },
     "is_rejection": true,
     "feedback_count": 2
