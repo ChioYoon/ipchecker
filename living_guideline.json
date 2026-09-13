@@ -181,7 +181,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-09-12T04:16:17.755207"
+      "updated_at": "2026-09-12T04:16:17.755207",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -5726,7 +5728,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-12T04:16:57.826550"
+      "updated_at": "2026-09-12T04:16:57.826550",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
