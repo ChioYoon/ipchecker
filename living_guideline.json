@@ -176,14 +176,12 @@
     "latest_comment_date": "2026-09-02T13:31:56.303Z",
     "last_activity": "2026-09-07T01:20:18.061Z",
     "ai_summary": {
-      "issue": "특정 소재 시키 다리 레이어 오류 수정",
-      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나와 있어 레이어 조정이 필요합니다. 다리가 앞으로 나오지 않도록 수정 후 재제출해야 합니다.",
+      "issue": "특정 소재(P-IP-OniMomotaro02-DA) 레이어 오류",
+      "detail": "P-IP-OniMomotaro02-DA 소재 내 시키의 다리가 붉은색 삼각형 앞으로 나와 있어 레이어 조정이 필요합니다. 다리가 삼각형 뒤로 가도록 수정 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-09-15T04:35:40.283763",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-19T04:18:25.366840"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -285,14 +283,12 @@
     "latest_comment_date": "2026-09-17T05:46:31.941Z",
     "last_activity": "2026-09-17T05:46:36.680Z",
     "ai_summary": {
-      "issue": "감수리스트6 접근 권한 확보 및 성우 정보 수정",
-      "detail": "감수리스트6 영상에 대한 접근 권한이 없어 확인이 불가능합니다. 해당 리스트의 키즈나 성우 정보를 楠木ともり로 수정해야 합니다.",
+      "issue": "키즈나 성우 정보 및 영상 접근 권한 문제",
+      "detail": "감수 리스트 6번 영상의 키즈나 성우를 楠木ともり로 수정해야 합니다. 또한, 해당 영상에 대한 접근 권한이 없어 확인이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 5,
-      "updated_at": "2026-09-09T04:21:02.131683",
-      "needs_update": true,
-      "update_reason": "피드백 5→6건, 상태 변경"
+      "feedback_count": 6,
+      "updated_at": "2026-09-19T04:18:31.065176"
     },
     "is_rejection": true,
     "feedback_count": 12
@@ -344,7 +340,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 6,
-      "updated_at": "2026-09-18T04:22:32.474723"
+      "updated_at": "2026-09-18T04:22:32.474723",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 12
@@ -3352,14 +3350,12 @@
     "latest_comment_date": "2026-08-24T08:15:08.136Z",
     "last_activity": "2026-08-24T08:15:18.591Z",
     "ai_summary": {
-      "issue": "시키 손 피 색상 및 마켓 뱃지 일관성 수정 필요",
-      "detail": "판권사는 2안을 승인했으나, 시키 손의 피 색상을 진하게 수정 요청했습니다. 또한, 마켓 뱃지 종류(DMM, AGO vs. 구글, 애플, 스팀)의 불일치에 대한 정리 및 확인이 필요합니다.",
+      "issue": "시키 피 색상 및 마켓 뱃지 일관성 수정",
+      "detail": "선택된 2안의 시키 손에 묻은 피 색상을 진하게 조정해야 합니다. 또한, 브랜드 페이지 내 마켓 뱃지(DMM, AGO vs 구글, 애플, 스팀)의 불일치를 확인하고 전체적으로 정리해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-08-30T05:03:21.060623",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-19T04:19:14.203803"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -5543,7 +5539,14 @@
     ],
     "latest_comment_date": "2026-09-17T05:51:00.638Z",
     "last_activity": "2026-09-17T05:51:12.825Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "감수 완료 및 승인, 특이사항 없음",
+      "detail": "판권사로부터 감수 완료 피드백을 받았으며, 소재는 최종 승인되었습니다. 별도의 수정 요구사항이나 지적 사항은 없습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-19T04:19:24.138792"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -5824,14 +5827,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "일정 관련 소재 제출 시기 부적절",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권사 내부 검토 중이므로, 현재 수정 내용(삭제)을 제출하면 납득하기 어렵습니다. 일정이 확정된 후에 다음 검수물로 제출해 주십시오.",
+      "issue": "프리미엄 사전 테스트 일정 관련 내용 미확정",
+      "detail": "판권사에서 프리미엄 사전 테스트 지연 일정을 검토 중이므로, 해당 내용이 확정된 후에 광고 소재를 제출해야 합니다. 현재 수정 내용은 일정 미확정 상태에서 납득하기 어렵습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-12T04:16:57.826550",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-19T04:19:28.794202"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6760,7 +6761,14 @@
     "members": [],
     "latest_comment_date": "2026-09-18T02:38:41.777Z",
     "last_activity": "2026-09-18T03:00:35.554Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "사전예약 검수 일정 촉박 우려",
+      "detail": "10월 2~3주 사전예약 진행 시 일본 연휴 등으로 검수 일정이 촉박할 수 있으니, 검수 일정 고려하여 진행 요청합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-19T04:19:32.473076"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -6786,7 +6794,14 @@
     "members": [],
     "latest_comment_date": "2026-09-07T01:19:24.458Z",
     "last_activity": "2026-09-07T01:19:51.073Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "감수 내용에 대한 특별한 이슈 없음",
+      "detail": "판권사에서 제출된 우편함 문구(개별지급용)에 대해 감수를 완료하였으며, 모든 내용이 원안대로 승인되었습니다. 수정 요구사항은 없습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-19T04:19:36.830439"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -8847,6 +8862,65 @@
     "feedback_count": 1
   },
   {
+    "id": "6a9fc2f8dc018bcc256e97e8",
+    "subject": "#332[0908] HQ 마케팅 0908 SNS 콘텐츠",
+    "list": "이슈 발생",
+    "status": "반려",
+    "category": "영상",
+    "card_url": "https://trello.com/c/f7Tp29lx",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. 캐릭터 PV - 신야\n   2. 캐릭터 PV - 마나카\n   3. 성우 사전예약 축전 영상 - 쥬우지\n   4. 생일 축하 이미지 - 쿄우야\n   5. 론칭 성우 축전 영상 14종\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
+    "asset_type": "이미지",
+    "purpose": "SNS 업로드용",
+    "language": "일",
+    "memo": "1. 캐릭터 PV - 신야\n   2. 캐릭터 PV - 마나카\n   3. 성우 사전예약 축전 영상 - 쥬우지\n   4. 생일 축하 이미지 - 쿄우야\n   5. 론칭 성우 축전 영상 14종",
+    "labels": [],
+    "feedbacks": [
+      "판권처 FB를 [9/8 시트 R열](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1294427570#gid=1294427570&range=R:R \"‌\")에 기재하였습니다.\n\n단, 마나카 PV 영상만 지금 판권처쪽에 문의 중에 있으니 답변 오는데로 FB 전달드리겠습니다"
+    ],
+    "licensor_feedbacks": [
+      "판권처 FB를 [9/8 시트 R열](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1294427570#gid=1294427570&range=R:R \"‌\")에 기재하였습니다.\n\n단, 마나카 PV 영상만 지금 판권처쪽에 문의 중에 있으니 답변 오는데로 FB 전달드리겠습니다"
+    ],
+    "members": [],
+    "latest_comment_date": "2026-09-18T08:00:25.498Z",
+    "last_activity": "2026-09-18T08:03:13.603Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6a9fc342b78ceda4662c2bc7",
+    "subject": "#334[0908] 10월 SNS 포스팅 콘텐츠",
+    "list": "이슈 발생",
+    "status": "반려",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/TShkQ1CX",
+    "description": "‌\n\n1. 내용/ 감수 항목: X 포스팅 컨텐츠\n2. 사용 용도: X 운영\n3. 언어: 일\n4. 코멘트:\n5. 파일명:[https://docs.google.com/presentation/d/1aEI5thAF_c7vadFu7-Jag6b5uToH2AKl/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1aEI5thAF_c7vadFu7-Jag6b5uToH2AKl/edit?slide=id.p1#slide=id.p1 \"smartCard-inline\")",
+    "asset_type": "X 포스팅 컨텐츠",
+    "purpose": "X 운영",
+    "language": "일",
+    "memo": "5. 파일명:[https://docs.google.com/presentation/d/1aEI5thAF_c7vadFu7-Jag6b5uToH2AKl/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1aEI5thAF_c7vadFu7-Jag6b5uToH2AKl/edit?slide=id.p1",
+    "labels": [],
+    "feedbacks": [
+      "판권처 FB를 [9/8 시트 R열](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1294427570#gid=1294427570&range=R:R \"‌\")에 기재하였습니다.\n확인 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "판권처 FB를 [9/8 시트 R열](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1294427570#gid=1294427570&range=R:R \"‌\")에 기재하였습니다.\n확인 부탁드립니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-09-18T08:03:47.809Z",
+    "last_activity": "2026-09-18T08:04:12.788Z",
+    "ai_summary": {
+      "issue": "상세 피드백 외부 시트 확인 필요",
+      "detail": "판권사의 상세 피드백이 9/8 시트 R열에 기재되어 있으니 해당 내용을 확인해야 합니다. 콘텐츠 반려 사유 및 구체적인 수정 요구사항을 파악하여 반영해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-19T04:19:45.919726"
+    },
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
     "id": "6a9f6f29800d2d3197d9f67d",
     "subject": "#331[0908] 사전예약 PR",
     "list": "이슈 발생",
@@ -8868,7 +8942,14 @@
     "members": [],
     "latest_comment_date": "2026-09-18T02:30:28.234Z",
     "last_activity": "2026-09-18T02:30:32.229Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "IP 정보 및 용어의 정확성 미흡",
+      "detail": "10/7 이후 PR 시 만화책 판매 부수를 600만부에서 650만부로 수정해야 합니다. 또한, '스마트폰 게임화' 표현을 '게임화'로 간결하게 변경해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-19T04:19:49.027443"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -8894,6 +8975,32 @@
     "members": [],
     "latest_comment_date": "2026-09-11T09:50:23.289Z",
     "last_activity": "2026-09-18T03:22:39.209Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6a9fcd0c9f7edfe884edc02a",
+    "subject": "#333[0908] 도원암귀 마케팅 액션 플랜",
+    "list": "이슈 발생",
+    "status": "반려",
+    "category": "영상",
+    "card_url": "https://trello.com/c/uqyVJOKD",
+    "description": "본문\n\n1. 내용/ 감수 항목: 기획안(플랜)\n2. 사용 용도: 도원암귀 사전/론칭 플랜\n   1. **마케팅 액션**\n      1. **DOOH, 콜라보 카페, 콜라보 카페 트럭, AD트럭, 스케치영상,**\n      2. **gamewith, game8, 덴파미니코 게이머**\n      3. **인플루언서, DAS컴투스 합동 콘텐츠(**VOD형태)\n   2. 플랜안에서 가능한 액션안에 대해서 FB을 받으면 상세 기획안을 통해 추가 감수를 진행할 예정입니다.\n      1. 사전/론칭일이 협의중인 상황이라 플랜안에는 사전/론칭 ",
+    "asset_type": "기획안(플랜)",
+    "purpose": "도원암귀 사전/론칭 플랜",
+    "language": "",
+    "memo": "",
+    "labels": [],
+    "feedbacks": [
+      "[판권처 피드백]\n\n- DOOH, AD트럭 > 검수 완료되었습니다.\n- DA > 검수 완료되었습니다.\n- 오프라인 행사, 이동 카페 트럭, 사전 이슈회 > NG입니다. (GH 코멘트 > 기획 의도를 다시 한번 판권처측에 설명하여 확인 중에 있어 혹시 변경되는 내용이 있다면 다시 코멘트 드리도록 하겠습니다.)\n- 06-2 인플루언서 > 유저와 함께 플레이 한다는 것이 어떤 스타일이 될지 잘 모르겠어서 구체적인안으로 제안 부탁드리겠습니다.\n- 06-4 기존 인플루언서 컨텐츠 > 코스프레어가 아닌 일반적으로 게임을 하고 있는 인플루언서쪽이 더 좋을 것 같습니다.\n- 07 개발자 콘텐츠 > 덴츠(Dentsu) IP 담당자는 NG로 부탁드립니다. 시기 관련해서도, 출시 전은 NG입니다. IP계 게임 중에서 이러한 시책(마케팅/이벤트)을 진행하고 있는 다른 게임이 있나요? 애니메이션을 원작으로 하고 있어서 게임 오리지널 타이틀이 아니다 보니, 검토가 더 필요할 것으로 생각됩니다."
+    ],
+    "licensor_feedbacks": [
+      "[판권처 피드백]\n\n- DOOH, AD트럭 > 검수 완료되었습니다.\n- DA > 검수 완료되었습니다.\n- 오프라인 행사, 이동 카페 트럭, 사전 이슈회 > NG입니다. (GH 코멘트 > 기획 의도를 다시 한번 판권처측에 설명하여 확인 중에 있어 혹시 변경되는 내용이 있다면 다시 코멘트 드리도록 하겠습니다.)\n- 06-2 인플루언서 > 유저와 함께 플레이 한다는 것이 어떤 스타일이 될지 잘 모르겠어서 구체적인안으로 제안 부탁드리겠습니다.\n- 06-4 기존 인플루언서 컨텐츠 > 코스프레어가 아닌 일반적으로 게임을 하고 있는 인플루언서쪽이 더 좋을 것 같습니다.\n- 07 개발자 콘텐츠 > 덴츠(Dentsu) IP 담당자는 NG로 부탁드립니다. 시기 관련해서도, 출시 전은 NG입니다. IP계 게임 중에서 이러한 시책(마케팅/이벤트)을 진행하고 있는 다른 게임이 있나요? 애니메이션을 원작으로 하고 있어서 게임 오리지널 타이틀이 아니다 보니, 검토가 더 필요할 것으로 생각됩니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-09-18T11:23:46.152Z",
+    "last_activity": "2026-09-18T11:23:50.786Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
@@ -13697,72 +13804,6 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-08-20T02:41:27.801Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a9fc2f8dc018bcc256e97e8",
-    "subject": "#332[0908] HQ 마케팅 0908 SNS 콘텐츠",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/f7Tp29lx",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. 캐릭터 PV - 신야\n   2. 캐릭터 PV - 마나카\n   3. 성우 사전예약 축전 영상 - 쥬우지\n   4. 생일 축하 이미지 - 쿄우야\n   5. 론칭 성우 축전 영상 14종\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
-    "asset_type": "이미지",
-    "purpose": "SNS 업로드용",
-    "language": "일",
-    "memo": "1. 캐릭터 PV - 신야\n   2. 캐릭터 PV - 마나카\n   3. 성우 사전예약 축전 영상 - 쥬우지\n   4. 생일 축하 이미지 - 쿄우야\n   5. 론칭 성우 축전 영상 14종",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-09-10T07:32:36.498Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a9fc342b78ceda4662c2bc7",
-    "subject": "#334[0908] 10월 SNS 포스팅 콘텐츠",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/TShkQ1CX",
-    "description": "‌\n\n1. 내용/ 감수 항목: X 포스팅 컨텐츠\n2. 사용 용도: X 운영\n3. 언어: 일\n4. 코멘트:\n5. 파일명:[https://docs.google.com/presentation/d/1aEI5thAF_c7vadFu7-Jag6b5uToH2AKl/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1aEI5thAF_c7vadFu7-Jag6b5uToH2AKl/edit?slide=id.p1#slide=id.p1 \"smartCard-inline\")",
-    "asset_type": "X 포스팅 컨텐츠",
-    "purpose": "X 운영",
-    "language": "일",
-    "memo": "5. 파일명:[https://docs.google.com/presentation/d/1aEI5thAF_c7vadFu7-Jag6b5uToH2AKl/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1aEI5thAF_c7vadFu7-Jag6b5uToH2AKl/edit?slide=id.p1",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-09-18T03:02:50.537Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6a9fcd0c9f7edfe884edc02a",
-    "subject": "#333[0908] 도원암귀 마케팅 액션 플랜",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/uqyVJOKD",
-    "description": "본문\n\n1. 내용/ 감수 항목: 기획안(플랜)\n2. 사용 용도: 도원암귀 사전/론칭 플랜\n   1. **마케팅 액션**\n      1. **DOOH, 콜라보 카페, 콜라보 카페 트럭, AD트럭, 스케치영상,**\n      2. **gamewith, game8, 덴파미니코 게이머**\n      3. **인플루언서, DAS컴투스 합동 콘텐츠(**VOD형태)\n   2. 플랜안에서 가능한 액션안에 대해서 FB을 받으면 상세 기획안을 통해 추가 감수를 진행할 예정입니다.\n      1. 사전/론칭일이 협의중인 상황이라 플랜안에는 사전/론칭 ",
-    "asset_type": "기획안(플랜)",
-    "purpose": "도원암귀 사전/론칭 플랜",
-    "language": "",
-    "memo": "",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-09-10T07:32:40.538Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
