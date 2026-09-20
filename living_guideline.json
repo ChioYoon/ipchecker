@@ -181,7 +181,7 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-09-19T04:18:25.366840"
+      "updated_at": "2026-09-20T04:37:03.888841"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -288,7 +288,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 6,
-      "updated_at": "2026-09-19T04:18:31.065176"
+      "updated_at": "2026-09-19T04:18:31.065176",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 12
@@ -539,14 +541,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "일본어 카피 및 폰트 표현의 현지화 및 품질 개선 필요",
-      "detail": "마지막 문구와 4초 지점의 특정 문구 표현이 어색하므로 수정이 필요합니다. 한국어 번역 느낌이 아닌 일본어 현지화 카피 기획을 요구하며, 일본어 폰트 크기 불일치도 수정해야 합니다.",
+      "issue": "영상 내 일본어 문구 및 표현 수정 필요",
+      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 어색하다는 판권사의 피드백이 있었습니다. 해당 문구들에 대한 재수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-09-14T04:37:23.299845",
-      "needs_update": true,
-      "update_reason": "피드백 3→4건, 상태 변경"
+      "feedback_count": 4,
+      "updated_at": "2026-09-20T04:37:17.868136"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1196,14 +1196,12 @@
     "latest_comment_date": "2026-08-21T08:10:48.865Z",
     "last_activity": "2026-08-21T08:10:56.903Z",
     "ai_summary": {
-      "issue": "닉네임 진단 단어의 IP 관련성 부족",
-      "detail": "‘갤’이나 ‘아기’ 등 일반적인 단어는 캐릭터와의 연관성이 불분명하며, ‘도원암귀’ IP와의 관련성이 낮은 단어는 감수 통과가 어렵습니다. 제출 전 IP 연관성을 강화하는 방향으로 수정이 필요합니다.",
+      "issue": "닉네임과 캐릭터 간 연관성 표현 강화 필요",
+      "detail": "'ギャル', '赤ちゃん' 등 닉네임이 캐릭터와 연결되는 의도가 설명 없이는 전달되기 어려움. 마케팅 소재 자체에서 닉네임과 캐릭터의 연관성을 명확히 표현하도록 수정해야 함.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-08-06T03:22:15.882095",
-      "needs_update": true,
-      "update_reason": "피드백 3→4건, 상태 변경"
+      "feedback_count": 4,
+      "updated_at": "2026-09-20T04:37:22.698302"
     },
     "is_rejection": true,
     "feedback_count": 8
@@ -3189,14 +3187,12 @@
     "latest_comment_date": "2026-09-17T05:47:08.392Z",
     "last_activity": "2026-09-17T05:52:17.358Z",
     "ai_summary": {
-      "issue": "메인이미지 캐릭터 크기 조정",
-      "detail": "1안은 검수 완료되었으나, 2안 사용 시 무다노 캐릭터의 크기를 코우가사키와 비슷한 크기로 조정해야 합니다.",
-      "resolved": false,
+      "issue": "캐릭터 이미지 크기 조정 필요",
+      "detail": "2안 사용 시, 무다노 캐릭터의 크기를 코우가사키 캐릭터와 유사하게 조정해야 합니다. 1안은 이미 검수 완료되었습니다.",
+      "resolved": true,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-09-09T04:21:29.178675",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건, 상태 변경"
+      "feedback_count": 2,
+      "updated_at": "2026-09-20T04:37:47.806036"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -3355,7 +3351,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-09-19T04:19:14.203803"
+      "updated_at": "2026-09-19T04:19:14.203803",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -5832,7 +5830,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-19T04:19:28.794202"
+      "updated_at": "2026-09-19T04:19:28.794202",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6763,11 +6763,11 @@
     "last_activity": "2026-09-18T03:00:35.554Z",
     "ai_summary": {
       "issue": "사전예약 검수 일정 촉박 우려",
-      "detail": "10월 2~3주 사전예약 진행 시 일본 연휴 등으로 검수 일정이 촉박할 수 있으니, 검수 일정 고려하여 진행 요청합니다.",
+      "detail": "10월 2~3주 사전예약 일정으로 인해 검수 일정이 촉박할 것으로 예상됩니다. 일본 연휴 등을 고려하여 검수 일정 조율이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-19T04:19:32.473076"
+      "updated_at": "2026-09-20T04:38:02.532690"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -8975,7 +8975,14 @@
     "members": [],
     "latest_comment_date": "2026-09-11T09:50:23.289Z",
     "last_activity": "2026-09-18T03:22:39.209Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "상세 피드백 외부 시트 확인 필요",
+      "detail": "판권사의 구체적인 수정 요구사항은 제공된 피드백 본문에 없습니다. 9/1 시트에 기재된 내용을 직접 확인하여 반영해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-20T04:38:12.348129"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -9001,7 +9008,14 @@
     "members": [],
     "latest_comment_date": "2026-09-18T11:23:46.152Z",
     "last_activity": "2026-09-18T11:23:50.786Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "오프라인 행사 및 인플루언서 기획안 재검토 필요",
+      "detail": "오프라인 행사(이동 카페 트럭, 사전 이슈회)는 NG 판정을 받아 기획 의도 재설명 후 확인 중입니다. 인플루언서 콘텐츠는 '유저와 함께 플레이 한' 부분에 대한 구체적인 내용 보완이 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-20T04:38:15.592542"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
