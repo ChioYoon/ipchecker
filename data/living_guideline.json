@@ -176,12 +176,12 @@
     "latest_comment_date": "2026-09-02T13:31:56.303Z",
     "last_activity": "2026-09-07T01:20:18.061Z",
     "ai_summary": {
-      "issue": "특정 소재(P-IP-OniMomotaro02-DA) 레이어 오류",
-      "detail": "P-IP-OniMomotaro02-DA 소재 내 시키의 다리가 붉은색 삼각형 앞으로 나와 있어 레이어 조정이 필요합니다. 다리가 삼각형 뒤로 가도록 수정 요청되었습니다.",
+      "issue": "특정 소재(P-IP-OniMomotaro02-DA)의 레이어 오류 수정",
+      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나오는 레이어 오류가 발견되었습니다. 다리가 앞쪽으로 나오지 않도록 레이어 조정을 통해 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-09-20T04:37:03.888841"
+      "updated_at": "2026-09-21T04:35:30.872763"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -541,12 +541,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "영상 내 일본어 문구 및 표현 수정 필요",
-      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 어색하다는 판권사의 피드백이 있었습니다. 해당 문구들에 대한 재수정이 필요합니다.",
+      "issue": "문구 표현 어색함 및 부자연스러운 문구 수정 필요",
+      "detail": "영상 마지막 문구와 4초에 등장하는 '画面から溢れ出す圧巻の臨場感' 표현이 어색하여 수정이 필요합니다. 자연스러운 문구로 변경 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-20T04:37:17.868136"
+      "updated_at": "2026-09-21T04:35:44.523103"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1201,7 +1201,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-20T04:37:22.698302"
+      "updated_at": "2026-09-20T04:37:22.698302",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 8
@@ -5513,6 +5515,82 @@
     "feedback_count": 3
   },
   {
+    "id": "6a9668d81992b2fa506d899a",
+    "subject": "#328[0901] HQ 마케팅 0901 SNS 콘텐츠",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "영상",
+    "card_url": "https://trello.com/c/wd93lCaK",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 애니메이션 선행 상영회 참가 안내\n   2. No.2 애니메이션 선행 상영회 종료 안내\n   3. No.3 TGS2026PR 홍보 (*개발자 인터뷰 홍보)\n   4. No.4 밸런스 게임 - 쿄우야 vs 카오루\n   5. No.5 생일 축하 이미지 - 카오루\n   6. No.6 생일 축하 이미지 - 무다노\n   7. No.7 사전예약 성우 축전 영상",
+    "asset_type": "이미지",
+    "purpose": "SNS 업로드용",
+    "language": "일",
+    "memo": "1. No.1 애니메이션 선행 상영회 참가 안내\n   2. No.2 애니메이션 선행 상영회 종료 안내\n   3. No.3 TGS2026PR 홍보 (*개발자 인터뷰 홍보)\n   4. No.4 밸런스 게임 - 쿄우야 vs 카오루\n   5. No.5 생일 축하 이미지 - 카오루\n   6. No.6 생일 축하 이미지 - 무다노\n   7. No.7 사전예약 성우 축",
+    "labels": [],
+    "feedbacks": [
+      "(09/21) 시트 내 NG인 콘텐츠 제외, 전부 감수 통과된 점 확인 완료하여 감수완료 항목으로 옮기겠습니다.",
+      "판권처 FB를 [9/1 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1057406353#gid=1057406353&range=R:R \"‌\")에 기재했습니다.\n확인 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "판권처 FB를 [9/1 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1057406353#gid=1057406353&range=R:R \"‌\")에 기재했습니다.\n확인 부탁드립니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-09-21T01:08:50.727Z",
+    "last_activity": "2026-09-21T01:08:50.768Z",
+    "ai_summary": {
+      "issue": "상세 피드백 외부 시트 확인 필요",
+      "detail": "판권사의 구체적인 수정 요구사항은 제공된 피드백 본문에 없습니다. 9/1 시트에 기재된 내용을 직접 확인하여 반영해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-20T04:38:12.348129",
+      "needs_update": true,
+      "update_reason": "상태 변경"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a8d0ad57013480b4423a412",
+    "subject": "#325[0824] 2026TGS 유상PR_4gamer",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "배너",
+    "card_url": "https://trello.com/c/CBbKZvrB",
+    "description": "1. 내용/ 감수 항목: 4gamer 유상pr\n2. 사용 용도: 2026 TGS PR배포용,\n3. 언어: 일\n4. **사용 목적: TGS현장 인터뷰 초안**\n5. **사용 채널: 4gamer**\n6. 코멘트: 현장에서 진행될 인터뷰 초안입니다.\n   1. 9/18(금) com2us부스(홀 11 / 부스 위치: BM72)에서 인터뷰 예정입니다.\n      1. 현장 감수가 필요한 점 리마인드 드립니다.\n      2. 현장에서 빌드 플레이 가능 여부 가능한 것으로 인지했습니다.\n         1. [https://trello.com",
+    "asset_type": "4gamer 유상pr",
+    "purpose": "2026 TGS PR배포용,",
+    "language": "일",
+    "memo": "현장에서 진행될 인터뷰 초안입니다.\n   1. 9/18(금) com2us부스(홀 11 / 부스 위치: BM72)에서 인터뷰 예정입니다.\n      1. 현장 감수가 필요한 점 리마인드 드립니다.\n      2. 현장에서 빌드 플레이 가능 여부 가능한 것으로 인지했습니다.\n         1. [https://trello.com/c/h85jM1Qj](http",
+    "labels": [],
+    "feedbacks": [
+      "아래 텍스트 삭제 후, 현장 인터뷰에서 감수 진행하면 될지 문의 드립니다.\n\n===\n\n**4Gamer：**オリジナルストーリーにも，原作者である漆原先生の監修は入っているのでしょうか。\n\n**イ・ウンゼ氏：**はい，もちろんです。オリジナルストーリーについても，同様に監修を受けています。\n　TVアニメの世界観や設定を尊重することを基本原則としていますので，その分，より一層没入感があり，世界観をしっかりと維持した新しいストーリーを存分に楽しんでもらえるかと思います。",
+      "판권처 피드백 첨부드린 워드파일 내 코멘트로 전달드렸으니 참고 바랍니다."
+    ],
+    "licensor_feedbacks": [
+      "판권처 피드백 첨부드린 워드파일 내 코멘트로 전달드렸으니 참고 바랍니다."
+    ],
+    "members": [
+      "이수연"
+    ],
+    "latest_comment_date": "2026-09-08T01:34:24.922Z",
+    "last_activity": "2026-09-21T00:48:54.287Z",
+    "ai_summary": {
+      "issue": "구체적 피드백 내용 확인 필요",
+      "detail": "판권사 피드백이 첨부된 워드 파일 내 코멘트로 전달되었습니다. 현재 텍스트만으로는 구체적인 감수 이슈를 파악할 수 없으므로, 워드 파일 확인 후 추가 분석이 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-11T04:19:04.641522",
+      "needs_update": true,
+      "update_reason": "상태 변경"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
     "id": "6a9fc39ef26fdedb3388cba3",
     "subject": "#336[0908] 도원암귀 사전예약 뉴스레터 이미지",
     "list": "감수 완료",
@@ -5825,14 +5903,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "프리미엄 사전 테스트 일정 관련 내용 미확정",
-      "detail": "판권사에서 프리미엄 사전 테스트 지연 일정을 검토 중이므로, 해당 내용이 확정된 후에 광고 소재를 제출해야 합니다. 현재 수정 내용은 일정 미확정 상태에서 납득하기 어렵습니다.",
+      "issue": "사전 테스트 일정 미확정으로 소재 수정 보류",
+      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권처 검토 중이므로, 해당 일정이 확정된 후에 수정된 광고 소재를 재제출해야 합니다. 현재 수정 내용은 일정 미확정 상태에서는 판권처의 납득을 얻기 어렵습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-19T04:19:28.794202",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-21T04:36:30.556450"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6484,42 +6560,6 @@
     "feedback_count": 2
   },
   {
-    "id": "6a8d0ad57013480b4423a412",
-    "subject": "#325[0824] 2026TGS 유상PR_4gamer",
-    "list": "컴투스 확인 중",
-    "status": "진행중",
-    "category": "배너",
-    "card_url": "https://trello.com/c/CBbKZvrB",
-    "description": "1. 내용/ 감수 항목: 4gamer 유상pr\n2. 사용 용도: 2026 TGS PR배포용,\n3. 언어: 일\n4. **사용 목적: TGS현장 인터뷰 초안**\n5. **사용 채널: 4gamer**\n6. 코멘트: 현장에서 진행될 인터뷰 초안입니다.\n   1. 9/18(금) com2us부스(홀 11 / 부스 위치: BM72)에서 인터뷰 예정입니다.\n      1. 현장 감수가 필요한 점 리마인드 드립니다.\n      2. 현장에서 빌드 플레이 가능 여부 가능한 것으로 인지했습니다.\n         1. [https://trello.com",
-    "asset_type": "4gamer 유상pr",
-    "purpose": "2026 TGS PR배포용,",
-    "language": "일",
-    "memo": "현장에서 진행될 인터뷰 초안입니다.\n   1. 9/18(금) com2us부스(홀 11 / 부스 위치: BM72)에서 인터뷰 예정입니다.\n      1. 현장 감수가 필요한 점 리마인드 드립니다.\n      2. 현장에서 빌드 플레이 가능 여부 가능한 것으로 인지했습니다.\n         1. [https://trello.com/c/h85jM1Qj](http",
-    "labels": [],
-    "feedbacks": [
-      "아래 텍스트 삭제 후, 현장 인터뷰에서 감수 진행하면 될지 문의 드립니다.\n\n===\n\n**4Gamer：**オリジナルストーリーにも，原作者である漆原先生の監修は入っているのでしょうか。\n\n**イ・ウンゼ氏：**はい，もちろんです。オリジナルストーリーについても，同様に監修を受けています。\n　TVアニメの世界観や設定を尊重することを基本原則としていますので，その分，より一層没入感があり，世界観をしっかりと維持した新しいストーリーを存分に楽しんでもらえるかと思います。",
-      "판권처 피드백 첨부드린 워드파일 내 코멘트로 전달드렸으니 참고 바랍니다."
-    ],
-    "licensor_feedbacks": [
-      "판권처 피드백 첨부드린 워드파일 내 코멘트로 전달드렸으니 참고 바랍니다."
-    ],
-    "members": [
-      "이수연"
-    ],
-    "latest_comment_date": "2026-09-08T01:34:24.922Z",
-    "last_activity": "2026-09-08T01:35:13.891Z",
-    "ai_summary": {
-      "issue": "구체적 피드백 내용 확인 필요",
-      "detail": "판권사 피드백이 첨부된 워드 파일 내 코멘트로 전달되었습니다. 현재 텍스트만으로는 구체적인 감수 이슈를 파악할 수 없으므로, 워드 파일 확인 후 추가 분석이 필요합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-09-11T04:19:04.641522"
-    },
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
     "id": "6a61c5e38684239d88741040",
     "subject": "#310[0728] 도원암귀 공략위키 X채널 관련의 건",
     "list": "컴투스 확인 중",
@@ -6762,12 +6802,12 @@
     "latest_comment_date": "2026-09-18T02:38:41.777Z",
     "last_activity": "2026-09-18T03:00:35.554Z",
     "ai_summary": {
-      "issue": "사전예약 검수 일정 촉박 우려",
-      "detail": "10월 2~3주 사전예약 일정으로 인해 검수 일정이 촉박할 것으로 예상됩니다. 일본 연휴 등을 고려하여 검수 일정 조율이 필요합니다.",
+      "issue": "사전예약 검수 일정 촉박",
+      "detail": "사전예약은 10/7~10/18로 확정되었으나, 일본 연휴로 인해 검수 일정이 촉박할 것으로 예상됩니다. 검수 일정을 충분히 고려하여 진행해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-20T04:38:02.532690"
+      "updated_at": "2026-09-21T04:36:34.801428"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -8862,32 +8902,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6a9fc2f8dc018bcc256e97e8",
-    "subject": "#332[0908] HQ 마케팅 0908 SNS 콘텐츠",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "영상",
-    "card_url": "https://trello.com/c/f7Tp29lx",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. 캐릭터 PV - 신야\n   2. 캐릭터 PV - 마나카\n   3. 성우 사전예약 축전 영상 - 쥬우지\n   4. 생일 축하 이미지 - 쿄우야\n   5. 론칭 성우 축전 영상 14종\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
-    "asset_type": "이미지",
-    "purpose": "SNS 업로드용",
-    "language": "일",
-    "memo": "1. 캐릭터 PV - 신야\n   2. 캐릭터 PV - 마나카\n   3. 성우 사전예약 축전 영상 - 쥬우지\n   4. 생일 축하 이미지 - 쿄우야\n   5. 론칭 성우 축전 영상 14종",
-    "labels": [],
-    "feedbacks": [
-      "판권처 FB를 [9/8 시트 R열](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1294427570#gid=1294427570&range=R:R \"‌\")에 기재하였습니다.\n\n단, 마나카 PV 영상만 지금 판권처쪽에 문의 중에 있으니 답변 오는데로 FB 전달드리겠습니다"
-    ],
-    "licensor_feedbacks": [
-      "판권처 FB를 [9/8 시트 R열](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1294427570#gid=1294427570&range=R:R \"‌\")에 기재하였습니다.\n\n단, 마나카 PV 영상만 지금 판권처쪽에 문의 중에 있으니 답변 오는데로 FB 전달드리겠습니다"
-    ],
-    "members": [],
-    "latest_comment_date": "2026-09-18T08:00:25.498Z",
-    "last_activity": "2026-09-18T08:03:13.603Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
     "id": "6a9fc342b78ceda4662c2bc7",
     "subject": "#334[0908] 10월 SNS 포스팅 콘텐츠",
     "list": "이슈 발생",
@@ -8921,67 +8935,34 @@
     "feedback_count": 1
   },
   {
-    "id": "6a9f6f29800d2d3197d9f67d",
-    "subject": "#331[0908] 사전예약 PR",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "기타",
-    "card_url": "https://trello.com/c/MHvQkA4M",
-    "description": "본문\n\n1. 내용/ 감수 항목: 보도자료\n2. 사용 용도: 사전예약 시점 PR배포용,\n3. 언어: 한,일\n4. **사용 목적: 사전예약 시점 배포할 보도자료입니다.**\n5. 코멘트: 일문 보도자료의 경우, 사전예약 일자가 OO월OO일로 작성되어있습니다. 해당 부분은 사전예약 일정 확정 후 반영하여 확인 요청 드리겠습니다.",
-    "asset_type": "보도자료",
-    "purpose": "사전예약 시점 PR배포용,",
-    "language": "한,일",
-    "memo": "일문 보도자료의 경우, 사전예약 일자가 OO월OO일로 작성되어있습니다. 해당 부분은 사전예약 일정 확정 후 반영하여 확인 요청 드리겠습니다.",
-    "labels": [],
-    "feedbacks": [
-      "[판권처 피드백]\n\n1. PR의 시점이 10/7 이후라면 만화책 판매 부수를 600만부 > 650만부로 변경 바랍니다.\n2. 마지막의 [ 第三弾としてスマートフォンゲーム化が発表されている。] 를 [ 第三弾として**ゲーム化**が発表されている。]로 변경해주시기 바랍니다."
-    ],
-    "licensor_feedbacks": [
-      "[판권처 피드백]\n\n1. PR의 시점이 10/7 이후라면 만화책 판매 부수를 600만부 > 650만부로 변경 바랍니다.\n2. 마지막의 [ 第三弾としてスマートフォンゲーム化が発表されている。] 를 [ 第三弾として**ゲーム化**が発表されている。]로 변경해주시기 바랍니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-09-18T02:30:28.234Z",
-    "last_activity": "2026-09-18T02:30:32.229Z",
-    "ai_summary": {
-      "issue": "IP 정보 및 용어의 정확성 미흡",
-      "detail": "10/7 이후 PR 시 만화책 판매 부수를 600만부에서 650만부로 수정해야 합니다. 또한, '스마트폰 게임화' 표현을 '게임화'로 간결하게 변경해야 합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-09-19T04:19:49.027443"
-    },
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
-    "id": "6a9668d81992b2fa506d899a",
-    "subject": "#328[0901] HQ 마케팅 0901 SNS 콘텐츠",
-    "list": "이슈 발생",
-    "status": "반려",
+    "id": "6a9fc2f8dc018bcc256e97e8",
+    "subject": "#332[0908] HQ 마케팅 0908 SNS 콘텐츠",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
     "category": "영상",
-    "card_url": "https://trello.com/c/wd93lCaK",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 애니메이션 선행 상영회 참가 안내\n   2. No.2 애니메이션 선행 상영회 종료 안내\n   3. No.3 TGS2026PR 홍보 (*개발자 인터뷰 홍보)\n   4. No.4 밸런스 게임 - 쿄우야 vs 카오루\n   5. No.5 생일 축하 이미지 - 카오루\n   6. No.6 생일 축하 이미지 - 무다노\n   7. No.7 사전예약 성우 축전 영상",
+    "card_url": "https://trello.com/c/f7Tp29lx",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. 캐릭터 PV - 신야\n   2. 캐릭터 PV - 마나카\n   3. 성우 사전예약 축전 영상 - 쥬우지\n   4. 생일 축하 이미지 - 쿄우야\n   5. 론칭 성우 축전 영상 14종\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
     "asset_type": "이미지",
     "purpose": "SNS 업로드용",
     "language": "일",
-    "memo": "1. No.1 애니메이션 선행 상영회 참가 안내\n   2. No.2 애니메이션 선행 상영회 종료 안내\n   3. No.3 TGS2026PR 홍보 (*개발자 인터뷰 홍보)\n   4. No.4 밸런스 게임 - 쿄우야 vs 카오루\n   5. No.5 생일 축하 이미지 - 카오루\n   6. No.6 생일 축하 이미지 - 무다노\n   7. No.7 사전예약 성우 축",
+    "memo": "1. 캐릭터 PV - 신야\n   2. 캐릭터 PV - 마나카\n   3. 성우 사전예약 축전 영상 - 쥬우지\n   4. 생일 축하 이미지 - 쿄우야\n   5. 론칭 성우 축전 영상 14종",
     "labels": [],
     "feedbacks": [
-      "판권처 FB를 [9/1 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1057406353#gid=1057406353&range=R:R \"‌\")에 기재했습니다.\n확인 부탁드립니다."
+      "판권처 FB를 [9/8 시트 R열](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1294427570#gid=1294427570&range=R:R \"‌\")에 기재하였습니다.\n\n단, 마나카 PV 영상만 지금 판권처쪽에 문의 중에 있으니 답변 오는데로 FB 전달드리겠습니다"
     ],
     "licensor_feedbacks": [
-      "판권처 FB를 [9/1 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1057406353#gid=1057406353&range=R:R \"‌\")에 기재했습니다.\n확인 부탁드립니다."
+      "판권처 FB를 [9/8 시트 R열](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1294427570#gid=1294427570&range=R:R \"‌\")에 기재하였습니다.\n\n단, 마나카 PV 영상만 지금 판권처쪽에 문의 중에 있으니 답변 오는데로 FB 전달드리겠습니다"
     ],
     "members": [],
-    "latest_comment_date": "2026-09-11T09:50:23.289Z",
-    "last_activity": "2026-09-18T03:22:39.209Z",
+    "latest_comment_date": "2026-09-18T08:00:25.498Z",
+    "last_activity": "2026-09-21T01:09:01.257Z",
     "ai_summary": {
-      "issue": "상세 피드백 외부 시트 확인 필요",
-      "detail": "판권사의 구체적인 수정 요구사항은 제공된 피드백 본문에 없습니다. 9/1 시트에 기재된 내용을 직접 확인하여 반영해야 합니다.",
+      "issue": "마나카 PV 영상 판권사 피드백 대기",
+      "detail": "마나카 PV 영상에 대한 판권사의 최종 답변이 아직 확인되지 않았습니다. 해당 영상의 감수 진행을 위해 판권사의 피드백 확인이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-20T04:38:12.348129"
+      "updated_at": "2026-09-21T04:36:38.148039"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -8989,8 +8970,8 @@
   {
     "id": "6a9fcd0c9f7edfe884edc02a",
     "subject": "#333[0908] 도원암귀 마케팅 액션 플랜",
-    "list": "이슈 발생",
-    "status": "반려",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/uqyVJOKD",
     "description": "본문\n\n1. 내용/ 감수 항목: 기획안(플랜)\n2. 사용 용도: 도원암귀 사전/론칭 플랜\n   1. **마케팅 액션**\n      1. **DOOH, 콜라보 카페, 콜라보 카페 트럭, AD트럭, 스케치영상,**\n      2. **gamewith, game8, 덴파미니코 게이머**\n      3. **인플루언서, DAS컴투스 합동 콘텐츠(**VOD형태)\n   2. 플랜안에서 가능한 액션안에 대해서 FB을 받으면 상세 기획안을 통해 추가 감수를 진행할 예정입니다.\n      1. 사전/론칭일이 협의중인 상황이라 플랜안에는 사전/론칭 ",
@@ -9007,7 +8988,7 @@
     ],
     "members": [],
     "latest_comment_date": "2026-09-18T11:23:46.152Z",
-    "last_activity": "2026-09-18T11:23:50.786Z",
+    "last_activity": "2026-09-21T00:25:34.613Z",
     "ai_summary": {
       "issue": "오프라인 행사 및 인플루언서 기획안 재검토 필요",
       "detail": "오프라인 행사(이동 카페 트럭, 사전 이슈회)는 NG 판정을 받아 기획 의도 재설명 후 확인 중입니다. 인플루언서 콘텐츠는 '유저와 함께 플레이 한' 부분에 대한 구체적인 내용 보완이 필요합니다.",
@@ -9015,6 +8996,39 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-09-20T04:38:15.592542"
+    },
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6a9f6f29800d2d3197d9f67d",
+    "subject": "#331[0908] 사전예약 PR",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "기타",
+    "card_url": "https://trello.com/c/MHvQkA4M",
+    "description": "본문\n\n1. 내용/ 감수 항목: 보도자료\n2. 사용 용도: 사전예약 시점 PR배포용,\n3. 언어: 한,일\n4. **사용 목적: 사전예약 시점 배포할 보도자료입니다.**\n5. 코멘트: 일문 보도자료의 경우, 사전예약 일자가 OO월OO일로 작성되어있습니다. 해당 부분은 사전예약 일정 확정 후 반영하여 확인 요청 드리겠습니다.",
+    "asset_type": "보도자료",
+    "purpose": "사전예약 시점 PR배포용,",
+    "language": "한,일",
+    "memo": "일문 보도자료의 경우, 사전예약 일자가 OO월OO일로 작성되어있습니다. 해당 부분은 사전예약 일정 확정 후 반영하여 확인 요청 드리겠습니다.",
+    "labels": [],
+    "feedbacks": [
+      "[판권처 피드백]\n\n1. PR의 시점이 10/7 이후라면 만화책 판매 부수를 600만부 > 650만부로 변경 바랍니다.\n2. 마지막의 [ 第三弾としてスマートフォンゲーム化が発表されている。] 를 [ 第三弾として**ゲーム化**が発表されている。]로 변경해주시기 바랍니다."
+    ],
+    "licensor_feedbacks": [
+      "[판권처 피드백]\n\n1. PR의 시점이 10/7 이후라면 만화책 판매 부수를 600만부 > 650만부로 변경 바랍니다.\n2. 마지막의 [ 第三弾としてスマートフォンゲーム化が発表されている。] 를 [ 第三弾として**ゲーム化**が発表されている。]로 변경해주시기 바랍니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-09-18T02:30:28.234Z",
+    "last_activity": "2026-09-21T00:41:35.751Z",
+    "ai_summary": {
+      "issue": "IP 정보 및 용어의 정확성 미흡",
+      "detail": "10/7 이후 PR 시 만화책 판매 부수를 600만부에서 650만부로 수정해야 합니다. 또한, '스마트폰 게임화' 표현을 '게임화'로 간결하게 변경해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-19T04:19:49.027443"
     },
     "is_rejection": true,
     "feedback_count": 1
