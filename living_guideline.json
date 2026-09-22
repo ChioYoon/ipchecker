@@ -176,12 +176,12 @@
     "latest_comment_date": "2026-09-02T13:31:56.303Z",
     "last_activity": "2026-09-07T01:20:18.061Z",
     "ai_summary": {
-      "issue": "특정 소재(P-IP-OniMomotaro02-DA)의 레이어 오류 수정",
-      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나오는 레이어 오류가 발견되었습니다. 다리가 앞쪽으로 나오지 않도록 레이어 조정을 통해 수정해야 합니다.",
+      "issue": "특정 소재(P-IP-OniMomotaro02-DA) 레이어 오류",
+      "detail": "P-IP-OniMomotaro02-DA 소재 내 시키의 다리가 붉은색 삼각형 앞으로 나와 있어 레이어 조정이 필요합니다. 다리가 삼각형 뒤로 가도록 수정 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-09-21T04:35:30.872763"
+      "updated_at": "2026-09-22T04:31:21.764763"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -541,12 +541,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "문구 표현 어색함 및 부자연스러운 문구 수정 필요",
-      "detail": "영상 마지막 문구와 4초에 등장하는 '画面から溢れ出す圧巻の臨場感' 표현이 어색하여 수정이 필요합니다. 자연스러운 문구로 변경 요청되었습니다.",
+      "issue": "영상 내 문구 표현 어색함 수정",
+      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 재검토가 요구됩니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-21T04:35:44.523103"
+      "updated_at": "2026-09-22T04:31:34.554193"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1463,14 +1463,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "마케팅 소재 내 텍스트 수정 필요",
-      "detail": "사전 예약 메타데이터 스크린샷 내 무다노 이미지, 1번, 3번, 4번 이미지의 문구를 판권사 요청에 따라 변경해야 합니다. 구체적인 수정 텍스트가 제시되었습니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정 필요",
+      "detail": "무다노 이미지, 1번 이미지, 3번 이미지, 4번 이미지 내 일본어 문구에 대한 구체적인 텍스트 수정 요청이 있습니다. 기존 문구를 변경 문구로 교체해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-17T04:37:40.716101",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-22T04:31:43.944825"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -5908,7 +5906,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-21T04:36:30.556450"
+      "updated_at": "2026-09-21T04:36:30.556450",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6807,7 +6807,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-21T04:36:34.801428"
+      "updated_at": "2026-09-21T04:36:34.801428",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 1
