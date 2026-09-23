@@ -181,7 +181,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-09-22T04:31:21.764763"
+      "updated_at": "2026-09-22T04:31:21.764763",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -335,7 +337,7 @@
       "이수연"
     ],
     "latest_comment_date": "2026-08-28T12:02:17.607Z",
-    "last_activity": "2026-08-28T12:02:37.453Z",
+    "last_activity": "2026-09-22T08:44:48.055Z",
     "ai_summary": {
       "issue": "선행 상영회 이미지 및 전단지 배포 기한 준수",
       "detail": "이미지 수정은 8/25(화) 오전까지 제출해야 하며, 전단지 배포용 자료는 9/14(목) 18시까지 지정된 주소로 송부해야 합니다. 전단지 및 상영회 공지 관련 상세 피드백은 제공된 Google Slides를 확인 바랍니다.",
@@ -546,7 +548,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-22T04:31:34.554193"
+      "updated_at": "2026-09-22T04:31:34.554193",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1468,7 +1472,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-22T04:31:43.944825"
+      "updated_at": "2026-09-22T04:31:43.944825",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1895,14 +1901,12 @@
     "latest_comment_date": "2026-09-17T05:41:17.412Z",
     "last_activity": "2026-09-17T05:41:27.585Z",
     "ai_summary": {
-      "issue": "사전예약 소재 1종 재감수 필요",
-      "detail": "제출된 사전예약 소재 9종 중 'P-Reward-SkillcardSSR01-UA' 배너 1종이 반려되었습니다. 나머지 8종의 배너 및 영상 소재는 감수 통과되었습니다. 반려된 소재에 대한 상세 피드백은 판권처 문서에서 확인해야 합니다.",
+      "issue": "특정 소재 1종 미승인",
+      "detail": "사전예약 소재 중 'P-Reward-SkillcardSSR01-UA' 배너 1종이 미승인되었습니다. 나머지 8종의 배너와 1종의 영상은 모두 승인되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-09-10T04:18:33.179567",
-      "needs_update": true,
-      "update_reason": "피드백 3→4건, 상태 변경"
+      "feedback_count": 4,
+      "updated_at": "2026-09-23T04:30:05.077799"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -13833,7 +13837,7 @@
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-08-20T02:41:27.801Z",
+    "last_activity": "2026-09-23T00:54:19.609Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
