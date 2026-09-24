@@ -544,13 +544,11 @@
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
       "issue": "영상 내 문구 표현 어색함 수정",
-      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 재검토가 요구됩니다.",
+      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 일본어로서 어색하다는 피드백이 있었습니다. 두 문구 모두 자연스러운 표현으로 수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-22T04:31:34.554193",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-24T04:25:01.365016"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1467,14 +1465,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정 필요",
-      "detail": "무다노 이미지, 1번 이미지, 3번 이미지, 4번 이미지 내 일본어 문구에 대한 구체적인 텍스트 수정 요청이 있습니다. 기존 문구를 변경 문구로 교체해야 합니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정",
+      "detail": "무다노 이미지 및 1, 3, 4번 이미지 내 텍스트 수정 요청. 특히 4번 이미지는 기존 텍스트 삭제 후 새로운 내용 반영이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-22T04:31:43.944825",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-24T04:25:11.908286"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1906,7 +1902,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-23T04:30:05.077799"
+      "updated_at": "2026-09-23T04:30:05.077799",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -3471,14 +3469,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 수정 필요",
-      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청드립니다.",
+      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정 필요",
+      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 삭제 또는 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청했습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-09-15T04:36:40.548165",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-24T04:25:33.621903"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -5905,14 +5901,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "사전 테스트 일정 미확정으로 소재 수정 보류",
-      "detail": "프리미엄 사전 테스트 지연 관련 일정이 판권처 검토 중이므로, 해당 일정이 확정된 후에 수정된 광고 소재를 재제출해야 합니다. 현재 수정 내용은 일정 미확정 상태에서는 판권처의 납득을 얻기 어렵습니다.",
+      "issue": "일정 관련 내용 제출 시기 부적절",
+      "detail": "프리미엄 사전 테스트 일정 지연 관련 내용이 판권사 내부 검토 중입니다. 일정 확정 전 해당 내용을 포함한 검수물 제출은 어렵습니다. 일정이 정리된 후 다음 검수물로 제출 바랍니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-21T04:36:30.556450",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-24T04:25:45.308820"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6806,14 +6800,12 @@
     "latest_comment_date": "2026-09-18T02:38:41.777Z",
     "last_activity": "2026-09-18T03:00:35.554Z",
     "ai_summary": {
-      "issue": "사전예약 검수 일정 촉박",
-      "detail": "사전예약은 10/7~10/18로 확정되었으나, 일본 연휴로 인해 검수 일정이 촉박할 것으로 예상됩니다. 검수 일정을 충분히 고려하여 진행해야 합니다.",
+      "issue": "사전예약 검수 일정 촉박 및 고려 요청",
+      "detail": "사전예약 일정은 10월 7일~18일로 확정되었으나, 일본 연휴로 인해 검수 일정이 촉박할 것으로 예상됩니다. 검수 일정을 충분히 고려하여 진행해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-21T04:36:34.801428",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-24T04:25:49.573883"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -13838,6 +13830,28 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-09-23T00:54:19.609Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ab382bf6e22ede373b9c4d2",
+    "subject": "#343[0923]일부 플랫폼 사전예약 일정 변경에 대한 보고",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "기타",
+    "card_url": "https://trello.com/c/Vi3YIukU",
+    "description": "본문\n\n1. 내용/ 감수 항목: 일부 출시 플랫폼에 한해 사전예약 일정을 변경하는 건\n2. 사용 용도: 제작위원회 보고\n3. 언어: 일본어\n4. **사용 목적: 자료 내용 확인 부탁드립니다.**\n5. **사용 채널: 없음**\n6. 코멘트: [https://trello.com/c/7LlZ17sQ](https://trello.com/c/7LlZ17sQ \"smartCard-inline\") 위 링크에서 확인 받은 스토어 중, DMM / GPG 2종의 플랫폼에 한해 사전예약 일정을 변경하고자 합니다.\n7. *_파일명: 파일 _[_링크_](h",
+    "asset_type": "일부 출시 플랫폼에 한해 사전예약 일정을 변경하는 건",
+    "purpose": "제작위원회 보고",
+    "language": "일본어",
+    "memo": "[https://trello.com/c/7LlZ17sQ](https://trello.com/c/7LlZ17sQ \"smartCard-inline\") 위 링크에서 확인 받은 스토어 중, DMM / GPG 2종의 플랫폼에 한해 사전예약 일정을 변경하고자 합니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-09-23T08:34:57.941Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
