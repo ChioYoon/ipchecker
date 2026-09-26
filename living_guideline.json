@@ -181,7 +181,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-09-25T04:36:14.968326"
+      "updated_at": "2026-09-25T04:36:14.968326",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -541,12 +543,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "영상 내 문구 표현 어색함 수정",
-      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 또한, 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 수정이 요구됩니다.",
+      "issue": "영상 내 문구 및 표현 어색함 수정 필요",
+      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 어색하다는 판권사 피드백에 따라 수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-25T04:37:05.586028"
+      "updated_at": "2026-09-26T04:41:18.107203"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -3469,14 +3471,12 @@
     "latest_comment_date": "2026-06-19T08:58:59.598Z",
     "last_activity": "2026-06-19T08:59:04.993Z",
     "ai_summary": {
-      "issue": "X 게시글 문구 내 프리미엄 테스트 내용 수정 필요",
-      "detail": "공유된 X 게시글 문구에 프리미엄 테스트 관련 내용이 포함되어 있어 삭제 또는 수정이 필요합니다. 오늘 17시까지 수정 완료를 요청했습니다.",
+      "issue": "X 게시글 문구 수정 필요",
+      "detail": "공유된 X 게시글에 프리미엄 테스트 관련 내용이 포함되어 있어 수정이 필요합니다. 금일 17시까지 수정 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-09-24T04:25:33.621903",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-09-26T04:42:22.879615"
     },
     "is_rejection": true,
     "feedback_count": 4
