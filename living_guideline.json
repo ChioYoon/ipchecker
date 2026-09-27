@@ -543,12 +543,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "영상 내 문구 및 표현 어색함 수정 필요",
-      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 어색하다는 판권사 피드백에 따라 수정이 필요합니다.",
+      "issue": "영상 내 문구 표현 어색함 수정 필요",
+      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 부자연스러우니, 자연스러운 문구로 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-09-26T04:41:18.107203"
+      "updated_at": "2026-09-27T05:00:46.926428"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -3476,7 +3476,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-09-26T04:42:22.879615"
+      "updated_at": "2026-09-26T04:42:22.879615",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
