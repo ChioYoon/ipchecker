@@ -176,14 +176,12 @@
     "latest_comment_date": "2026-09-02T13:31:56.303Z",
     "last_activity": "2026-09-07T01:20:18.061Z",
     "ai_summary": {
-      "issue": "특정 소재 시키 캐릭터 다리 레이어 오류",
-      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나와 있어 레이어 조정이 필요합니다. 다리가 앞쪽으로 나오지 않도록 수정 요청되었습니다.",
+      "issue": "시키 캐릭터 레이어 오류 수정 필요",
+      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키 캐릭터의 다리가 붉은색 삼각형 앞으로 나와 있습니다. 레이어 조정을 통해 다리가 삼각형 앞으로 나오지 않도록 수정 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-10-02T05:17:18.621163",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-04T05:33:19.790817"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -542,12 +540,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "영상 내 문구 표현 어색함 수정 필요",
-      "detail": "판권사로부터 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 부자연스럽다는 피드백이 있었습니다. 해당 문구들을 자연스러운 표현으로 수정해야 합니다.",
+      "issue": "영상 내 문구 및 표현 수정 필요",
+      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 어색하다는 판권사 피드백에 따라 수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-03T05:00:37.245672"
+      "updated_at": "2026-10-04T05:33:28.933907"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -2331,14 +2329,12 @@
     "latest_comment_date": "2026-09-28T07:46:46.359Z",
     "last_activity": "2026-10-01T04:14:23.357Z",
     "ai_summary": {
-      "issue": "사전예약 페이지 문구 및 UI/UX 개선",
-      "detail": "‘メール登録’ 명칭 및 기능 설명 개선, ‘SSRキャラクター選択チケット確定報酬’ 문구를 자연스러운 일본어 표현으로 수정해야 합니다. 또한, 미달성 보상 표기 방식과 페이지 구성에 대한 명확화가 필요합니다.",
+      "issue": "사전예약 목표 및 보상 표기, 용어 개선 필요",
+      "detail": "사전예약 목표 인원수를 현실적으로 조정하고, 미달성 시 표기 방안을 마련해야 합니다. 'メール登録' 용어의 기능 명확화 및 자연스러운 일본어 표현으로 변경이 요구됩니다. SSR 보상 문구를 일본어에 맞게 수정하고, 보상 공개 방식도 명확히 해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-08-16T01:49:38.947888",
-      "needs_update": true,
-      "update_reason": "피드백 2→3건"
+      "feedback_count": 3,
+      "updated_at": "2026-10-04T05:33:50.801757"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -7214,7 +7210,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-03T05:01:43.941333"
+      "updated_at": "2026-10-03T05:01:43.941333",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -9264,7 +9262,14 @@
     "members": [],
     "latest_comment_date": "2026-09-29T09:03:06.734Z",
     "last_activity": "2026-09-29T09:03:11.297Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "인플루언서 활용 기획 부재로 검수 반려",
+      "detail": "인플루언서 리스트만으로는 검수가 불가하며, 유저들과의 플레이 방식에 대한 구체적인 기획이 필요합니다. 방송 기획을 포함하여 재제출 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-04T05:34:18.470870"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -9323,7 +9328,14 @@
     "members": [],
     "latest_comment_date": "2026-09-29T09:46:33.458Z",
     "last_activity": "2026-09-30T00:25:29.503Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "메인PV 시키 보이스 미승인 사용",
+      "detail": "메인PV 영상 앞부분에 사용된 시키의 보이스가 기존 제출된 마케팅 보이스 리스트에 포함되어 있지 않습니다. 해당 보이스의 출처 및 사용 승인 여부 확인이 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-04T05:34:21.343035"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
