@@ -181,7 +181,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-10-04T05:33:19.790817"
+      "updated_at": "2026-10-04T05:33:19.790817",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -540,12 +542,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "영상 내 문구 및 표현 수정 필요",
-      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 어색하다는 판권사 피드백에 따라 수정이 필요합니다.",
+      "issue": "영상 내 문구 표현 어색함 수정",
+      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 또한, 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 수정이 요구됩니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-04T05:33:28.933907"
+      "updated_at": "2026-10-05T05:15:57.285604"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -4316,14 +4318,12 @@
     "latest_comment_date": "2026-08-21T08:18:00.945Z",
     "last_activity": "2026-08-21T08:29:31.719Z",
     "ai_summary": {
-      "issue": "사전예약 성우 축전 영상 수정 필요",
-      "detail": "영상 내 카피라이트 위치 조정, 뵤부가우라 한자 표기 오류 수정, 그리고 22초 부근 자막 내용 불일치 수정이 요구됩니다. 해당 영상은 다음 검수물로 재제출될 예정입니다.",
+      "issue": "사전예약 성우 축전 영상 자막 및 카피라이트 수정",
+      "detail": "영상 공통으로 세로형 카피라이트를 화면 가장 아래에 배치해야 합니다. 이와미 성우 영상의 4초 부근 뵤부가우라 한자 및 22초 부근 자막 내용을 실제 발언과 일치하도록 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-09-11T04:18:37.635431",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-05T05:16:37.802877"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -6722,6 +6722,42 @@
     "feedback_count": 2
   },
   {
+    "id": "6aa7961b59291f1352570419",
+    "subject": "#338[0915] 10월 X 포스팅 추가 콘텐츠",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/U9h9iX3Q",
+    "description": "‌\n\n1. 내용/ 감수 항목: X 포스팅 컨텐츠\n2. 사용 용도: X 운영\n3. 언어: 일\n4. 코멘트:\n5. 파일명:[https://docs.google.com/presentation/d/1j5KVbW2gQImwaD57LD9O5qQ5ofb7Ul_z/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1j5KVbW2gQImwaD57LD9O5qQ5ofb7Ul_z/edit?slide=id.p1#slide=id.p1 \"smartCard-inline\")",
+    "asset_type": "X 포스팅 컨텐츠",
+    "purpose": "X 운영",
+    "language": "일",
+    "memo": "5. 파일명:[https://docs.google.com/presentation/d/1j5KVbW2gQImwaD57LD9O5qQ5ofb7Ul_z/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1j5KVbW2gQImwaD57LD9O5qQ5ofb7Ul_z/edit?slide=id.p1",
+    "labels": [],
+    "feedbacks": [
+      "@gholdings2\n\n확인 감사합니다.\n\n감수 요청 리스트6 >\n피드백 주신 내용 반영하여 시트에 작성한 디스크립션 수정하였습니다.\n\n수정한 디스크립션으로 포스팅 진행해도 문제 없으실지 확인 부탁드립니다.\n\n---\n\n🎃Happy Halloween👻\n\n今日は待ちに待ったハロウィン🍬\n\nお菓子をもらえなかったらイタズラしそうなキャラクターといえば誰でしょうか？👀\n\n皆さんの考えをぜひ教えてください！\n\n\\#桃源暗鬼 #トウフェル",
+      "[판권처 FB]\n감수 요청 리스트6 >「みんなでハロウィンパーティーを楽しんでいると、なんとアグリが…💥お菓子をもらえず、怒ってしまったようです😱でも、そんなアグリ以上に、」를 삭제 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "[판권처 FB]\n감수 요청 리스트6 >「みんなでハロウィンパーティーを楽しんでいると、なんとアグリが…💥お菓子をもらえず、怒ってしまったようです😱でも、そんなアグリ以上に、」를 삭제 부탁드립니다."
+    ],
+    "members": [
+      "백두환"
+    ],
+    "latest_comment_date": "2026-10-02T04:26:08.864Z",
+    "last_activity": "2026-10-05T02:56:01.416Z",
+    "ai_summary": {
+      "issue": "콘텐츠 문구 삭제 요청",
+      "detail": "X 포스팅 콘텐츠 내 특정 문구 삭제가 필요합니다. 'みんなでハロウィンパーティーを楽しんでいると、なんとアグリが…💥お菓子をもらえず、怒ってしまったようです😱でも、そんなアグリ以上に、' 문장을 삭제해주세요.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-03T05:01:35.559627"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
     "id": "6aa7a76bdc39dde3a2544352",
     "subject": "#339[0915][UA] 사전예약 UA 영상 템플릿",
     "list": "감수 진행 중",
@@ -6854,42 +6890,6 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-10-02T05:18:37.679100"
-    },
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
-    "id": "6aa7961b59291f1352570419",
-    "subject": "#338[0915] 10월 X 포스팅 추가 콘텐츠",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/U9h9iX3Q",
-    "description": "‌\n\n1. 내용/ 감수 항목: X 포스팅 컨텐츠\n2. 사용 용도: X 운영\n3. 언어: 일\n4. 코멘트:\n5. 파일명:[https://docs.google.com/presentation/d/1j5KVbW2gQImwaD57LD9O5qQ5ofb7Ul_z/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1j5KVbW2gQImwaD57LD9O5qQ5ofb7Ul_z/edit?slide=id.p1#slide=id.p1 \"smartCard-inline\")",
-    "asset_type": "X 포스팅 컨텐츠",
-    "purpose": "X 운영",
-    "language": "일",
-    "memo": "5. 파일명:[https://docs.google.com/presentation/d/1j5KVbW2gQImwaD57LD9O5qQ5ofb7Ul_z/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1j5KVbW2gQImwaD57LD9O5qQ5ofb7Ul_z/edit?slide=id.p1",
-    "labels": [],
-    "feedbacks": [
-      "@gholdings2\n\n확인 감사합니다.\n\n감수 요청 리스트6 >\n피드백 주신 내용 반영하여 시트에 작성한 디스크립션 수정하였습니다.\n\n수정한 디스크립션으로 포스팅 진행해도 문제 없으실지 확인 부탁드립니다.\n\n---\n\n🎃Happy Halloween👻\n\n今日は待ちに待ったハロウィン🍬\n\nお菓子をもらえなかったらイタズラしそうなキャラクターといえば誰でしょうか？👀\n\n皆さんの考えをぜひ教えてください！\n\n\\#桃源暗鬼 #トウフェル",
-      "[판권처 FB]\n감수 요청 리스트6 >「みんなでハロウィンパーティーを楽しんでいると、なんとアグリが…💥お菓子をもらえず、怒ってしまったようです😱でも、そんなアグリ以上に、」를 삭제 부탁드립니다."
-    ],
-    "licensor_feedbacks": [
-      "[판권처 FB]\n감수 요청 리스트6 >「みんなでハロウィンパーティーを楽しんでいると、なんとアグリが…💥お菓子をもらえず、怒ってしまったようです😱でも、そんなアグリ以上に、」를 삭제 부탁드립니다."
-    ],
-    "members": [
-      "백두환"
-    ],
-    "latest_comment_date": "2026-10-02T04:26:08.864Z",
-    "last_activity": "2026-10-02T04:26:08.972Z",
-    "ai_summary": {
-      "issue": "콘텐츠 문구 삭제 요청",
-      "detail": "X 포스팅 콘텐츠 내 특정 문구 삭제가 필요합니다. 'みんなでハロウィンパーティーを楽しんでいると、なんとアグリが…💥お菓子をもらえず、怒ってしまったようです😱でも、そんなアグリ以上に、' 문장을 삭제해주세요.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-10-03T05:01:35.559627"
     },
     "is_rejection": true,
     "feedback_count": 2
