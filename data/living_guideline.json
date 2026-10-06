@@ -543,11 +543,11 @@
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
       "issue": "영상 내 문구 표현 어색함 수정",
-      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 또한, 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 수정이 요구됩니다.",
+      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 재검토가 요구됩니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-05T05:15:57.285604"
+      "updated_at": "2026-10-06T06:01:49.741102"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -700,6 +700,55 @@
     "feedback_count": 10
   },
   {
+    "id": "6ab382bf6e22ede373b9c4d2",
+    "subject": "#343[0923]일부 플랫폼 사전예약 일정 변경에 대한 보고",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "기타",
+    "card_url": "https://trello.com/c/Vi3YIukU",
+    "description": "본문\n\n1. 내용/ 감수 항목: 일부 출시 플랫폼에 한해 사전예약 일정을 변경하는 건\n2. 사용 용도: 제작위원회 보고\n3. 언어: 일본어\n4. **사용 목적: 자료 내용 확인 부탁드립니다.**\n5. **사용 채널: 없음**\n6. 코멘트: [https://trello.com/c/7LlZ17sQ](https://trello.com/c/7LlZ17sQ \"smartCard-inline\")\n7. *\\_파일명: 파일 \\_[_링크_](https://docs.google.com/presentation/d/1egSG0Y1ul8-fdZh-w1Jjs",
+    "asset_type": "일부 출시 플랫폼에 한해 사전예약 일정을 변경하는 건",
+    "purpose": "제작위원회 보고",
+    "language": "일본어",
+    "memo": "[https://trello.com/c/7LlZ17sQ](https://trello.com/c/7LlZ17sQ \"smartCard-inline\")",
+    "labels": [],
+    "feedbacks": [
+      "론칭일 공개 시점: 12/1(화)\n\n일본 론칭일: 12/15(화) 네 확정입니다.\n\n확인 부탁드립니다.",
+      "론칭일 공개 시점에 대해서는 다음주로 말씀해주셨는데요.. 다음 검수 제출까지 확인 부탁 드리겠습니다.\n\n추가로 기존에 말씀드렸던 것과 같이 12/15 론칭일에 대해서는 이후 변경은 불가능한 점 양해 부탁드리겠습니다.",
+      "론칭일 공개 시점에 대해서는 현재 내부적으로 논의가 진행 중이라, 아직 명확한 피드백을 드리기 어려운 상황입니다. 관련 내용은 내부 논의 후 차주 중 다시 말씀드리도록 하겠습니다. 양해 부탁드립니다.",
+      "아래 (1) 에서 문의드렸던 항목중에 보내주신 마일스톤 중에서 론칭일 공개 시점만 일정 확인하여 하나 더 추가 부탁 드리겠습니다.",
+      "1.  마케팅 관련에 대해서는 마케팅팀 액션 감수 형태로 진행 중인 것으로 이해하고 있으며 현재 감수드린 내용은 기 협의된 주요 마일스톤에 한하였습니다. (선론칭, 사전예약)\n2. 기입 과정에서 오류가 있어 삭제했습니다. 죄송합니다.\n3. 시트 수정하였습니다. GPG, DMM 모두 11월 중순입니다.",
+      "0929 수정 시트 확인해서 아래 문의사항 전달 드린 것인데요. 아래 문의드린 내용에 대해서도 확인 부탁드리겠습니다.",
+      "죄송합니다 파일이 저장되지 않았습니다 0929 수정 시트로 확인을 부탁드립니다",
+      "1. 10월 사전예약 이후 사전예약(iOS, AOS 등) > 사전예약(DMM) > 일본론칭 의 큰 3개의 항목으로 주셨는데요..위에 내용 외에는 다른 좀 굵직한 활동은 없는 것으로 보면 될까요?\n2. 3페이지에 11월에 오픈형 테스트라고 기재해주셨는데 이전 마케팅 활동에서는 없었던 항목인데요..어떤 테스트를 말씀하시는 것일까요?\n3. 추가로 트렐로 본문에는 GPG, DMM의 플렛폼이 사전예약이 나중으로 되는 것으로 기재해주셨는데 본문에는 DMM밖에 없는데요. 내용 확인 부탁드리겠습니다.",
+      "사전예약 전반적인 마일스톤을 담아 [수정 시트](https://docs.google.com/presentation/d/1utHBG-gluP6nFug1RM_kGOzTAE0zKlcDE1HFqQqIlpA/edit?slide=id.p#slide=id.p \"‌\") 제작하여 추가해두었습니다.",
+      "두개의 플랫폼에 대해서는 단순하게 두개만 나눠서 한다는 것을 제출하기 보다는 사전예약 관련된 전체적인 마일스톤의 형태로 검수를 하면 그 안에 하나의 항목으로 말씀해주신 DMM, GPG의 내용을 넣어주시는 것이 좀 더 수월하게 검수가 진행이 될 것 같습니다.\n\n이에 전달 주신 두개의 플렛폼 이외에 사전 예약 관련한 활동의 전체적인 마일스톤의 형태로 제출 부탁드리겠습니다."
+    ],
+    "licensor_feedbacks": [
+      "론칭일 공개 시점에 대해서는 다음주로 말씀해주셨는데요.. 다음 검수 제출까지 확인 부탁 드리겠습니다.\n\n추가로 기존에 말씀드렸던 것과 같이 12/15 론칭일에 대해서는 이후 변경은 불가능한 점 양해 부탁드리겠습니다.",
+      "아래 (1) 에서 문의드렸던 항목중에 보내주신 마일스톤 중에서 론칭일 공개 시점만 일정 확인하여 하나 더 추가 부탁 드리겠습니다.",
+      "0929 수정 시트 확인해서 아래 문의사항 전달 드린 것인데요. 아래 문의드린 내용에 대해서도 확인 부탁드리겠습니다.",
+      "1. 10월 사전예약 이후 사전예약(iOS, AOS 등) > 사전예약(DMM) > 일본론칭 의 큰 3개의 항목으로 주셨는데요..위에 내용 외에는 다른 좀 굵직한 활동은 없는 것으로 보면 될까요?\n2. 3페이지에 11월에 오픈형 테스트라고 기재해주셨는데 이전 마케팅 활동에서는 없었던 항목인데요..어떤 테스트를 말씀하시는 것일까요?\n3. 추가로 트렐로 본문에는 GPG, DMM의 플렛폼이 사전예약이 나중으로 되는 것으로 기재해주셨는데 본문에는 DMM밖에 없는데요. 내용 확인 부탁드리겠습니다.",
+      "두개의 플랫폼에 대해서는 단순하게 두개만 나눠서 한다는 것을 제출하기 보다는 사전예약 관련된 전체적인 마일스톤의 형태로 검수를 하면 그 안에 하나의 항목으로 말씀해주신 DMM, GPG의 내용을 넣어주시는 것이 좀 더 수월하게 검수가 진행이 될 것 같습니다.\n\n이에 전달 주신 두개의 플렛폼 이외에 사전 예약 관련한 활동의 전체적인 마일스톤의 형태로 제출 부탁드리겠습니다."
+    ],
+    "members": [
+      "최지혜B",
+      "하원강"
+    ],
+    "latest_comment_date": "2026-10-06T03:18:52.024Z",
+    "last_activity": "2026-10-06T04:24:34.430Z",
+    "ai_summary": {
+      "issue": "론칭일 및 공개 시점 확정 필요",
+      "detail": "12/15 론칭일은 변경 불가하며, 론칭일 공개 시점을 다음 검수 제출까지 확정하여 마일스톤에 추가해야 합니다. 0929 수정 시트 관련 미해결 문의사항도 확인 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 5,
+      "updated_at": "2026-10-01T05:30:58.230649"
+    },
+    "is_rejection": true,
+    "feedback_count": 10
+  },
+  {
     "id": "6877534bc45278d375109943",
     "subject": "#4 [0716][배너] 현장 이벤트 영상",
     "list": "폐기",
@@ -772,14 +821,12 @@
     "latest_comment_date": "2026-09-29T05:08:12.523Z",
     "last_activity": "2026-09-29T05:08:19.315Z",
     "ai_summary": {
-      "issue": "추가 이미지 제출 및 츠쿠요미 이미지 보완",
-      "detail": "감수는 통과되었으나, 배너 7종 이미지 파일을 제출해야 합니다. 특히 츠쿠요미 캐릭터 이미지는 스킬 확정 후 제출을 요청합니다. 판권처 피드백 문서 내 추가 코멘트 확인도 필요합니다.",
+      "issue": "마케팅 소재 최종 승인",
+      "detail": "제출된 배너 7종 및 영상 13종 총 20종의 소재가 판권사 감수를 통과했습니다. 사미다레 영상 포함 여부 관련 과거 이슈는 해결되었습니다.",
       "resolved": true,
       "model": "gemini-2.5-flash",
-      "feedback_count": 4,
-      "updated_at": "2026-08-28T11:05:52.436699",
-      "needs_update": true,
-      "update_reason": "피드백 4→5건"
+      "feedback_count": 5,
+      "updated_at": "2026-10-06T06:02:05.657394"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -1206,54 +1253,6 @@
       "resolved": true,
       "model": "manual-ai",
       "updated_at": "2026-06-02T12:42:51.841033"
-    },
-    "is_rejection": true,
-    "feedback_count": 9
-  },
-  {
-    "id": "6ab382bf6e22ede373b9c4d2",
-    "subject": "#343[0923]일부 플랫폼 사전예약 일정 변경에 대한 보고",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "기타",
-    "card_url": "https://trello.com/c/Vi3YIukU",
-    "description": "본문\n\n1. 내용/ 감수 항목: 일부 출시 플랫폼에 한해 사전예약 일정을 변경하는 건\n2. 사용 용도: 제작위원회 보고\n3. 언어: 일본어\n4. **사용 목적: 자료 내용 확인 부탁드립니다.**\n5. **사용 채널: 없음**\n6. 코멘트: [https://trello.com/c/7LlZ17sQ](https://trello.com/c/7LlZ17sQ \"smartCard-inline\")\n7. *\\_파일명: 파일 \\_[_링크_](https://docs.google.com/presentation/d/1egSG0Y1ul8-fdZh-w1Jjs",
-    "asset_type": "일부 출시 플랫폼에 한해 사전예약 일정을 변경하는 건",
-    "purpose": "제작위원회 보고",
-    "language": "일본어",
-    "memo": "[https://trello.com/c/7LlZ17sQ](https://trello.com/c/7LlZ17sQ \"smartCard-inline\")",
-    "labels": [],
-    "feedbacks": [
-      "론칭일 공개 시점에 대해서는 다음주로 말씀해주셨는데요.. 다음 검수 제출까지 확인 부탁 드리겠습니다.\n\n추가로 기존에 말씀드렸던 것과 같이 12/15 론칭일에 대해서는 이후 변경은 불가능한 점 양해 부탁드리겠습니다.",
-      "론칭일 공개 시점에 대해서는 현재 내부적으로 논의가 진행 중이라, 아직 명확한 피드백을 드리기 어려운 상황입니다. 관련 내용은 내부 논의 후 차주 중 다시 말씀드리도록 하겠습니다. 양해 부탁드립니다.",
-      "아래 (1) 에서 문의드렸던 항목중에 보내주신 마일스톤 중에서 론칭일 공개 시점만 일정 확인하여 하나 더 추가 부탁 드리겠습니다.",
-      "1.  마케팅 관련에 대해서는 마케팅팀 액션 감수 형태로 진행 중인 것으로 이해하고 있으며 현재 감수드린 내용은 기 협의된 주요 마일스톤에 한하였습니다. (선론칭, 사전예약)\n2. 기입 과정에서 오류가 있어 삭제했습니다. 죄송합니다.\n3. 시트 수정하였습니다. GPG, DMM 모두 11월 중순입니다.",
-      "0929 수정 시트 확인해서 아래 문의사항 전달 드린 것인데요. 아래 문의드린 내용에 대해서도 확인 부탁드리겠습니다.",
-      "죄송합니다 파일이 저장되지 않았습니다 0929 수정 시트로 확인을 부탁드립니다",
-      "1. 10월 사전예약 이후 사전예약(iOS, AOS 등) > 사전예약(DMM) > 일본론칭 의 큰 3개의 항목으로 주셨는데요..위에 내용 외에는 다른 좀 굵직한 활동은 없는 것으로 보면 될까요?\n2. 3페이지에 11월에 오픈형 테스트라고 기재해주셨는데 이전 마케팅 활동에서는 없었던 항목인데요..어떤 테스트를 말씀하시는 것일까요?\n3. 추가로 트렐로 본문에는 GPG, DMM의 플렛폼이 사전예약이 나중으로 되는 것으로 기재해주셨는데 본문에는 DMM밖에 없는데요. 내용 확인 부탁드리겠습니다.",
-      "사전예약 전반적인 마일스톤을 담아 [수정 시트](https://docs.google.com/presentation/d/1utHBG-gluP6nFug1RM_kGOzTAE0zKlcDE1HFqQqIlpA/edit?slide=id.p#slide=id.p \"‌\") 제작하여 추가해두었습니다.",
-      "두개의 플랫폼에 대해서는 단순하게 두개만 나눠서 한다는 것을 제출하기 보다는 사전예약 관련된 전체적인 마일스톤의 형태로 검수를 하면 그 안에 하나의 항목으로 말씀해주신 DMM, GPG의 내용을 넣어주시는 것이 좀 더 수월하게 검수가 진행이 될 것 같습니다.\n\n이에 전달 주신 두개의 플렛폼 이외에 사전 예약 관련한 활동의 전체적인 마일스톤의 형태로 제출 부탁드리겠습니다."
-    ],
-    "licensor_feedbacks": [
-      "론칭일 공개 시점에 대해서는 다음주로 말씀해주셨는데요.. 다음 검수 제출까지 확인 부탁 드리겠습니다.\n\n추가로 기존에 말씀드렸던 것과 같이 12/15 론칭일에 대해서는 이후 변경은 불가능한 점 양해 부탁드리겠습니다.",
-      "아래 (1) 에서 문의드렸던 항목중에 보내주신 마일스톤 중에서 론칭일 공개 시점만 일정 확인하여 하나 더 추가 부탁 드리겠습니다.",
-      "0929 수정 시트 확인해서 아래 문의사항 전달 드린 것인데요. 아래 문의드린 내용에 대해서도 확인 부탁드리겠습니다.",
-      "1. 10월 사전예약 이후 사전예약(iOS, AOS 등) > 사전예약(DMM) > 일본론칭 의 큰 3개의 항목으로 주셨는데요..위에 내용 외에는 다른 좀 굵직한 활동은 없는 것으로 보면 될까요?\n2. 3페이지에 11월에 오픈형 테스트라고 기재해주셨는데 이전 마케팅 활동에서는 없었던 항목인데요..어떤 테스트를 말씀하시는 것일까요?\n3. 추가로 트렐로 본문에는 GPG, DMM의 플렛폼이 사전예약이 나중으로 되는 것으로 기재해주셨는데 본문에는 DMM밖에 없는데요. 내용 확인 부탁드리겠습니다.",
-      "두개의 플랫폼에 대해서는 단순하게 두개만 나눠서 한다는 것을 제출하기 보다는 사전예약 관련된 전체적인 마일스톤의 형태로 검수를 하면 그 안에 하나의 항목으로 말씀해주신 DMM, GPG의 내용을 넣어주시는 것이 좀 더 수월하게 검수가 진행이 될 것 같습니다.\n\n이에 전달 주신 두개의 플렛폼 이외에 사전 예약 관련한 활동의 전체적인 마일스톤의 형태로 제출 부탁드리겠습니다."
-    ],
-    "members": [
-      "최지혜B",
-      "하원강"
-    ],
-    "latest_comment_date": "2026-10-01T03:59:50.477Z",
-    "last_activity": "2026-10-01T04:35:05.099Z",
-    "ai_summary": {
-      "issue": "론칭일 및 공개 시점 확정 필요",
-      "detail": "12/15 론칭일은 변경 불가하며, 론칭일 공개 시점을 다음 검수 제출까지 확정하여 마일스톤에 추가해야 합니다. 0929 수정 시트 관련 미해결 문의사항도 확인 필요합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 5,
-      "updated_at": "2026-10-01T05:30:58.230649"
     },
     "is_rejection": true,
     "feedback_count": 9
@@ -3058,8 +3057,8 @@
   {
     "id": "6a83ad6e9bab5b9553c51cd7",
     "subject": "#321[0818] 브랜드페이지",
-    "list": "이슈 발생",
-    "status": "반려",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/QuGLZz7v",
     "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 브랜드페이지\n3. 언어: 일\n4. **사용 목적: 브랜드페이지**\n5. **사용 채널: 브랜드페이지**\n6. 코멘트: 브랜드페이지 메인 영역 외 하단 콘텐츠\n   1. _브랜드페이지에 들어간 리소스는 모두 개발에서 감수 완료된 어셋으로 적용되었습니다._\n   2. 메인 영역: [https://trello.com/c/8PQzPhRv](https://trello.com/c/8PQzPhRv \"smartCard-inline\")\n   3. 사전예약, 줄거리, 캐릭터, 게임소개, 미디어\n   ",
@@ -3084,16 +3083,14 @@
       "이수연"
     ],
     "latest_comment_date": "2026-10-02T09:16:11.356Z",
-    "last_activity": "2026-10-02T09:16:17.120Z",
+    "last_activity": "2026-10-06T00:39:23.105Z",
     "ai_summary": {
-      "issue": "일본어 원문 제작 및 현지화 미흡",
-      "detail": "브랜드 페이지가 한국어 번역본처럼 느껴져 일본 유저에게 부자연스럽습니다. 일본 유저가 메인 타겟이므로, 모든 소재는 일본어로 먼저 제작되어야 합니다.",
+      "issue": "일본어 원문 제작 및 현지화 품질 개선",
+      "detail": "현재 소재가 한국어 번역본처럼 느껴지므로, 일본 유저를 메인 타겟으로 하여 일본어로 먼저 제작해야 합니다. 전반적인 현지화 품질 재검토 및 개선이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-08-28T11:06:52.873719",
-      "needs_update": true,
-      "update_reason": "피드백 1→3건"
+      "feedback_count": 3,
+      "updated_at": "2026-10-06T06:02:50.676207"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -3322,14 +3319,12 @@
     "latest_comment_date": "2026-09-14T08:12:17.557Z",
     "last_activity": "2026-09-14T08:12:26.979Z",
     "ai_summary": {
-      "issue": "성우 축전 영상 최종 확인 지연",
-      "detail": "제출된 성우 축전 영상(사전예약 및 론칭용)은 각 성우 사무소의 별도 확인이 필요합니다. 모든 영상 검수 완료 후 사무소 최종 확인까지 약 1주일이 소요될 예정입니다.",
+      "issue": "성우 축전 영상의 외부 사무소 최종 확인 필요",
+      "detail": "제출된 성우 축전 영상(사전예약 및 론칭용)은 각 성우 사무소의 별도 확인이 필요합니다. 사무소 확인에는 약 1주일이 소요되며, 모든 영상 검수 완료 후 최종 확인을 진행할 예정입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-10-02T05:18:00.965899",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-06T06:02:58.123268"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4050,14 +4045,12 @@
     "latest_comment_date": "2026-09-30T00:37:49.392Z",
     "last_activity": "2026-10-01T04:13:08.484Z",
     "ai_summary": {
-      "issue": "상세 피드백 외부 시트 확인 필요",
-      "detail": "판권사의 상세 피드백이 9/8 시트 R열에 기재되어 있으니 해당 내용을 확인해야 합니다. 콘텐츠 반려 사유 및 구체적인 수정 요구사항을 파악하여 반영해야 합니다.",
+      "issue": "월별 캐릭터 선정 사유 소명 필요",
+      "detail": "10월 SNS 포스팅 콘텐츠의 월별 캐릭터 선정에 대한 구체적인 사유를 판권사에 설명해야 합니다. 각 캐릭터가 해당 월에 선정된 배경과 의도를 명확히 제시할 필요가 있습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-09-19T04:19:45.919726",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건"
+      "feedback_count": 2,
+      "updated_at": "2026-10-06T06:03:07.008190"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4323,7 +4316,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-10-05T05:16:37.802877"
+      "updated_at": "2026-10-05T05:16:37.802877",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5638,6 +5633,82 @@
     "feedback_count": 3
   },
   {
+    "id": "6a8d38affeb18dc4498663a1",
+    "subject": "#326[0825] HQ 마케팅 0825 SNS 콘텐츠",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/mk67W3Mp",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 ~ No.7\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
+    "asset_type": "이미지",
+    "purpose": "SNS 업로드용",
+    "language": "일",
+    "memo": "1. No.1 ~ No.7",
+    "labels": [],
+    "feedbacks": [
+      "(10/06) 09/08 시트에 추가 피드백 남겨주신 마나카 PV 외 나머지 감수 통과한 점 확인하여 감수 완료로 이동하겠습니다.",
+      "판권처 FB를[ 8/25 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1217986321#gid=1217986321&range=R:R \"‌\")에 기재하였습니다.\n확인 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "판권처 FB를[ 8/25 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1217986321#gid=1217986321&range=R:R \"‌\")에 기재하였습니다.\n확인 부탁드립니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-10-06T01:20:30.061Z",
+    "last_activity": "2026-10-06T01:20:36.038Z",
+    "ai_summary": {
+      "issue": "판권사 피드백 상세 내용 외부 시트 확인",
+      "detail": "판권사의 구체적인 피드백은 8/25 시트에 기재되어 있습니다. 해당 시트를 확인하여 수정 사항을 파악하고 반영해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-09-11T04:19:15.118150",
+      "needs_update": true,
+      "update_reason": "상태 변경"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6aa7bb1746e68790f9e7e623",
+    "subject": "#342[0914] 사전예약/론칭 키비주얼",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/c7jONRAZ",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 사전예약/론칭 시점 마케팅 용도\n3. 언어: 일\n4. **사용 목적:** 사전예약/론칭 시점 마케팅 용도\n5. **사용 채널: SNS 등**\n6. 코멘트: 기존 AJ 키비주얼 이미지 활용했습니다.\n7. *_파일명: 영문명으로 제출_",
+    "asset_type": "이미지",
+    "purpose": "사전예약/론칭 시점 마케팅 용도",
+    "language": "일",
+    "memo": "기존 AJ 키비주얼 이미지 활용했습니다.",
+    "labels": [],
+    "feedbacks": [
+      "(10/06) 02번 제외 전부 감수 통과한 점 확인하여 감수 완료로 이동하겠습니다.",
+      "[판권처 FB]\n01> 감수 완료되었습니다.\n02> 로고가 원작 로고와 비슷하게 생겨서 다른 디자인으로 변경 바랍니다.\n03> 감수 완료되었습니다.\n04> 감수 완료되었습니다.\n05> 감수 완료되었습니다.\n06> 감수 완료되었습니다."
+    ],
+    "licensor_feedbacks": [
+      "[판권처 FB]\n01> 감수 완료되었습니다.\n02> 로고가 원작 로고와 비슷하게 생겨서 다른 디자인으로 변경 바랍니다.\n03> 감수 완료되었습니다.\n04> 감수 완료되었습니다.\n05> 감수 완료되었습니다.\n06> 감수 완료되었습니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-10-06T01:18:09.218Z",
+    "last_activity": "2026-10-06T01:20:52.691Z",
+    "ai_summary": {
+      "issue": "로고 디자인 원작 유사성 문제",
+      "detail": "제시된 키비주얼의 로고가 원작 로고와 유사하여 변경이 필요합니다. 원작과 차별화되는 새로운 디자인으로 수정 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-02T05:18:47.783872",
+      "needs_update": true,
+      "update_reason": "상태 변경"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
     "id": "6a9fcd0c9f7edfe884edc02a",
     "subject": "#333[0908] 도원암귀 마케팅 액션 플랜",
     "list": "감수 완료",
@@ -6753,6 +6824,71 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-10-03T05:01:35.559627"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6ac45c0716efdb6d86ce0b71",
+    "subject": "#366[1006]Com2uS런처에 포함될 이미지 소재 모음 및 예시",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/A1hLB7mj",
+    "description": "본문\n\n1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 컴투스 PC런처에 포함\n3. 언어: 일\n4. **사용 목적: GPG에서 게임 클릭 시 연결되는 컴투스 PC런처에 공개될 이미지**\n5. **사용 채널: GPG에서 게임 클릭 시 연결되는 컴투스 PC런처**\n6. 코멘트: 상세 내용은 문서 내 개요 참고 부탁드립니다.\n7. *_파일명:_ [링크](https://docs.google.com/presentation/d/1O1_j1u-3AexPII3mvsTkVtt1PkCf8FWQCxZYfvys6us/edit?slide=id.p&pli",
+    "asset_type": "이미지",
+    "purpose": "컴투스 PC런처에 포함",
+    "language": "일",
+    "memo": "상세 내용은 문서 내 개요 참고 부탁드립니다.",
+    "labels": [],
+    "feedbacks": [
+      "‘GPG’에서 유저가 게임을 열어볼 때 컴투스 런처를 통해 보게됩니다. 그때 볼 수 있는 이미지입니다.",
+      "컴투스 PC런처 라는 것이 하이브 버전을 말씀하시는 것일까요?"
+    ],
+    "licensor_feedbacks": [
+      "컴투스 PC런처 라는 것이 하이브 버전을 말씀하시는 것일까요?"
+    ],
+    "members": [
+      "최지혜B"
+    ],
+    "latest_comment_date": "2026-10-06T03:40:32.274Z",
+    "last_activity": "2026-10-06T03:54:51.589Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6a277d0968bf65ae775d4b29",
+    "subject": "#276[0609] 작가 축전 기획안",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "기획안",
+    "card_url": "https://trello.com/c/v7dRQfgj",
+    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 도원암귀 작가 게시글 올라오면 rt\n3. 언어: 일\n4. 사용 목적: 도원암귀 원작 작가에게 런칭 축전 요청\n5. 사용 채널: x\n6. 코멘트:\n7. 파일명\n   1. 1006_도원암귀 론칭 기념 작가 축전 기획안",
+    "asset_type": "기획안",
+    "purpose": "도원암귀 작가 게시글 올라오면 rt",
+    "language": "일",
+    "memo": "7. 파일명\n   1. 1006_도원암귀 론칭 기념 작가 축전 기획안",
+    "labels": [],
+    "feedbacks": [
+      "(10/06) 작가 축전 기획안 다시 제출합니다.\n파일명: 1006_도원암귀 론칭 기념 작가 축전 기획안",
+      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
+    ],
+    "licensor_feedbacks": [
+      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-10-06T05:46:31.577Z",
+    "last_activity": "2026-10-06T05:46:31.621Z",
+    "ai_summary": {
+      "issue": "론칭 지연으로 인한 기획안 제출 시기 부적절",
+      "detail": "론칭 지연으로 현재 시점의 작가 축전 기획안 제출은 판권사에서 긍정적으로 검토하기 어렵습니다. 론칭 일자 확정 후, 지원 희망 날짜를 명시하여 재제출 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-06-25T04:15:13.188497"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -8766,39 +8902,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6a277d0968bf65ae775d4b29",
-    "subject": "#276[0609] 작가 축전 기획안",
-    "list": "보류",
-    "status": "진행중",
-    "category": "기획안",
-    "card_url": "https://trello.com/c/v7dRQfgj",
-    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 도원암귀 작가 게시글 올라오면 rt\n3. 언어: 일\n4. 사용 목적: 도원암귀 원작 작가에게 런칭 축전 요청\n5. 사용 채널: x\n6. 코멘트:\n7. 파일명\n   1. 작가 축전 기획안",
-    "asset_type": "기획안",
-    "purpose": "도원암귀 작가 게시글 올라오면 rt",
-    "language": "일",
-    "memo": "7. 파일명\n   1. 작가 축전 기획안",
-    "labels": [],
-    "feedbacks": [
-      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
-    ],
-    "licensor_feedbacks": [
-      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-06-10T00:46:04.619Z",
-    "last_activity": "2026-08-21T07:16:20.565Z",
-    "ai_summary": {
-      "issue": "론칭 지연으로 인한 기획안 제출 시기 부적절",
-      "detail": "론칭 지연으로 현재 시점의 작가 축전 기획안 제출은 판권사에서 긍정적으로 검토하기 어렵습니다. 론칭 일자 확정 후, 지원 희망 날짜를 명시하여 재제출 바랍니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-25T04:15:13.188497"
-    },
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
     "id": "6a5ddf1f46f6bc5e0d69cb8e",
     "subject": "#303[0721] 사전예약~런칭 기간 SNS 마케팅 플랜",
     "list": "보류",
@@ -9208,72 +9311,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6aa7bb1746e68790f9e7e623",
-    "subject": "#342[0914] 사전예약/론칭 키비주얼",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/c7jONRAZ",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 사전예약/론칭 시점 마케팅 용도\n3. 언어: 일\n4. **사용 목적:** 사전예약/론칭 시점 마케팅 용도\n5. **사용 채널: SNS 등**\n6. 코멘트: 기존 AJ 키비주얼 이미지 활용했습니다.\n7. *_파일명: 영문명으로 제출_",
-    "asset_type": "이미지",
-    "purpose": "사전예약/론칭 시점 마케팅 용도",
-    "language": "일",
-    "memo": "기존 AJ 키비주얼 이미지 활용했습니다.",
-    "labels": [],
-    "feedbacks": [
-      "[판권처 FB]\n01> 감수 완료되었습니다.\n02> 로고가 원작 로고와 비슷하게 생겨서 다른 디자인으로 변경 바랍니다.\n03> 감수 완료되었습니다.\n04> 감수 완료되었습니다.\n05> 감수 완료되었습니다.\n06> 감수 완료되었습니다."
-    ],
-    "licensor_feedbacks": [
-      "[판권처 FB]\n01> 감수 완료되었습니다.\n02> 로고가 원작 로고와 비슷하게 생겨서 다른 디자인으로 변경 바랍니다.\n03> 감수 완료되었습니다.\n04> 감수 완료되었습니다.\n05> 감수 완료되었습니다.\n06> 감수 완료되었습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-10-02T02:46:19.046Z",
-    "last_activity": "2026-10-02T02:46:48.697Z",
-    "ai_summary": {
-      "issue": "로고 디자인 원작 유사성 문제",
-      "detail": "제시된 키비주얼의 로고가 원작 로고와 유사하여 변경이 필요합니다. 원작과 차별화되는 새로운 디자인으로 수정 바랍니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-10-02T05:18:47.783872"
-    },
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
-    "id": "6abb6acbb669ef5698dd052b",
-    "subject": "#358[0929] 론칭 플랜 - 인플루언서",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "기타",
-    "card_url": "https://trello.com/c/AksVyK5E",
-    "description": "1. 내용/ 감수 항목: 인플루언서 리스트\n2. 사용 용도: 론칭 플랜 - 인플루언서 콘텐츠\n3. 언어: 일\n4. **사용 목적: 론칭 플랜 - 인플루언서 VOD업로드**\n5. **사용 채널:  공식 채널, 인플루언서 채널**\n6. 코멘트: 론칭 플랜 - 인플루언서를 활용한 VOD업로드 콘텐츠 진행을 위한 인플루언서 리스트 감수 요청드립니다. 론칭 시점이 연말 시점이다보니 인플루언서 풀 확보가 필요하여 리스트 먼저 감수 요청 드립니다.\n7. *_파일 :_ [https://docs.google.com/spreadsheets/d/1Ne",
-    "asset_type": "인플루언서 리스트",
-    "purpose": "론칭 플랜 - 인플루언서 콘텐츠",
-    "language": "일",
-    "memo": "론칭 플랜 - 인플루언서를 활용한 VOD업로드 콘텐츠 진행을 위한 인플루언서 리스트 감수 요청드립니다. 론칭 시점이 연말 시점이다보니 인플루언서 풀 확보가 필요하여 리스트 먼저 감수 요청 드립니다.",
-    "labels": [],
-    "feedbacks": [
-      "판권처측에서의 피드백은 인플루언서 리스트가 아닌 먼저 유저들과 어떤식으로 플레이하는지가 확인되어야 검수 가능하다는 피드백이였어서요. 인플루언서 리스트만이 아닌 방송 기획과 같이 제출 부탁드리겠습니다."
-    ],
-    "licensor_feedbacks": [
-      "판권처측에서의 피드백은 인플루언서 리스트가 아닌 먼저 유저들과 어떤식으로 플레이하는지가 확인되어야 검수 가능하다는 피드백이였어서요. 인플루언서 리스트만이 아닌 방송 기획과 같이 제출 부탁드리겠습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-09-29T09:03:06.734Z",
-    "last_activity": "2026-09-29T09:03:11.297Z",
-    "ai_summary": {
-      "issue": "인플루언서 활용 기획 부재로 검수 반려",
-      "detail": "인플루언서 리스트만으로는 검수가 불가하며, 유저들과의 플레이 방식에 대한 구체적인 기획이 필요합니다. 방송 기획을 포함하여 재제출 바랍니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-10-04T05:34:18.470870"
-    },
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
     "id": "6aa7ab62b30946a1b81e4348",
     "subject": "#341[0914] HQ 마케팅 0914 SNS 콘텐츠",
     "list": "이슈 발생",
@@ -9302,6 +9339,39 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-10-02T05:18:53.113255"
+    },
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6abb6acbb669ef5698dd052b",
+    "subject": "#358[0929] 론칭 플랜 - 인플루언서",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "기타",
+    "card_url": "https://trello.com/c/AksVyK5E",
+    "description": "1. 내용/ 감수 항목: 인플루언서 리스트\n2. 사용 용도: 론칭 플랜 - 인플루언서 콘텐츠\n3. 언어: 일\n4. **사용 목적: 론칭 플랜 - 인플루언서 VOD업로드**\n5. **사용 채널:  공식 채널, 인플루언서 채널**\n6. 코멘트: 론칭 플랜 - 인플루언서를 활용한 VOD업로드 콘텐츠 진행을 위한 인플루언서 리스트 감수 요청드립니다. 론칭 시점이 연말 시점이다보니 인플루언서 풀 확보가 필요하여 리스트 먼저 감수 요청 드립니다.\n7. *_파일 :_ [https://docs.google.com/spreadsheets/d/1Ne",
+    "asset_type": "인플루언서 리스트",
+    "purpose": "론칭 플랜 - 인플루언서 콘텐츠",
+    "language": "일",
+    "memo": "론칭 플랜 - 인플루언서를 활용한 VOD업로드 콘텐츠 진행을 위한 인플루언서 리스트 감수 요청드립니다. 론칭 시점이 연말 시점이다보니 인플루언서 풀 확보가 필요하여 리스트 먼저 감수 요청 드립니다.",
+    "labels": [],
+    "feedbacks": [
+      "판권처측에서의 피드백은 인플루언서 리스트가 아닌 먼저 유저들과 어떤식으로 플레이하는지가 확인되어야 검수 가능하다는 피드백이였어서요. 인플루언서 리스트만이 아닌 방송 기획과 같이 제출 부탁드리겠습니다."
+    ],
+    "licensor_feedbacks": [
+      "판권처측에서의 피드백은 인플루언서 리스트가 아닌 먼저 유저들과 어떤식으로 플레이하는지가 확인되어야 검수 가능하다는 피드백이였어서요. 인플루언서 리스트만이 아닌 방송 기획과 같이 제출 부탁드리겠습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-09-29T09:03:06.734Z",
+    "last_activity": "2026-10-06T00:39:31.930Z",
+    "ai_summary": {
+      "issue": "인플루언서 활용 기획 부재로 검수 반려",
+      "detail": "인플루언서 리스트만으로는 검수가 불가하며, 유저들과의 플레이 방식에 대한 구체적인 기획이 필요합니다. 방송 기획을 포함하여 재제출 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-04T05:34:18.470870"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -9368,39 +9438,6 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-09-19T04:19:49.027443"
-    },
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
-    "id": "6a8d38affeb18dc4498663a1",
-    "subject": "#326[0825] HQ 마케팅 0825 SNS 콘텐츠",
-    "list": "컴투스 확인 중",
-    "status": "진행중",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/mk67W3Mp",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 ~ No.7\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
-    "asset_type": "이미지",
-    "purpose": "SNS 업로드용",
-    "language": "일",
-    "memo": "1. No.1 ~ No.7",
-    "labels": [],
-    "feedbacks": [
-      "판권처 FB를[ 8/25 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1217986321#gid=1217986321&range=R:R \"‌\")에 기재하였습니다.\n확인 부탁드립니다."
-    ],
-    "licensor_feedbacks": [
-      "판권처 FB를[ 8/25 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1217986321#gid=1217986321&range=R:R \"‌\")에 기재하였습니다.\n확인 부탁드립니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-09-07T07:05:43.495Z",
-    "last_activity": "2026-10-02T09:40:49.426Z",
-    "ai_summary": {
-      "issue": "판권사 피드백 상세 내용 외부 시트 확인",
-      "detail": "판권사의 구체적인 피드백은 8/25 시트에 기재되어 있습니다. 해당 시트를 확인하여 수정 사항을 파악하고 반영해야 합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-09-11T04:19:15.118150"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -14373,6 +14410,94 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-09-23T00:54:19.609Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ac44546233a96f5d30b4905",
+    "subject": "#364[1006] AGO 사전예약 론칭 홍보용 어셋",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "배너",
+    "card_url": "https://trello.com/c/TMD4pbx1",
+    "description": "1. 내용/ 감수 항목: 기획안, 이미지\n2. 사용 용도: AGO 사전예약 홍보용 어셋\n3. 언어: 일\n4. **사용 목적: AGO측에서 사전예약 홍보를 위해 X, 뉴스레터, 사이트 배너 디자인 어셋을 요청하여 급하게 감수 요청드립니다.**\n5. **사용 채널: X, 뉴스레터, AGO 공식 홈페이지**\n6. 코멘트: AGO에서 받은 원본 파일 첨부하여 공유 드립니다.\n7. *_파일명: _[_LINK_](https://docs.google.com/presentation/d/1xTx_Q7e50RKbecx_rvS53EoqCm_vwkVJK",
+    "asset_type": "기획안, 이미지",
+    "purpose": "AGO 사전예약 홍보용 어셋",
+    "language": "일",
+    "memo": "AGO에서 받은 원본 파일 첨부하여 공유 드립니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-10-06T00:51:44.052Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ac45b32306d813b6f6c6d16",
+    "subject": "#365[1006]Com2uS_IR Material_도원암귀_(26Y4Q)",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "텍스트",
+    "card_url": "https://trello.com/c/TfaE6wFp",
+    "description": "본문\n\n1. 내용/ 감수 항목: 텍스트\n2. 사용 용도: 컴투스 26Y4Q IR 배포용\n3. 언어: 한,영\n4. **사용 목적: 26년 11월 11일~12일 중 배포될 컴투스 IR자료 내 <도원암귀 Crimson Inferno> 관련 언급**\n5. **사용 채널: Com2uS社 공식 홈페이지**\n6. 코멘트: 변경된 텍스트 내용은 문서 내 노란색 하이라이트 표시하였습니다. 그 외에는 수정 사항 없습니다.\n7. *_파일명:_ [261006]Com2uS\\_IR Material\\_도원암귀_감수요청(26Y4Q).pptx ([링크](http",
+    "asset_type": "텍스트",
+    "purpose": "컴투스 26Y4Q IR 배포용",
+    "language": "한,영",
+    "memo": "변경된 텍스트 내용은 문서 내 노란색 하이라이트 표시하였습니다. 그 외에는 수정 사항 없습니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-10-06T02:24:22.456Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ac489bb63d9ccb0bc733c43",
+    "subject": "#368[1006] GameWith 공략위키 페이지 구축 어셋",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "배너",
+    "card_url": "https://trello.com/c/KdeebvyY",
+    "description": "1. 내용/ 감수 항목: 이미지 2종\n2. 사용 용도: GameWith 공략위키 페이지 구축\n3. 언어: 일\n4. 사용 목적: GameWith 공략 위키 내 도원암귀 공략 홈페이지 구축에 사용될 이미지 어셋입니다. 앱아이콘(100x100)은 공략위키 페이지 내 전반적으로 노출될 수 있으며, 배너(261002\\_TougenAnki\\_980)는 도원암귀 공략 홈페이지에만 노출됩니다.\n5. **사용 채널:** GameWith 공략위키\n\n‌\n\n첨부 파일: [261002\\_TougenAnki\\_GameWiki.zip](https://trel",
+    "asset_type": "이미지 2종",
+    "purpose": "GameWith 공략위키 페이지 구축",
+    "language": "일",
+    "memo": "",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-10-06T05:52:18.368Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ac4652b88735977c345fbdd",
+    "subject": "#367[1006] 10월 X 포스팅 추가(2차) 콘텐츠",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/yS2b1QHP",
+    "description": "‌\n\n1. 내용/ 감수 항목: X 포스팅 컨텐츠\n2. 사용 용도: X 운영\n3. 언어: 일\n4. 코멘트:\n5. 파일명:[https://docs.google.com/presentation/d/1yFUK83_0WDqb6Cj6trjnSySBWUY0A-2t/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1yFUK83_0WDqb6Cj6trjnSySBWUY0A-2t/edit?slide=id.p1#slide=id.p1 \"smartCard-inline\")",
+    "asset_type": "X 포스팅 컨텐츠",
+    "purpose": "X 운영",
+    "language": "일",
+    "memo": "5. 파일명:[https://docs.google.com/presentation/d/1yFUK83_0WDqb6Cj6trjnSySBWUY0A-2t/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1yFUK83_0WDqb6Cj6trjnSySBWUY0A-2t/edit?slide=id.p1",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-10-06T03:26:13.162Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
