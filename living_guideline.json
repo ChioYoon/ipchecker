@@ -176,12 +176,12 @@
     "latest_comment_date": "2026-09-02T13:31:56.303Z",
     "last_activity": "2026-09-07T01:20:18.061Z",
     "ai_summary": {
-      "issue": "특정 소재(P-IP-OniMomotaro02-DA) 레이어 오류",
-      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞쪽으로 나와 있습니다. 레이어 조정을 통해 다리가 삼각형 뒤로 가도록 수정해야 합니다. 해당 소재는 다음 주 재제출 예정입니다.",
+      "issue": "시키 다리 레이어 오류 수정 필요",
+      "detail": "P-IP-OniMomotaro02-DA 소재 내 시키의 다리가 붉은색 삼각형 앞으로 나와 있어 레이어 조정이 필요합니다. 해당 소재는 재제출 예정입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-10-08T05:43:32.455133"
+      "updated_at": "2026-10-09T05:48:00.005299"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -453,6 +453,56 @@
     "feedback_count": 12
   },
   {
+    "id": "6aba1de0a01f701b5eeef951",
+    "subject": "#349[0929] 메인PV 영상",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/2C8wukxa",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 도원암귀 게임 메인영상\n   1. 옥외광고, AD트럭, UA/BR광고 소재로 활용 예정\n3. 언어: 일\n4. **사용 목적: 도원암귀 게임 메인 영상**\n5. **사용 채널:** 공식 채널 업로드. 옥외광고, AD트럭, UA/BR광고 소재로 활용 예정\n6. 코멘트: 엔드카드만 사전/론칭 버전으로 반영되었습니다.\n7. *_파일경로:_[https://drive.google.com/drive/folders/1pFOuixYnTWGsIvgllikRTNZJWYYOFeCP](https://driv",
+    "asset_type": "영상",
+    "purpose": "도원암귀 게임 메인영상",
+    "language": "일",
+    "memo": "엔드카드만 사전/론칭 버전으로 반영되었습니다.",
+    "labels": [],
+    "feedbacks": [
+      "마지막 대사 : 시키 보이스로 변경되었습니다.[https://drive.google.com/drive/folders/1ufAyJAfQjmDGTwJMyUBl_ioMNqYNr7Z1](https://drive.google.com/drive/folders/1ufAyJAfQjmDGTwJMyUBl_ioMNqYNr7Z1 \"smartCard-inline\")\n\n‌\n\n메인 영상 업로드 시 [0929] 감수물 제출 - [10/9] FB예정인   디스크립션 사용 예정입니다.\n\n- X포스팅용: [https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=786740191#gid=786740191&range=18:18](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=786740191#gid=786740191&range=18:18 \"smartCard-inline\")\n- 유튜브, 라인 업로드용: [https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=786740191#gid=786740191&range=19:19](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=786740191#gid=786740191&range=19:19 \"smartCard-inline\")",
+      "[판권처 피드백]\n\n공통 : 영상의 마지막 대사를 시키의 대사로 변경해주시기 바랍니다.",
+      "개인 채널로 말씀드린 03초 구간 1215 론칭일 고지 되는 영상 추가 제출드립니다.  늦은 시간 대응주셔서 감사합니다.\n\n‌\n\n[https://drive.google.com/drive/folders/14QHxsPdnbP_UG6n0YcTM55pGkBTynR5w](https://drive.google.com/drive/folders/14QHxsPdnbP_UG6n0YcTM55pGkBTynR5w \"smartCard-block\")",
+      "해당 영상은 사전예약 기간에 사용할 영상입니다.\n\n론칭일 공개가 12월1일 = 사전예약 기간중으로 사전예약 기간에 사용할 영상으로 엔드카드는 사전예약 버전이 맞습니다.",
+      "도원암귀 사전예약 PV\\_Final\\_tic\\_v2\\_(보이스 수정)의 엔드카드가 사전 버전으로 되어 있습니다. 수정 부탁드립니다.",
+      "네, 그러면 수정된 안으로 진행 부탁드립니다.",
+      "보이스 관련해서는 둘 다 제출하는 것이 아닌 처음에 제출해주신 것만 검수 제출 해달라는 말씀이실까요?\n\n어제 유선상으로는 안전하게 검수 통과된 내용으로 진행하는 것으로 말씀을 해주셨는데 제출 방향성 문의드립니다.\n\n참고로 둘 다 제출해서 판권처에 상황 설명한다면 당연히 검수 통과된 내용으로 사용하는 것으로 얘기가 나올 것으로 예상되어서요. 수정해서 주신 이미지로 제출하는 것이 더 안정적일 것으로 보입니다.",
+      "보이스 관련해서는 최초 영상으로 감수 진행 부탁드리며, 혹시나 보이스에 대해서 수정 피드백이 발생할 경우 추가 대응한 영상으로 진행 부탁드립니다. 모쪼록 잘 부탁드리겠습니다.\n\n‌\n\n[https://drive.google.com/drive/folders/1WOOPk7jKqGsCuSueyni5mk8ging-zcFV](https://drive.google.com/drive/folders/1WOOPk7jKqGsCuSueyni5mk8ging-zcFV \"smartCard-block\")",
+      "- 네, 해당 보이스는 마케팅용 보이스로 감수 통과된 보이스입니다.\n  - 諦めねぇぞ！俺は！　親父と！　『これから』の話がしてぇんだよ！　わかったか、クソ親父！\n  - [https://docs.google.com/spreadsheets/d/1i3-gc5eDPKdIzLQ4YQH_c3QvQE6TQUh8oZgkp4oQgzU/edit?gid=2091209265#gid=2091209265&range=62:62](https://docs.google.com/spreadsheets/d/1i3-gc5eDPKdIzLQ4YQH_c3QvQE6TQUh8oZgkp4oQgzU/edit?gid=2091209265#gid=2091209265&range=62:62 \"smartCard-inline\").\n  - [https://docs.google.com/spreadsheets/d/1ittMNFau4L-0LKWPvnir37HX3MDis3e84JDSe6OStS4/edit?gid=772682226#gid=772682226&range=62:62](https://docs.google.com/spreadsheets/d/1ittMNFau4L-0LKWPvnir37HX3MDis3e84JDSe6OStS4/edit?gid=772682226#gid=772682226&range=62:62 \"smartCard-inline\")\n\n[https://drive.google.com/file/d/1l1lDi40qN5Y3nznrZzdMthneAMUugGoe/view?usp=sharing](https://drive.google.com/file/d/1l1lDi40qN5Y3nznrZzdMthneAMUugGoe/view?usp=sharing \"smartCard-block\")",
+      "11초 경에 나오는 [ わかったか、クソ親父 ]\n\n라는 대사가 마케팅용 보이스로 포함되어 있는 것일까요?",
+      "- 0-13초 구간의 시키 보이스 마케팅용 보이스로 수정 반영되었습니다.\n  - [https://drive.google.com/drive/folders/1A8m20lrcE08A7Ruk6B2jmIXkIK5dLD_G](https://drive.google.com/drive/folders/1A8m20lrcE08A7Ruk6B2jmIXkIK5dLD_G \"‌\")",
+      "앞부분의 시키의 보이스의 경우 이전 마케팅 보이스로 제출 주셨던 리스트에 포함되어 있지 않은 보이스인데 확인 부탁드리겠습니다."
+    ],
+    "licensor_feedbacks": [
+      "[판권처 피드백]\n\n공통 : 영상의 마지막 대사를 시키의 대사로 변경해주시기 바랍니다.",
+      "도원암귀 사전예약 PV\\_Final\\_tic\\_v2\\_(보이스 수정)의 엔드카드가 사전 버전으로 되어 있습니다. 수정 부탁드립니다.",
+      "보이스 관련해서는 둘 다 제출하는 것이 아닌 처음에 제출해주신 것만 검수 제출 해달라는 말씀이실까요?\n\n어제 유선상으로는 안전하게 검수 통과된 내용으로 진행하는 것으로 말씀을 해주셨는데 제출 방향성 문의드립니다.\n\n참고로 둘 다 제출해서 판권처에 상황 설명한다면 당연히 검수 통과된 내용으로 사용하는 것으로 얘기가 나올 것으로 예상되어서요. 수정해서 주신 이미지로 제출하는 것이 더 안정적일 것으로 보입니다.",
+      "11초 경에 나오는 [ わかったか、クソ親父 ]\n\n라는 대사가 마케팅용 보이스로 포함되어 있는 것일까요?",
+      "앞부분의 시키의 보이스의 경우 이전 마케팅 보이스로 제출 주셨던 리스트에 포함되어 있지 않은 보이스인데 확인 부탁드리겠습니다."
+    ],
+    "members": [
+      "이수연"
+    ],
+    "latest_comment_date": "2026-10-08T12:56:49.644Z",
+    "last_activity": "2026-10-08T13:04:48.888Z",
+    "ai_summary": {
+      "issue": "메인PV 영상 내용 및 엔드카드 수정, 보이스 제출 방향성 확인",
+      "detail": "영상의 마지막 대사를 시키의 대사로 변경하고, 'PV_Final_tic_v2_(보이스 수정)' 버전의 엔드카드를 최신으로 업데이트해야 합니다. 보이스는 검수 통과된 초기 버전만 제출할지 여부에 대한 명확한 지침이 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 5,
+      "updated_at": "2026-10-09T05:48:09.251783"
+    },
+    "is_rejection": true,
+    "feedback_count": 12
+  },
+  {
     "id": "69afd3d8d4c7fe321fe74aa2",
     "subject": "#188[0310] AJ빌드 플레이 영상",
     "list": "감수 완료",
@@ -541,11 +591,11 @@
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
       "issue": "영상 내 문구 표현 어색함 수정",
-      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 또한, 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 재검토가 요구됩니다.",
+      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 재검토가 요구됩니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-08T05:43:40.838405"
+      "updated_at": "2026-10-09T05:48:12.391937"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -698,48 +748,49 @@
     "feedback_count": 10
   },
   {
-    "id": "6aba1de0a01f701b5eeef951",
-    "subject": "#349[0929] 메인PV 영상",
-    "list": "감수 진행 중",
+    "id": "6a83ad6e9bab5b9553c51cd7",
+    "subject": "#321[0818] 브랜드페이지",
+    "list": "컴투스 감수 요청",
     "status": "진행중",
     "category": "영상",
-    "card_url": "https://trello.com/c/2C8wukxa",
-    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 도원암귀 게임 메인영상\n   1. 옥외광고, AD트럭, UA/BR광고 소재로 활용 예정\n3. 언어: 일\n4. **사용 목적: 도원암귀 게임 메인 영상**\n5. **사용 채널:** 공식 채널 업로드. 옥외광고, AD트럭, UA/BR광고 소재로 활용 예정\n6. 코멘트: 엔드카드만 사전/론칭 버전으로 반영되었습니다.\n7. *_파일경로:_[https://drive.google.com/drive/folders/1pFOuixYnTWGsIvgllikRTNZJWYYOFeCP](https://driv",
-    "asset_type": "영상",
-    "purpose": "도원암귀 게임 메인영상",
+    "card_url": "https://trello.com/c/QuGLZz7v",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 브랜드페이지\n3. 언어: 일\n4. **사용 목적: 브랜드페이지**\n5. **사용 채널: 브랜드페이지**\n6. 코멘트: 브랜드페이지 메인 영역 외 하단 콘텐츠\n   1. _브랜드페이지에 들어간 리소스는 모두 개발에서 감수 완료된 어셋으로 적용되었습니다._\n   2. 메인 영역: [https://trello.com/c/8PQzPhRv](https://trello.com/c/8PQzPhRv \"smartCard-inline\")\n   3. 사전예약, 줄거리, 캐릭터, 게임소개, 미디어\n   ",
+    "asset_type": "이미지",
+    "purpose": "브랜드페이지",
     "language": "일",
-    "memo": "엔드카드만 사전/론칭 버전으로 반영되었습니다.",
+    "memo": "브랜드페이지 메인 영역 외 하단 콘텐츠\n   1. _브랜드페이지에 들어간 리소스는 모두 개발에서 감수 완료된 어셋으로 적용되었습니다._\n   2. 메인 영역: [https://trello.com/c/8PQzPhRv](https://trello.com/c/8PQzPhRv \"smartCard-inline\")\n   3. 사전예약, 줄거리, 캐릭터, 게임소개, 미",
     "labels": [],
     "feedbacks": [
-      "개인 채널로 말씀드린 03초 구간 1215 론칭일 고지 되는 영상 추가 제출드립니다.  늦은 시간 대응주셔서 감사합니다.\n\n‌\n\n[https://drive.google.com/drive/folders/14QHxsPdnbP_UG6n0YcTM55pGkBTynR5w](https://drive.google.com/drive/folders/14QHxsPdnbP_UG6n0YcTM55pGkBTynR5w \"smartCard-block\")",
-      "해당 영상은 사전예약 기간에 사용할 영상입니다.\n\n론칭일 공개가 12월1일 = 사전예약 기간중으로 사전예약 기간에 사용할 영상으로 엔드카드는 사전예약 버전이 맞습니다.",
-      "도원암귀 사전예약 PV\\_Final\\_tic\\_v2\\_(보이스 수정)의 엔드카드가 사전 버전으로 되어 있습니다. 수정 부탁드립니다.",
-      "네, 그러면 수정된 안으로 진행 부탁드립니다.",
-      "보이스 관련해서는 둘 다 제출하는 것이 아닌 처음에 제출해주신 것만 검수 제출 해달라는 말씀이실까요?\n\n어제 유선상으로는 안전하게 검수 통과된 내용으로 진행하는 것으로 말씀을 해주셨는데 제출 방향성 문의드립니다.\n\n참고로 둘 다 제출해서 판권처에 상황 설명한다면 당연히 검수 통과된 내용으로 사용하는 것으로 얘기가 나올 것으로 예상되어서요. 수정해서 주신 이미지로 제출하는 것이 더 안정적일 것으로 보입니다.",
-      "보이스 관련해서는 최초 영상으로 감수 진행 부탁드리며, 혹시나 보이스에 대해서 수정 피드백이 발생할 경우 추가 대응한 영상으로 진행 부탁드립니다. 모쪼록 잘 부탁드리겠습니다.\n\n‌\n\n[https://drive.google.com/drive/folders/1WOOPk7jKqGsCuSueyni5mk8ging-zcFV](https://drive.google.com/drive/folders/1WOOPk7jKqGsCuSueyni5mk8ging-zcFV \"smartCard-block\")",
-      "- 네, 해당 보이스는 마케팅용 보이스로 감수 통과된 보이스입니다.\n  - 諦めねぇぞ！俺は！　親父と！　『これから』の話がしてぇんだよ！　わかったか、クソ親父！\n  - [https://docs.google.com/spreadsheets/d/1i3-gc5eDPKdIzLQ4YQH_c3QvQE6TQUh8oZgkp4oQgzU/edit?gid=2091209265#gid=2091209265&range=62:62](https://docs.google.com/spreadsheets/d/1i3-gc5eDPKdIzLQ4YQH_c3QvQE6TQUh8oZgkp4oQgzU/edit?gid=2091209265#gid=2091209265&range=62:62 \"smartCard-inline\").\n  - [https://docs.google.com/spreadsheets/d/1ittMNFau4L-0LKWPvnir37HX3MDis3e84JDSe6OStS4/edit?gid=772682226#gid=772682226&range=62:62](https://docs.google.com/spreadsheets/d/1ittMNFau4L-0LKWPvnir37HX3MDis3e84JDSe6OStS4/edit?gid=772682226#gid=772682226&range=62:62 \"smartCard-inline\")\n\n[https://drive.google.com/file/d/1l1lDi40qN5Y3nznrZzdMthneAMUugGoe/view?usp=sharing](https://drive.google.com/file/d/1l1lDi40qN5Y3nznrZzdMthneAMUugGoe/view?usp=sharing \"smartCard-block\")",
-      "11초 경에 나오는 [ わかったか、クソ親父 ]\n\n라는 대사가 마케팅용 보이스로 포함되어 있는 것일까요?",
-      "- 0-13초 구간의 시키 보이스 마케팅용 보이스로 수정 반영되었습니다.\n  - [https://drive.google.com/drive/folders/1A8m20lrcE08A7Ruk6B2jmIXkIK5dLD_G](https://drive.google.com/drive/folders/1A8m20lrcE08A7Ruk6B2jmIXkIK5dLD_G \"‌\")",
-      "앞부분의 시키의 보이스의 경우 이전 마케팅 보이스로 제출 주셨던 리스트에 포함되어 있지 않은 보이스인데 확인 부탁드리겠습니다."
+      "빠르게 FB주셔서 감사드립니다.\n\nFB주신 [あぁ、ダメだ！！僕は無理！ゼッタイ無理！] 보이스로 수정되었습니다. 재 감수까지 모쪼록 잘 부탁드립니다.\n\n‌\n\n[https://drive.google.com/file/d/1DRZLhySoXldFdgoghCUy5bDBf1ewumlC/view?usp=drive_link](https://drive.google.com/file/d/1DRZLhySoXldFdgoghCUy5bDBf1ewumlC/view?usp=drive_link \"smartCard-block\")\n\n[https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261007/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261007/ja.html \"smartCard-inline\")",
+      "[판권처 피드백]\n\n로쿠로의 대사를 아래로 변경해주시기 바랍니다.\n\n[ 　あぁ、ダメだ！！僕は無理！ゼッタイ無理！！ ]",
+      "1. 기존 HTML링크에서 일부 이미지가 깨져 보일 수 있는 현상이 확인되어, 수정된 HTML 링크를 공유드립니다.\n   1. [https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261007/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261007/ja.html \"smartCard-inline\")",
+      "1. 감수 가능한 HTML링크 공유드립니다.\n   1. [https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261006/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261006/ja.html \"smartCard-inline\")\n2. 라인에서 커뮤한 문서 공유드립니다. 참고 부탁드립니다. [https://docs.google.com/presentation/d/1z78Td5ayMtDLlENXEbrddT8VfHrsYLuM/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1z78Td5ayMtDLlENXEbrddT8VfHrsYLuM/edit?slide=id.p1#slide=id.p1 \"smartCard-inline\")\n3. 팀편성 SSR : 개발팀에서 감수 진행 예정 리소스입니다.\n   1. 카드 오른쪽 펀치 : 기존 스킬강화의 강화 표기\n4. 수정 사항 중 유스루베 보이스는 1종으로 변경X, 로쿠로 보이스 변경O",
+      "브랜드 페이지에 판권처에서 주신 피드백(FB) 반영 일정과 관련하여 상의드리고자 연락드렸습니다.\n\n내부에서 브랜드 페이지 FB 대응 일정을 검토해 보았습니다. 전체 피드백을 반영하여 감수를 제출할 수 있는 날은 10/13(화)로 확인되었습니다.\n다만 현재 프로젝트의 사전예약 오픈 목표일이 10/15(목)로 잡혀 있어, 일정을 맞추기 위해 아래와 같은 방식으로 진행이 가능할지 여쭙고자 합니다.\n\n[진행안]\n\n1. 10/13(화)까지 당사에서 수정 및 반영을 마치고, Trello를 통해 지홀딩스 측에 감수를 제출\n2. 10/15(목) 12:00에 해당 페이지를 우선 오픈\n3. 이후 감수 과정에서 추가 FB가 나오면, 받는 즉시 당사에서 최대한 빠르게 수정 대응\n\n일정이 촉박한 상황에서 무리한 부탁을 드리게 되어 대단히 죄송합니다. 너그럽게 검토해 주시면 감사하겠습니다.\n가능 여부를 알려 주시면 당사도 해당 일정에 맞춰 성실히 대응하겠습니다.\n\n바쁘신 와중에 번거롭게 해 드려 죄송합니다만, 잘 부탁드립니다.",
+      "판권처 FB를 전달 드립니다.\n확인 부탁드리겠습니다.\n\n[브랜드페이지FB.pptx](https://trello.com/1/cards/6a83ad6e9bab5b9553c51cd7/attachments/6abf7604e384f20a8a72c60b/download/%EB%B8%8C%EB%9E%9C%EB%93%9C%ED%8E%98%EC%9D%B4%EC%A7%80FB.pptx \"‌\")",
+      "판권처측에서 확인할 항목이 많아서 다음주 연휴 이후에 피드백을 주는 것으로 연락이 왔습니다.\n\n피드백 받는대로 코멘트 드리도록 하겠습니다.",
+      "- 왼쪽 하단 팝업과 공지 텍스트 수정된 링크 재 첨부 드립니다.\n  - [https://event-fn.qpyou.cn/event/brand/tougenanki/2025/260909/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/260909/ja.html \"smartCard-inline\")",
+      "브랜드페이지 관련하여 텍스트를 전반적으로 수정하였습니다.\n\n_**아래 링크를 통해서 검토 부탁 드립니다.**_\n\n- _**감수를 위한 외부 링크 생성으로 감수 외 외부 노출은 금지합니다.**_\n\n[https://event-fn.qpyou.cn/event/brand/tougenanki/2025/260908/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/260908/ja.html \"smartCard-inline\")",
+      "조금 전 유선상으로 말씀드린 것과 같이 전체적으로 원래의 일본어 버전이 아닌 한국어 > 일본어로 변역이 된 홈페이지의 느낌이 들고 있어 습니다. 론칭이 우선 일본 유저가 메인 타겟이 되는 만큼 소재들 제작 시 일본어로 먼저 제작이 되면 좋을 것 같습니다.\n\n아래는 위의 피드백을 포함해서 저희가 보면서 확인한 세부적인 피드백이오니 참고 부탁드리겠습니다.\n\n- 캐릭터 설명이 전체적으로 문구들이 한국어를 일본어로 번역한 느낌이 있고 일부 한자가 잘못되었습니다. (Ex. マスクを付ける →マスクを着ける)\n- 캐릭터 설명의 작은 글씨의 폰트의 경우는 좀 더 딱딱한 느낌이 있어 다른 텍스트의 폰트와 맞추면 더 보기가 좋을 것 같습니다.\n- 일본어로 존댓말, 반말이 섞여서 사용되고 있는 부분이 있습니다.(『桃源暗鬼』の魅力的なキャラクターを集め、スキルを選択して戦闘に挑みましょう！ 만 존댓말 입니다.)\n- 캐릭터 소개에서 一ノ瀬四季에서 一 가 누락되어 있습니다.\n- 도원암귀의 경우 도원암귀 텍스트에서도 ◆가 뒷쪽 부분에 들어가 있어 ストーリーモード에 있는◆도 단어의 뒷쪽 부분에 들어가면 좀 더 자연스러울 것 같습니다."
     ],
     "licensor_feedbacks": [
-      "도원암귀 사전예약 PV\\_Final\\_tic\\_v2\\_(보이스 수정)의 엔드카드가 사전 버전으로 되어 있습니다. 수정 부탁드립니다.",
-      "보이스 관련해서는 둘 다 제출하는 것이 아닌 처음에 제출해주신 것만 검수 제출 해달라는 말씀이실까요?\n\n어제 유선상으로는 안전하게 검수 통과된 내용으로 진행하는 것으로 말씀을 해주셨는데 제출 방향성 문의드립니다.\n\n참고로 둘 다 제출해서 판권처에 상황 설명한다면 당연히 검수 통과된 내용으로 사용하는 것으로 얘기가 나올 것으로 예상되어서요. 수정해서 주신 이미지로 제출하는 것이 더 안정적일 것으로 보입니다.",
-      "11초 경에 나오는 [ わかったか、クソ親父 ]\n\n라는 대사가 마케팅용 보이스로 포함되어 있는 것일까요?",
-      "앞부분의 시키의 보이스의 경우 이전 마케팅 보이스로 제출 주셨던 리스트에 포함되어 있지 않은 보이스인데 확인 부탁드리겠습니다."
+      "[판권처 피드백]\n\n로쿠로의 대사를 아래로 변경해주시기 바랍니다.\n\n[ 　あぁ、ダメだ！！僕は無理！ゼッタイ無理！！ ]",
+      "판권처 FB를 전달 드립니다.\n확인 부탁드리겠습니다.\n\n[브랜드페이지FB.pptx](https://trello.com/1/cards/6a83ad6e9bab5b9553c51cd7/attachments/6abf7604e384f20a8a72c60b/download/%EB%B8%8C%EB%9E%9C%EB%93%9C%ED%8E%98%EC%9D%B4%EC%A7%80FB.pptx \"‌\")",
+      "판권처측에서 확인할 항목이 많아서 다음주 연휴 이후에 피드백을 주는 것으로 연락이 왔습니다.\n\n피드백 받는대로 코멘트 드리도록 하겠습니다.",
+      "조금 전 유선상으로 말씀드린 것과 같이 전체적으로 원래의 일본어 버전이 아닌 한국어 > 일본어로 변역이 된 홈페이지의 느낌이 들고 있어 습니다. 론칭이 우선 일본 유저가 메인 타겟이 되는 만큼 소재들 제작 시 일본어로 먼저 제작이 되면 좋을 것 같습니다.\n\n아래는 위의 피드백을 포함해서 저희가 보면서 확인한 세부적인 피드백이오니 참고 부탁드리겠습니다.\n\n- 캐릭터 설명이 전체적으로 문구들이 한국어를 일본어로 번역한 느낌이 있고 일부 한자가 잘못되었습니다. (Ex. マスクを付ける →マスクを着ける)\n- 캐릭터 설명의 작은 글씨의 폰트의 경우는 좀 더 딱딱한 느낌이 있어 다른 텍스트의 폰트와 맞추면 더 보기가 좋을 것 같습니다.\n- 일본어로 존댓말, 반말이 섞여서 사용되고 있는 부분이 있습니다.(『桃源暗鬼』の魅力的なキャラクターを集め、スキルを選択して戦闘に挑みましょう！ 만 존댓말 입니다.)\n- 캐릭터 소개에서 一ノ瀬四季에서 一 가 누락되어 있습니다.\n- 도원암귀의 경우 도원암귀 텍스트에서도 ◆가 뒷쪽 부분에 들어가 있어 ストーリーモード에 있는◆도 단어의 뒷쪽 부분에 들어가면 좀 더 자연스러울 것 같습니다."
     ],
     "members": [
-      "이수연"
+      "이수연",
+      "하원강"
     ],
-    "latest_comment_date": "2026-10-07T11:55:07.172Z",
-    "last_activity": "2026-10-08T04:14:27.640Z",
+    "latest_comment_date": "2026-10-08T11:19:10.689Z",
+    "last_activity": "2026-10-08T11:20:56.111Z",
     "ai_summary": {
-      "issue": "메인 PV 영상 최종본 내용 및 보이스 방향성 확인",
-      "detail": "사전예약 PV 최종본의 엔드카드가 이전 버전으로 되어 있어 수정이 필요합니다. 또한, 보이스 제출 방향성(검수 통과된 내용 사용 여부)과 11초경 대사 '[ わかったか、クソ親父 ]'의 마케팅용 포함 여부에 대한 확인이 요구됩니다.",
+      "issue": "로쿠로 대사 수정",
+      "detail": "브랜드 페이지 내 로쿠로 캐릭터의 대사를 '[ 　あぁ、ダメだ！！僕は無理！ゼッタイ無理！！ ]'로 변경해야 합니다. 추가 피드백은 다음 주 연휴 이후에 전달될 예정입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-08T05:43:44.317431"
+      "updated_at": "2026-10-09T05:48:15.965276"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1339,13 +1390,11 @@
     "last_activity": "2026-08-21T08:10:56.903Z",
     "ai_summary": {
       "issue": "캐릭터 닉네임과 캐릭터 간 연관성 불명확",
-      "detail": "일부 닉네임(예: 'ギャル', '赤ちゃん')의 사용 의도는 이해하나, 마케팅 소재만으로는 캐릭터와의 연관성이 명확히 전달되지 않음. 소재 자체에서 캐릭터와의 연결성을 강화할 필요가 있음.",
+      "detail": "제시된 닉네임('ギャル', '赤ちゃん' 등)의 의도는 이해하나, 마케팅 소재만으로는 캐릭터와의 연관성이 명확히 전달되지 않습니다. 소재 자체에서 캐릭터와의 연결성을 강화할 필요가 있습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-01T05:31:03.412088",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-09T05:48:20.662277"
     },
     "is_rejection": true,
     "feedback_count": 8
@@ -1528,49 +1577,50 @@
     "feedback_count": 8
   },
   {
-    "id": "6a83ad6e9bab5b9553c51cd7",
-    "subject": "#321[0818] 브랜드페이지",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/QuGLZz7v",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 브랜드페이지\n3. 언어: 일\n4. **사용 목적: 브랜드페이지**\n5. **사용 채널: 브랜드페이지**\n6. 코멘트: 브랜드페이지 메인 영역 외 하단 콘텐츠\n   1. _브랜드페이지에 들어간 리소스는 모두 개발에서 감수 완료된 어셋으로 적용되었습니다._\n   2. 메인 영역: [https://trello.com/c/8PQzPhRv](https://trello.com/c/8PQzPhRv \"smartCard-inline\")\n   3. 사전예약, 줄거리, 캐릭터, 게임소개, 미디어\n   ",
-    "asset_type": "이미지",
-    "purpose": "브랜드페이지",
+    "id": "6a71adca2534dcacea54ec63",
+    "subject": "#319[0804] 사전예약 페이지",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "기타",
+    "card_url": "https://trello.com/c/CeqPtoCm",
+    "description": "본문\n\n1. 내용/ 감수 항목: 사전예약 페이지\n2. 사용 용도: 사전예약 페이지\n3. 언어: 일\n4. **사용 목적: 사전예약 페이지를 통해 마켓 및 이메일 수집**\n5. 파일명: 사전예약 사이트 PC, Mobile, ta",
+    "asset_type": "사전예약 페이지",
+    "purpose": "사전예약 페이지",
     "language": "일",
-    "memo": "브랜드페이지 메인 영역 외 하단 콘텐츠\n   1. _브랜드페이지에 들어간 리소스는 모두 개발에서 감수 완료된 어셋으로 적용되었습니다._\n   2. 메인 영역: [https://trello.com/c/8PQzPhRv](https://trello.com/c/8PQzPhRv \"smartCard-inline\")\n   3. 사전예약, 줄거리, 캐릭터, 게임소개, 미",
+    "memo": "",
     "labels": [],
     "feedbacks": [
-      "1. 기존 HTML링크에서 일부 이미지가 깨져 보일 수 있는 현상이 확인되어, 수정된 HTML 링크를 공유드립니다.\n   1. [https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261007/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261007/ja.html \"smartCard-inline\")",
-      "1. 감수 가능한 HTML링크 공유드립니다.\n   1. [https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261006/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/261006/ja.html \"smartCard-inline\")\n2. 라인에서 커뮤한 문서 공유드립니다. 참고 부탁드립니다. [https://docs.google.com/presentation/d/1z78Td5ayMtDLlENXEbrddT8VfHrsYLuM/edit?slide=id.p1#slide=id.p1](https://docs.google.com/presentation/d/1z78Td5ayMtDLlENXEbrddT8VfHrsYLuM/edit?slide=id.p1#slide=id.p1 \"smartCard-inline\")\n3. 팀편성 SSR : 개발팀에서 감수 진행 예정 리소스입니다.\n   1. 카드 오른쪽 펀치 : 기존 스킬강화의 강화 표기\n4. 수정 사항 중 유스루베 보이스는 1종으로 변경X, 로쿠로 보이스 변경O",
-      "브랜드 페이지에 판권처에서 주신 피드백(FB) 반영 일정과 관련하여 상의드리고자 연락드렸습니다.\n\n내부에서 브랜드 페이지 FB 대응 일정을 검토해 보았습니다. 전체 피드백을 반영하여 감수를 제출할 수 있는 날은 10/13(화)로 확인되었습니다.\n다만 현재 프로젝트의 사전예약 오픈 목표일이 10/15(목)로 잡혀 있어, 일정을 맞추기 위해 아래와 같은 방식으로 진행이 가능할지 여쭙고자 합니다.\n\n[진행안]\n\n1. 10/13(화)까지 당사에서 수정 및 반영을 마치고, Trello를 통해 지홀딩스 측에 감수를 제출\n2. 10/15(목) 12:00에 해당 페이지를 우선 오픈\n3. 이후 감수 과정에서 추가 FB가 나오면, 받는 즉시 당사에서 최대한 빠르게 수정 대응\n\n일정이 촉박한 상황에서 무리한 부탁을 드리게 되어 대단히 죄송합니다. 너그럽게 검토해 주시면 감사하겠습니다.\n가능 여부를 알려 주시면 당사도 해당 일정에 맞춰 성실히 대응하겠습니다.\n\n바쁘신 와중에 번거롭게 해 드려 죄송합니다만, 잘 부탁드립니다.",
-      "판권처 FB를 전달 드립니다.\n확인 부탁드리겠습니다.\n\n[브랜드페이지FB.pptx](https://trello.com/1/cards/6a83ad6e9bab5b9553c51cd7/attachments/6abf7604e384f20a8a72c60b/download/%EB%B8%8C%EB%9E%9C%EB%93%9C%ED%8E%98%EC%9D%B4%EC%A7%80FB.pptx \"‌\")",
-      "판권처측에서 확인할 항목이 많아서 다음주 연휴 이후에 피드백을 주는 것으로 연락이 왔습니다.\n\n피드백 받는대로 코멘트 드리도록 하겠습니다.",
-      "- 왼쪽 하단 팝업과 공지 텍스트 수정된 링크 재 첨부 드립니다.\n  - [https://event-fn.qpyou.cn/event/brand/tougenanki/2025/260909/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/260909/ja.html \"smartCard-inline\")",
-      "브랜드페이지 관련하여 텍스트를 전반적으로 수정하였습니다.\n\n_**아래 링크를 통해서 검토 부탁 드립니다.**_\n\n- _**감수를 위한 외부 링크 생성으로 감수 외 외부 노출은 금지합니다.**_\n\n[https://event-fn.qpyou.cn/event/brand/tougenanki/2025/260908/ja.html](https://event-fn.qpyou.cn/event/brand/tougenanki/2025/260908/ja.html \"smartCard-inline\")",
-      "조금 전 유선상으로 말씀드린 것과 같이 전체적으로 원래의 일본어 버전이 아닌 한국어 > 일본어로 변역이 된 홈페이지의 느낌이 들고 있어 습니다. 론칭이 우선 일본 유저가 메인 타겟이 되는 만큼 소재들 제작 시 일본어로 먼저 제작이 되면 좋을 것 같습니다.\n\n아래는 위의 피드백을 포함해서 저희가 보면서 확인한 세부적인 피드백이오니 참고 부탁드리겠습니다.\n\n- 캐릭터 설명이 전체적으로 문구들이 한국어를 일본어로 번역한 느낌이 있고 일부 한자가 잘못되었습니다. (Ex. マスクを付ける →マスクを着ける)\n- 캐릭터 설명의 작은 글씨의 폰트의 경우는 좀 더 딱딱한 느낌이 있어 다른 텍스트의 폰트와 맞추면 더 보기가 좋을 것 같습니다.\n- 일본어로 존댓말, 반말이 섞여서 사용되고 있는 부분이 있습니다.(『桃源暗鬼』の魅力的なキャラクターを集め、スキルを選択して戦闘に挑みましょう！ 만 존댓말 입니다.)\n- 캐릭터 소개에서 一ノ瀬四季에서 一 가 누락되어 있습니다.\n- 도원암귀의 경우 도원암귀 텍스트에서도 ◆가 뒷쪽 부분에 들어가 있어 ストーリーモード에 있는◆도 단어의 뒷쪽 부분에 들어가면 좀 더 자연스러울 것 같습니다."
+      "감수 완료되었습니다.",
+      "피드백을 반영하여 달성 가능한 수치로 수정/반영하여 제출합니다.\n\n- 파일명: 사전예약_260928",
+      "[판권처 FB]\n사전예약의 인원수를 조금 줄이는 것이 좋을 것 같습니다.\n사전 예약 목표수를 한자릿수씩 줄이는 것이 현실적일 것 같습니다.",
+      "260908_이미지로 감수 부탁드립니다.\n\n1. (2) 항목은 사전예약으로 수정했습니다.\n2. (3) 이미지 첨부했습니다.\n   1. 260908_달성전: 회색으로 표기\n   2. 260908_달성: 달성된 수치는 이미지와 같이 지급 아이템이 보여집니다.\n3. (4) URL(분기)는 다른 형태지만 왼쪽 탭을 통해서는 두개의 페이지로 랜딩됩니다.\n   1. 예를들어, 사전예약 페이지에서 캐릭터 소개 탭을 클릭하면 브랜드 페이지_캐릭터 소개 탭으로 넘어갑니다.",
+      "1. 내용 확인하겠습니다.\n2. 그렇다면 メール登録(메일등록)이 아닌 다른 명칭으로 사용되는 것이 인지하기에 자연스러울 것 같은데 확인 부탁드리겠습니다.\n3. 달성되지 않았을 시의 표기되는 형태도 같이 부탁드리겠습니다.\n4. 두개가 각각 다른 웹사이트라는 것으로 인지하였는데 맞을까요?",
+      "1. 의견 주신 내용으로 문구 수정되었습니다.\n   1. 260805 파일로 검토 부탁 드립니다.\n2. 하단에 있는  メール登録 은 지금 오픈 되어있는 사이트와 동일한 정보가 노출됩니다. [https://tougenanki.com2us.com/ja](https://tougenanki.com2us.com/ja?r=p1 \"‌\")\n3. 네 맞습니다. 사전예약 달성수에 따라 보상이 순차 공개되는 형태입니다.\n4. #318에 안내 드린 내용과 같이 사전예약사이트<>브랜드사이트가 서로 랜딩되는 형태로 각각 카피라잇을 추가하였습니다.\n   1. ![image.webp](https://trello.com/1/cards/6a71adca2534dcacea54ec63/attachments/6a728cf92c3a5e332b769ffc/previews/6a728cfa2c3a5e332b76a03a/download/image.webp)",
+      "- 오른쪽에 황금색으로 SSRキャラクター選択チケット確定報酬 라고 써 있는 부분이 사전예약으로 100%받게되는 보상이라면 SSRキャラクター選択チケットが必ずもらえる 등으로 좀 더 일본어로 자연스럽게 수정 부탁 드리겠습니다.\n- 오른쪽 하단에 있는 メール登録 라는 부분은 어떤 기능인 것일까요?\n- 사전예약수 목표를 달성하면 보상이 공개된다라고 되어 있는데요. 현재는 전부 공개된 상태인데 숨김 처리 되어 있다고 공개되는 것일까요?\n- 같은 브랜드 페이지에서 카피라이트가 여기도 있고 #318에도 있는데요. 웹사이트에서 카피라이트는 가장 마지막에만 들어가면 될 것 같아서 카피라이트 표기에 대해서도 정리 한번 부탁 드리겠습니다."
     ],
     "licensor_feedbacks": [
-      "판권처 FB를 전달 드립니다.\n확인 부탁드리겠습니다.\n\n[브랜드페이지FB.pptx](https://trello.com/1/cards/6a83ad6e9bab5b9553c51cd7/attachments/6abf7604e384f20a8a72c60b/download/%EB%B8%8C%EB%9E%9C%EB%93%9C%ED%8E%98%EC%9D%B4%EC%A7%80FB.pptx \"‌\")",
-      "판권처측에서 확인할 항목이 많아서 다음주 연휴 이후에 피드백을 주는 것으로 연락이 왔습니다.\n\n피드백 받는대로 코멘트 드리도록 하겠습니다.",
-      "조금 전 유선상으로 말씀드린 것과 같이 전체적으로 원래의 일본어 버전이 아닌 한국어 > 일본어로 변역이 된 홈페이지의 느낌이 들고 있어 습니다. 론칭이 우선 일본 유저가 메인 타겟이 되는 만큼 소재들 제작 시 일본어로 먼저 제작이 되면 좋을 것 같습니다.\n\n아래는 위의 피드백을 포함해서 저희가 보면서 확인한 세부적인 피드백이오니 참고 부탁드리겠습니다.\n\n- 캐릭터 설명이 전체적으로 문구들이 한국어를 일본어로 번역한 느낌이 있고 일부 한자가 잘못되었습니다. (Ex. マスクを付ける →マスクを着ける)\n- 캐릭터 설명의 작은 글씨의 폰트의 경우는 좀 더 딱딱한 느낌이 있어 다른 텍스트의 폰트와 맞추면 더 보기가 좋을 것 같습니다.\n- 일본어로 존댓말, 반말이 섞여서 사용되고 있는 부분이 있습니다.(『桃源暗鬼』の魅力的なキャラクターを集め、スキルを選択して戦闘に挑みましょう！ 만 존댓말 입니다.)\n- 캐릭터 소개에서 一ノ瀬四季에서 一 가 누락되어 있습니다.\n- 도원암귀의 경우 도원암귀 텍스트에서도 ◆가 뒷쪽 부분에 들어가 있어 ストーリーモード에 있는◆도 단어의 뒷쪽 부분에 들어가면 좀 더 자연스러울 것 같습니다."
+      "감수 완료되었습니다.",
+      "[판권처 FB]\n사전예약의 인원수를 조금 줄이는 것이 좋을 것 같습니다.\n사전 예약 목표수를 한자릿수씩 줄이는 것이 현실적일 것 같습니다.",
+      "1. 내용 확인하겠습니다.\n2. 그렇다면 メール登録(메일등록)이 아닌 다른 명칭으로 사용되는 것이 인지하기에 자연스러울 것 같은데 확인 부탁드리겠습니다.\n3. 달성되지 않았을 시의 표기되는 형태도 같이 부탁드리겠습니다.\n4. 두개가 각각 다른 웹사이트라는 것으로 인지하였는데 맞을까요?",
+      "- 오른쪽에 황금색으로 SSRキャラクター選択チケット確定報酬 라고 써 있는 부분이 사전예약으로 100%받게되는 보상이라면 SSRキャラクター選択チケットが必ずもらえる 등으로 좀 더 일본어로 자연스럽게 수정 부탁 드리겠습니다.\n- 오른쪽 하단에 있는 メール登録 라는 부분은 어떤 기능인 것일까요?\n- 사전예약수 목표를 달성하면 보상이 공개된다라고 되어 있는데요. 현재는 전부 공개된 상태인데 숨김 처리 되어 있다고 공개되는 것일까요?\n- 같은 브랜드 페이지에서 카피라이트가 여기도 있고 #318에도 있는데요. 웹사이트에서 카피라이트는 가장 마지막에만 들어가면 될 것 같아서 카피라이트 표기에 대해서도 정리 한번 부탁 드리겠습니다."
     ],
     "members": [
-      "이수연",
-      "하원강"
+      "이수연"
     ],
-    "latest_comment_date": "2026-10-07T08:27:23.465Z",
-    "last_activity": "2026-10-08T04:18:30.098Z",
+    "latest_comment_date": "2026-10-09T04:06:17.357Z",
+    "last_activity": "2026-10-09T04:06:25.130Z",
     "ai_summary": {
-      "issue": "일본어 원문 제작 및 현지화 품질 개선",
-      "detail": "현재 소재가 한국어 번역본처럼 느껴지므로, 일본 유저를 메인 타겟으로 하여 일본어로 먼저 제작해야 합니다. 전반적인 현지화 품질 재검토 및 개선이 필요합니다.",
+      "issue": "사전예약 목표 및 보상 표기, 용어 개선 필요",
+      "detail": "사전예약 목표 인원수를 현실적으로 조정하고, 미달성 시 표기 방안을 마련해야 합니다. 'メール登録' 용어의 기능 명확화 및 자연스러운 일본어 표현으로 변경이 요구됩니다. SSR 보상 문구를 일본어에 맞게 수정하고, 보상 공개 방식도 명확히 해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-10-06T06:02:50.676207"
+      "updated_at": "2026-10-04T05:33:50.801757",
+      "needs_update": true,
+      "update_reason": "피드백 3→4건, 상태 변경"
     },
     "is_rejection": true,
-    "feedback_count": 8
+    "feedback_count": 7
   },
   {
     "id": "6a0be4ac98cdf3b351db9362",
@@ -1606,12 +1656,12 @@
     "latest_comment_date": "2026-06-12T09:13:08.994Z",
     "last_activity": "2026-06-12T09:13:20.660Z",
     "ai_summary": {
-      "issue": "마케팅 소재 내 이미지 문구 수정 요청",
-      "detail": "무다노 이미지, 1번, 3번, 4번 이미지 내 일본어 텍스트에 대한 구체적인 수정 지시가 있었습니다. 기존 문구를 변경 요청된 문구로 교체해야 합니다.",
+      "issue": "사전 예약 메타데이터 스크린샷 텍스트 수정 필요",
+      "detail": "무다노 이미지, 1번, 3번, 4번 이미지 내 일본어 문구에 대한 구체적인 수정 요청이 있습니다. 판권사의 의도에 맞춰 문구를 변경해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-08T05:43:54.579199"
+      "updated_at": "2026-10-09T05:48:31.004570"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2382,48 +2432,6 @@
       "resolved": true,
       "model": "manual-ai",
       "updated_at": "2026-06-02T12:42:51.841033"
-    },
-    "is_rejection": true,
-    "feedback_count": 6
-  },
-  {
-    "id": "6a71adca2534dcacea54ec63",
-    "subject": "#319[0804] 사전예약 페이지",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "기타",
-    "card_url": "https://trello.com/c/CeqPtoCm",
-    "description": "본문\n\n1. 내용/ 감수 항목: 사전예약 페이지\n2. 사용 용도: 사전예약 페이지\n3. 언어: 일\n4. **사용 목적: 사전예약 페이지를 통해 마켓 및 이메일 수집**\n5. 파일명: 사전예약 사이트 PC, Mobile, ta",
-    "asset_type": "사전예약 페이지",
-    "purpose": "사전예약 페이지",
-    "language": "일",
-    "memo": "",
-    "labels": [],
-    "feedbacks": [
-      "피드백을 반영하여 달성 가능한 수치로 수정/반영하여 제출합니다.\n\n- 파일명: 사전예약_260928",
-      "[판권처 FB]\n사전예약의 인원수를 조금 줄이는 것이 좋을 것 같습니다.\n사전 예약 목표수를 한자릿수씩 줄이는 것이 현실적일 것 같습니다.",
-      "260908_이미지로 감수 부탁드립니다.\n\n1. (2) 항목은 사전예약으로 수정했습니다.\n2. (3) 이미지 첨부했습니다.\n   1. 260908_달성전: 회색으로 표기\n   2. 260908_달성: 달성된 수치는 이미지와 같이 지급 아이템이 보여집니다.\n3. (4) URL(분기)는 다른 형태지만 왼쪽 탭을 통해서는 두개의 페이지로 랜딩됩니다.\n   1. 예를들어, 사전예약 페이지에서 캐릭터 소개 탭을 클릭하면 브랜드 페이지_캐릭터 소개 탭으로 넘어갑니다.",
-      "1. 내용 확인하겠습니다.\n2. 그렇다면 メール登録(메일등록)이 아닌 다른 명칭으로 사용되는 것이 인지하기에 자연스러울 것 같은데 확인 부탁드리겠습니다.\n3. 달성되지 않았을 시의 표기되는 형태도 같이 부탁드리겠습니다.\n4. 두개가 각각 다른 웹사이트라는 것으로 인지하였는데 맞을까요?",
-      "1. 의견 주신 내용으로 문구 수정되었습니다.\n   1. 260805 파일로 검토 부탁 드립니다.\n2. 하단에 있는  メール登録 은 지금 오픈 되어있는 사이트와 동일한 정보가 노출됩니다. [https://tougenanki.com2us.com/ja](https://tougenanki.com2us.com/ja?r=p1 \"‌\")\n3. 네 맞습니다. 사전예약 달성수에 따라 보상이 순차 공개되는 형태입니다.\n4. #318에 안내 드린 내용과 같이 사전예약사이트<>브랜드사이트가 서로 랜딩되는 형태로 각각 카피라잇을 추가하였습니다.\n   1. ![image.webp](https://trello.com/1/cards/6a71adca2534dcacea54ec63/attachments/6a728cf92c3a5e332b769ffc/previews/6a728cfa2c3a5e332b76a03a/download/image.webp)",
-      "- 오른쪽에 황금색으로 SSRキャラクター選択チケット確定報酬 라고 써 있는 부분이 사전예약으로 100%받게되는 보상이라면 SSRキャラクター選択チケットが必ずもらえる 등으로 좀 더 일본어로 자연스럽게 수정 부탁 드리겠습니다.\n- 오른쪽 하단에 있는 メール登録 라는 부분은 어떤 기능인 것일까요?\n- 사전예약수 목표를 달성하면 보상이 공개된다라고 되어 있는데요. 현재는 전부 공개된 상태인데 숨김 처리 되어 있다고 공개되는 것일까요?\n- 같은 브랜드 페이지에서 카피라이트가 여기도 있고 #318에도 있는데요. 웹사이트에서 카피라이트는 가장 마지막에만 들어가면 될 것 같아서 카피라이트 표기에 대해서도 정리 한번 부탁 드리겠습니다."
-    ],
-    "licensor_feedbacks": [
-      "[판권처 FB]\n사전예약의 인원수를 조금 줄이는 것이 좋을 것 같습니다.\n사전 예약 목표수를 한자릿수씩 줄이는 것이 현실적일 것 같습니다.",
-      "1. 내용 확인하겠습니다.\n2. 그렇다면 メール登録(메일등록)이 아닌 다른 명칭으로 사용되는 것이 인지하기에 자연스러울 것 같은데 확인 부탁드리겠습니다.\n3. 달성되지 않았을 시의 표기되는 형태도 같이 부탁드리겠습니다.\n4. 두개가 각각 다른 웹사이트라는 것으로 인지하였는데 맞을까요?",
-      "- 오른쪽에 황금색으로 SSRキャラクター選択チケット確定報酬 라고 써 있는 부분이 사전예약으로 100%받게되는 보상이라면 SSRキャラクター選択チケットが必ずもらえる 등으로 좀 더 일본어로 자연스럽게 수정 부탁 드리겠습니다.\n- 오른쪽 하단에 있는 メール登録 라는 부분은 어떤 기능인 것일까요?\n- 사전예약수 목표를 달성하면 보상이 공개된다라고 되어 있는데요. 현재는 전부 공개된 상태인데 숨김 처리 되어 있다고 공개되는 것일까요?\n- 같은 브랜드 페이지에서 카피라이트가 여기도 있고 #318에도 있는데요. 웹사이트에서 카피라이트는 가장 마지막에만 들어가면 될 것 같아서 카피라이트 표기에 대해서도 정리 한번 부탁 드리겠습니다."
-    ],
-    "members": [
-      "이수연"
-    ],
-    "latest_comment_date": "2026-09-28T07:46:46.359Z",
-    "last_activity": "2026-10-01T04:14:23.357Z",
-    "ai_summary": {
-      "issue": "사전예약 목표 및 보상 표기, 용어 개선 필요",
-      "detail": "사전예약 목표 인원수를 현실적으로 조정하고, 미달성 시 표기 방안을 마련해야 합니다. 'メール登録' 용어의 기능 명확화 및 자연스러운 일본어 표현으로 변경이 요구됩니다. SSR 보상 문구를 일본어에 맞게 수정하고, 보상 공개 방식도 명확히 해야 합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-10-04T05:33:50.801757"
     },
     "is_rejection": true,
     "feedback_count": 6
@@ -3215,14 +3223,12 @@
     "latest_comment_date": "2026-07-31T02:25:17.068Z",
     "last_activity": "2026-09-14T01:20:03.232Z",
     "ai_summary": {
-      "issue": "개별 캐릭터 일러스트 사용 및 웹상점 표기 명확화",
-      "detail": "단체 일러스트 내 개별 캐릭터 사용 시 분리하여 재검수 필요. 1안은 무다노 검수 완료 후 진행. 웹상점 내 '[검수 대상]' 항목의 의미와 사용처에 대한 추가 설명 요청.",
+      "issue": "개별 캐릭터 일러스트 사용 및 웹상점 표기 명확화 필요",
+      "detail": "단체 일러스트 내 개별 캐릭터 사용 시, 각 캐릭터 일러스트를 분리하여 재검수 제출해야 합니다. 웹상점 시안의 '[검수 대상]' 항목 의미와 사용처에 대한 추가 설명이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-09-14T04:37:49.239823",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-09T05:48:38.410089"
     },
     "is_rejection": true,
     "feedback_count": 5
@@ -4105,6 +4111,39 @@
     "feedback_count": 4
   },
   {
+    "id": "6ac44546233a96f5d30b4905",
+    "subject": "#364[1006] AGO 사전예약 론칭 홍보용 어셋",
+    "list": "이슈 발생",
+    "status": "반려",
+    "category": "배너",
+    "card_url": "https://trello.com/c/TMD4pbx1",
+    "description": "1. 내용/ 감수 항목: 기획안, 이미지\n2. 사용 용도: AGO 사전예약 홍보용 어셋\n3. 언어: 일\n4. **사용 목적: AGO측에서 사전예약 홍보를 위해 X, 뉴스레터, 사이트 배너 디자인 어셋을 요청하여 급하게 감수 요청드립니다.**\n5. **사용 채널: X, 뉴스레터, AGO 공식 홈페이지**\n6. 코멘트: AGO에서 받은 원본 파일 첨부하여 공유 드립니다.\n7. *_파일명: _[_LINK_](https://docs.google.com/presentation/d/1xTx_Q7e50RKbecx_rvS53EoqCm_vwkVJK",
+    "asset_type": "기획안, 이미지",
+    "purpose": "AGO 사전예약 홍보용 어셋",
+    "language": "일",
+    "memo": "AGO에서 받은 원본 파일 첨부하여 공유 드립니다.",
+    "labels": [],
+    "feedbacks": [
+      "[판권처 피드백]\n\n아래 자료 11P 부터 판권처 피드백 남겨드렸으니 확인 바랍니다.\n\n‌\n\n[AGO 사전예약 홍보용 어셋 - Google Slides](https://docs.google.com/presentation/d/1xTx_Q7e50RKbecx_rvS53EoqCm_vwkVJKNWU0m8Ykg8/edit?slide=id.ha0ffcaf52584636_0_52#slide=id.ha0ffcaf52584636_0_52 \"‌\")",
+      "상단배너와 추천배너는 이전 감수 통과되었습니다.\n[https://docs.google.com/presentation/d/1gCaixND9t56E55r7xX6meA99F50bqMol006qANV-W4U/edit?slide=id.g3f97dd40bba_0_161#slide=id.g3f97dd40bba_0_161](https://docs.google.com/presentation/d/1gCaixND9t56E55r7xX6meA99F50bqMol006qANV-W4U/edit?slide=id.g3f97dd40bba_0_161#slide=id.g3f97dd40bba_0_161 \"smartCard-inline\")\n\nX는 시키만 사용 예정으로 아래 게시물 참고 부탁드립니다. 혼선을 만들어 죄송합니다.\n[https://x.com/animatego_info/status/2107625599024136539](https://x.com/animatego_info/status/2107625599024136539 \"smartCard-inline\")",
+      "X포스팅용 이미지를 3장 올려주셨는데 3장 모두 사용하게 되는 것일까요? (9페이지에 있는 X 내용에 같이 첨부되는 이미지가 아래 3종 모두 포함되는것으로 보면 될까요?)\n\n![image.webp](https://trello.com/1/cards/6ac44546233a96f5d30b4905/attachments/6ac5cf248482bf0e0badb43a/previews/6ac5cf248482bf0e0badb46d/download/image.webp)",
+      "AGO 사전예약 홍보용 어셋 10페이지의 이미지 2장이 드라이브에서 확인되지 않아, 추가 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "[판권처 피드백]\n\n아래 자료 11P 부터 판권처 피드백 남겨드렸으니 확인 바랍니다.\n\n‌\n\n[AGO 사전예약 홍보용 어셋 - Google Slides](https://docs.google.com/presentation/d/1xTx_Q7e50RKbecx_rvS53EoqCm_vwkVJKNWU0m8Ykg8/edit?slide=id.ha0ffcaf52584636_0_52#slide=id.ha0ffcaf52584636_0_52 \"‌\")",
+      "X포스팅용 이미지를 3장 올려주셨는데 3장 모두 사용하게 되는 것일까요? (9페이지에 있는 X 내용에 같이 첨부되는 이미지가 아래 3종 모두 포함되는것으로 보면 될까요?)\n\n![image.webp](https://trello.com/1/cards/6ac44546233a96f5d30b4905/attachments/6ac5cf248482bf0e0badb43a/previews/6ac5cf248482bf0e0badb46d/download/image.webp)",
+      "AGO 사전예약 홍보용 어셋 10페이지의 이미지 2장이 드라이브에서 확인되지 않아, 추가 부탁드립니다."
+    ],
+    "members": [
+      "최지혜B"
+    ],
+    "latest_comment_date": "2026-10-08T10:11:32.306Z",
+    "last_activity": "2026-10-08T10:11:36.817Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 4
+  },
+  {
     "id": "6a153f470fa7eda26c8d4d37",
     "subject": "#259[0526] 프리미엄 선행 플레이 테스트 2차 메일링 - 당선자 안내",
     "list": "보류",
@@ -4218,6 +4257,37 @@
     },
     "is_rejection": true,
     "feedback_count": 4
+  },
+  {
+    "id": "6aa7a76bdc39dde3a2544352",
+    "subject": "#339[0915][UA] 사전예약 UA 영상 템플릿",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "영상",
+    "card_url": "https://trello.com/c/wEthikvh",
+    "description": "1. 내용/ 감수 항목: 영상 사이즈 베리용 템플릿 배너 2종\n2. 사용 용도: 사전예약 UA 영상 소재 사이즈 베리\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. 템플릿 배너 내 강조하고 있는 SSR 픽업이 사전예약 완료 시 지급되는 보상인 점이 보다 직관적으로 강조될 수 있도록 카피 수정하여 재제출 드립니다.\n   2. 완료 되는 대로 정방형, 세로형 사이즈 베리 시점에 활용 예정입니다.\n6. 파일명: [https://drive.google.com/drive/folders/11WsxXQiuo4oZHiUt-Pr1kN",
+    "asset_type": "영상 사이즈 베리용 템플릿 배너 2종",
+    "purpose": "사전예약 UA 영상 소재 사이즈 베리",
+    "language": "일",
+    "memo": "1. 템플릿 배너 내 강조하고 있는 SSR 픽업이 사전예약 완료 시 지급되는 보상인 점이 보다 직관적으로 강조될 수 있도록 카피 수정하여 재제출 드립니다.\n   2. 완료 되는 대로 정방형, 세로형 사이즈 베리 시점에 활용 예정입니다.",
+    "labels": [],
+    "feedbacks": [
+      "감수 완료되었습니다.",
+      "DMM/AGO 뱃지 추가 전에 제출한 것은 감수 통과되었습니다.",
+      "9/15 제출된 구글/애플 뱃지 포함 버전 외에 DMM, AGO 뱃지 추가된 버전 감수 제출 요청 드립니다.\n2가지 버전 모두 활용하고자 하며, 구글/애플 버전는 별도로 결과 공유 주시면 감사하겠습니다!\n\n\\- 추가 감수 리스트:\n\n1. 2-1. 정방형 템플릿 (DMM/AGO 뱃지 추가)\n2. 2-2. 세로형 템플릿 (DMM/AGO 뱃지 추가)"
+    ],
+    "licensor_feedbacks": [
+      "감수 완료되었습니다.",
+      "DMM/AGO 뱃지 추가 전에 제출한 것은 감수 통과되었습니다."
+    ],
+    "members": [
+      "최종인"
+    ],
+    "latest_comment_date": "2026-10-09T04:07:21.821Z",
+    "last_activity": "2026-10-09T04:07:26.489Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 3
   },
   {
     "id": "6a5de0dbc3b51133a62ae902",
@@ -4404,7 +4474,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-08T05:44:14.597773"
+      "updated_at": "2026-10-08T05:44:14.597773",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5397,33 +5469,42 @@
     "feedback_count": 3
   },
   {
-    "id": "6ac44546233a96f5d30b4905",
-    "subject": "#364[1006] AGO 사전예약 론칭 홍보용 어셋",
+    "id": "6a277d0968bf65ae775d4b29",
+    "subject": "#276[0609] 작가 축전 기획안",
     "list": "감수 진행 중",
     "status": "진행중",
-    "category": "배너",
-    "card_url": "https://trello.com/c/TMD4pbx1",
-    "description": "1. 내용/ 감수 항목: 기획안, 이미지\n2. 사용 용도: AGO 사전예약 홍보용 어셋\n3. 언어: 일\n4. **사용 목적: AGO측에서 사전예약 홍보를 위해 X, 뉴스레터, 사이트 배너 디자인 어셋을 요청하여 급하게 감수 요청드립니다.**\n5. **사용 채널: X, 뉴스레터, AGO 공식 홈페이지**\n6. 코멘트: AGO에서 받은 원본 파일 첨부하여 공유 드립니다.\n7. *_파일명: _[_LINK_](https://docs.google.com/presentation/d/1xTx_Q7e50RKbecx_rvS53EoqCm_vwkVJK",
-    "asset_type": "기획안, 이미지",
-    "purpose": "AGO 사전예약 홍보용 어셋",
+    "category": "기획안",
+    "card_url": "https://trello.com/c/v7dRQfgj",
+    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 도원암귀 작가 게시글 올라오면 rt\n3. 언어: 일\n4. 사용 목적: 도원암귀 원작 작가에게 런칭 축전 요청\n5. 사용 채널: x\n6. 코멘트:\n7. 파일명\n   1. 1006_도원암귀 론칭 기념 작가 축전 기획안",
+    "asset_type": "기획안",
+    "purpose": "도원암귀 작가 게시글 올라오면 rt",
     "language": "일",
-    "memo": "AGO에서 받은 원본 파일 첨부하여 공유 드립니다.",
+    "memo": "7. 파일명\n   1. 1006_도원암귀 론칭 기념 작가 축전 기획안",
     "labels": [],
     "feedbacks": [
-      "상단배너와 추천배너는 이전 감수 통과되었습니다.\n[https://docs.google.com/presentation/d/1gCaixND9t56E55r7xX6meA99F50bqMol006qANV-W4U/edit?slide=id.g3f97dd40bba_0_161#slide=id.g3f97dd40bba_0_161](https://docs.google.com/presentation/d/1gCaixND9t56E55r7xX6meA99F50bqMol006qANV-W4U/edit?slide=id.g3f97dd40bba_0_161#slide=id.g3f97dd40bba_0_161 \"smartCard-inline\")\n\nX는 시키만 사용 예정으로 아래 게시물 참고 부탁드립니다. 혼선을 만들어 죄송합니다.\n[https://x.com/animatego_info/status/2107625599024136539](https://x.com/animatego_info/status/2107625599024136539 \"smartCard-inline\")",
-      "X포스팅용 이미지를 3장 올려주셨는데 3장 모두 사용하게 되는 것일까요? (9페이지에 있는 X 내용에 같이 첨부되는 이미지가 아래 3종 모두 포함되는것으로 보면 될까요?)\n\n![image.webp](https://trello.com/1/cards/6ac44546233a96f5d30b4905/attachments/6ac5cf248482bf0e0badb43a/previews/6ac5cf248482bf0e0badb46d/download/image.webp)",
-      "AGO 사전예약 홍보용 어셋 10페이지의 이미지 2장이 드라이브에서 확인되지 않아, 추가 부탁드립니다."
+      "본 기획에 대해서는 판권처로부터 확인까지 시간이 좀 걸릴 것으로 전달을 받았습니다. 결과 나오는대로 회신 드릴 수 있도록 하겠습니다.\n\n추가로 라인으로 문의 드린 것과 같이 비용이 발생하더라도 진행하는 것으로 요청을 하였는데요..현재 작가가 매우 바쁜 상황으로 비용을 지불하더라도 진행이 어려울 수도 있다는 점도 참고 바랍니다.",
+      "(10/06) 작가 축전 기획안 다시 제출합니다.\n파일명: 1006_도원암귀 론칭 기념 작가 축전 기획안",
+      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
     ],
     "licensor_feedbacks": [
-      "X포스팅용 이미지를 3장 올려주셨는데 3장 모두 사용하게 되는 것일까요? (9페이지에 있는 X 내용에 같이 첨부되는 이미지가 아래 3종 모두 포함되는것으로 보면 될까요?)\n\n![image.webp](https://trello.com/1/cards/6ac44546233a96f5d30b4905/attachments/6ac5cf248482bf0e0badb43a/previews/6ac5cf248482bf0e0badb46d/download/image.webp)",
-      "AGO 사전예약 홍보용 어셋 10페이지의 이미지 2장이 드라이브에서 확인되지 않아, 추가 부탁드립니다."
+      "본 기획에 대해서는 판권처로부터 확인까지 시간이 좀 걸릴 것으로 전달을 받았습니다. 결과 나오는대로 회신 드릴 수 있도록 하겠습니다.\n\n추가로 라인으로 문의 드린 것과 같이 비용이 발생하더라도 진행하는 것으로 요청을 하였는데요..현재 작가가 매우 바쁜 상황으로 비용을 지불하더라도 진행이 어려울 수도 있다는 점도 참고 바랍니다.",
+      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
     ],
     "members": [
-      "최지혜B"
+      "김민지"
     ],
-    "latest_comment_date": "2026-10-07T07:40:11.095Z",
-    "last_activity": "2026-10-08T04:14:43.723Z",
-    "ai_summary": null,
+    "latest_comment_date": "2026-10-08T08:04:23.482Z",
+    "last_activity": "2026-10-08T08:04:23.535Z",
+    "ai_summary": {
+      "issue": "론칭 지연으로 인한 기획안 제출 시기 부적절",
+      "detail": "론칭 지연으로 현재 시점의 작가 축전 기획안 제출은 판권사에서 긍정적으로 검토하기 어렵습니다. 론칭 일자 확정 후, 지원 희망 날짜를 명시하여 재제출 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-06-25T04:15:13.188497",
+      "needs_update": true,
+      "update_reason": "피드백 1→2건"
+    },
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -6212,14 +6293,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "일정 관련 소재 제출 시기 부적절",
-      "detail": "프리미엄 사전 테스트 지연 일정이 판권사 검토 중입니다. 일정이 확정되기 전까지 관련 내용을 검수물로 제출하지 말아주세요. 현재 수정안은 판권사 납득이 어렵습니다.",
+      "issue": "프리미엄 사전 테스트 일정 미확정으로 광고 소재 제출 보류",
+      "detail": "프리미엄 사전 테스트 일정 지연으로 인해 광고 소재의 수정 내용(삭제)에 대한 판권사의 납득이 어렵습니다. 일정이 확정된 후 다음 검수물로 제출해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-02T05:18:28.712201",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-09T05:49:14.763795"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6871,35 +6950,6 @@
     "feedback_count": 2
   },
   {
-    "id": "6aa7a76bdc39dde3a2544352",
-    "subject": "#339[0915][UA] 사전예약 UA 영상 템플릿",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/wEthikvh",
-    "description": "1. 내용/ 감수 항목: 영상 사이즈 베리용 템플릿 배너 2종\n2. 사용 용도: 사전예약 UA 영상 소재 사이즈 베리\n3. 기간: TBD\n4. 언어: 일\n5. 코멘트:\n   1. 템플릿 배너 내 강조하고 있는 SSR 픽업이 사전예약 완료 시 지급되는 보상인 점이 보다 직관적으로 강조될 수 있도록 카피 수정하여 재제출 드립니다.\n   2. 완료 되는 대로 정방형, 세로형 사이즈 베리 시점에 활용 예정입니다.\n6. 파일명: [https://drive.google.com/drive/folders/11WsxXQiuo4oZHiUt-Pr1kN",
-    "asset_type": "영상 사이즈 베리용 템플릿 배너 2종",
-    "purpose": "사전예약 UA 영상 소재 사이즈 베리",
-    "language": "일",
-    "memo": "1. 템플릿 배너 내 강조하고 있는 SSR 픽업이 사전예약 완료 시 지급되는 보상인 점이 보다 직관적으로 강조될 수 있도록 카피 수정하여 재제출 드립니다.\n   2. 완료 되는 대로 정방형, 세로형 사이즈 베리 시점에 활용 예정입니다.",
-    "labels": [],
-    "feedbacks": [
-      "DMM/AGO 뱃지 추가 전에 제출한 것은 감수 통과되었습니다.",
-      "9/15 제출된 구글/애플 뱃지 포함 버전 외에 DMM, AGO 뱃지 추가된 버전 감수 제출 요청 드립니다.\n2가지 버전 모두 활용하고자 하며, 구글/애플 버전는 별도로 결과 공유 주시면 감사하겠습니다!\n\n\\- 추가 감수 리스트:\n\n1. 2-1. 정방형 템플릿 (DMM/AGO 뱃지 추가)\n2. 2-2. 세로형 템플릿 (DMM/AGO 뱃지 추가)"
-    ],
-    "licensor_feedbacks": [
-      "DMM/AGO 뱃지 추가 전에 제출한 것은 감수 통과되었습니다."
-    ],
-    "members": [
-      "최종인"
-    ],
-    "latest_comment_date": "2026-10-02T09:25:30.240Z",
-    "last_activity": "2026-10-02T09:25:30.263Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
     "id": "6aba367515948a74cbfc00d0",
     "subject": "#350[0929] [UA] 현지 대행사 추가 소재",
     "list": "감수 진행 중",
@@ -7140,7 +7190,14 @@
     ],
     "latest_comment_date": "2026-10-06T03:40:32.274Z",
     "last_activity": "2026-10-08T04:14:52.500Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "Com2uS PC 런처 버전 명확화 요청",
+      "detail": "판권사에서 'Com2uS PC 런처'가 '하이브 버전'을 의미하는지 확인을 요청했습니다. 마케팅 소재가 적용될 정확한 런처 버전을 명확히 설명해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-09T05:49:17.780970"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -7217,42 +7274,6 @@
     "feedback_count": 2
   },
   {
-    "id": "6a277d0968bf65ae775d4b29",
-    "subject": "#276[0609] 작가 축전 기획안",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "기획안",
-    "card_url": "https://trello.com/c/v7dRQfgj",
-    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 도원암귀 작가 게시글 올라오면 rt\n3. 언어: 일\n4. 사용 목적: 도원암귀 원작 작가에게 런칭 축전 요청\n5. 사용 채널: x\n6. 코멘트:\n7. 파일명\n   1. 1006_도원암귀 론칭 기념 작가 축전 기획안",
-    "asset_type": "기획안",
-    "purpose": "도원암귀 작가 게시글 올라오면 rt",
-    "language": "일",
-    "memo": "7. 파일명\n   1. 1006_도원암귀 론칭 기념 작가 축전 기획안",
-    "labels": [],
-    "feedbacks": [
-      "(10/06) 작가 축전 기획안 다시 제출합니다.\n파일명: 1006_도원암귀 론칭 기념 작가 축전 기획안",
-      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
-    ],
-    "licensor_feedbacks": [
-      "어제 론칭 일정 관련해서 지연이 된 것으로 전달을 받았습니다. 이에 론칭 지연에 대해서 이번주에 판권처측과 협의를 진행해야 하는데요..\n\n제출 주신 론칭 시에 필요한 지원에 대한 내용을 지금 타이밍에 제출한다면 판권처측에서도 긍정적으로 받아들이지 않을 것 같습니다.ㅜ\n\n이에 전달 주신 기획안에 대해서는 론칭 일자가 확정되고 어느날짜까지 지원을 해줬으면 한다.. 와 같은 형태로 세부까지 좀 정리가 정해진 이후에 검수 진행을 하였으면 합니다."
-    ],
-    "members": [
-      "김민지"
-    ],
-    "latest_comment_date": "2026-10-06T05:46:31.577Z",
-    "last_activity": "2026-10-08T04:17:23.932Z",
-    "ai_summary": {
-      "issue": "론칭 지연으로 인한 기획안 제출 시기 부적절",
-      "detail": "론칭 지연으로 현재 시점의 작가 축전 기획안 제출은 판권사에서 긍정적으로 검토하기 어렵습니다. 론칭 일자 확정 후, 지원 희망 날짜를 명시하여 재제출 바랍니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-06-25T04:15:13.188497"
-    },
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
     "id": "6abb3103d1eeb47b204fbe79",
     "subject": "#355[0929] 디지털굿즈 기획안",
     "list": "감수 진행 중",
@@ -7284,6 +7305,41 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-10-03T05:01:46.905038"
+    },
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6aa7ab62b30946a1b81e4348",
+    "subject": "#341[0914] HQ 마케팅 0914 SNS 콘텐츠",
+    "list": "이슈 발생",
+    "status": "반려",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/sZQqse9j",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 도원암귀 게임 소개\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
+    "asset_type": "이미지",
+    "purpose": "SNS 업로드용",
+    "language": "일",
+    "memo": "1. No.1 도원암귀 게임 소개",
+    "labels": [],
+    "feedbacks": [
+      "[10/6 시트 No.15](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=896773862#gid=896773862&range=21:21 \"‌\")에 있는 이미지 문구 중에 「漆原先生監修(우루시바라 선생님 감수)」라는 문구가 들어가 있는데요,  작가가 검수를 했다는 언급에 대해서는 NG 이력이 있으므로 해당 내용은 제외 해주시기 바랍니다.",
+      "판권처 FB를 [9/15 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1321547866#gid=1321547866&range=R:R \"‌\")에 기입하였습니다.\n확인 부탁드리겠습니다."
+    ],
+    "licensor_feedbacks": [
+      "[10/6 시트 No.15](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=896773862#gid=896773862&range=21:21 \"‌\")에 있는 이미지 문구 중에 「漆原先生監修(우루시바라 선생님 감수)」라는 문구가 들어가 있는데요,  작가가 검수를 했다는 언급에 대해서는 NG 이력이 있으므로 해당 내용은 제외 해주시기 바랍니다.",
+      "판권처 FB를 [9/15 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1321547866#gid=1321547866&range=R:R \"‌\")에 기입하였습니다.\n확인 부탁드리겠습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-10-08T05:49:49.488Z",
+    "last_activity": "2026-10-08T05:50:30.484Z",
+    "ai_summary": {
+      "issue": "이미지 문구 내 '漆原先生監修' 표현 사용 불가",
+      "detail": "SNS 콘텐츠 이미지에 '漆原先生監修(우루시바라 선생님 감수)' 문구가 포함되어 반려되었습니다. 해당 문구는 판권사 9/15 피드백에 따라 사용이 불가하므로 삭제 또는 수정이 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-10-09T05:49:21.020737"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -7544,6 +7600,65 @@
     "feedback_count": 2
   },
   {
+    "id": "6abb71dd17748ea62051d74c",
+    "subject": "#362[0929] 260929 브랜드페이지 수정 부분 보고",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/zVGtVSjR",
+    "description": "본문\n\n1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 브랜드 페이지에서의 수정 부분 보고\n3. 언어: 일\n4. **사용 목적: 공개되지 않은 사전예약 페이지 클릭 시 ‘ただいま準備中です’ 노출 팝업 추가 / 브랜드 페이지 이미지 일부 수정**\n5. \\*\\*사용 채널: 브랜드 페이지 [기존 감수 중인 \\*\\*[**트렐로 링크**](https://trello.com/c/8PQzPhRv \"‌\")]\n6. 코멘트:  노출 팝업 등, 감수 제출 필요 여부에 대해 확인 부탁드립니다.\n7. *_파일명: [_[_링크_](https://docs.",
+    "asset_type": "이미지",
+    "purpose": "브랜드 페이지에서의 수정 부분 보고",
+    "language": "일",
+    "memo": "노출 팝업 등, 감수 제출 필요 여부에 대해 확인 부탁드립니다.",
+    "labels": [],
+    "feedbacks": [
+      "감수 완료되었습니다."
+    ],
+    "licensor_feedbacks": [
+      "감수 완료되었습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-10-09T04:19:41.600Z",
+    "last_activity": "2026-10-09T04:19:47.029Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6ab9f9bb49dfca0229c32e57",
+    "subject": "#345[0928] 브랜드페이지 공지 영역",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/je5PoXtB",
+    "description": "1. 내용/ 감수 항목:\n   사전 예약 일정에 맞추어 배포되는 브랜드 페이지 내 공지영역 부분을 추가하게 되어 감수 제출합니다.\n2. 사용 용도: 브랜드 페이지\n3. 언어: 일\n4. 사용 목적: 브랜드 페이지 내 주요 정보 전달력 향상 및 유저편의성 제고를 위해, 페이지 최하단에 '공지 영역'을 추가하고자 합니다.\n   특히 공지 전문이 길어질 경우, SNS 특성상 떨어질 수 있는 가독성을 보완하고자 **브랜드 페이지 링크를 통해 상세 내용을 안내/전파하는 방식을 활용할 예정**입니다.\n   이에 따른 브랜드 페이지 하단 공지 영",
+    "asset_type": "사전 예약 일정에 맞추어 배포되는 브랜드 페이지 내 공지영역 부분을 추가하게 되어 감수 제출합니다.",
+    "purpose": "브랜드 페이지",
+    "language": "일",
+    "memo": "웹개발 전 디자인 시안을 미리 제출하는 것이므로, 공지 제목과 본문에 더미 텍스트가 기재되어 있습니다.\n   실제 라이브 시에는 감수 완료 된 공지가 게시 될 예정입니다. [https://trello.com/c/rJEDYzs9](https://trello.com/c/rJEDYzs9 \"smartCard-inline\")",
+    "labels": [],
+    "feedbacks": [
+      "감수 완료되었습니다."
+    ],
+    "licensor_feedbacks": [
+      "감수 완료되었습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-10-09T04:08:04.420Z",
+    "last_activity": "2026-10-09T04:08:09.886Z",
+    "ai_summary": {
+      "issue": "브랜드 페이지 공지 영역 승인",
+      "detail": "사전 예약 일정에 맞춰 배포될 브랜드 페이지 공지 영역에 대한 감수가 완료되었습니다. 판권사로부터 별도의 수정 요구사항 없이 최종 승인되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-09T05:49:26.885863"
+    },
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
     "id": "6aa7a844692031cb91226b82",
     "subject": "#340[0914] X,YT,Tiktok 프로필/커버 이미지",
     "list": "감수 완료",
@@ -7604,7 +7719,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-08T05:44:41.472420"
+      "updated_at": "2026-10-08T05:44:41.472420",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -9562,39 +9679,6 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-10-08T05:44:45.033192"
-    },
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
-    "id": "6aa7ab62b30946a1b81e4348",
-    "subject": "#341[0914] HQ 마케팅 0914 SNS 콘텐츠",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/sZQqse9j",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X**\n6. 코멘트:\n   1. No.1 도원암귀 게임 소개\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
-    "asset_type": "이미지",
-    "purpose": "SNS 업로드용",
-    "language": "일",
-    "memo": "1. No.1 도원암귀 게임 소개",
-    "labels": [],
-    "feedbacks": [
-      "판권처 FB를 [9/15 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1321547866#gid=1321547866&range=R:R \"‌\")에 기입하였습니다.\n확인 부탁드리겠습니다."
-    ],
-    "licensor_feedbacks": [
-      "판권처 FB를 [9/15 시트](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyAgxBl5nulBxA/edit?gid=1321547866#gid=1321547866&range=R:R \"‌\")에 기입하였습니다.\n확인 부탁드리겠습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-10-02T03:13:25.001Z",
-    "last_activity": "2026-10-02T03:13:53.961Z",
-    "ai_summary": {
-      "issue": "구체적 피드백 부재, 외부 시트 확인 필요",
-      "detail": "판권사의 구체적인 피드백 내용이 본문에 직접 명시되어 있지 않습니다. [9/15 시트]에 기입된 내용을 확인하여 수정 사항을 파악해야 합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-10-02T05:18:53.113255"
     },
     "is_rejection": true,
     "feedback_count": 1
@@ -14269,6 +14353,32 @@
     "feedback_count": 1
   },
   {
+    "id": "6ac783db0db86180f6931923",
+    "subject": "#373[1008] 사전예약 라인 업로드 건",
+    "list": "컴투스 감수 요청",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/RfoD3jwR",
+    "description": "‌\n\n1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 라인 업로드\n3. 언어: 일\n4. **사용 목적: 라인 업로드**\n5. **사용 채널: 라인**\n6. 코멘트:\n   사전예약 (10/15) 당일에 해당 액션 진행이 가능할지 확인 부탁드립니다.\n\n- 라인 프로필 사진 및 배경 변경\n  - [이미 감수 통과한 X/YT/틱톡 프로필 사진](https://trello.com/c/lKDz95FE \"‌\") 활용\n- [사전예약 이미지/PV 업로드](https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HX",
+    "asset_type": "기획안",
+    "purpose": "라인 업로드",
+    "language": "일",
+    "memo": "사전예약 (10/15) 당일에 해당 액션 진행이 가능할지 확인 부탁드립니다.\n\n- 라인 프로필 사진 및 배경 변경\n  - [이미 감수 통과한 X/YT/틱톡 프로필 사진](https://trello.com/c/lKDz95FE \"‌\") 활용\n- [사전예약 이미지/PV 업로드](https://docs.google.com/spreadsheets/d/1Jx59Lc3",
+    "labels": [],
+    "feedbacks": [
+      "(10/09) [도원암귀] 10/15 LINE 사전예약 콘텐츠 업로드 완료했습니다."
+    ],
+    "licensor_feedbacks": [],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-10-09T03:19:31.765Z",
+    "last_activity": "2026-10-09T03:19:31.792Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 1
+  },
+  {
     "id": "6abcb9c3d8bb931c8abae66e",
     "subject": "#363[0929] 틱톡 콘텐츠 업로드 일정",
     "list": "감수 진행 중",
@@ -14697,28 +14807,6 @@
     "feedback_count": 0
   },
   {
-    "id": "6ab9f9bb49dfca0229c32e57",
-    "subject": "#345[0928] 브랜드페이지 공지 영역",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/je5PoXtB",
-    "description": "1. 내용/ 감수 항목:\n   사전 예약 일정에 맞추어 배포되는 브랜드 페이지 내 공지영역 부분을 추가하게 되어 감수 제출합니다.\n2. 사용 용도: 브랜드 페이지\n3. 언어: 일\n4. 사용 목적: 브랜드 페이지 내 주요 정보 전달력 향상 및 유저편의성 제고를 위해, 페이지 최하단에 '공지 영역'을 추가하고자 합니다.\n   특히 공지 전문이 길어질 경우, SNS 특성상 떨어질 수 있는 가독성을 보완하고자 **브랜드 페이지 링크를 통해 상세 내용을 안내/전파하는 방식을 활용할 예정**입니다.\n   이에 따른 브랜드 페이지 하단 공지 영",
-    "asset_type": "사전 예약 일정에 맞추어 배포되는 브랜드 페이지 내 공지영역 부분을 추가하게 되어 감수 제출합니다.",
-    "purpose": "브랜드 페이지",
-    "language": "일",
-    "memo": "웹개발 전 디자인 시안을 미리 제출하는 것이므로, 공지 제목과 본문에 더미 텍스트가 기재되어 있습니다.\n   실제 라이브 시에는 감수 완료 된 공지가 게시 될 예정입니다. [https://trello.com/c/rJEDYzs9](https://trello.com/c/rJEDYzs9 \"smartCard-inline\")",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-10-01T04:14:32.911Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
     "id": "6aba47d3f1d872de41a36b6f",
     "subject": "#352[0929] 니코니코 방송 송출 영상_엔드카드 변경",
     "list": "감수 진행 중",
@@ -14758,28 +14846,6 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-10-01T04:32:39.229Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6abb71dd17748ea62051d74c",
-    "subject": "#362[0929] 260929 브랜드페이지 수정 부분 보고",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/zVGtVSjR",
-    "description": "본문\n\n1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 브랜드 페이지에서의 수정 부분 보고\n3. 언어: 일\n4. **사용 목적: 공개되지 않은 사전예약 페이지 클릭 시 ‘ただいま準備中です’ 노출 팝업 추가 / 브랜드 페이지 이미지 일부 수정**\n5. \\*\\*사용 채널: 브랜드 페이지 [기존 감수 중인 \\*\\*[**트렐로 링크**](https://trello.com/c/8PQzPhRv \"‌\")]\n6. 코멘트:  노출 팝업 등, 감수 제출 필요 여부에 대해 확인 부탁드립니다.\n7. *_파일명: [_[_링크_](https://docs.",
-    "asset_type": "이미지",
-    "purpose": "브랜드 페이지에서의 수정 부분 보고",
-    "language": "일",
-    "memo": "노출 팝업 등, 감수 제출 필요 여부에 대해 확인 부탁드립니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-10-01T04:32:46.077Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
