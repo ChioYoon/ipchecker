@@ -176,12 +176,12 @@
     "latest_comment_date": "2026-09-02T13:31:56.303Z",
     "last_activity": "2026-09-07T01:20:18.061Z",
     "ai_summary": {
-      "issue": "특정 소재(P-IP-OniMomotaro02-DA) 레이어 오류 수정 필요",
-      "detail": "P-IP-OniMomotaro02-DA 소재 내 시키 다리가 붉은 삼각형 앞으로 나와 있어 레이어 조정이 필요합니다. 다리가 삼각형 뒤로 가도록 수정 후 재제출해야 합니다.",
+      "issue": "특정 소재 시키 다리 레이어 오류 수정",
+      "detail": "P-IP-OniMomotaro02-DA 소재에서 시키의 다리가 붉은색 삼각형 앞으로 나오는 레이어 오류가 확인되었습니다. 다리가 삼각형 뒤로 가도록 레이어 조정을 통해 수정 후 재제출 바랍니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 10,
-      "updated_at": "2026-10-10T05:31:34.699942"
+      "updated_at": "2026-10-11T05:25:49.351900"
     },
     "is_rejection": true,
     "feedback_count": 18
@@ -236,7 +236,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 7,
-      "updated_at": "2026-10-10T05:31:38.299914"
+      "updated_at": "2026-10-10T05:31:38.299914",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -592,12 +594,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "영상 내 문구 표현 어색함 수정",
-      "detail": "마지막 문구의 표현이 어색하여 수정이 필요합니다. 또한, 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 수정이 요구됩니다.",
+      "issue": "영상 내 문구 표현 어색함 수정 필요",
+      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 어색하다는 피드백이 있어 수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-10T05:31:46.432930"
+      "updated_at": "2026-10-11T05:26:03.941818"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1619,7 +1621,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-10T05:31:57.166071"
+      "updated_at": "2026-10-10T05:31:57.166071",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1663,7 +1667,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-10T05:32:01.904118"
+      "updated_at": "2026-10-10T05:32:01.904118",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -4364,14 +4370,12 @@
     "latest_comment_date": "2026-09-10T09:34:09.731Z",
     "last_activity": "2026-09-28T07:47:28.746Z",
     "ai_summary": {
-      "issue": "특정 잡지 매체 부킹 경로 변경 및 진행 상황 확인 필요",
-      "detail": "주간/월간 소년챔피온, 미스테리보니타는 덴츠를 통한 부킹이 필요합니다. 다른 매체는 기획 통과 후 직접 컨택 가능합니다. 판권처의 최종 확인까지 시간이 소요되고 있습니다.",
+      "issue": "특정 잡지 매체 부킹 대행사 변경 필요",
+      "detail": "주간 소년챔피온, 월간 소년챔피온, 미스테리보니타 3개 매체는 덴츠를 통해 부킹해야 합니다. 다른 매체는 기획 승인 후 직접 컨택 가능합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-09-11T04:18:48.426506",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-11T05:26:36.340376"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5923,6 +5927,35 @@
     "feedback_count": 3
   },
   {
+    "id": "6abcb9c3d8bb931c8abae66e",
+    "subject": "#363[0929] 틱톡 콘텐츠 업로드 일정",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "영상",
+    "card_url": "https://trello.com/c/XQm5LB8r",
+    "description": "1. 내용/ 감수 항목: 플랜\n2. 사용 용도: 틱톡 업로드 일정\n3. 언어: 일\n4. **사용 목적:** 틱톡 콘텐츠 플랜\n5. **사용 채널:** 틱톡\n6. 코멘트\n   1. 틱톡은 10/15에 오픈 예정에 있습니다.\n      1. [https://trello.com/c/TQ9K4T1B](https://trello.com/c/TQ9K4T1B \"smartCard-inline\")\n   2. 콘텐츠는 아래 공유드린 파일과 같이 유튜브, X에 업로드 된 콘텐츠를 틱톡 플랫폼에 맞춰 제작된 영상/제작물로 업로드 진행하려합니다.\n    ",
+    "asset_type": "플랜",
+    "purpose": "틱톡 업로드 일정",
+    "language": "일",
+    "memo": "",
+    "labels": [],
+    "feedbacks": [
+      "굵은색 글씨로 주신 검수 완료되었습니다.\n\n아직 검수 완료되지 않은 PV영상은 SNS 검수물 통해서 제출 부탁드리겠습니다.",
+      "(09/30) 쿠이나가 누락되어 다시 업로드하여 제출합니다."
+    ],
+    "licensor_feedbacks": [
+      "굵은색 글씨로 주신 검수 완료되었습니다.\n\n아직 검수 완료되지 않은 PV영상은 SNS 검수물 통해서 제출 부탁드리겠습니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-10-10T09:36:28.434Z",
+    "last_activity": "2026-10-10T09:36:35.855Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
     "id": "6a9f6f29800d2d3197d9f67d",
     "subject": "#331[0908] 사전예약 PR",
     "list": "감수 완료",
@@ -6024,7 +6057,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-10-10T05:33:14.978665"
+      "updated_at": "2026-10-10T05:33:14.978665",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6098,7 +6133,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-10T05:33:25.582126"
+      "updated_at": "2026-10-10T05:33:25.582126",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6416,14 +6453,12 @@
     "latest_comment_date": "2026-06-10T00:35:08.496Z",
     "last_activity": "2026-06-17T01:42:04.861Z",
     "ai_summary": {
-      "issue": "프리미엄 사전 테스트 일정 미확정으로 광고 소재 제출 보류",
-      "detail": "프리미엄 사전 테스트 일정 지연으로 인해 광고 소재의 수정 내용(삭제)에 대한 판권사의 납득이 어렵습니다. 일정이 확정된 후 다음 검수물로 제출해야 합니다.",
+      "issue": "일정 관련 소재 제출 시기 부적절",
+      "detail": "프리미엄 사전 테스트 지연 일정이 판권사 내부 검토 중이므로, 현재 일정 관련 수정 내용 제출은 부적절합니다. 일정이 확정된 후 다음 검수물로 제출해 주십시오.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-09T05:49:14.763795",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-11T05:26:50.038166"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -7617,6 +7652,39 @@
     "feedback_count": 2
   },
   {
+    "id": "6abb70ec5e71d722612514f3",
+    "subject": "#361[0929] 260929 사전예약 페이지 수정 부분 보고",
+    "list": "감수 완료",
+    "status": "승인",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/ac8HeKi2",
+    "description": "본문\n\n1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 사전예약 페이지에서의 수정 부분 보고\n3. 언어: 일\n4. **사용 목적: 공개되지 않은 사전예약 페이지 클릭 시 ‘ただいま準備中です’ 노출 팝업 추가 / 사전예약 페이지 이미지 일부 수정**\n5. \\*\\*사용 채널: 사전 예약 페이지 [기존 감수 중인 \\*\\*[**트렐로 링크**](https://trello.com/c/CeqPtoCm \"‌\")]\n6. 코멘트:  노출 팝업 등, 감수 제출 필요 여부에 대해 확인 부탁드립니다.\n7. *_파일명: [_[_링크_](https://d",
+    "asset_type": "이미지",
+    "purpose": "사전예약 페이지에서의 수정 부분 보고",
+    "language": "일",
+    "memo": "노출 팝업 등, 감수 제출 필요 여부에 대해 확인 부탁드립니다.",
+    "labels": [],
+    "feedbacks": [
+      "검수 완료되었습니다."
+    ],
+    "licensor_feedbacks": [
+      "검수 완료되었습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-10-10T09:38:21.405Z",
+    "last_activity": "2026-10-10T09:38:29.634Z",
+    "ai_summary": {
+      "issue": "소재 최종 승인 완료",
+      "detail": "판권사의 검토 결과, 해당 마케팅 소재는 최종 승인되었습니다. 추가 수정 요구사항은 없습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-11T05:26:52.815061"
+    },
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
     "id": "6aba0e9c9f34c3b7c1adda05",
     "subject": "#347[0929] 사전예약안내 공지",
     "list": "감수 완료",
@@ -7671,7 +7739,14 @@
     "members": [],
     "latest_comment_date": "2026-10-09T11:32:52.486Z",
     "last_activity": "2026-10-09T11:35:51.733Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "감수 통과, 특이사항 없음",
+      "detail": "제출된 마케팅 소재는 판권사의 모든 감수 기준을 충족하여 승인되었습니다. 별도의 수정 요구사항이나 지적 내용은 없습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-11T05:26:55.193537"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -7697,7 +7772,14 @@
     "members": [],
     "latest_comment_date": "2026-10-09T08:09:31.971Z",
     "last_activity": "2026-10-09T08:09:51.729Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "특이사항 없음",
+      "detail": "판권사의 최종 감수를 통과하여 수정 요구사항 없이 승인되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-11T05:26:57.964820"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -7723,7 +7805,14 @@
     "members": [],
     "latest_comment_date": "2026-10-09T07:11:05.469Z",
     "last_activity": "2026-10-09T07:11:09.480Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "특이사항 없음",
+      "detail": "판권사의 감수 결과, 특별한 수정 요구사항 없이 최종 승인되었습니다. 해당 소재는 마케팅에 활용 가능합니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-11T05:27:00.572969"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -7749,7 +7838,14 @@
     "members": [],
     "latest_comment_date": "2026-10-09T04:19:41.600Z",
     "last_activity": "2026-10-09T04:19:47.029Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "특이사항 없음",
+      "detail": "제출된 소재는 판권사의 감수를 통과하였으며, 추가 수정 요구사항 없이 최종 승인되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-11T05:27:03.496256"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -9774,6 +9870,32 @@
     ],
     "latest_comment_date": "2025-10-29T10:05:54.308Z",
     "last_activity": "2025-11-05T00:58:31.356Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6abb6efda8128c1185730540",
+    "subject": "#359[0929] 사전예약 개시 PR 한/일",
+    "list": "감수 진행 중",
+    "status": "진행중",
+    "category": "텍스트",
+    "card_url": "https://trello.com/c/QBkkKIZg",
+    "description": "본문\n\n1. 내용/ 감수 항목: 텍스트\n2. 사용 용도: 사전예약 개시 홍보용 PR 기사\n3. 언어: 한, 일\n4. **사용 목적: 사전예약 개시를 앞두고, 그 사실을 홍보하기 위한 목적의 PR기사입니다.**\n5. **사용 채널: 각종 게임 관련 미디어 채널**\n6. 코멘트: 주요 수정점에는 노란색 하이라이트 처리하였습니다.\n7. *_파일명: [_[_링크_](https://docs.google.com/spreadsheets/d/1_GVVUsz_61inxHFdjqUI7uR5vJz53cFNUXELCURpcJg/edit?gid=0#gid",
+    "asset_type": "텍스트",
+    "purpose": "사전예약 개시 홍보용 PR 기사",
+    "language": "한, 일",
+    "memo": "주요 수정점에는 노란색 하이라이트 처리하였습니다.",
+    "labels": [],
+    "feedbacks": [
+      "지난주 검수물 분량이 많아서 판권처로부터 아직 FB결과가 오지 않았습니다.\n\n사전 예약전까지 검수가 필요하다고 판권처측에 다시 한번 어필하였으며 피드백 오는대로 코멘트 드릴 수 있도록 하겠습니다."
+    ],
+    "licensor_feedbacks": [
+      "지난주 검수물 분량이 많아서 판권처로부터 아직 FB결과가 오지 않았습니다.\n\n사전 예약전까지 검수가 필요하다고 판권처측에 다시 한번 어필하였으며 피드백 오는대로 코멘트 드릴 수 있도록 하겠습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-10-10T09:32:25.358Z",
+    "last_activity": "2026-10-10T09:32:25.408Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
@@ -14533,32 +14655,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6abcb9c3d8bb931c8abae66e",
-    "subject": "#363[0929] 틱톡 콘텐츠 업로드 일정",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/XQm5LB8r",
-    "description": "1. 내용/ 감수 항목: 플랜\n2. 사용 용도: 틱톡 업로드 일정\n3. 언어: 일\n4. **사용 목적:** 틱톡 콘텐츠 플랜\n5. **사용 채널:** 틱톡\n6. 코멘트\n   1. 틱톡은 10/15에 오픈 예정에 있습니다.\n      1. [https://trello.com/c/TQ9K4T1B](https://trello.com/c/TQ9K4T1B \"smartCard-inline\")\n   2. 콘텐츠는 아래 공유드린 파일과 같이 유튜브, X에 업로드 된 콘텐츠를 틱톡 플랫폼에 맞춰 제작된 영상/제작물로 업로드 진행하려합니다.\n    ",
-    "asset_type": "플랜",
-    "purpose": "틱톡 업로드 일정",
-    "language": "일",
-    "memo": "",
-    "labels": [],
-    "feedbacks": [
-      "(09/30) 쿠이나가 누락되어 다시 업로드하여 제출합니다."
-    ],
-    "licensor_feedbacks": [],
-    "members": [
-      "김민지"
-    ],
-    "latest_comment_date": "2026-09-30T08:32:45.015Z",
-    "last_activity": "2026-10-01T06:48:49.271Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 1
-  },
-  {
     "id": "6ac497029130739cf4502d28",
     "subject": "#369[1006] 론칭 키비주얼 이미지",
     "list": "감수 진행 중",
@@ -14938,50 +15034,6 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-10-01T04:13:33.424Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6abb70ec5e71d722612514f3",
-    "subject": "#361[0929] 260929 사전예약 페이지 수정 부분 보고",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/ac8HeKi2",
-    "description": "본문\n\n1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 사전예약 페이지에서의 수정 부분 보고\n3. 언어: 일\n4. **사용 목적: 공개되지 않은 사전예약 페이지 클릭 시 ‘ただいま準備中です’ 노출 팝업 추가 / 사전예약 페이지 이미지 일부 수정**\n5. \\*\\*사용 채널: 사전 예약 페이지 [기존 감수 중인 \\*\\*[**트렐로 링크**](https://trello.com/c/CeqPtoCm \"‌\")]\n6. 코멘트:  노출 팝업 등, 감수 제출 필요 여부에 대해 확인 부탁드립니다.\n7. *_파일명: [_[_링크_](https://d",
-    "asset_type": "이미지",
-    "purpose": "사전예약 페이지에서의 수정 부분 보고",
-    "language": "일",
-    "memo": "노출 팝업 등, 감수 제출 필요 여부에 대해 확인 부탁드립니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-10-09T12:30:12.370Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6abb6efda8128c1185730540",
-    "subject": "#359[0929] 사전예약 개시 PR 한/일",
-    "list": "감수 진행 중",
-    "status": "진행중",
-    "category": "텍스트",
-    "card_url": "https://trello.com/c/QBkkKIZg",
-    "description": "본문\n\n1. 내용/ 감수 항목: 텍스트\n2. 사용 용도: 사전예약 개시 홍보용 PR 기사\n3. 언어: 한, 일\n4. **사용 목적: 사전예약 개시를 앞두고, 그 사실을 홍보하기 위한 목적의 PR기사입니다.**\n5. **사용 채널: 각종 게임 관련 미디어 채널**\n6. 코멘트: 주요 수정점에는 노란색 하이라이트 처리하였습니다.\n7. *_파일명: [_[_링크_](https://docs.google.com/spreadsheets/d/1_GVVUsz_61inxHFdjqUI7uR5vJz53cFNUXELCURpcJg/edit?gid=0#gid",
-    "asset_type": "텍스트",
-    "purpose": "사전예약 개시 홍보용 PR 기사",
-    "language": "한, 일",
-    "memo": "주요 수정점에는 노란색 하이라이트 처리하였습니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-10-01T04:33:33.831Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
