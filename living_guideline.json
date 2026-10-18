@@ -291,7 +291,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 7,
-      "updated_at": "2026-10-17T04:03:32.954727"
+      "updated_at": "2026-10-17T04:03:32.954727",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 14
@@ -550,14 +552,12 @@
     "latest_comment_date": "2026-10-16T03:52:05.059Z",
     "last_activity": "2026-10-16T03:52:09.613Z",
     "ai_summary": {
-      "issue": "론칭일 및 공개 시점 확정 필요",
-      "detail": "12/15 론칭일은 변경 불가하며, 론칭일 공개 시점을 다음 검수 제출까지 확정하여 마일스톤에 추가해야 합니다. 0929 수정 시트 관련 미해결 문의사항도 확인 필요합니다.",
+      "issue": "론칭일 공개 시점 확인 및 일정 확정 요청",
+      "detail": "12/15 론칭일은 변경 불가하며, 론칭일 공개 시점을 다음 검수 제출 시까지 확인하여 마일스톤에 추가해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 5,
-      "updated_at": "2026-10-01T05:30:58.230649",
-      "needs_update": true,
-      "update_reason": "피드백 5→6건, 상태 변경"
+      "feedback_count": 6,
+      "updated_at": "2026-10-18T04:11:10.469930"
     },
     "is_rejection": true,
     "feedback_count": 11
@@ -602,14 +602,12 @@
     "latest_comment_date": "2026-10-13T01:56:57.527Z",
     "last_activity": "2026-10-13T01:57:02.757Z",
     "ai_summary": {
-      "issue": "로쿠로 캐릭터 대사 수정 요청",
-      "detail": "판권처의 요청에 따라 로쿠로의 대사를 '[ 　あぁ、ダメだ！！僕は無理！ゼッタイ無理！！ ]'로 변경해야 합니다.",
+      "issue": "로쿠로 대사 수정 요청",
+      "detail": "브랜드페이지 내 로쿠로의 대사를 '[ 　あぁ、ダメだ！！僕は無理！ゼッタイ無理！！ ]'로 변경해야 합니다. 판권처에서 직접 전달된 피드백입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 5,
-      "updated_at": "2026-10-14T04:35:33.546790",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-18T04:11:13.392586"
     },
     "is_rejection": true,
     "feedback_count": 11
@@ -703,11 +701,11 @@
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
       "issue": "영상 내 문구 표현 어색함 수정",
-      "detail": "영상 마지막 문구의 표현이 어색하여 수정이 필요합니다. 또한, 4초에 등장하는 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 수정 요청되었습니다.",
+      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 일본어로서 어색하다는 피드백이 있습니다. 두 문구 모두 자연스러운 표현으로 수정이 필요합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-17T04:03:52.258458"
+      "updated_at": "2026-10-18T04:11:17.460979"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1632,7 +1630,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-17T04:04:02.238063"
+      "updated_at": "2026-10-17T04:04:02.238063",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1676,7 +1676,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-17T04:04:07.128326"
+      "updated_at": "2026-10-17T04:04:07.128326",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -4920,14 +4922,12 @@
     "latest_comment_date": "2026-09-10T09:34:09.731Z",
     "last_activity": "2026-09-28T07:47:28.746Z",
     "ai_summary": {
-      "issue": "특정 잡지 매체 부킹 방식 변경 필요",
-      "detail": "주간 소년챔피온, 월간 소년챔피온, 미스테리보니타 3개 매체는 덴츠를 통해 부킹해야 합니다. 그 외 매체는 기획 검수 후 직접 컨택 가능합니다.",
+      "issue": "특정 잡지 매체 부킹 대행사 경유 필요",
+      "detail": "주간 소년챔피온, 월간 소년챔피온, 미스테리보니타 3개 잡지 매체는 덴츠를 통해 부킹해야 합니다. 다른 매체는 기획 승인 후 직접 컨택 가능합니다. 판권처 확인이 필요한 사항은 진행 상황을 주시해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-10-16T04:14:21.785458",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-18T04:12:01.232997"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5035,11 +5035,11 @@
     "last_activity": "2026-08-21T08:29:31.719Z",
     "ai_summary": {
       "issue": "사전예약 성우 축전 영상 수정 필요",
-      "detail": "영상 공통 카피라이트 위치를 화면 최하단으로 조정해야 합니다. 이와미 성우 영상의 뵤부가우라 한자 표기 및 22초 부근 자막 내용 오류를 수정해야 합니다.",
+      "detail": "영상 공통으로 세로형 카피라이트를 화면 가장 아래에 배치해야 합니다. 이와미 성우 영상의 4초 부근 뵤부가우라 한자 및 22초 부근 자막 내용 불일치를 수정해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-10-17T04:04:40.823755"
+      "updated_at": "2026-10-18T04:12:05.902216"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5071,12 +5071,12 @@
     "latest_comment_date": "2026-08-21T07:12:29.218Z",
     "last_activity": "2026-08-21T07:12:29.265Z",
     "ai_summary": {
-      "issue": "개발 보이스 마케팅 사용 승인 보류",
-      "detail": "판권사 내부 확인이 진행 중이며, 승인까지 시간이 더 소요될 예정입니다. 추가 진행 상황은 갱신되는 대로 전달받을 것입니다.",
+      "issue": "개발 보이스 마케팅 사용 승인 지연",
+      "detail": "판권사에서 개발 보이스 마케팅 사용 건에 대해 현재 확인 중이며, 승인까지 시간이 더 소요될 예정입니다. 갱신되는 대로 추가 피드백을 전달받을 것입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-17T04:04:45.076999"
+      "updated_at": "2026-10-18T04:12:09.339630"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -6567,14 +6567,12 @@
     "latest_comment_date": "2026-10-10T09:36:28.434Z",
     "last_activity": "2026-10-10T09:36:35.855Z",
     "ai_summary": {
-      "issue": "PV 영상 검수물 제출 필요",
-      "detail": "틱톡 콘텐츠 업로드 일정은 승인되었으나, PV 영상은 아직 검수되지 않았습니다. SNS 검수물 제출을 통해 PV 영상을 제출해야 합니다.",
+      "issue": "PV 영상 미제출 및 검수 요청",
+      "detail": "PV 영상 검수가 아직 완료되지 않았으므로, SNS 검수물 제출 경로를 통해 해당 영상을 제출해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-14T04:36:25.568293",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-18T04:12:13.501094"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -6714,14 +6712,12 @@
     "latest_comment_date": "2026-09-21T01:08:50.727Z",
     "last_activity": "2026-09-21T01:08:50.768Z",
     "ai_summary": {
-      "issue": "상세 피드백 외부 시트 확인 필요",
-      "detail": "판권사의 구체적인 수정 요구사항은 제공된 피드백 본문에 없습니다. 9/1 시트에 기재된 내용을 직접 확인하여 반영해야 합니다.",
-      "resolved": false,
+      "issue": "콘텐츠 최종 승인 완료",
+      "detail": "판권사 피드백은 외부 시트에 기재되었으나, 해당 SNS 콘텐츠는 최종 승인 상태입니다. 추가 수정 사항은 없습니다.",
+      "resolved": true,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-09-20T04:38:12.348129",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-18T04:12:22.449826"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -7080,7 +7076,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-17T04:05:10.073623"
+      "updated_at": "2026-10-17T04:05:10.073623",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -7792,7 +7790,14 @@
     ],
     "latest_comment_date": "2026-10-14T06:37:06.711Z",
     "last_activity": "2026-10-15T04:02:59.699Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "영상 내 CTA 문구 수정 필요",
+      "detail": "현재 영상 프레임에 '지금 바로 다운로드' 문구가 사용되고 있습니다. 해당 문구는 수정될 예정임을 확인했습니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-18T04:12:26.624590"
+    },
     "is_rejection": true,
     "feedback_count": 2
   },
@@ -8134,7 +8139,14 @@
     "members": [],
     "latest_comment_date": "2026-10-13T10:18:38.012Z",
     "last_activity": "2026-10-13T10:18:43.153Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "기존 승인 소재와의 일관성 확인",
+      "detail": "제출된 런처용 이미지는 기존 검수 완료된 배너들과 거의 동일하여 추가 수정 없이 진행 승인되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-18T04:12:31.570816"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
