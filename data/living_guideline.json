@@ -399,14 +399,12 @@
     "latest_comment_date": "2026-08-28T12:02:17.607Z",
     "last_activity": "2026-09-22T08:44:48.055Z",
     "ai_summary": {
-      "issue": "이미지 수정 및 전단지 배포 기한 준수",
-      "detail": "이미지 수정은 8/25(화) 오전까지, 전단지 배포는 9/14 업무시간 중까지 완료해야 합니다. 전단지는 검수 완료 후 지정된 주소로 송부해야 합니다.",
+      "issue": "선행 상영회 이미지/전단지 수정 및 배포 요청",
+      "detail": "이미지 수정본은 8/25(화) 오전까지 제출해야 합니다. 전단지는 검수 완료 후 9/14까지 지정된 주소로 배포용 자료를 송부해야 하며, 송부 시 비고란에 특정 문구를 기재해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 6,
-      "updated_at": "2026-10-13T06:34:28.676937",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-25T04:19:49.461281"
     },
     "is_rejection": true,
     "feedback_count": 12
@@ -707,13 +705,11 @@
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
       "issue": "영상 내 일본어 문구 표현 어색함 수정 필요",
-      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 부자연스러워 수정이 필요합니다. 판권사에서 더 자연스러운 표현으로 변경을 요청했습니다.",
+      "detail": "영상 마지막 문구와 4초 지점의 '画面から溢れ出す圧巻の臨場感' 표현이 부자연스러워 수정이 필요합니다. 일본어 원어민이 사용하는 자연스러운 표현으로 변경해야 합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-22T04:22:44.381877",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-25T04:19:58.197491"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1725,14 +1721,12 @@
     "latest_comment_date": "2026-10-09T04:06:17.357Z",
     "last_activity": "2026-10-09T04:06:25.130Z",
     "ai_summary": {
-      "issue": "사전예약 페이지 내용 및 명칭 수정 필요",
-      "detail": "사전예약 목표 인원수를 현실적으로 조정하고, '메일등록' 명칭을 더 자연스러운 표현으로 변경해야 합니다. 목표 미달성 시의 표기 방식과 두 웹사이트의 관계에 대한 명확한 확인이 필요합니다.",
+      "issue": "사전예약 목표 및 용어, 미달성 표기 등 수정 필요",
+      "detail": "사전예약 목표 인원수를 현실적으로 조정하고, '메일등록' 용어를 자연스러운 표현으로 변경해야 합니다. 또한, 목표 미달성 시의 표기 방식과 웹사이트 구성에 대한 명확한 확인이 요구됩니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-22T04:22:49.352217",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-25T04:20:13.065932"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -3919,7 +3913,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-10-24T04:17:55.574110"
+      "updated_at": "2026-10-24T04:17:55.574110",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -4915,7 +4911,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
-      "updated_at": "2026-10-24T04:18:13.274836"
+      "updated_at": "2026-10-24T04:18:13.274836",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5331,14 +5329,12 @@
     "latest_comment_date": "2026-08-21T08:18:00.945Z",
     "last_activity": "2026-08-21T08:29:31.719Z",
     "ai_summary": {
-      "issue": "사전예약 성우 축전 영상 수정 필요",
-      "detail": "영상 공통으로 세로형 카피라이트를 화면 가장 아래에 배치해야 합니다. 이와미 성우 영상의 4초 부근 뵤부가우라 한자 및 22초 부근 자막 내용 불일치를 수정해야 합니다.",
+      "issue": "사전예약 성우 축전 영상 수정 및 재검수 필요",
+      "detail": "영상 내 카피라이트 위치 조정, 뵤부가우라 한자 및 22초 자막 오류 수정이 필요합니다. 해당 영상은 내부 확인 후 다음 검수물로 재제출 예정입니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-10-18T04:12:05.902216",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-25T04:20:48.993355"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5375,7 +5371,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-10-24T04:18:24.066521"
+      "updated_at": "2026-10-24T04:18:24.066521",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -6395,14 +6393,12 @@
     "latest_comment_date": "2026-10-23T05:37:38.772Z",
     "last_activity": "2026-10-23T05:42:17.059Z",
     "ai_summary": {
-      "issue": "캐릭터 생일 정보 오기재",
-      "detail": "11월 오이란자카와 이카리의 세로 버전 생일 정보가 잘못 기재되었습니다. 정확한 생일 정보로 수정이 필요합니다.",
+      "issue": "캐릭터 생일 정보 오류",
+      "detail": "11월 오이란자카와 이카리 캐릭터의 세로 버전 생일 정보가 잘못 기재되었습니다. 해당 정보의 정확한 수정을 요청합니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-10-19T04:21:24.798102",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건"
+      "feedback_count": 2,
+      "updated_at": "2026-10-25T04:20:57.368008"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -8446,7 +8442,14 @@
     "members": [],
     "latest_comment_date": "2026-10-22T12:18:12.334Z",
     "last_activity": "2026-10-22T12:18:16.420Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "광고 진행 기획안 검수 완료",
+      "detail": "제출된 광고 진행 기획안에 대한 검수가 완료되어 승인되었습니다. 디자인 관련 검수는 별도 제출된 검수물로 진행될 예정입니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-25T04:21:16.380944"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -10345,7 +10348,14 @@
     "members": [],
     "latest_comment_date": "2026-10-16T03:54:10.582Z",
     "last_activity": "2026-10-16T03:56:18.256Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "SNS 콘텐츠 제출 방식 통일 필요",
+      "detail": "현재 티켓은 이전에 합의된 SNS 콘텐츠 통합 카드(#371)와 중복됩니다. 판권사는 중복 티켓 관리의 어려움을 지적하며, 모든 SNS 콘텐츠를 단일 통합 트렐로 카드(#371)로 제출해 줄 것을 요청했습니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-25T04:21:22.940269"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -10931,7 +10941,14 @@
     "members": [],
     "latest_comment_date": "2026-10-23T05:18:50.495Z",
     "last_activity": "2026-10-23T05:55:31.313Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "마케팅 소재 내 일본어 문구 수정 및 자연스러운 표현 개선",
+      "detail": "배너 및 영상 내 특정 문구의 변경 요청이 있습니다. '皆さんの力を貸してください…！'로 수정하고, 'B. 賛成する'를 'B. 既読無視'로 변경해야 합니다. 직역 느낌의 문장은 자연스러운 일본어로 재작성 필요합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-25T04:21:30.575340"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
