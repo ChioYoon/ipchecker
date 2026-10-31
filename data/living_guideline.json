@@ -706,14 +706,12 @@
     "latest_comment_date": "2026-09-17T10:08:26.187Z",
     "last_activity": "2026-09-17T10:08:34.307Z",
     "ai_summary": {
-      "issue": "영상 내 일본어 문구 표현 어색함 수정 필요",
-      "detail": "영상의 마지막 문구 표현이 어색하다는 피드백이 있습니다. 또한, 4초 지점의 '画面から溢れ出す圧巻の臨場感' 문구도 부자연스러워 수정이 필요합니다.",
+      "issue": "영상 내 문구 표현 어색함 수정 필요",
+      "detail": "판권처로부터 마지막 문구의 표현이 어색하다는 피드백이 있었습니다. 또한, 4초에 나오는 '画面から溢れ出す圧巻の臨場感' 표현이 부자연스러워 수정 요청되었습니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-29T05:28:15.821827",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-31T05:11:45.076116"
     },
     "is_rejection": true,
     "feedback_count": 10
@@ -1864,14 +1862,12 @@
     "latest_comment_date": "2026-10-09T04:06:17.357Z",
     "last_activity": "2026-10-09T04:06:25.130Z",
     "ai_summary": {
-      "issue": "사전예약 목표 및 용어, 미달성 표기 등 수정 필요",
-      "detail": "사전예약 목표 인원수를 현실적으로 조정하고, '메일등록' 용어를 자연스러운 표현으로 변경해야 합니다. 또한, 목표 미달성 시의 표기 방식과 웹사이트 구성에 대한 명확한 확인이 요구됩니다.",
+      "issue": "사전예약 목표 및 페이지 표기 개선 필요",
+      "detail": "사전예약 목표 인원수를 현실적으로 조정하고, '메일등록' 용어 변경을 검토해야 합니다. 또한, 목표 미달성 시의 표기 방식과 두 웹사이트의 관계에 대한 명확한 확인이 요구됩니다.",
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-10-25T04:20:13.065932",
-      "needs_update": true,
-      "update_reason": "상태 변경"
+      "updated_at": "2026-10-31T05:12:06.252152"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -2944,6 +2940,50 @@
     "feedback_count": 6
   },
   {
+    "id": "6abb6acbb669ef5698dd052b",
+    "subject": "#358[0929] 론칭 플랜 - 인플루언서",
+    "list": "감수 진행 중",
+    "status": "진행중",
+    "category": "기타",
+    "card_url": "https://trello.com/c/AksVyK5E",
+    "description": "1. 내용/ 감수 항목: 인플루언서 리스트\n2. 사용 용도: 론칭 플랜 - 인플루언서 콘텐츠\n3. 언어: 일\n4. **사용 목적: 론칭 플랜 - 인플루언서 VOD업로드**\n5. **사용 채널:  공식 채널, 인플루언서 채널**\n6. 코멘트: 론칭 플랜 - 인플루언서를 활용한 VOD업로드 콘텐츠 진행을 위한 인플루언서 리스트 감수 요청드립니다. 론칭 시점이 연말 시점이다보니 인플루언서 풀 확보가 필요하여 리스트 먼저 감수 요청 드립니다.\n7. *_파일 :_ [https://docs.google.com/spreadsheets/d/1Ne",
+    "asset_type": "인플루언서 리스트",
+    "purpose": "론칭 플랜 - 인플루언서 콘텐츠",
+    "language": "일",
+    "memo": "론칭 플랜 - 인플루언서를 활용한 VOD업로드 콘텐츠 진행을 위한 인플루언서 리스트 감수 요청드립니다. 론칭 시점이 연말 시점이다보니 인플루언서 풀 확보가 필요하여 리스트 먼저 감수 요청 드립니다.",
+    "labels": [],
+    "feedbacks": [
+      "아래 전달주신 인플루언서 선정 사유 및 IP게임 사례와 같이 다음주중에는 기획서 포함하여 검수 결과 줄 수 있도록 요청하였습니다.",
+      "■ネタ勢のトリュウ\n：七つの大罪オリジン *7대죄\n[https://youtu.be/mYs__lf9BAc](https://youtu.be/mYs__lf9BAc \"smartCard-inline\")\n[https://youtu.be/QOz7eXhn_vY](https://youtu.be/QOz7eXhn_vY \"smartCard-inline\")\n\n■シラナミチャンネル\n：七つの大罪オリジン *7대죄\n[https://youtu.be/ebbsW9pvJXk](https://youtu.be/ebbsW9pvJXk \"smartCard-inline\")\n\n■ゆゆ / 新作ゲーム攻略\n：ドット勇者 x コードギアス 反逆のルルーシュコラボ *코드기어스\n[https://youtu.be/IkEvAYSCdSg](https://youtu.be/IkEvAYSCdSg \"smartCard-inline\")",
+      "- 인플루언서 선정 이유\n\n- - ネタ勢のトリュウ\n    - 독특한 연출이나 재미있는 플레이 영상 편집\n    - 게임의 기믹이나 화려한 액션을 쇼츠 등 영상으로 자연스럽게 노출\n    - SNS및 알고리즘 바이럴 목적\n  - ゆゆ / 新作ゲーム攻略\n    - 신작 게임 공략, 선행 플레이\n    - 신작 론칭 스폰서십에 가장 자연스럽게 노출 가능\n    - 론칭 당일 유저들이 가장 많이 검색하는 초반 공략, 추천 캐릭터, 빌드, 팁 영상에 최적화\n  - シラナミチャンネル\n    - 버주얼 유튜버 특유의 풍부한 리액션,음성 바탕으로 게임의 세계관, 스토리, 캐릭터 비주얼의 매력을 자연스럽게 소구",
+      "[판권처 피드백]\n\n각 인플루언서들의 IP게임에서의 실적(방송이력)이 어떤 것들이 있을지 몇가지 예로 제출 주시기 바랍니다.\n\n[GH 코멘트]\n\n위 피드백에 대해서는 제가 채널을 보았을때는 IP게임에 대한 방송 실적이 있거나 하지는 않아 보이는데요… 제가 보기에는 게임에 대한 플레이 방법 등을 포함한 기초적인 게임에 대한 플레이 가이드를 하기 위해서 게임 공략 등의 중심인 유튜버를 선정하신  것 같은데요.. 만약 IP콜레보에 대한 실적이 없다면 위와 같은 식으로 각 유튜버들을 어떤 의도와 목적으로 선정을 해주셨는지에 대해서 설명을 주신다면 해당 내용으로 판권처를 다시 한번 설득해보도록 하겠습니다.",
+      "론칭 시점 VOD업로드 인플루언서 기획안 제출합니다.\n\n- 인플루언서 리스트\n  - ネタ勢のトリュウ: [https://www.youtube.com/@toryu](https://www.youtube.com/@toryu \"smartCard-inline\")\n  - ゆゆ / 新作ゲーム攻略: [https://www.youtube.com/@yuyugames](https://www.youtube.com/@yuyugames \"smartCard-inline\")\n  - シラナミ:[https://www.youtube.com/@ShiranamIroriCH](https://www.youtube.com/@ShiranamIroriCH \"smartCard-inline\")\n- 기획안\n  - [https://drive.google.com/drive/folders/1asdgngYx13-DiP8C6BHZSI8JAXDlv9Dd](https://drive.google.com/drive/folders/1asdgngYx13-DiP8C6BHZSI8JAXDlv9Dd \"smartCard-inline\")\n  - 인플루언서 엔딩에 다운로드/플레이 유도를 할 수 있도록 인플루언서별 쿠폰 발급에 대해서 논의 중입니다.\n  - 쿠폰 발금하게 될 경우, 엔딩 다운로드 유도에서 쿠폰 언급이 포함될 수 있는 점 안내드립니다.",
+      "판권처측에서의 피드백은 인플루언서 리스트가 아닌 먼저 유저들과 어떤식으로 플레이하는지가 확인되어야 검수 가능하다는 피드백이였어서요. 인플루언서 리스트만이 아닌 방송 기획과 같이 제출 부탁드리겠습니다."
+    ],
+    "licensor_feedbacks": [
+      "아래 전달주신 인플루언서 선정 사유 및 IP게임 사례와 같이 다음주중에는 기획서 포함하여 검수 결과 줄 수 있도록 요청하였습니다.",
+      "[판권처 피드백]\n\n각 인플루언서들의 IP게임에서의 실적(방송이력)이 어떤 것들이 있을지 몇가지 예로 제출 주시기 바랍니다.\n\n[GH 코멘트]\n\n위 피드백에 대해서는 제가 채널을 보았을때는 IP게임에 대한 방송 실적이 있거나 하지는 않아 보이는데요… 제가 보기에는 게임에 대한 플레이 방법 등을 포함한 기초적인 게임에 대한 플레이 가이드를 하기 위해서 게임 공략 등의 중심인 유튜버를 선정하신  것 같은데요.. 만약 IP콜레보에 대한 실적이 없다면 위와 같은 식으로 각 유튜버들을 어떤 의도와 목적으로 선정을 해주셨는지에 대해서 설명을 주신다면 해당 내용으로 판권처를 다시 한번 설득해보도록 하겠습니다.",
+      "판권처측에서의 피드백은 인플루언서 리스트가 아닌 먼저 유저들과 어떤식으로 플레이하는지가 확인되어야 검수 가능하다는 피드백이였어서요. 인플루언서 리스트만이 아닌 방송 기획과 같이 제출 부탁드리겠습니다."
+    ],
+    "members": [
+      "이수연"
+    ],
+    "latest_comment_date": "2026-10-30T07:52:42.401Z",
+    "last_activity": "2026-10-30T07:52:51.861Z",
+    "ai_summary": {
+      "issue": "인플루언서 활용 기획 부재로 검수 반려",
+      "detail": "인플루언서 리스트만으로는 검수가 불가하며, 유저들과의 플레이 방식에 대한 구체적인 기획이 필요합니다. 방송 기획을 포함하여 재제출 바랍니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-04T05:34:18.470870",
+      "needs_update": true,
+      "update_reason": "피드백 1→3건"
+    },
+    "is_rejection": true,
+    "feedback_count": 6
+  },
+  {
     "id": "6ab9f6d837c8619cd5bca74d",
     "subject": "#344[0929]이벤트 공지 및 X 포스팅 디스크립션 3종",
     "list": "감수 진행 중",
@@ -3059,49 +3099,6 @@
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 6
-  },
-  {
-    "id": "6ac45b32306d813b6f6c6d16",
-    "subject": "#365[1006]Com2uS_IR Material_도원암귀_(26Y4Q)",
-    "list": "감수 완료",
-    "status": "승인",
-    "category": "텍스트",
-    "card_url": "https://trello.com/c/TfaE6wFp",
-    "description": "본문\n\n1. 내용/ 감수 항목: 텍스트\n2. 사용 용도: 컴투스 26Y4Q IR 배포용\n3. 언어: 한,영\n4. **사용 목적: 26년 11월 11일~12일 중 배포될 컴투스 IR자료 내 <도원암귀 Crimson Inferno> 관련 언급**\n5. **사용 채널: Com2uS社 공식 홈페이지**\n6. 코멘트: 변경된 텍스트 내용은 문서 내 노란색 하이라이트 표시하였습니다. 그 외에는 수정 사항 없습니다.\n7. *_파일명:_ [261006]Com2uS\\_IR Material\\_도원암귀_감수요청(26Y4Q).pptx ([링크](http",
-    "asset_type": "텍스트",
-    "purpose": "컴투스 26Y4Q IR 배포용",
-    "language": "한,영",
-    "memo": "변경된 텍스트 내용은 문서 내 노란색 하이라이트 표시하였습니다. 그 외에는 수정 사항 없습니다.",
-    "labels": [],
-    "feedbacks": [
-      "감수 완료되었습니다.",
-      "런칭일을 2026년으로 수정하였습니다.",
-      "[판권처 피드백]\n\n론칭 날짜가 기재되어 있으나 론칭일 공개가 12/1 이 되므로 론칭을 공개에 대해서는 12/1 이후로 해주시기 바랍니다.",
-      "재업로드했습니다.\n\n1. 기존과 같이 글로벌(중국 제외)로 기입하였습니다.\n2. 다크 판타지 턴제 RPG가 도원암귀를 보다 더 정확히 설명하는 부분으로 느껴져 수정했습니다.",
-      "문믜사항\n\n1. 2P에서 출시국가가 이전에는 글로벌(중국 제외) 로 되어 있었는데 현재는 글로벌로 되어 있는데 변경된 사유가 있을까요?\n2. 표기가 되어 있지는 않은데요 장르가 기존 RPG에서 다크 판타지 턴제 RPG호 변경된 것이 맞을까요?"
-    ],
-    "licensor_feedbacks": [
-      "감수 완료되었습니다.",
-      "[판권처 피드백]\n\n론칭 날짜가 기재되어 있으나 론칭일 공개가 12/1 이 되므로 론칭을 공개에 대해서는 12/1 이후로 해주시기 바랍니다.",
-      "문믜사항\n\n1. 2P에서 출시국가가 이전에는 글로벌(중국 제외) 로 되어 있었는데 현재는 글로벌로 되어 있는데 변경된 사유가 있을까요?\n2. 표기가 되어 있지는 않은데요 장르가 기존 RPG에서 다크 판타지 턴제 RPG호 변경된 것이 맞을까요?"
-    ],
-    "members": [
-      "최지혜B"
-    ],
-    "latest_comment_date": "2026-10-29T10:53:23.242Z",
-    "last_activity": "2026-10-29T10:53:28.413Z",
-    "ai_summary": {
-      "issue": "론칭일 공개 시점 위반 및 정보 변경 확인",
-      "detail": "론칭일은 12/1 이후 공개 가능하므로 현재 소재의 론칭일은 삭제해야 합니다. 출시 국가(글로벌/중국 제외) 및 장르(RPG/다크 판타지 턴제 RPG) 변경 사유와 정확한 정보 확인이 필요합니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-10-17T04:04:53.179446",
-      "needs_update": true,
-      "update_reason": "피드백 2→3건, 상태 변경"
-    },
-    "is_rejection": true,
-    "feedback_count": 5
   },
   {
     "id": "6ac4ae411bf0591eb8c60a02",
@@ -4808,7 +4805,53 @@
     ],
     "latest_comment_date": "2026-10-29T02:21:25.864Z",
     "last_activity": "2026-10-29T02:21:25.911Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "유상재화 명칭 오류 및 원본 이미지 요청",
+      "detail": "텍스트 설명 내 유상재화 명칭이 [深鉱石]으로 수정되었으니 향후 동일 오류가 없도록 주의해야 합니다. 또한, 편집부 제출을 위한 소재들의 원본 이미지를 전달해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-10-31T05:12:53.426395"
+    },
+    "is_rejection": true,
+    "feedback_count": 4
+  },
+  {
+    "id": "6ad577c3fa7f7c94bf86c95c",
+    "subject": "#386[1020] UA 전기간 T&D",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/SflrpD1R",
+    "description": "1. 내용/ 감수 항목: 타이틀&디스크립션(T&D)\n2. 사용 용도: UA 매체 내 이미지/영상과 함께 노출되는 제목/설명으로 활용\n3. 기간: 감수 직후~UA 마케팅 종료 집행시점까지\n4. 언어: 일\n5. 코멘트:\n6. 문구별 사용 기간을 구분해두었습니다 (공통사용~론칭기간 활용)\n7. 파일명: [https://docs.google.com/presentation/d/1u_eRaioQwFlGWlFZV3cDcuPtJOaTODeTz5Omt74EGYc/edit?slide=id.h51030d99fe9a20af_0_0#slide=id.h51",
+    "asset_type": "타이틀&디스크립션(T&D)",
+    "purpose": "UA 매체 내 이미지/영상과 함께 노출되는 제목/설명으로 활용",
+    "language": "일",
+    "memo": "6. 문구별 사용 기간을 구분해두었습니다 (공통사용~론칭기간 활용)",
+    "labels": [],
+    "feedbacks": [
+      "확인 감사합니다! 차주 수정문구와 추가 감수 문구 제출토록 하겠습니다 (\\_ \\_)",
+      "나머지 문구는 감수 통과되었습니다.",
+      "@gholdings2 안녕하세요!\n해당 문구는 수정해서 재제출하고, 나머지 문구는 감수 완료된 것으로 인지하고 활용해도 괜찮을지 문의드립니다 (\\_ \\_)",
+      "[판권처 FB]\nUA T&D 제출 파일 3P:「全キャラ」를 「キャラクター」로 수정 부탁드립니다."
+    ],
+    "licensor_feedbacks": [
+      "나머지 문구는 감수 통과되었습니다.",
+      "[판권처 FB]\nUA T&D 제출 파일 3P:「全キャラ」를 「キャラクター」로 수정 부탁드립니다."
+    ],
+    "members": [
+      "서수민"
+    ],
+    "latest_comment_date": "2026-10-30T07:29:37.310Z",
+    "last_activity": "2026-10-30T08:12:26.314Z",
+    "ai_summary": {
+      "issue": "UA T&D 문구 내 특정 단어 수정 요청",
+      "detail": "제출된 UA T&D 파일 3페이지에서 '全キャラ'를 'キャラクター'로 변경해야 합니다. 나머지 문구는 감수 통과되었습니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-10-31T05:12:55.970039"
+    },
     "is_rejection": true,
     "feedback_count": 4
   },
@@ -6651,46 +6694,6 @@
     "feedback_count": 3
   },
   {
-    "id": "6abb6acbb669ef5698dd052b",
-    "subject": "#358[0929] 론칭 플랜 - 인플루언서",
-    "list": "컴투스 확인 중",
-    "status": "진행중",
-    "category": "기타",
-    "card_url": "https://trello.com/c/AksVyK5E",
-    "description": "1. 내용/ 감수 항목: 인플루언서 리스트\n2. 사용 용도: 론칭 플랜 - 인플루언서 콘텐츠\n3. 언어: 일\n4. **사용 목적: 론칭 플랜 - 인플루언서 VOD업로드**\n5. **사용 채널:  공식 채널, 인플루언서 채널**\n6. 코멘트: 론칭 플랜 - 인플루언서를 활용한 VOD업로드 콘텐츠 진행을 위한 인플루언서 리스트 감수 요청드립니다. 론칭 시점이 연말 시점이다보니 인플루언서 풀 확보가 필요하여 리스트 먼저 감수 요청 드립니다.\n7. *_파일 :_ [https://docs.google.com/spreadsheets/d/1Ne",
-    "asset_type": "인플루언서 리스트",
-    "purpose": "론칭 플랜 - 인플루언서 콘텐츠",
-    "language": "일",
-    "memo": "론칭 플랜 - 인플루언서를 활용한 VOD업로드 콘텐츠 진행을 위한 인플루언서 리스트 감수 요청드립니다. 론칭 시점이 연말 시점이다보니 인플루언서 풀 확보가 필요하여 리스트 먼저 감수 요청 드립니다.",
-    "labels": [],
-    "feedbacks": [
-      "[판권처 피드백]\n\n각 인플루언서들의 IP게임에서의 실적(방송이력)이 어떤 것들이 있을지 몇가지 예로 제출 주시기 바랍니다.\n\n[GH 코멘트]\n\n위 피드백에 대해서는 제가 채널을 보았을때는 IP게임에 대한 방송 실적이 있거나 하지는 않아 보이는데요… 제가 보기에는 게임에 대한 플레이 방법 등을 포함한 기초적인 게임에 대한 플레이 가이드를 하기 위해서 게임 공략 등의 중심인 유튜버를 선정하신  것 같은데요.. 만약 IP콜레보에 대한 실적이 없다면 위와 같은 식으로 각 유튜버들을 어떤 의도와 목적으로 선정을 해주셨는지에 대해서 설명을 주신다면 해당 내용으로 판권처를 다시 한번 설득해보도록 하겠습니다.",
-      "론칭 시점 VOD업로드 인플루언서 기획안 제출합니다.\n\n- 인플루언서 리스트\n  - ネタ勢のトリュウ: [https://www.youtube.com/@toryu](https://www.youtube.com/@toryu \"smartCard-inline\")\n  - ゆゆ / 新作ゲーム攻略: [https://www.youtube.com/@yuyugames](https://www.youtube.com/@yuyugames \"smartCard-inline\")\n  - シラナミ:[https://www.youtube.com/@ShiranamIroriCH](https://www.youtube.com/@ShiranamIroriCH \"smartCard-inline\")\n- 기획안\n  - [https://drive.google.com/drive/folders/1asdgngYx13-DiP8C6BHZSI8JAXDlv9Dd](https://drive.google.com/drive/folders/1asdgngYx13-DiP8C6BHZSI8JAXDlv9Dd \"smartCard-inline\")\n  - 인플루언서 엔딩에 다운로드/플레이 유도를 할 수 있도록 인플루언서별 쿠폰 발급에 대해서 논의 중입니다.\n  - 쿠폰 발금하게 될 경우, 엔딩 다운로드 유도에서 쿠폰 언급이 포함될 수 있는 점 안내드립니다.",
-      "판권처측에서의 피드백은 인플루언서 리스트가 아닌 먼저 유저들과 어떤식으로 플레이하는지가 확인되어야 검수 가능하다는 피드백이였어서요. 인플루언서 리스트만이 아닌 방송 기획과 같이 제출 부탁드리겠습니다."
-    ],
-    "licensor_feedbacks": [
-      "[판권처 피드백]\n\n각 인플루언서들의 IP게임에서의 실적(방송이력)이 어떤 것들이 있을지 몇가지 예로 제출 주시기 바랍니다.\n\n[GH 코멘트]\n\n위 피드백에 대해서는 제가 채널을 보았을때는 IP게임에 대한 방송 실적이 있거나 하지는 않아 보이는데요… 제가 보기에는 게임에 대한 플레이 방법 등을 포함한 기초적인 게임에 대한 플레이 가이드를 하기 위해서 게임 공략 등의 중심인 유튜버를 선정하신  것 같은데요.. 만약 IP콜레보에 대한 실적이 없다면 위와 같은 식으로 각 유튜버들을 어떤 의도와 목적으로 선정을 해주셨는지에 대해서 설명을 주신다면 해당 내용으로 판권처를 다시 한번 설득해보도록 하겠습니다.",
-      "판권처측에서의 피드백은 인플루언서 리스트가 아닌 먼저 유저들과 어떤식으로 플레이하는지가 확인되어야 검수 가능하다는 피드백이였어서요. 인플루언서 리스트만이 아닌 방송 기획과 같이 제출 부탁드리겠습니다."
-    ],
-    "members": [
-      "이수연"
-    ],
-    "latest_comment_date": "2026-10-30T03:49:53.287Z",
-    "last_activity": "2026-10-30T05:19:46.303Z",
-    "ai_summary": {
-      "issue": "인플루언서 활용 기획 부재로 검수 반려",
-      "detail": "인플루언서 리스트만으로는 검수가 불가하며, 유저들과의 플레이 방식에 대한 구체적인 기획이 필요합니다. 방송 기획을 포함하여 재제출 바랍니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-10-04T05:34:18.470870",
-      "needs_update": true,
-      "update_reason": "피드백 1→2건"
-    },
-    "is_rejection": true,
-    "feedback_count": 3
-  },
-  {
     "id": "6a1e6d2b84586978b42a556e",
     "subject": "#268[0602] 프리미엄 선행 플레이 테스트 신청서 최종본",
     "list": "보류",
@@ -8502,42 +8505,6 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
       "updated_at": "2026-10-30T05:29:24.443752"
-    },
-    "is_rejection": true,
-    "feedback_count": 2
-  },
-  {
-    "id": "6ad577c3fa7f7c94bf86c95c",
-    "subject": "#386[1020] UA 전기간 T&D",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "영상",
-    "card_url": "https://trello.com/c/SflrpD1R",
-    "description": "1. 내용/ 감수 항목: 타이틀&디스크립션(T&D)\n2. 사용 용도: UA 매체 내 이미지/영상과 함께 노출되는 제목/설명으로 활용\n3. 기간: 감수 직후~UA 마케팅 종료 집행시점까지\n4. 언어: 일\n5. 코멘트:\n6. 문구별 사용 기간을 구분해두었습니다 (공통사용~론칭기간 활용)\n7. 파일명: [https://docs.google.com/presentation/d/1u_eRaioQwFlGWlFZV3cDcuPtJOaTODeTz5Omt74EGYc/edit?slide=id.h51030d99fe9a20af_0_0#slide=id.h51",
-    "asset_type": "타이틀&디스크립션(T&D)",
-    "purpose": "UA 매체 내 이미지/영상과 함께 노출되는 제목/설명으로 활용",
-    "language": "일",
-    "memo": "6. 문구별 사용 기간을 구분해두었습니다 (공통사용~론칭기간 활용)",
-    "labels": [],
-    "feedbacks": [
-      "@gholdings2 안녕하세요!\n해당 문구는 수정해서 재제출하고, 나머지 문구는 감수 완료된 것으로 인지하고 활용해도 괜찮을지 문의드립니다 (\\_ \\_)",
-      "[판권처 FB]\nUA T&D 제출 파일 3P:「全キャラ」를 「キャラクター」로 수정 부탁드립니다."
-    ],
-    "licensor_feedbacks": [
-      "[판권처 FB]\nUA T&D 제출 파일 3P:「全キャラ」를 「キャラクター」로 수정 부탁드립니다."
-    ],
-    "members": [
-      "서수민"
-    ],
-    "latest_comment_date": "2026-10-30T05:24:33.564Z",
-    "last_activity": "2026-10-30T05:24:33.641Z",
-    "ai_summary": {
-      "issue": "UA T&D 내 '全キャラ' 용어 수정",
-      "detail": "UA T&D 제출 파일 3페이지에 사용된 '全キャラ'를 'キャラクター'로 수정해야 합니다. 이는 일본어 표현의 정확성을 위한 판권사의 요청입니다.",
-      "resolved": false,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 1,
-      "updated_at": "2026-10-30T05:29:27.619167"
     },
     "is_rejection": true,
     "feedback_count": 2
@@ -11292,32 +11259,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6ad71add478f41efc4c03240",
-    "subject": "#396[1020] 상시 론칭 영상용 템플릿",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "영상",
-    "card_url": "https://trello.com/c/lEvQseJv",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: UA, 공식 SNS 채널\n3. 언어: 일\n4. **사용 목적: 론칭 영상용 상시 템플릿**\n5. **사용 채널: 공식 SNS 채널 및 UA**\n6. 코멘트:\n   1. 론칭 PV 영상 등을 삽입할 템플릿입니다. 사진상 상단 사각형 부분에 영상이 삽입될 예정입니다.\n   2. 02번의 경우 쿠폰 코드가 삽입되어 있습니다. 인게임 쿠폰 교환소에서 해당 쿠폰 코드를 입력할 경우, 인게임 재화를 획득할 수 있습니다.\n7. *_파일명:_",
-    "asset_type": "이미지",
-    "purpose": "UA, 공식 SNS 채널",
-    "language": "일",
-    "memo": "1. 론칭 PV 영상 등을 삽입할 템플릿입니다. 사진상 상단 사각형 부분에 영상이 삽입될 예정입니다.\n   2. 02번의 경우 쿠폰 코드가 삽입되어 있습니다. 인게임 쿠폰 교환소에서 해당 쿠폰 코드를 입력할 경우, 인게임 재화를 획득할 수 있습니다.",
-    "labels": [],
-    "feedbacks": [
-      "[판권처 FB]\n「正式リリース」를 삭제하고 「リリース」만으로 수정 부탁드립니다. 만약 광고로 사용하시는거라면 「大好評配信中！」라는 문구도 일본어 상으로 잘 어울릴 것 같습니다."
-    ],
-    "licensor_feedbacks": [
-      "[판권처 FB]\n「正式リリース」를 삭제하고 「リリース」만으로 수정 부탁드립니다. 만약 광고로 사용하시는거라면 「大好評配信中！」라는 문구도 일본어 상으로 잘 어울릴 것 같습니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-10-30T03:03:21.066Z",
-    "last_activity": "2026-10-30T03:03:25.649Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
     "id": "6acde2860568387490057561",
     "subject": "#384[1013] 11월 SNS 포스팅 콘텐츠",
     "list": "이슈 발생",
@@ -11406,6 +11347,32 @@
       "feedback_count": 1,
       "updated_at": "2026-10-30T05:29:45.838343"
     },
+    "is_rejection": true,
+    "feedback_count": 1
+  },
+  {
+    "id": "6ad71add478f41efc4c03240",
+    "subject": "#396[1020] 상시 론칭 영상용 템플릿",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/lEvQseJv",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: UA, 공식 SNS 채널\n3. 언어: 일\n4. **사용 목적: 론칭 영상용 상시 템플릿**\n5. **사용 채널: 공식 SNS 채널 및 UA**\n6. 코멘트:\n   1. 론칭 PV 영상 등을 삽입할 템플릿입니다. 사진상 상단 사각형 부분에 영상이 삽입될 예정입니다.\n   2. 02번의 경우 쿠폰 코드가 삽입되어 있습니다. 인게임 쿠폰 교환소에서 해당 쿠폰 코드를 입력할 경우, 인게임 재화를 획득할 수 있습니다.\n7. *_파일명:_",
+    "asset_type": "이미지",
+    "purpose": "UA, 공식 SNS 채널",
+    "language": "일",
+    "memo": "1. 론칭 PV 영상 등을 삽입할 템플릿입니다. 사진상 상단 사각형 부분에 영상이 삽입될 예정입니다.\n   2. 02번의 경우 쿠폰 코드가 삽입되어 있습니다. 인게임 쿠폰 교환소에서 해당 쿠폰 코드를 입력할 경우, 인게임 재화를 획득할 수 있습니다.",
+    "labels": [],
+    "feedbacks": [
+      "[판권처 FB]\n「正式リリース」를 삭제하고 「リリース」만으로 수정 부탁드립니다. 만약 광고로 사용하시는거라면 「大好評配信中！」라는 문구도 일본어 상으로 잘 어울릴 것 같습니다."
+    ],
+    "licensor_feedbacks": [
+      "[판권처 FB]\n「正式リリース」를 삭제하고 「リリース」만으로 수정 부탁드립니다. 만약 광고로 사용하시는거라면 「大好評配信中！」라는 문구도 일본어 상으로 잘 어울릴 것 같습니다."
+    ],
+    "members": [],
+    "latest_comment_date": "2026-10-30T03:03:21.066Z",
+    "last_activity": "2026-10-30T05:57:51.768Z",
+    "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 1
   },
