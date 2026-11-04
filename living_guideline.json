@@ -1724,7 +1724,7 @@
       "최종인"
     ],
     "latest_comment_date": "2026-11-03T02:27:12.762Z",
-    "last_activity": "2026-11-03T02:27:48.425Z",
+    "last_activity": "2026-11-04T00:51:39.845Z",
     "ai_summary": {
       "issue": "유료 재화 명칭 통일 필요",
       "detail": "유료 재화의 명칭을 '深紅石'로 통일해야 합니다. 기존 수정 내용은 승인되었으며, 전반적인 감수는 완료되었습니다.",
@@ -1815,14 +1815,12 @@
     "latest_comment_date": "2026-10-22T12:00:37.091Z",
     "last_activity": "2026-10-22T12:00:43.119Z",
     "ai_summary": {
-      "issue": "마케팅 소재 원본 및 피드백 확인 필요",
-      "detail": "원본 소재를 제출하고, 판권사가 제공한 GPG 마켓 메타데이터 파일 내 피드백을 확인해야 합니다. 또한, 제공된 링크의 접근 권한 문제를 해결해야 합니다.",
-      "resolved": false,
+      "issue": "원본 파일 제출 및 상세 피드백 확인 필요",
+      "detail": "감수는 완료 및 승인되었으나, 원본 파일을 제출해야 합니다. 판권사 피드백이 메타데이터 파일에 기재되어 있으니 확인 후 반영 바랍니다.",
+      "resolved": true,
       "model": "gemini-2.5-flash",
-      "feedback_count": 3,
-      "updated_at": "2026-10-19T04:20:21.420826",
-      "needs_update": true,
-      "update_reason": "피드백 3→4건, 상태 변경"
+      "feedback_count": 4,
+      "updated_at": "2026-11-04T05:55:28.026068"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -1866,7 +1864,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 4,
-      "updated_at": "2026-11-03T06:21:17.922451"
+      "updated_at": "2026-11-03T06:21:17.922451",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 7
@@ -3849,7 +3849,7 @@
       "최지혜B"
     ],
     "latest_comment_date": "2026-06-10T09:59:42.317Z",
-    "last_activity": "2026-11-03T01:15:35.986Z",
+    "last_activity": "2026-11-04T01:23:15.592Z",
     "ai_summary": {
       "issue": "최종본 제출 및 중복 검수 방지 요청",
       "detail": "판권사는 제출된 마켓 이미지가 론칭 시 사용될 최종 버전인지 확인을 요청합니다. 이전 사전예약 이미지처럼 검수 통과 후 수정본이 재제출되어 불필요한 중복 검수와 피드백 누락이 발생했으므로, 최종 확정된 완성본을 제출해야 합니다.",
@@ -4817,7 +4817,7 @@
   {
     "id": "6ad577c3fa7f7c94bf86c95c",
     "subject": "#386[1020] UA 전기간 T&D",
-    "list": "컴투스 감수 요청",
+    "list": "지홀딩스 확인 중",
     "status": "진행중",
     "category": "영상",
     "card_url": "https://trello.com/c/SflrpD1R",
@@ -4841,7 +4841,7 @@
       "서수민"
     ],
     "latest_comment_date": "2026-10-30T07:29:37.310Z",
-    "last_activity": "2026-11-02T10:58:23.748Z",
+    "last_activity": "2026-11-04T01:16:04.571Z",
     "ai_summary": {
       "issue": "UA T&D 문구 내 특정 단어 수정 요청",
       "detail": "제출된 UA T&D 파일 3페이지에서 '全キャラ'를 'キャラクター'로 변경해야 합니다. 나머지 문구는 감수 통과되었습니다.",
@@ -4927,6 +4927,48 @@
       "model": "gemini-2.5-flash",
       "feedback_count": 2,
       "updated_at": "2026-10-25T04:20:57.368008"
+    },
+    "is_rejection": true,
+    "feedback_count": 4
+  },
+  {
+    "id": "6aba47d3f1d872de41a36b6f",
+    "subject": "#352[0929] 니코니코 방송 송출 영상_엔드카드 변경",
+    "list": "컴투스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/jz3oJBVs",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: UA 광고용\n3. 언어: 일\n4. **사용 목적: UA용**\n5. **사용 채널: UA 매체**\n6. 코멘트:\n   1. 기존에 감수 완료된 니코니코 영상에 사전예약 & 론칭 엔드카드만 추가했습니다.\n7. 파일명\n   1. #TA\\_니코니코생방송송출용\\_v9_사전예약.mp4\n   2. #TA\\_니코니코생방송송출용\\_v9_론칭.mp4",
+    "asset_type": "영상",
+    "purpose": "UA 광고용",
+    "language": "일",
+    "memo": "1. 기존에 감수 완료된 니코니코 영상에 사전예약 & 론칭 엔드카드만 추가했습니다.",
+    "labels": [],
+    "feedbacks": [
+      "론칭과 사전예약 영상이 들 다 엔드카드가 「今すぐダウンロード!」로 되어 있는데 이대로 맞을지 확인 부탁드리겠습니다.",
+      "(11/03) 카피라이트 전체버전으로 수정하여 다시 감수 제출합니다.\n\\- #TA\\_니코니코생방송송출용\\_v10_사전예약\n\\- #TA\\_니코니코생방송송출용\\_v10_다운로드",
+      "판권처로부터 피드백 추가가 있어서 전달 드리겠습니다.\n\n[판권처 피드백]\n\n판권처로부터 해당 영상에 대해서 카피라이트를 축약 버전이 아닌 전체 버전으로 사용해줄 것으로 추가 피드백이 있어서 전달드리오니 확인 부탁드리겠습니다.",
+      "감수 완료되었습니다."
+    ],
+    "licensor_feedbacks": [
+      "론칭과 사전예약 영상이 들 다 엔드카드가 「今すぐダウンロード!」로 되어 있는데 이대로 맞을지 확인 부탁드리겠습니다.",
+      "판권처로부터 피드백 추가가 있어서 전달 드리겠습니다.\n\n[판권처 피드백]\n\n판권처로부터 해당 영상에 대해서 카피라이트를 축약 버전이 아닌 전체 버전으로 사용해줄 것으로 추가 피드백이 있어서 전달드리오니 확인 부탁드리겠습니다.",
+      "감수 완료되었습니다."
+    ],
+    "members": [
+      "김민지"
+    ],
+    "latest_comment_date": "2026-11-04T02:00:20.102Z",
+    "last_activity": "2026-11-04T03:48:29.334Z",
+    "ai_summary": {
+      "issue": "카피라이트 표기 방식 변경 요청",
+      "detail": "영상 엔드카드에 사용된 카피라이트를 축약 버전이 아닌 전체 버전으로 표기해야 합니다. 판권처의 추가 피드백에 따라 수정이 완료되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 2,
+      "updated_at": "2026-11-03T06:22:16.542997",
+      "needs_update": true,
+      "update_reason": "피드백 2→3건, 상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 4
@@ -5658,7 +5700,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 3,
-      "updated_at": "2026-11-03T06:22:07.590934"
+      "updated_at": "2026-11-03T06:22:07.590934",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -5695,7 +5739,9 @@
       "resolved": false,
       "model": "gemini-2.5-flash",
       "feedback_count": 1,
-      "updated_at": "2026-11-03T06:22:12.691360"
+      "updated_at": "2026-11-03T06:22:12.691360",
+      "needs_update": true,
+      "update_reason": "상태 변경"
     },
     "is_rejection": true,
     "feedback_count": 3
@@ -6684,44 +6730,6 @@
     "latest_comment_date": "2025-10-30T10:34:27.838Z",
     "last_activity": "2026-10-14T10:20:14.720Z",
     "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 3
-  },
-  {
-    "id": "6aba47d3f1d872de41a36b6f",
-    "subject": "#352[0929] 니코니코 방송 송출 영상_엔드카드 변경",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/jz3oJBVs",
-    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: UA 광고용\n3. 언어: 일\n4. **사용 목적: UA용**\n5. **사용 채널: UA 매체**\n6. 코멘트:\n   1. 기존에 감수 완료된 니코니코 영상에 사전예약 & 론칭 엔드카드만 추가했습니다.\n7. 파일명\n   1. #TA\\_니코니코생방송송출용\\_v9_사전예약.mp4\n   2. #TA\\_니코니코생방송송출용\\_v9_론칭.mp4",
-    "asset_type": "영상",
-    "purpose": "UA 광고용",
-    "language": "일",
-    "memo": "1. 기존에 감수 완료된 니코니코 영상에 사전예약 & 론칭 엔드카드만 추가했습니다.",
-    "labels": [],
-    "feedbacks": [
-      "(11/03) 카피라이트 전체버전으로 수정하여 다시 감수 제출합니다.\n\\- #TA\\_니코니코생방송송출용\\_v10_사전예약\n\\- #TA\\_니코니코생방송송출용\\_v10_다운로드",
-      "판권처로부터 피드백 추가가 있어서 전달 드리겠습니다.\n\n[판권처 피드백]\n\n판권처로부터 해당 영상에 대해서 카피라이트를 축약 버전이 아닌 전체 버전으로 사용해줄 것으로 추가 피드백이 있어서 전달드리오니 확인 부탁드리겠습니다.",
-      "감수 완료되었습니다."
-    ],
-    "licensor_feedbacks": [
-      "판권처로부터 피드백 추가가 있어서 전달 드리겠습니다.\n\n[판권처 피드백]\n\n판권처로부터 해당 영상에 대해서 카피라이트를 축약 버전이 아닌 전체 버전으로 사용해줄 것으로 추가 피드백이 있어서 전달드리오니 확인 부탁드리겠습니다.",
-      "감수 완료되었습니다."
-    ],
-    "members": [
-      "김민지"
-    ],
-    "latest_comment_date": "2026-11-03T06:19:44.652Z",
-    "last_activity": "2026-11-03T06:17:40.617Z",
-    "ai_summary": {
-      "issue": "카피라이트 표기 방식 변경 요청",
-      "detail": "영상 엔드카드에 사용된 카피라이트를 축약 버전이 아닌 전체 버전으로 표기해야 합니다. 판권처의 추가 피드백에 따라 수정이 완료되었습니다.",
-      "resolved": true,
-      "model": "gemini-2.5-flash",
-      "feedback_count": 2,
-      "updated_at": "2026-11-03T06:22:16.542997"
-    },
     "is_rejection": true,
     "feedback_count": 3
   },
@@ -8540,7 +8548,7 @@
     "memo": "**(~11/27) 까지 실물 감수 통과 후 AGO에 제출해야합니다.**\n   1. 실물 감수까지 일정이 빠듯하여 기획안과 병렬로 감수제출합니다.[https://trello.com/c/XkLm6Qkk](https://trello.com/c/XkLm6Qkk \"smartCard-inline\")\n   2. 일정에 차질없도록 감수 부탁드립니다.",
     "labels": [],
     "feedbacks": [
-      "[https://drive.google.com/drive/folders/1gpH_tUV0yWYWuPY-9CVSPTJNms-5uRTS](https://drive.google.com/drive/folders/1gpH_tUV0yWYWuPY-9CVSPTJNms-5uRTS \"smartCard-inline\")\n\n- 正式リリース」 →  「リリース」으로 수정\n- 무다노_ 스크린샷(주간소년챔피언 애니메이션 콜라보)으로 변경/최신 UI반영",
+      "[https://drive.google.com/drive/folders/1gpH_tUV0yWYWuPY-9CVSPTJNms-5uRTS](https://drive.google.com/drive/folders/1gpH_tUV0yWYWuPY-9CVSPTJNms-5uRTS \"smartCard-inline\")\n\n- 正式リリース」 →  「リリース」으로 수정\n- 무다노_ 스크린샷(주간소년챔피언 애니메이션 콜라보)으로 변경/최신 UI반영\n- 해당 어셋은 감수 완료 후, 실물 감수가 아닌 사진으로 대응 가능할지 문의 드립니다.",
       "[판권처 FB]\n「正式リリース」의 「正式」를 삭제해주시기 바랍니다. (추가로 이후 마케팅 소재에서도 正式リリース로 되어 있는 것은 リリース 만으로 변경 바랍니다.)"
     ],
     "licensor_feedbacks": [
@@ -8550,7 +8558,7 @@
       "이수연"
     ],
     "latest_comment_date": "2026-11-02T07:49:26.171Z",
-    "last_activity": "2026-11-02T08:09:40.602Z",
+    "last_activity": "2026-11-03T08:36:18.837Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -8605,7 +8613,7 @@
     "memo": "1. 론칭 PV 영상 등을 삽입할 템플릿입니다. 사진상 상단 사각형 부분에 영상이 삽입될 예정입니다.\n   2. 02번의 경우 쿠폰 코드가 삽입되어 있습니다. 인게임 쿠폰 교환소에서 해당 쿠폰 코드를 입력할 경우, 인게임 재화를 획득할 수 있습니다.",
     "labels": [],
     "feedbacks": [
-      "(11/02) 템플릿 내 릴리즈 문구 변경, 쿠폰 유효기간 수정하여 다시 전달드립니다.\n\\- 261102 edit\\_video\\_template_01\n\\- 261102 edit\\_video\\_template_02\n\\- 261102 edit\\_video\\_template_03",
+      "(11/02) 템플릿 내 릴리즈 문구 변경, 쿠폰 유효기간 수정하여 다시 전달드립니다.\n\\- 261102 edit\\_video\\_template_01\n\\- 261102 edit\\_video\\_template_02\n\\- 261102 edit\\_video\\_template_03\n\\- 261102 edit\\_video\\_template_04",
       "[판권처 FB]\n「正式リリース」를 삭제하고 「リリース」만으로 수정 부탁드립니다. 만약 광고로 사용하시는거라면 「大好評配信中！」라는 문구도 일본어 상으로 잘 어울릴 것 같습니다."
     ],
     "licensor_feedbacks": [
@@ -8615,7 +8623,65 @@
       "김민지"
     ],
     "latest_comment_date": "2026-11-02T05:54:28.687Z",
-    "last_activity": "2026-11-02T06:48:05.729Z",
+    "last_activity": "2026-11-04T03:22:54.943Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6ae94f4c44316b69beea4484",
+    "subject": "#421[1103] [UA] 론칭용 영상 엔드카드",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/mZ8cYU8U",
+    "description": "1. 내용/ 감수 항목: UA 론칭영상에 활용할 엔드카드\n2. 사용 용도: UA\n3. 기간: 감수 직후~UA 마케팅 종료 집행시점까지\n4. 언어: 일\n5. 코멘트: 해당건은 감수 완료됐던 사전예약 버전에서, **① CTA ② GPG 마켓뱃지 추가** 의 변경만 진행했습니다.\n6. 파일경로: [https://drive.google.com/drive/folders/1ZZi2qWvHJToSAUQqkL0qNnp7Mex0d0Ra](https://drive.google.com/drive/folders/1ZZi2qWvHJToSAUQqkL0qNn",
+    "asset_type": "UA 론칭영상에 활용할 엔드카드",
+    "purpose": "UA",
+    "language": "일",
+    "memo": "해당건은 감수 완료됐던 사전예약 버전에서, **① CTA ② GPG 마켓뱃지 추가** 의 변경만 진행했습니다.",
+    "labels": [],
+    "feedbacks": [
+      "\\#421로 수정 완료했습니다.",
+      "\\#413 카드가 중복으로 존재하므로 해당 카드의 번호를 변경해 주시기 바랍니다."
+    ],
+    "licensor_feedbacks": [
+      "\\#413 카드가 중복으로 존재하므로 해당 카드의 번호를 변경해 주시기 바랍니다."
+    ],
+    "members": [
+      "서수민"
+    ],
+    "latest_comment_date": "2026-11-04T01:37:54.835Z",
+    "last_activity": "2026-11-04T05:00:02.261Z",
+    "ai_summary": null,
+    "is_rejection": true,
+    "feedback_count": 2
+  },
+  {
+    "id": "6ae808a1e7e886ac121a5c1e",
+    "subject": "#409[1103] 커뮤니티 이벤트 기획안",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/1Ya4NP3S",
+    "description": "‌\n\n1. 내용/ 감수 항목: SNS 이벤트 기획안\n2. 사용 용도: 커뮤니티 운영\n3. 언어: 일\n4. 코멘트:\n5. 파일명: [JP]桃源暗鬼 SNS イベント企画案",
+    "asset_type": "SNS 이벤트 기획안",
+    "purpose": "커뮤니티 운영",
+    "language": "일",
+    "memo": "5. 파일명: [JP]桃源暗鬼 SNS イベント企画案",
+    "labels": [],
+    "feedbacks": [
+      "피드백 주신 내용 확인하여 절분 이벤트명을 변경하였습니다.\n\n다시 확인을 부탁드리겠습니다.",
+      "기획안 중에 절분(節分) 이벤트가 있는데요.. 이벤트 내용이 절분과는 관련성이 적은 것 같아서...\n이벤트명을 一緒に豆まきをしたいキャラクターは？등 절분과 연관이 있는 명칭이 좋을 것 같은데 확인 바랍니다."
+    ],
+    "licensor_feedbacks": [
+      "기획안 중에 절분(節分) 이벤트가 있는데요.. 이벤트 내용이 절분과는 관련성이 적은 것 같아서...\n이벤트명을 一緒に豆まきをしたいキャラクターは？등 절분과 연관이 있는 명칭이 좋을 것 같은데 확인 바랍니다."
+    ],
+    "members": [
+      "스도우 카오"
+    ],
+    "latest_comment_date": "2026-11-04T01:20:42.052Z",
+    "last_activity": "2026-11-04T04:19:30.940Z",
     "ai_summary": null,
     "is_rejection": true,
     "feedback_count": 2
@@ -9045,7 +9111,14 @@
     "members": [],
     "latest_comment_date": "2026-10-22T12:03:27.963Z",
     "last_activity": "2026-10-22T12:03:37.036Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "론칭 후 이벤트 배너 2종 감수 승인",
+      "detail": "제출된 론칭 후 이벤트 배너 2종에 대해 판권사의 감수가 완료되었습니다. 별도의 수정 요구사항 없이 최종 승인되었습니다.",
+      "resolved": true,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-11-04T05:56:29.665821"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -11372,32 +11445,6 @@
     "feedback_count": 1
   },
   {
-    "id": "6ae808a1e7e886ac121a5c1e",
-    "subject": "#409[1103] 커뮤니티 이벤트 기획안",
-    "list": "이슈 발생",
-    "status": "반려",
-    "category": "SNS",
-    "card_url": "https://trello.com/c/1Ya4NP3S",
-    "description": "‌\n\n1. 내용/ 감수 항목: SNS 이벤트 기획안\n2. 사용 용도: 커뮤니티 운영\n3. 언어: 일\n4. 코멘트:\n5. 파일명: [JP]桃源暗鬼 SNS イベント企画案",
-    "asset_type": "SNS 이벤트 기획안",
-    "purpose": "커뮤니티 운영",
-    "language": "일",
-    "memo": "5. 파일명: [JP]桃源暗鬼 SNS イベント企画案",
-    "labels": [],
-    "feedbacks": [
-      "기획안 중에 절분(節分) 이벤트가 있는데요.. 이벤트 내용이 절분과는 관련성이 적은 것 같아서...\n이벤트명을 一緒に豆まきをしたいキャラクターは？등 절분과 연관이 있는 명칭이 좋을 것 같은데 확인 바랍니다."
-    ],
-    "licensor_feedbacks": [
-      "기획안 중에 절분(節分) 이벤트가 있는데요.. 이벤트 내용이 절분과는 관련성이 적은 것 같아서...\n이벤트명을 一緒に豆まきをしたいキャラクターは？등 절분과 연관이 있는 명칭이 좋을 것 같은데 확인 바랍니다."
-    ],
-    "members": [],
-    "latest_comment_date": "2026-11-02T10:07:14.145Z",
-    "last_activity": "2026-11-02T10:07:20.556Z",
-    "ai_summary": null,
-    "is_rejection": true,
-    "feedback_count": 1
-  },
-  {
     "id": "6ad57ccd3c3e0f47a166355b",
     "subject": "#387[1020] HQ 마케팅 1020 SNS 콘텐츠",
     "list": "이슈 발생",
@@ -11452,7 +11499,14 @@
     "members": [],
     "latest_comment_date": "2026-10-23T05:24:04.612Z",
     "last_activity": "2026-10-23T05:41:36.995Z",
-    "ai_summary": null,
+    "ai_summary": {
+      "issue": "판권사 상세 피드백 외부 시트 확인 필요",
+      "detail": "판권사 피드백이 10/13 시트에 기입되어 있으니, 해당 시트를 확인하여 반려 사유 및 수정 사항을 파악해야 합니다. 시트 확인 후 콘텐츠를 재작성하여 재감수 요청해야 합니다.",
+      "resolved": false,
+      "model": "gemini-2.5-flash",
+      "feedback_count": 1,
+      "updated_at": "2026-11-04T05:56:36.740208"
+    },
     "is_rejection": true,
     "feedback_count": 1
   },
@@ -16102,7 +16156,7 @@
   {
     "id": "6ae832195f46b97dc1ef2587",
     "subject": "#411[1103] 스토어 1위 배너 및 X / LINE 디스크립션",
-    "list": "컴투스 감수 요청",
+    "list": "지홀딩스 확인 중",
     "status": "진행중",
     "category": "배너",
     "card_url": "https://trello.com/c/Utqwht6T",
@@ -16120,7 +16174,7 @@
       "스도우 카오"
     ],
     "latest_comment_date": "2026-11-02T07:13:49.215Z",
-    "last_activity": "2026-11-02T07:13:49.244Z",
+    "last_activity": "2026-11-04T03:29:58.474Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 1
@@ -16139,14 +16193,14 @@
     "memo": "이후 도원암귀 PR 혹은 인터뷰 진행 시 사용하고자 제작한 어셋입니다. 해당 어셋을 사용할 구체적인 PR/인터뷰 일정이 잡힌 부분은 없으나, 선 감수 후 상황에 따라 유동적으로 어셋 사용하고자 합니다.",
     "labels": [],
     "feedbacks": [
-      "어셋 사용 배포 시, 예시도 함께 코멘트 드립니다.\n\n\\- 론칭 관련 보도자료 혹은 론칭 성과로 보도자료 배포가 필요한 경우 배포\n\\- 오프라인 인터뷰 진행 시 백월용으로 게시하여 사용"
+      "어셋 사용 or 배포 시, 예시도 함께 코멘트 드립니다.\n\n\\- 론칭 관련 보도자료 혹은 론칭 성과로 보도자료 배포가 필요한 경우 배포\n\\- 오프라인 인터뷰 진행 시 백월용으로 게시하여 사용"
     ],
     "licensor_feedbacks": [],
     "members": [
       "임선아"
     ],
     "latest_comment_date": "2026-11-03T02:50:05.587Z",
-    "last_activity": "2026-11-03T02:50:05.704Z",
+    "last_activity": "2026-11-03T10:30:54.941Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 1
@@ -16488,28 +16542,6 @@
     "feedback_count": 0
   },
   {
-    "id": "6ae83cdadba54ab65a9b4415",
-    "subject": "#412[1103] 사전예약 추가 달성 배너 & X디스크립션",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "배너",
-    "card_url": "https://trello.com/c/cJhspoHD",
-    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: JA\n4. 코멘트: 사전예약 40, 50, 60만 각 추가 달성 시 X에 배너와 디스크립션 게시 예정\n5. 파일명\n   1. tg\\_40~60\\_1080 이미지 3종\n   2. Extra\\_preorder\\_X_Description 워드 파일",
-    "asset_type": "이미지, 디스크립션",
-    "purpose": "X 업로드용",
-    "language": "JA",
-    "memo": "사전예약 40, 50, 60만 각 추가 달성 시 X에 배너와 디스크립션 게시 예정",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-11-02T09:41:53.278Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
     "id": "6ae8699c2e0cfa2cef2e01d9",
     "subject": "#412[1103] [UA] 현지 대행사 12월 론칭고지용 배너",
     "list": "컴투스 감수 요청",
@@ -16532,111 +16564,45 @@
     "feedback_count": 0
   },
   {
-    "id": "6ae94f4c44316b69beea4484",
-    "subject": "#413[1103] [UA] 론칭용 영상 엔드카드",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/mZ8cYU8U",
-    "description": "1. 내용/ 감수 항목: UA 론칭영상에 활용할 엔드카드\n2. 사용 용도: UA\n3. 기간: 감수 직후~UA 마케팅 종료 집행시점까지\n4. 언어: 일\n5. 코멘트: 해당건은 감수 완료됐던 사전예약 버전에서, **① CTA ② GPG 마켓뱃지 추가** 의 변경만 진행했습니다.\n6. 파일경로: [https://drive.google.com/drive/folders/1ZZi2qWvHJToSAUQqkL0qNnp7Mex0d0Ra](https://drive.google.com/drive/folders/1ZZi2qWvHJToSAUQqkL0qNn",
-    "asset_type": "UA 론칭영상에 활용할 엔드카드",
-    "purpose": "UA",
-    "language": "일",
-    "memo": "해당건은 감수 완료됐던 사전예약 버전에서, **① CTA ② GPG 마켓뱃지 추가** 의 변경만 진행했습니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-11-03T03:06:43.861Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6ae95047e17e0555c20d17d1",
-    "subject": "#414[1103] 스팀 스토어페이지 게임 정보 디스크립션 번역(PT)",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "기타",
-    "card_url": "https://trello.com/c/ZrN9vR8k",
-    "description": "1. 내용/ 감수 항목: 스팀 스토어페이지 디스크립션 번역본(PT)\n2. 사용 용도: 게임 정보 내 디스크립션 리뉴얼\n3. 언어: PT\n4. 코멘트:\n   \\- [#346[0929] 스팀 스토어페이지 게임 정보 영역 업데이트](https://trello.com/c/cer7ckIN \"‌\") 와 동일한 디스크립션으로, 포르투갈어 번역본만 추가 감수 제출 요청드립니다.\n5. 파일명: [Steam\\_스토어 페이지 디스크립션(PT)\\_261103](https://docs.google.com/presentation/d/14rUJy35pF7hR",
-    "asset_type": "스팀 스토어페이지 디스크립션 번역본(PT)",
-    "purpose": "게임 정보 내 디스크립션 리뉴얼",
-    "language": "PT",
-    "memo": "\\- [#346[0929] 스팀 스토어페이지 게임 정보 영역 업데이트](https://trello.com/c/cer7ckIN \"‌\") 와 동일한 디스크립션으로, 포르투갈어 번역본만 추가 감수 제출 요청드립니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-11-03T03:13:13.596Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6ae96a5ed5d7cabe868f7ed1",
-    "subject": "#415[1103] DMM사전예약페이지&브랜드사이트 사전예약보상 추가",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/knEKWwqP",
-    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 사전예약 보상 추가로 인한 이미지 교체 필요\n3. 언어: 일\n4. **사용 목적: 현재 사전예약 보상이 맥시멈 30만 명으로 설정되어 있으나, 초과 달성을 고려해 60만 명을 목표로 이미지를 수정하고자 합니다.**\n5. **사용 채널: 게임 공식 브랜드 사이트, DMM 사전예약 페이지**\n6. 코멘트: 확인이 필요한 코맨트는 제출 슬라이드 내에 기재하였습니다.\n7. *_파일명: 제출 PPT슬라이드 _[_링크_](https://docs.google.com/presentation/d/1",
-    "asset_type": "이미지",
-    "purpose": "사전예약 보상 추가로 인한 이미지 교체 필요",
-    "language": "일",
-    "memo": "확인이 필요한 코맨트는 제출 슬라이드 내에 기재하였습니다.",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-11-03T05:02:42.693Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6ae975c60810a15bd4dc4f6a",
-    "subject": "#416[1103] 론칭 PV영상(클린본 버전)",
-    "list": "컴투스 감수 요청",
-    "status": "진행중",
-    "category": "영상",
-    "card_url": "https://trello.com/c/859PT5IR",
-    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 론칭 및 상시영상\n3. 언어: 일\n4. **사용 목적: 도원암귀 론칭일~상시 영상**\n   1. 공식 SNS및 디지털 광고 소재로 활용 예정입니다.\n   2. 세로형 템플릿: [https://trello.com/c/lEvQseJv](https://trello.com/c/lEvQseJv \"smartCard-inline\")\n   3. 정방향 템플릿(이벤트): [https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyA",
-    "asset_type": "영상",
-    "purpose": "론칭 및 상시영상",
-    "language": "일",
-    "memo": "",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-11-03T06:07:36.726Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6ae7ee510367c32a8ed74384",
-    "subject": "#408[1103] 계정 연동 및 PC 설치 안내 공지",
+    "id": "6ae98bf2d3b8be9774946bef",
+    "subject": "#419[1103] HQ 마케팅 1103 SNS 콘텐츠",
     "list": "지홀딩스 확인 중",
     "status": "진행중",
-    "category": "이미지",
-    "card_url": "https://trello.com/c/W1zRtyo5",
-    "description": "내용/ 감수 항목:\n\\- DMM 계정 연동 관련 안내 공지\n\\- PC 버전 설치 안내 공지\n\\- 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지\n\n사용 용도: 하이브 / 브랜드페이지내 공지사항 / X\n\n언어: 일\n\n코멘트: DMM 계정 연동 관련 안내, PC버전 설치 안내, 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지 감수 요청 드립니다\n\n- 업로드 시점은 론칭 1주일 전~당일 정도로 협의 중이며, 변동 가능성 있습니다.\n- ‘DMM 계정 연동 관련 안내 공지’, ‘플랫폼(마켓)별 지원 로그인 수단 및 계정",
-    "asset_type": "\\- DMM 계정 연동 관련 안내 공지\n\\- PC 버전 설치 안내 공지\n\\- 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지\n\n사용 용도: 하이브 / 브랜드페이지내 공지사항 / X\n\n언어: 일\n\n코멘트: DMM 계정 연동 관련 안내, PC버전 설치 안내, 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지 감수 요청 드립니다\n\n- 업로드 ",
-    "purpose": "하이브 / 브랜드페이지내 공지사항 / X",
-    "language": "일\n\n코멘트: DMM 계정 연동 관련 안내, PC버전 설치 안내, 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지 감수 요청 드립니다\n\n- 업로드 시점은 론칭 1주일 전~당일 정도로 협의 중이며, 변동 가능성 있습니다.\n- ‘DMM 계정 연동 관련 안내 공지’, ‘플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지’ 내에 이해를 돕기 위한",
-    "memo": "DMM 계정 연동 관련 안내, PC버전 설치 안내, 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지 감수 요청 드립니다\n\n- 업로드 시점은 론칭 1주일 전~당일 정도로 협의 중이며, 변동 가능성 있습니다.\n- ‘DMM 계정 연동 관련 안내 공지’, ‘플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지’ 내에 이해를 돕기 위한 이미지 추가 ",
+    "category": "SNS",
+    "card_url": "https://trello.com/c/sQOdtiln",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: SNS 업로드용\n3. 언어: 일\n4. **사용 목적: SNS 업로드용**\n5. **사용 채널: X, YT, TT, LINE**\n6. 코멘트:\n   1. No.1~10\n7. 파일명\n   1. [도원암귀] SNS 콘텐츠 감수 시트",
+    "asset_type": "이미지",
+    "purpose": "SNS 업로드용",
+    "language": "일",
+    "memo": "1. No.1~10",
     "labels": [],
     "feedbacks": [],
     "licensor_feedbacks": [],
     "members": [],
     "latest_comment_date": "",
-    "last_activity": "2026-11-02T06:53:05.300Z",
+    "last_activity": "2026-11-04T03:29:33.557Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ae83cdadba54ab65a9b4415",
+    "subject": "#412[1103] 사전예약 추가 달성 배너 & X디스크립션",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "배너",
+    "card_url": "https://trello.com/c/cJhspoHD",
+    "description": "1. 내용/ 감수 항목: 이미지, 디스크립션\n2. 사용 용도: X 업로드용\n3. 언어: JA\n4. 코멘트: 사전예약 40, 50, 60만 각 추가 달성 시 X에 배너와 디스크립션 게시 예정\n5. 파일명\n   1. tg\\_40~60\\_1080 이미지 3종\n   2. Extra\\_preorder\\_X_Description 워드 파일",
+    "asset_type": "이미지, 디스크립션",
+    "purpose": "X 업로드용",
+    "language": "JA",
+    "memo": "사전예약 40, 50, 60만 각 추가 달성 시 X에 배너와 디스크립션 게시 예정",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T03:29:55.760Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -16659,6 +16625,182 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-11-02T10:19:40.823Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ae95047e17e0555c20d17d1",
+    "subject": "#414[1103] 스팀 스토어페이지 게임 정보 디스크립션 번역(PT)",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "기타",
+    "card_url": "https://trello.com/c/ZrN9vR8k",
+    "description": "1. 내용/ 감수 항목: 스팀 스토어페이지 디스크립션 번역본(PT)\n2. 사용 용도: 게임 정보 내 디스크립션 리뉴얼\n3. 언어: PT\n4. 코멘트:\n   \\- [#346[0929] 스팀 스토어페이지 게임 정보 영역 업데이트](https://trello.com/c/cer7ckIN \"‌\") 와 동일한 디스크립션으로, 포르투갈어 번역본만 추가 감수 제출 요청드립니다.\n5. 파일명: [Steam\\_스토어 페이지 디스크립션(PT)\\_261103](https://docs.google.com/presentation/d/14rUJy35pF7hR",
+    "asset_type": "스팀 스토어페이지 디스크립션 번역본(PT)",
+    "purpose": "게임 정보 내 디스크립션 리뉴얼",
+    "language": "PT",
+    "memo": "\\- [#346[0929] 스팀 스토어페이지 게임 정보 영역 업데이트](https://trello.com/c/cer7ckIN \"‌\") 와 동일한 디스크립션으로, 포르투갈어 번역본만 추가 감수 제출 요청드립니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T02:14:50.907Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ae96a5ed5d7cabe868f7ed1",
+    "subject": "#415[1103] DMM사전예약페이지&브랜드사이트 사전예약보상 추가",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/knEKWwqP",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 사전예약 보상 추가로 인한 이미지 교체 필요\n3. 언어: 일\n4. **사용 목적: 현재 사전예약 보상이 맥시멈 30만 명으로 설정되어 있으나, 초과 달성을 고려해 60만 명을 목표로 이미지를 수정하고자 합니다.**\n5. **사용 채널: 게임 공식 브랜드 사이트, DMM 사전예약 페이지**\n6. 코멘트: 확인이 필요한 코맨트는 제출 슬라이드 내에 기재하였습니다.\n7. *_파일명: 제출 PPT슬라이드 _[_링크_](https://docs.google.com/presentation/d/1",
+    "asset_type": "이미지",
+    "purpose": "사전예약 보상 추가로 인한 이미지 교체 필요",
+    "language": "일",
+    "memo": "확인이 필요한 코맨트는 제출 슬라이드 내에 기재하였습니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T02:45:29.200Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ae975c60810a15bd4dc4f6a",
+    "subject": "#416[1103] 론칭 PV영상(클린본 버전)",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/859PT5IR",
+    "description": "1. 내용/ 감수 항목: 영상\n2. 사용 용도: 론칭 및 상시영상\n3. 언어: 일\n4. **사용 목적: 도원암귀 론칭일~상시 영상**\n   1. 공식 SNS및 디지털 광고 소재로 활용 예정입니다.\n   2. 세로형 템플릿: [https://trello.com/c/lEvQseJv](https://trello.com/c/lEvQseJv \"smartCard-inline\")\n   3. 정방향 템플릿(이벤트): [https://docs.google.com/spreadsheets/d/1Jx59Lc3v4HXYF5UL7HXRzhasBG7FnsyA",
+    "asset_type": "영상",
+    "purpose": "론칭 및 상시영상",
+    "language": "일",
+    "memo": "",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T04:02:55.077Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ae98dbab4bb1f769b21d0ae",
+    "subject": "#418[1103] UA 테이크오버 T&D",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "영상",
+    "card_url": "https://trello.com/c/AZBWx5au",
+    "description": "1. 내용/ 감수 항목: UA - X 테이크오버 T&D\n2. 사용 용도: UA 매체 내 이미지/영상과 함께 노출되는 제목/설명으로 활용\n3. 언어: 일\n4. **사용 목적:** X 테이크오버 지면 내 제목(트렌드 키워드)/설명 문구 활용 예정이며, 다운로드/IP 강조 통해 주요 타겟 인지도 제고 및 전환 유도를 목적으로 하고 있습니다.\n5. **사용 채널: X**\n6. 코멘트:\n   1. 전달 드린 T&D 외 영상 소재는 감수 완료된 UA 소재에서 활용 예정입니다.\n7. 파일 드라이브: [https://docs.google.com/",
+    "asset_type": "UA - X 테이크오버 T&D",
+    "purpose": "UA 매체 내 이미지/영상과 함께 노출되는 제목/설명으로 활용",
+    "language": "일",
+    "memo": "1. 전달 드린 T&D 외 영상 소재는 감수 완료된 UA 소재에서 활용 예정입니다.",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T03:29:31.155Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ae99b32e4f183698667f4d9",
+    "subject": "#419[1103] 신년 웹이벤트 인게임 문구",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/76y36IdU",
+    "description": "1. 내용/ 감수 항목: 텍스트\n2. 사용 용도: 이벤트 진행 시 인게임 이벤트 화면의 이벤트 설명 문구\n3. 언어: JA\n4. 코멘트:\n   1. 신년 웹이벤트 진행 시 게임 내 이벤트 탭의 제목 및 설명 문구\n   2. (스크린샷의 붉은 표시 부분, 업로드된 스크린샷은 감수용 아닌 참고용)\n      ![image.webp](https://trello.com/1/cards/6ae99b32e4f183698667f4d9/attachments/6aea87db2ae4c505558af1af/previews/6aea87dc2ae4c5055",
+    "asset_type": "텍스트",
+    "purpose": "이벤트 진행 시 인게임 이벤트 화면의 이벤트 설명 문구",
+    "language": "JA",
+    "memo": "1. 신년 웹이벤트 진행 시 게임 내 이벤트 탭의 제목 및 설명 문구\n   2. (스크린샷의 붉은 표시 부분, 업로드된 스크린샷은 감수용 아닌 참고용)\n      ![image.webp](https://trello.com/1/cards/6ae99b32e4f183698667f4d9/attachments/6aea87db2ae4c505558af1af/previe",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T04:18:12.607Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6aea7f7c3c56b5871ea83139",
+    "subject": "#420[1103] 트위치 배너",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "배너",
+    "card_url": "https://trello.com/c/UD3bFF8S",
+    "description": "1. 내용/ 감수 항목: 이미지\n2. 사용 용도: 론칭_트위치 광고 배너\n3. 언어: 일\n4. **사용 목적: 론칭 시점 트위치 광고에 사용할 배너입니다.**\n5. **사용 채널: 트위치**\n6. *_파일명:_ [https://drive.google.com/drive/folders/1Zu0FAWaRS7286Q8aggzJiuf_8e4jy2h9](https://drive.google.com/drive/folders/1Zu0FAWaRS7286Q8aggzJiuf_8e4jy2h9 \"smartCard-inline\")",
+    "asset_type": "이미지",
+    "purpose": "론칭_트위치 광고 배너",
+    "language": "일",
+    "memo": "",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T04:38:34.867Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ae7ee510367c32a8ed74384",
+    "subject": "#408[1103] 계정 연동 및 PC 설치 안내 공지",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "이미지",
+    "card_url": "https://trello.com/c/W1zRtyo5",
+    "description": "내용/ 감수 항목:\n\\- DMM 계정 연동 관련 안내 공지\n\\- PC 버전 설치 안내 공지\n\\- 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지\n\n사용 용도: 하이브 / 브랜드페이지내 공지사항 / X\n\n언어: 일\n\n코멘트: DMM 계정 연동 관련 안내, PC버전 설치 안내, 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지 감수 요청 드립니다\n\n- 업로드 시점은 론칭 1주일 전~당일 정도로 협의 중이며, 변동 가능성 있습니다.\n- ‘DMM 계정 연동 관련 안내 공지’, ‘플랫폼(마켓)별 지원 로그인 수단 및 계정",
+    "asset_type": "\\- DMM 계정 연동 관련 안내 공지\n\\- PC 버전 설치 안내 공지\n\\- 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지\n\n사용 용도: 하이브 / 브랜드페이지내 공지사항 / X\n\n언어: 일\n\n코멘트: DMM 계정 연동 관련 안내, PC버전 설치 안내, 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지 감수 요청 드립니다\n\n- 업로드 ",
+    "purpose": "하이브 / 브랜드페이지내 공지사항 / X",
+    "language": "일\n\n코멘트: DMM 계정 연동 관련 안내, PC버전 설치 안내, 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지 감수 요청 드립니다\n\n- 업로드 시점은 론칭 1주일 전~당일 정도로 협의 중이며, 변동 가능성 있습니다.\n- ‘DMM 계정 연동 관련 안내 공지’, ‘플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지’ 내에 이해를 돕기 위한",
+    "memo": "DMM 계정 연동 관련 안내, PC버전 설치 안내, 플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지 감수 요청 드립니다\n\n- 업로드 시점은 론칭 1주일 전~당일 정도로 협의 중이며, 변동 가능성 있습니다.\n- ‘DMM 계정 연동 관련 안내 공지’, ‘플랫폼(마켓)별 지원 로그인 수단 및 계정 연동 안내 공지’ 내에 이해를 돕기 위한 이미지 추가 ",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T04:19:11.749Z",
+    "ai_summary": null,
+    "is_rejection": false,
+    "feedback_count": 0
+  },
+  {
+    "id": "6ae976178d05dd3505e3b63b",
+    "subject": "#417[1103] 주간소년챔피언(애니메이션콜라보)1224 노출건",
+    "list": "지홀딩스 확인 중",
+    "status": "진행중",
+    "category": "기획안",
+    "card_url": "https://trello.com/c/0EK9nwSQ",
+    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 애니메이션 콜라보 - 게임소개\n3. 언어: 일\n4. **사용 목적: 게임소개(론칭)**\n5. 코멘트: 판권처와 협의주신 주간소년챔피언_1224노출 기획,PSD파일\n6. *_파일명:_ [https://docs.google.com/document/d/1jKvz_UiSVZr1AAQLdFV2Krn3pC4psZCymCpst561YYY/edit?tab=t.0](https://docs.google.com/document/d/1jKvz_UiSVZr1AAQLdFV2Krn3pC4psZCymCpst56",
+    "asset_type": "기획안",
+    "purpose": "애니메이션 콜라보 - 게임소개",
+    "language": "일",
+    "memo": "판권처와 협의주신 주간소년챔피언_1224노출 기획,PSD파일",
+    "labels": [],
+    "feedbacks": [],
+    "licensor_feedbacks": [],
+    "members": [],
+    "latest_comment_date": "",
+    "last_activity": "2026-11-04T04:19:39.986Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
@@ -16747,28 +16889,6 @@
     "members": [],
     "latest_comment_date": "",
     "last_activity": "2026-10-29T04:02:35.969Z",
-    "ai_summary": null,
-    "is_rejection": false,
-    "feedback_count": 0
-  },
-  {
-    "id": "6ae976178d05dd3505e3b63b",
-    "subject": "#417[1103] 주간소년챔피언(애니메이션콜라보)1224 노출건",
-    "list": "컴투스 확인 중",
-    "status": "진행중",
-    "category": "기획안",
-    "card_url": "https://trello.com/c/0EK9nwSQ",
-    "description": "1. 내용/ 감수 항목: 기획안\n2. 사용 용도: 애니메이션 콜라보 - 게임소개\n3. 언어: 일\n4. **사용 목적: 게임소개(론칭)**\n5. 코멘트: 판권처와 협의주신 주간소년챔피언_1224노출 기획,PSD파일\n6. *_파일명:_ [https://docs.google.com/document/d/1jKvz_UiSVZr1AAQLdFV2Krn3pC4psZCymCpst561YYY/edit?tab=t.0](https://docs.google.com/document/d/1jKvz_UiSVZr1AAQLdFV2Krn3pC4psZCymCpst56",
-    "asset_type": "기획안",
-    "purpose": "애니메이션 콜라보 - 게임소개",
-    "language": "일",
-    "memo": "판권처와 협의주신 주간소년챔피언_1224노출 기획,PSD파일",
-    "labels": [],
-    "feedbacks": [],
-    "licensor_feedbacks": [],
-    "members": [],
-    "latest_comment_date": "",
-    "last_activity": "2026-11-03T05:55:30.737Z",
     "ai_summary": null,
     "is_rejection": false,
     "feedback_count": 0
